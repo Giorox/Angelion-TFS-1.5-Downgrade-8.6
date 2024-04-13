@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	 <!--Announcements-->
+	<announce delay="1000" type="event" message="Let da mashing begin! Cyclops riot east of Thais." />
+
+	 <!--Single Spawns-->
+	 <areaspawn delay="1000" fromx="32468" fromy="32083" fromz="9" tox="32516" toy="32073" toz="9">
+	    <monster name="Cyclops" amount="5" />
+		<monster name="Cyclops Drone" amount="5" />
+		<monster name="Cyclops Smith" amount="3" />
+	 </areaspawn>
+</raid>

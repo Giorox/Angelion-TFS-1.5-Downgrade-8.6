@@ -1,0 +1,28 @@
+<raid>
+	<!--Area Spawns-->
+	<areaspawn delay="1000" fromx="32246" fromy="32858" fromz="7" tox="32207" toy="32829" toz="7">
+		<monster name="Quara Mantassin Scout" amount="30" />
+		<monster name="Quara Constrictor Scout" amount="30" />
+		<monster name="Quara Hydromancer Scout" amount="35" />
+		<monster name="Quara Pincher Scout" amount="40" />
+		<monster name="Quara Predator Scout" amount="20" />
+	</areaspawn>
+
+    <!--Area Spawns-->
+	<areaspawn delay="1000" fromx="32183" fromy="32722" fromz="7" tox="32218" toy="32759" toz="7">
+		<monster name="Quara Mantassin Scout" amount="30" />
+		<monster name="Quara Constrictor Scout" amount="30" />
+		<monster name="Quara Hydromancer Scout" amount="35" />
+		<monster name="Quara Pincher Scout" amount="40" />
+		<monster name="Quara Predator Scout" amount="20" />
+	</areaspawn>
+
+    <!--Area Spawns-->
+	<areaspawn delay="1000" fromx="32231" fromy="32690" fromz="7" tox="32279" toy="32743" toz="7">
+		<monster name="Quara Mantassin Scout" amount="30" />
+		<monster name="Quara Constrictor Scout" amount="30" />
+		<monster name="Quara Hydromancer Scout" amount="35" />
+		<monster name="Quara Pincher Scout" amount="40" />
+		<monster name="Quara Predator Scout" amount="20" />
+	</areaspawn>
+</raid>

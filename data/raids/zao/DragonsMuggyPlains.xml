@@ -1,0 +1,16 @@
+<raid>
+    <!--Announcements-->
+    <announce delay="1000" type="Event" message="The dragons of the Dragonblaze Mountains have descended to Zao to protect the lizardkin!" />
+    <!--Single Spawns-->
+    <singlespawn delay="1500000" name="Grand Mother Foulscale" x="33312" y="31169" z="7" />
+    <!--Area Spawns-->
+    <areaspawn delay="1000" fromx="33201" fromy="31187" fromz="7" tox="33269" toy="31237" toz="7">
+        <monster name="Dragon" amount="100" />
+    </areaspawn>
+    <areaspawn delay="900000" fromx="33201" fromy="31187" fromz="7" tox="33269" toy="31237" toz="7">
+        <monster name="Dragon" amount="100" />
+    </areaspawn>
+    <areaspawn delay="1200000" fromx="33201" fromy="31187" fromz="7" tox="33269" toy="31237" toz="7">
+        <monster name="Dragon" amount="100" />
+    </areaspawn>
+</raid>

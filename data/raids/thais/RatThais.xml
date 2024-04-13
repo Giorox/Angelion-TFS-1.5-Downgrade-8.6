@@ -1,0 +1,21 @@
+<raid>
+    <!-- Announcements-->
+    <announce delay="1000" type="event" message="Rat Plague in Thais!" />
+    <announce delay="30000" type="event" message="Rat Plague in Thais!" />
+    
+    <!--Area Spawns-->
+    <areaspawn delay="1000" fromx="32331" fromy="32182" fromz="6" tox="32426" toy="32261" toz="8">
+        <monster name="Rat" amount="150" />
+        <monster name="Cave Rat" amount="250" />
+    </areaspawn>
+
+    <areaspawn delay="30000" fromx="32331" fromy="32182" fromz="6" tox="32426" toy="32261" toz="8">
+        <monster name="Rat" amount="150" />
+        <monster name="Cave Rat" amount="250" />
+    </areaspawn>
+
+    <areaspawn delay="32000" fromx="32331" fromy="32182" fromz="6" tox="32426" toy="32261" toz="8">
+        <monster name="Rat" amount="150" />
+        <monster name="Cave Rat" amount="250" />
+    </areaspawn>
+</raid>

@@ -1,0 +1,56 @@
+<raid>
+	<!-- Announcements -->
+	<announce delay="1000" type="event" message="Unknown ships are sighted north of Liberty Bay." />
+	<announce delay="240000" type="event" message="The ships that approach Liberty Bay from the north have raised the pirate flag! Hide or grab your weapons to fight." />
+	<announce delay="480000" type="event" message="Pirates are launching and attack on Liberty Bay! Hide or fight." />
+	
+	<!-- Area Spawns -->
+	<!-- 8 minute raid -->
+	<areaspawn delay="480000" fromx="32261" fromy="32771" fromz="7" tox="32345" toy="32854" toz="7">
+		<monster name="Pirate Corsair" amount="20" />
+		<monster name="Pirate Buccaneer" amount="40" />
+		<monster name="Pirate Cutthroat" amount="50" />
+		<monster name="Pirate Marauder" amount="60" />
+		<monster name="Smuggler" amount="55" />
+	</areaspawn>
+	<!-- 12 minute raid -->
+	<areaspawn delay="720000" fromx="32261" fromy="32771" fromz="7" tox="32345" toy="32854" toz="7">
+		<monster name="Pirate Corsair" amount="20" />
+		<monster name="Pirate Buccaneer" amount="40" />
+		<monster name="Pirate Cutthroat" amount="50" />
+		<monster name="Pirate Marauder" amount="60" />
+		<monster name="Smuggler" amount="55" />
+	</areaspawn>
+	<!-- 16 minute raid -->
+	<areaspawn delay="960000" fromx="32261" fromy="32771" fromz="7" tox="32345" toy="32854" toz="7">
+		<monster name="Pirate Corsair" amount="20" />
+		<monster name="Pirate Buccaneer" amount="40" />
+		<monster name="Pirate Cutthroat" amount="50" />
+		<monster name="Pirate Marauder" amount="60" />
+		<monster name="Smuggler" amount="55" />
+	</areaspawn>
+	<!-- 20 minute raid -->
+	<areaspawn delay="1200000" fromx="32261" fromy="32771" fromz="7" tox="32345" toy="32854" toz="7">
+		<monster name="Pirate Corsair" amount="20" />
+		<monster name="Pirate Buccaneer" amount="40" />
+		<monster name="Pirate Cutthroat" amount="50" />
+		<monster name="Pirate Marauder" amount="60" />
+		<monster name="Smuggler" amount="55" />
+	</areaspawn>
+	<!-- 24 minute raid -->
+	<areaspawn delay="1440000" fromx="32261" fromy="32771" fromz="7" tox="32345" toy="32854" toz="7">
+		<monster name="Pirate Corsair" amount="20" />
+		<monster name="Pirate Buccaneer" amount="40" />
+		<monster name="Pirate Cutthroat" amount="50" />
+		<monster name="Pirate Marauder" amount="60" />
+		<monster name="Smuggler" amount="55" />
+	</areaspawn>
+	<!-- 26 minute raid -->
+	<areaspawn delay="1560000" fromx="32261" fromy="32771" fromz="7" tox="32345" toy="32854" toz="7">
+		<monster name="Pirate Corsair" amount="20" />
+		<monster name="Pirate Buccaneer" amount="40" />
+		<monster name="Pirate Cutthroat" amount="50" />
+		<monster name="Pirate Marauder" amount="60" />
+		<monster name="Smuggler" amount="55" />
+	</areaspawn>
+</raid>
