@@ -22,7 +22,7 @@
 	<raid name="Vampire Shadow Ank" file="ankrahmun/VampireShadowTomb.xml" interval2="500" margin="70"/>
 	<raid name="Bonebeast" file="ankrahmun/BonebeastMountainTomb.xml" interval2="500" margin="70" />
 	<raid name="Necromancer Ank" file="ankrahmun/NecromancerPeninsulaTomb.xml" interval2="500" margin="70"/>
-	<raid name="Cobra Ank" file="ankrahmun/CobraMountainTomb.xml" interval2="500" margin="70" />+
+	<raid name="Cobra Ank" file="ankrahmun/CobraMountainTomb.xml" interval2="500" margin="70" />
 	<raid name="Vampire Tarpit Ank" file="ankrahmun/VampireTarpitTomb.xml" interval2="500" margin="70" />
 	<raid name="DragonLair Ank" file="ankrahmun/DragonLairAnk.xml" interval2="500" margin="70" />
 
@@ -46,7 +46,7 @@
 
 	<!-- Edron -->
 	<raid name="Badger Edron" file="edron/BadgerEdron.xml" interval2="500" margin="90"/>
-	<raid name="Skunk Edron" file="edron/SkunEdron.xml" interval2="500" margin="90"/>
+	<raid name="Skunk Edron" file="edron/SkunkEdron.xml" interval2="500" margin="90"/>
 	<raid name="Badger Stonehome" file="edron/BadgerStonehome.xml" interval2="500" margin="70"/>
 	<raid name="Skunk Stonehome" file="edron/SkunkStonehome.xml" interval2="500" margin="70"/>
 	<raid name="Goblin Edron" file="edron/GoblinEdron.xml" interval2="500" margin="90" />	
@@ -73,7 +73,7 @@
     <raid name="Morgaroth" file="libertybay/Morgaroth.xml" interval2="1440" margin="90" />
     <raid name="PiratesBoss" file="libertybay/PiratesBoss.xml" interval2="500" margin="90"/>
     <raid name="Ferumbras" file="libertybay/Ferumbras.xml" interval2="1440" margin="90" />
-    <raid name="TigerMeriana" file="scripts/TigerMeriana.xml" interval2="500" margin="100"/> 
+    <raid name="TigerMeriana" file="libertybay/TigerMeriana.xml" interval2="500" margin="100"/> 
 	<raid name="TortoisesTreasureIsland" file="libertybay/Tortoises.xml" interval2="500" margin="80" />
 
     <!-- Port Hope -->
@@ -85,7 +85,7 @@
 	<raid name="SerpentSpawnDeeperBanuta" file="porthope/SerpentSpawnDeeperBanuta.xml" interval2="500" margin="60" />	
 
 	<!-- Svargrond -->
-	<raid name="BarbarianBittermor" file="svargrond/BarbarianBittermor.xml" interval2="500" margin="40" />
+	<raid name="BarbarianBittermor" file="svargrond/BarbarianBittermore.xml" interval2="500" margin="40" />
 	<raid name="BarbarianKrimhorn" file="svargrond/BarbarianKrimhorn.xml" interval2="500" margin="80" />
 	<raid name="BarbarianMountain" file="svargrond/BarbarianMountain.xml" interval2="500" margin="70" />
 	<raid name="WinterWolfKrimhorn" file="svargrond/WinterWolfKrimhorn.xml" interval2="500" margin="30"/>
@@ -102,7 +102,7 @@
 
 	<!-- Venore -->
 	<raid name="ElvesVenore" file="venore/ElvesVenore.xml" interval2="500" margin="80" />
-    <raid name="WitchGreenClawSwamp" file="scripts/WitchesGreenClawSwamp.xml" interval2="500" margin="80"/>
+    <raid name="WitchGreenClawSwamp" file="venore/WitchesGreenClawSwamp.xml" interval2="500" margin="80"/>
     <raid name="UndeadArmyPOH" file="venore/UndeadArmyPOH.xml" interval2="500" margin="100" />
     <raid name="TheOldWidowPOH" file="venore/TheOldWidowPOH.xml" interval2="1440" margin="60" />
 
