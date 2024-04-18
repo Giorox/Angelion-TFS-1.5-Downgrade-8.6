@@ -1,4 +1,9 @@
 <raid>
+    <!--Single Spawns-->
+    <singlespawn delay="420000" name="OrcWarlordHelmet" x="32535" y="31733" z="3" />
+    <singlespawn delay="420000" name="OrcWarlordShield" x="32535" y="31733" z="2" />
+    <singlespawn delay="420000" name="OrcWarlordArmor" x="32535" y="31733" z="4" />
+
     <!--Area Spawns-->
     <areaspawn delay="1000" fromx="32519" fromy="31766" fromz="6" tox="32543" toy="31765" toz="2">
         <monster name="Orc Shaman" amount="11" />
