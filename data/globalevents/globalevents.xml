@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <globalevents>
+    <!-- Interval is set in ms, so 1000 = 1 second, 60000 = 1 minute -->
 	<globalevent type="startup" name="ServerStartup" script="startup.lua" />
 	<globalevent type="record" name="PlayerRecord" script="record.lua" />
 	<globalevent name="Server Save" time="09:55:00" script="serversave.lua" />
+
+    <!-- Events and Raids -->
+    <globalevent name="raidSystem" interval="1800000" script="events/raidSystem.lua" />  <!-- Every 30 minutes -->
+    <globalevent name="ZzaionRaid" interval="14400000" script="events/ZzaionRaid.lua" /> <!-- Every 4 hours -->
 
 	<!-- Custom -->
 	<globalevent name="Lottery" interval="60000" script="custom/lottery.lua" />

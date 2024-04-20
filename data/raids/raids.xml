@@ -116,7 +116,7 @@
     <raid name="OrcSteppe" file="zao/OrcSteppe.xml" interval2="500" margin="30"/> 
 	<raid name="GnarlhoundSteppe" file="zao/GnarlhoundSteppe.xml" interval2="500" margin="20" />
     <raid name="LancerBettleMuggyPlains" file="zao/LancerBettleMuggyPlains.xml" interval2="300" margin="20"/> 
-    <raid name="DragonsMuggyPlains" file="zao/DragonsMuggyPlains.xml" interval2="300" margin="20"/> 
+    <raid name="DragonsMuggyPlains" file="zao/DragonsMuggyPlains.xml" interval2="300" margin="20"/>
 
 	<!-- Wildlands/Other -->
 	<raid name="HunterFerngrims" file="wildlands/HunterFerngrimsGate.xml" interval2="500" margin="10"/>
