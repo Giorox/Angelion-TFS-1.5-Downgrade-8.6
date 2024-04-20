@@ -114,7 +114,7 @@ local function zzaionRaid()
             topLeftPos = {x="33284", y="31503", z="7"},
             bottomRightPos = {x="33356", y="31614", z="5"},
             delay = 1800000,
-            message = "More orcs have arrived in Zzaion! The city is under attack! Strong lizard leaders have come to defende the city."
+            message = "More orcs have arrived in Zzaion! The city is under attack! Strong lizard leaders have come to defend the city."
         }
     }
 

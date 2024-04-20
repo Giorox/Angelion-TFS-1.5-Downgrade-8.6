@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movements>
+    <!-- Special tiles -->
+    <movevent event="StepIn" uniqueid="6708" script="man_in_the_cave.lua" />  <!-- Ropes the player up when boss is spawned and steps on specific tile -->
+    <movevent event="StepIn" uniqueid="7449" script="isleOfMists_TP.lua" />  <!-- TP only allows Druids to pass -->
+
 	<!-- Decaying tiles -->
 	<movevent event="StepIn" itemid="293" script="decay.lua" />
 	<movevent event="StepIn" itemid="461" script="decay.lua" />

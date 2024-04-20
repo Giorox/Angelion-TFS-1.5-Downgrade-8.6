@@ -40,7 +40,7 @@
 	<talkaction words="/clean" script="clean.lua" />
 	<talkaction words="/mccheck" script="mccheck.lua" />
 	<talkaction words="/hide" script="hide.lua" />
-	<talkaction words="/pos" separator=" " script="position.lua" />
+	<talkaction words="/tp" separator=" " script="position.lua" />
 
 	<!-- Senior Tutors -->
 	<talkaction words="/addtutor" separator=" " script="add_tutor.lua" />
