@@ -17,6 +17,7 @@
 		<flag runonhealth="40" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonpoison="0" />
+        <flag canwalkonfire="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-140" />
@@ -44,16 +45,17 @@
 		<voice sentence="Shrrrr" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="79873" countmax="130" />
-		<item id="12445" name="mantassin tail" chance="12746" />
-		<item id="2670" name="shrimp" chance="5121" />
-		<item id="2381" name="halberd" chance="4984" />
-		<item id="2165" name="stealth ring" chance="1100" />
-		<item id="2146" name="small sapphire" chance="1092" />
-		<item id="2654" name="cape" chance="1055" />
-		<item id="2377" name="two handed sword" chance="1017" />
+		<item id="2148" name="gold coin" chance="80090" countmax="100" />
+		<item id="2148" name="gold coin" chance="80090" countmax="30" />
+		<item id="12445" name="mantassin tail" chance="12530" />
+		<item id="2670" name="shrimp" chance="5140" countmax="5"/>
+		<item id="2381" name="halberd" chance="5090" />
+		<item id="2165" name="stealth ring" chance="1070" />
+		<item id="2146" name="small sapphire" chance="1080" />
+		<item id="2654" name="cape" chance="1040" />
+		<item id="2377" name="two handed sword" chance="1010" />
 		<item id="5895" name="fish fin" chance="622" />
-		<item id="2479" name="strange helmet" chance="91" />
-		<item id="2656" name="blue robe" chance="83" />
+		<item id="2479" name="strange helmet" chance="80" />
+		<item id="2656" name="blue robe" chance="100" />
 	</loot>
 </monster>

@@ -8,7 +8,7 @@
 		<flag attackable="1" />
 		<flag hostile="1" />
 		<flag illusionable="1" />
-		<flag convinceable="1" />
+		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="0" />
@@ -49,11 +49,11 @@
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="87662" countmax="100" />
-		<item id="12443" name="quara tentacle" chance="14598" />
-		<item id="2397" name="longsword" chance="6951" />
-		<item id="2670" name="shrimp" chance="5169" />
-		<item id="2465" name="brass armor" chance="4804" />
+		<item id="12443" name="quara tentacle" chance="14468" />
+		<item id="2397" name="longsword" chance="6830" />
+		<item id="2670" name="shrimp" chance="5150" countmax="5"/>
+		<item id="2465" name="brass armor" chance="4850" />
 		<item id="2150" name="small amethyst" chance="3042" />
-		<item id="5895" name="fish fin" chance="484" />
+		<item id="5895" name="fish fin" chance="510" />
 	</loot>
 </monster>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Infernal Frog" nameDescription="an infernal frog" race="blood" experience="190" speed="220">
+<monster name="Infernal Frog" nameDescription="an infernal frog" race="blood" experience="190" speed="100">
 	<health now="655" max="655" />
 	<look type="224" head="69" body="66" legs="69" feet="66" corpse="6079" />
 	<targetchange interval="4000" chance="10" />
@@ -10,13 +10,14 @@
 		<flag illusionable="0" />
 		<flag convinceable="0" />
 		<flag pushable="0" />
-		<flag canpushitems="1" />
-		<flag canpushcreatures="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="40" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
+        <flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-20" />
@@ -24,7 +25,7 @@
 			<attribute key="shootEffect" value="poison" />
 		</attack>
 	</attacks>
-	<defenses armor="5" defense="5">
+	<defenses armor="18" defense="18">
 		<defense name="speed" interval="2000" chance="20" speedchange="400" duration="8000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
@@ -39,6 +40,6 @@
 		<voice sentence="No Kisses for you!" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="65" chance="77000" />
+		<item name="gold coin" countmax="65" chance="70690" />
 	</loot>
 </monster>

@@ -16,6 +16,7 @@
 		<flag targetdistance="1" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonpoison="0" />
+        <flag canwalkonfire="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-80" poison="100" />
@@ -61,16 +62,17 @@
 		<voice sentence="Blup." />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="90418" countmax="110" />
-		<item id="12444" name="quara eye" chance="15606" />
-		<item id="2143" name="white pearl" chance="5083" />
-		<item id="2149" name="small emerald" chance="4960" countmax="2" />
-		<item id="2670" name="shrimp" chance="4716" />
-		<item id="2144" name="black pearl" chance="3125" />
-		<item id="7590" name="great mana potion" chance="2861" />
-		<item id="5895" name="fish fin" chance="1459" />
-		<item id="2214" name="ring of healing" chance="1233" />
-		<item id="2189" name="wand of cosmic energy" chance="979" />
-		<item id="2476" name="knight armor" chance="226" />
+		<item id="2148" name="gold coin" chance="90520" countmax="100" />
+        <item id="2148" name="gold coin" chance="90520" countmax="10" />
+		<item id="12444" name="quara eye" chance="15740" />
+		<item id="2143" name="white pearl" chance="5120" />
+		<item id="2149" name="small emerald" chance="5120" countmax="2" />
+		<item id="2670" name="shrimp" chance="4820" countmax="5"/>
+		<item id="2144" name="black pearl" chance="2990" />
+		<item id="7590" name="great mana potion" chance="2940" />
+		<item id="5895" name="fish fin" chance="1550" />
+		<item id="2214" name="ring of healing" chance="1180" />
+		<item id="2189" name="wand of cosmic energy" chance="1010" />
+		<item id="2476" name="knight armor" chance="240" />
 	</loot>
 </monster>

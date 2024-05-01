@@ -16,6 +16,7 @@
 		<flag targetdistance="1" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonpoison="0" />
+        <flag canwalkonfire="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-470" />
@@ -40,22 +41,24 @@
 		<immunity ice="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
+        <voice sentence="Gnarr!" />
+        <voice sentence="Tcharr!" />
 		<voice sentence="Rrrah!" />
 		<voice sentence="Rraaar!" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="78107" countmax="154" />
-		<item id="12447" name="quara bone" chance="9797" />
-		<item id="7378" name="royal spear" chance="9260" countmax="7" />
+		<item id="2148" name="gold coin" chance="78107" countmax="100" />
+		<item id="2148" name="gold coin" chance="78107" countmax="54" />
+		<item id="12447" name="quara bone" chance="9910" />
+		<item id="7378" name="royal spear" chance="9330" countmax="7" />
 		<item id="2145" name="small diamond" chance="5322" countmax="2" />
-		<item id="2670" name="shrimp" chance="4985" />
+		<item id="2670" name="shrimp" chance="4985" countmax="5" />
 		<item id="2387" name="double axe" chance="3005" />
-		<item id="5895" name="fish fin" chance="1922" />
-		<item id="7591" name="great health potion" chance="1034" />
-		<item id="7383" name="relic sword" chance="657" />
-		<item id="7368" name="assassin star" chance="528" />
-		<item id="7897" name="glacier robe" chance="462" />
-		<item id="5741" name="skull helmet" chance="382" />
-		<item id="13305" name="giant shrimp" chance="22" />
+		<item id="5895" name="fish fin" chance="1942" />
+		<item id="7591" name="great health potion" chance="1054" />
+		<item id="7383" name="relic sword" chance="640" />
+		<item id="7368" name="assassin star" chance="510" />
+		<item id="7897" name="glacier robe" chance="470" />
+		<item id="5741" name="skull helmet" chance="390" />
 	</loot>
 </monster>

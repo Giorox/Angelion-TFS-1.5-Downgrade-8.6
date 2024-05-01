@@ -144,7 +144,7 @@ local function zzaionRaid()
 
     -- Execute all single spawn events
     for _, spawn in pairs(singleSpawns) do
-        addEvent(executeSingleSpawn, area.delay, spawn)
+        addEvent(executeSingleSpawn, spawn.delay, spawn)
     end
 end
 
