@@ -17,6 +17,7 @@
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonpoison="0" />
+        <flag canwalkonfire="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-240" />
@@ -24,7 +25,7 @@
 			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
 	</attacks>
-	<defenses armor="45" defense="45" />
+	<defenses armor="70" defense="70" />
 	<elements>
 		<element energyPercent="-10" />
 		<element physicalPercent="10" />
@@ -33,7 +34,6 @@
 		<immunity ice="1" />
 		<immunity fire="1" />
 		<immunity lifedrain="1" />
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
@@ -42,7 +42,8 @@
 		<voice sentence="Crrrk! Crrrk!" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="89910" countmax="129" />
+		<item id="2148" name="gold coin" chance="89910" countmax="100" />
+		<item id="2148" name="gold coin" chance="89910" countmax="43" />
 		<item id="12446" name="quara pincers" chance="9912" />
 		<item id="2463" name="plate armor" chance="4965" />
 		<item id="2147" name="small ruby" chance="3836" countmax="2" />

@@ -27,9 +27,9 @@
 			scythe, 2550, 50;
 			shovel, 2554, 10;
 			torch, 2050, 2;
-			vial of oil, 2006, 11, 0;
+			vial of oil, 2006, 11, 11;
 			watch, 2036, 20;
-			vial of water, 2006, 8, 0;
+			waterskin, 2031, 8, 1;
 			worm, 3976, 1;" />
 		<parameter key="shop_sellable" value="
 			closed trap, 2578, 75;

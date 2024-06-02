@@ -17,6 +17,7 @@
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonpoison="0" />
+        <flag canwalkonfire="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-80" poison="100" />
@@ -43,6 +44,7 @@
 	</defenses>
 	<elements>
 		<element energyPercent="-10" />
+        <element earthPercent="-10" />
 	</elements>
 	<immunities>
 		<immunity ice="1" />
@@ -60,10 +62,11 @@
 		<voice sentence="Blup." />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="89950" countmax="140" />
+		<item id="2148" name="gold coin" chance="89950" countmax="100" />
+        <item id="2148" name="gold coin" chance="89950" countmax="39" />
 		<item id="2667" name="fish" chance="20252" countmax="3" />
 		<item id="12444" name="quara eye" chance="12007" />
-		<item id="2670" name="shrimp" chance="9993" />
+		<item id="2670" name="shrimp" chance="10010" countmax="4"/>
 		<item id="2149" name="small emerald" chance="4980" countmax="2" />
 		<item id="2143" name="white pearl" chance="2880" />
 		<item id="2144" name="black pearl" chance="2614" />

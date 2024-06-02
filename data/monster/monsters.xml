@@ -602,7 +602,7 @@
 	<monster name="Lavahole" file="Traps/lavahole.xml" />
 	<monster name="Magic Pillar" file="Traps/magic_pillar.xml" />
 	<monster name="Magicthrower" file="Traps/magicthrower.xml" />
-	<monster name="Pillar" file="Traps/pillar.xml" />
+	<monster name="Deaththrower" file="Traps/deaththrower.xml" />
 	<monster name="Plaguethrower" file="Traps/plaguethrower.xml" />
 	<monster name="Shredderthrower" file="Traps/shredderthrower.xml" />
 
