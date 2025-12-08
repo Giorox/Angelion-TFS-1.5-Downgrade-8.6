@@ -15,6 +15,9 @@
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-550" />
@@ -34,28 +37,29 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="50" />
+		<element physicalPercent="10" />
+		<element deathPercent="20" />
 		<element holyPercent="50" />
+		<element icePercent="30" />
 		<element firePercent="15" />
 		<element energyPercent="5" />
-		<element physicalPercent="25" />
-		<element icePercent="30" />
-		<element deathPercent="25" />
+		<element earthPercent="50" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="2500" chance="10">
-		<voice sentence="Azerus barada nikto!" />
-		<voice sentence="Klonk klonk klonk" />
-		<voice sentence="Engaging Enemy!" />
-		<voice sentence="Threat level processed." />
-		<voice sentence="Charging weapon systems!" />
-		<voice sentence="Auto repair in progress." />
-		<voice sentence="The battle is joined!" />
-		<voice sentence="Termination initialized!" />
-		<voice sentence="Rrrtttarrrttarrrtta" />
+		<voice sentence="Engaging Enemy!" yell="0" />
+		<voice sentence="Rrrtttarrrttarrrtta" yell="0" />
+		<voice sentence="Termination initialized!" yell="0" />
+		<voice sentence="Charging weapon systems!" yell="0" />
+		<voice sentence="Azerus barada nikto!" yell="0" />
+		<voice sentence="Eliminated" yell="0" />
+		<voice sentence="Auto repair in progress." yell="0" />
+		<voice sentence="The battle is joined!" yell="0" />
+		<voice sentence="Klonk klonk klonk" yell="0" />
+		<voice sentence="Threat level processed." yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="90" chance="37500" />

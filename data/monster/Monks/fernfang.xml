@@ -43,20 +43,20 @@
 	</defenses>
 	<elements>
 		<element icePercent="70" />
-		<element earthPercent="40" />
+		<element earthPercent="50" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
-		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="3">
 		<summon name="War Wolf" interval="1000" chance="13" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="You desecrated this place!" />
-		<voice sentence="I will cleanse this isle!" />
-		<voice sentence="Grrrrrrr" />
-		<voice sentence="Yoooohhuuuu!" yell="1" />
+		<voice sentence="Yoooohuuuu!" yell="0" />
+		<voice sentence="You desacrated this place!" yell="0" />
+		<voice sentence="I will cleanse this isle!" yell="0" />
+		<voice sentence="Grrrrrrr" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="94" chance="100000" />

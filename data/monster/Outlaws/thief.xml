@@ -15,18 +15,21 @@
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-35" />
 	</attacks>
 	<defenses armor="15" defense="15" />
-	<voices interval="5000" chance="10">
-		<voice sentence="Alarm!" />
-		<voice sentence="Don't let him escape!" />
-		<voice sentence="Intruder! Get him!" />
-		<voice sentence="You dare stealing from us?" />
-	</voices>
 	<immunities>
 		<immunity invisible="1" />
 	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Alarm!" yell="0" />
+		<voice sentence="You dare stealing from us?" yell="0" />
+		<voice sentence="Intruder! Get him!" yell="0" />
+		<voice sentence="Don't let him escape!" yell="0" />
+	</voices>
 </monster>

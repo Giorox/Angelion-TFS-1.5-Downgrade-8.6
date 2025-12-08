@@ -16,6 +16,7 @@
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
@@ -30,21 +31,22 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="-10" />
+		<element deathPercent="-5" />
 		<element holyPercent="10" />
 		<element firePercent="80" />
 		<element energyPercent="20" />
-		<element deathPercent="-5" />
+		<element earthPercent="-10" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="0" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Let's battle it out in a duel!" />
-		<voice sentence="Bring it!" />
-		<voice sentence="I'll fight here in eternity and beyond." />
-		<voice sentence="I will not give up!" />
-		<voice sentence="Another foolish adventurer who tries to beat me." />
+		<voice sentence="Bring it!" yell="0" />
+		<voice sentence="Another foolish adventurer who tries to beat me." yell="0" />
+		<voice sentence="Let's battle it out in a duel!" yell="0" />
+		<voice sentence="I'll fight here in eternity and beyond." yell="0" />
+		<voice sentence="I will not give up!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="95314" countmax="149" />

@@ -24,10 +24,10 @@
 	</attacks>
 	<defenses armor="10" defense="10" />
 	<elements>
-		<element firePercent="-5" />
+		<element firePercent="-10" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Chrk chrk!" />
+		<voice sentence="Chrk chrk!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="6" chance="33333" />

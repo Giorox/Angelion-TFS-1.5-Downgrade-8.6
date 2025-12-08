@@ -66,20 +66,20 @@
 	<immunities>
 		<immunity earth="1" />
 		<immunity lifedrain="1" />
-		<immunity paralyze="1" />
 		<immunity outfit="1" />
 		<immunity drunk="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="4">
 		<summon name="Demon" interval="3000" chance="12" />
 	</summons>
 	<voices interval="5000" chance="20">
-		<voice sentence="NOONE WILL STOP ME THIS TIME!" yell="1" />
+		<voice sentence="NO ONE WILL STOP ME THIS TIME!" yell="1" />
+		<voice sentence="Even in my weakened state I will crush you all!" yell="0" />
+		<voice sentence="Witness the first seconds of my eternal world domination!" yell="0" />
 		<voice sentence="THE POWER IS MINE!" yell="1" />
-		<voice sentence="I returned from death and you dream about defeating me?" />
-		<voice sentence="Witness the first seconds of my eternal world domination!" />
-		<voice sentence="Even in my weakened state I will crush you all!" />
+		<voice sentence="I returned from death and you dream about defeating me?" yell="0" />
 	</voices>
 	<loot>
 		<item id="5903" name="Ferumbras' hat" chance="100000" />

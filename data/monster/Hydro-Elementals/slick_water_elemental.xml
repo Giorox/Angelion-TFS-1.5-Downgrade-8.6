@@ -8,13 +8,15 @@
 		<flag attackable="1" />
 		<flag hostile="1" />
 		<flag illusionable="0" />
-		<flag convinceable="0" />
+		<flag convinceable="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-175" />
@@ -34,15 +36,20 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element physicalPercent="40" />
+		<element physicalPercent="45" />
+		<element deathPercent="1" />
+		<element holyPercent="40" />
 	</elements>
 	<immunities>
 		<immunity ice="1" />
-		<immunity drown="1" />
+		<immunity fire="1" />
+		<immunity earth="1" />
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Blubb" />
-		<voice sentence="Splipsh Splash" />
+		<voice sentence="BLUUUUB" yell="1" />
+		<voice sentence="SPLISH SPLASH" yell="1" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="70" chance="22500" />

@@ -32,13 +32,15 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element physicalPercent="20" />
-		<element holyPercent="-20" />
+		<element physicalPercent="60" />
+		<element holyPercent="-1" />
 	</elements>
 	<immunities>
 		<immunity lifedrain="1" />
 		<immunity death="1" />
+		<immunity earth="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="1">
 		<summon name="Banshee" interval="4000" chance="50" />

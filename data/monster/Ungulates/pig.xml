@@ -21,8 +21,8 @@
 	</flags>
 	<defenses armor="2" defense="2" />
 	<voices interval="5000" chance="10">
-		<voice sentence="Oink oink" />
-		<voice sentence="Oink" />
+		<voice sentence="Oink oink" yell="0" />
+		<voice sentence="Oink" yell="0" />
 	</voices>
 	<loot>
 		<item name="meat" countmax="4" chance="65000" />

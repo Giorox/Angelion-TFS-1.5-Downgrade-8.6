@@ -12,7 +12,6 @@
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
-		<flag staticattack="80" />
 		<flag targetdistance="1" />
 		<flag runonhealth="10" />
 		<flag canwalkonenergy="0" />
@@ -25,19 +24,19 @@
 	<defenses armor="4" defense="4" />
 	<elements>
 		<element physicalPercent="5" />
+		<element deathPercent="-10" />
+		<element holyPercent="10" />
 		<element energyPercent="20" />
 		<element earthPercent="-10" />
-		<element holyPercent="10" />
-		<element deathPercent="-10" />
 	</elements>
 	<voices interval="1000" chance="5">
-		<voice sentence="Hehehe!" />
-		<voice sentence="Raahhh!" />
-		<voice sentence="You are one of THEM! Die!" />
-		<voice sentence="Wanna buy roses??" />
-		<voice sentence="Make it stop!" />
-		<voice sentence="They're coming! They're coming!" />
-		<voice sentence="Gimme money!" />
+		<voice sentence="Gimme money!" yell="0" />
+		<voice sentence="Raahhh!" yell="0" />
+		<voice sentence="Wanna buy roses??" yell="0" />
+		<voice sentence="You are one of THEM! Die!" yell="0" />
+		<voice sentence="They're coming! They're coming!" yell="0" />
+		<voice sentence="Hehehe!" yell="0" />
+		<voice sentence="Make it stop!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="99393" countmax="9" />

@@ -38,17 +38,17 @@
 		</defense>
 	</defenses>
 	<elements>
+		<element deathPercent="-10" />
+		<element holyPercent="20" />
 		<element energyPercent="20" />
 		<element earthPercent="-10" />
-		<element holyPercent="20" />
-		<element deathPercent="-10" />
 	</elements>
 	<voices interval="1000" chance="5">
-		<voice sentence="Shiny, shiny!" />
-		<voice sentence="You mean!" />
-		<voice sentence="All mine!" />
-		<voice sentence="Uhh!" />
-		<voice sentence="Gimme gimme!" />
+		<voice sentence="Gimme gimme!" yell="0" />
+		<voice sentence="All mine!" yell="0" />
+		<voice sentence="Uhh!" yell="0" />
+		<voice sentence="You mean!" yell="0" />
+		<voice sentence="Shiny, shiny!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="50077" countmax="9" />

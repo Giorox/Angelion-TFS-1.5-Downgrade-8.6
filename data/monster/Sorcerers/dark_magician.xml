@@ -37,21 +37,22 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element firePercent="10" />
-		<element earthPercent="20" />
-		<element energyPercent="20" />
-		<element icePercent="10" />
-		<element holyPercent="20" />
 		<element deathPercent="-5" />
+		<element holyPercent="20" />
+		<element icePercent="10" />
+		<element firePercent="10" />
+		<element energyPercent="20" />
+		<element earthPercent="20" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="0" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Feel the power of my runes!" />
-		<voice sentence="Killing you is getting expensive!" />
-		<voice sentence="My secrets are mine alone!" />
-		<voice sentence="Stand Still!" />
+		<voice sentence="Feel the power of my runes!" yell="0" />
+		<voice sentence="Stand still!" yell="0" />
+		<voice sentence="Killing you gets expensive." yell="0" />
+		<voice sentence="My secrets are mine alone!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="55" chance="75100" />

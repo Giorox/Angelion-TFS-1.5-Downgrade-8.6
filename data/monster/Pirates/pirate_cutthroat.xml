@@ -28,19 +28,20 @@
 	</attacks>
 	<defenses armor="15" defense="15" />
 	<elements>
-		<element earthPercent="10" />
-		<element holyPercent="20" />
 		<element deathPercent="-5" />
-		<element firePercent="-10" />
+		<element holyPercent="20" />
 		<element icePercent="-5" />
+		<element firePercent="-5" />
+		<element earthPercent="10" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="0" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Give up!" />
-		<voice sentence="Hiyaa!" />
-		<voice sentence="Plundeeeeer!" />
+		<voice sentence="Give up!" yell="0" />
+		<voice sentence="Plundeeeeer!" yell="0" />
+		<voice sentence="Hiyaa!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="77548" countmax="50" />

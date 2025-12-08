@@ -24,24 +24,24 @@
 	</attacks>
 	<defenses armor="8" defense="8" />
 	<elements>
-		<element earthPercent="10" />
-		<element firePercent="-5" />
 		<element deathPercent="-5" />
+		<element firePercent="-5" />
+		<element earthPercent="10" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Hail Durin!" />
+		<voice sentence="Hail Durin!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2787" name="white mushroom" chance="50140" />
-		<item id="2148" name="gold coin" chance="35361" countmax="8" />
-		<item id="2388" name="hatchet" chance="24739" />
-		<item id="2386" name="axe" chance="14596" />
-		<item id="3456" name="pick" chance="10143" />
-		<item id="2530" name="copper shield" chance="10098" />
-		<item id="2649" name="leather legs" chance="9682" />
-		<item id="2484" name="studded armor" chance="8017" />
-		<item id="2597" name="letter" chance="7929" />
-		<item id="2213" name="dwarven ring" chance="95" />
-		<item id="5880" name="iron ore" chance="83" />
+		<item name="White Mushroom" chance="50160" />
+		<item name="Gold Coin" countmax="8" chance="35270" />
+		<item name="Hatchet" chance="24760" />
+		<item name="Axe" chance="14600" />
+		<item name="Pick" chance="10140" />
+		<item name="Copper Shield" chance="10090" />
+		<item name="Leather Legs" chance="9700" />
+		<item name="Studded Armor" chance="8050" />
+		<item name="Letter" chance="7960" />
+		<item name="Dwarven Ring" chance="100" />
+		<item name="Iron Ore" chance="80" />
 	</loot>
 </monster>

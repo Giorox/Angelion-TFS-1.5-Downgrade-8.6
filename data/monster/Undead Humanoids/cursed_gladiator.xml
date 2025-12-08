@@ -11,6 +11,7 @@
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag targetdistance="1" />
+		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="0" />
@@ -23,16 +24,18 @@
 	</attacks>
 	<defenses armor="25" defense="26" />
 	<elements>
-		<element earthPercent="20" />
 		<element firePercent="-5" />
+		<element earthPercent="20" />
 	</elements>
 	<immunities>
 		<immunity outfit="1" />
 		<immunity drunk="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="2000" chance="5">
-		<voice sentence="Death where are you?" />
-		<voice sentence="Slay me, end my curse." />
+		<voice sentence="Freee meeee!" yell="0" />
+		<voice sentence="Slay me, end my curse." yell="0" />
+		<voice sentence="Death where are you?" yell="0" />
 	</voices>
 </monster>

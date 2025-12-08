@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Midnight Spawn" nameDescription="a midnight spawn" race="undead" experience="900" speed="230">
-	<health now="1000" max="1000" />
+	<health now="2000" max="2000" />
 	<look type="315" corpse="9960" />
 	<targetchange interval="5000" chance="0" />
 	<flags>
@@ -15,25 +15,39 @@
 		<flag targetdistance="1" />
 		<flag staticattack="85" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-100" />
+		<attack name="melee" interval="2000" min="0" max="-150" />
+		<attack name="poison" interval="3000" chance="10" range="7" target="1" min="0" max="-225">
+			<attribute key="areaEffect" value="poison" />
+			<attribute key="shootEffect" value="poison" />
+		</attack>
+		<attack name="drunk" interval="2000" chance="24" range="7" duration="15000">
+			<attribute key="areaEffect" value="poison" />
+			<attribute key="shootEffect" value="poison" />
+		</attack>
+		<attack name="energy" interval="3000" chance="10" radius="3" target="0" min="-90" max="-110">
+			<attribute key="areaEffect" value="energy" />
+		</attack>
 	</attacks>
 	<defenses armor="10" defense="10" />
 	<elements>
-		<element physicalPercent="30" />
-		<element deathPercent="99" />
+		<element physicalPercent="10" />
+		<element deathPercent="-5" />
+		<element holyPercent="30" />
+		<element icePercent="-10" />
 		<element firePercent="30" />
-		<element earthPercent="99" />
-		<element lifedrainPercent="99" />
-		<element holyPercent="10" />
-		<element icePercent="10" />
+		<element energyPercent="10" />
+		<element earthPercent="80" />
 	</elements>
 	<immunities>
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<loot>
-		<item name="midnight shard" chance="8333" />
+		<item name="Midnight Shard" chance="8060" />
 	</loot>
 </monster>

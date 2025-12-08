@@ -17,6 +17,7 @@
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-45" />
@@ -30,27 +31,26 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="50" />
-		<element holyPercent="50" />
-		<element firePercent="-10" />
-		<element energyPercent="-5" />
-		<element physicalPercent="25" />
-		<element icePercent="10" />
+		<element physicalPercent="10" />
 		<element deathPercent="10" />
+		<element holyPercent="50" />
+		<element icePercent="10" />
+		<element energyPercent="-5" />
+		<element earthPercent="50" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Klonk klonk klonk" />
-		<voice sentence="Failure! Failure!" />
-		<voice sentence="Good morning citizen. How may I serve you?" />
-		<voice sentence="Target identified: Rat! Termination initiated!" />
-		<voice sentence="Rrrtttarrrttarrrtta" />
-		<voice sentence="Danger will...chrrr! Danger!" />
-		<voice sentence="Self-diagnosis failed." />
-		<voice sentence="Aw... chhhrrr orders." />
+		<voice sentence="Danger will...chrrr! Danger!" yell="0" />
+		<voice sentence="Rrrtttarrrttarrrtta" yell="0" />
+		<voice sentence="Self-diagnosis failed." yell="0" />
+		<voice sentence="Aw... chhhrrr orders." yell="0" />
+		<voice sentence="Target identified: Rat! Termination initiated!" yell="0" />
+		<voice sentence="Good morning citizen. How may I serve you?" yell="0" />
+		<voice sentence="Klonk klonk klonk" yell="0" />
+		<voice sentence="Failure! Failure!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="88" chance="68810" />

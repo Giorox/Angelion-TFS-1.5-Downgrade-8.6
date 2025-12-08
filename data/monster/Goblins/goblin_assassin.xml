@@ -36,17 +36,17 @@
 		</defense>
 	</defenses>
 	<elements>
+		<element deathPercent="-10" />
+		<element holyPercent="20" />
 		<element energyPercent="20" />
 		<element earthPercent="-10" />
-		<element holyPercent="20" />
-		<element deathPercent="-10" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Goblin Powahhh!" />
-		<voice sentence="Me kill you!" />
-		<voice sentence="Me green menace!" />
-		<voice sentence="Gobabunga!" />
-		<voice sentence="Gooobliiiins!" />
+		<voice sentence="Me kill you!" yell="0" />
+		<voice sentence="Goblin Powahhh!" yell="0" />
+		<voice sentence="Gobabunga!" yell="0" />
+		<voice sentence="Gooobliiiins!" yell="0" />
+		<voice sentence="Me green menace!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="49810" countmax="9" />

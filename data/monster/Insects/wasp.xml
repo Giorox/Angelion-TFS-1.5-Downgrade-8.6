@@ -17,6 +17,7 @@
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-20" poison="20" />
@@ -29,7 +30,7 @@
 		<immunity earth="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Bssssss" />
+		<voice sentence="Bssssss" yell="0" />
 	</voices>
 	<loot>
 		<item name="honeycomb" chance="3000" />

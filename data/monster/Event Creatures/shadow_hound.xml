@@ -17,15 +17,17 @@
 		<flag runonhealth="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-350" />
-		<attack name="fire" interval="2000" chance="24" min="-60" max="-160">
-			<attribute key="shootEffect" value="fire" />
-			<attribute key="areaEffect" value="fireattack" />
+		<attack name="melee" interval="2000" min="0" max="-145" />
+		<attack name="poison" interval="2000" chance="24" range="7" target="1" min="0" max="-90">
+			<attribute key="shootEffect" value="poison" />
+			<attribute key="areaEffect" value="poison" />
 		</attack>
-		<attack name="monster soulfire" interval="2000" chance="14" />
+		<attack name="deathcondition" interval="2000" chance="24" length="5" spread="0" min="-20" max="-60">
+			<attribute key="areaEffect" value="smallclouds" />
+		</attack>
 	</attacks>
 	<defenses armor="50" defense="55">
-		<defense name="healing" interval="1000" chance="15" min="60" max="230">
+		<defense name="healing" interval="1000" chance="15" min="40" max="70">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
@@ -46,6 +48,6 @@
 		<voice sentence="Grrrr!" yell="1" />
 	</voices>
 	<loot>
-		<item name="midnight shard" chance="8333" />
+		<item name="Midnight Shard" chance="8333" />
 	</loot>
 </monster>

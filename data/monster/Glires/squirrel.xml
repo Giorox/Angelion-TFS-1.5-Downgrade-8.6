@@ -20,7 +20,7 @@
 	</flags>
 	<defenses armor="1" defense="1" />
 	<voices interval="5000" chance="10">
-		<voice sentence="Chchch" />
+		<voice sentence="Chchch" yell="0" />
 	</voices>
 	<loot>
 		<item id="11213" name="acorn" chance="36613" />

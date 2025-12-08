@@ -15,6 +15,8 @@
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
@@ -37,16 +39,22 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element physicalPercent="-5" />
-		<element deathPercent="-5" />
+		<element physicalPercent="1" />
+		<element deathPercent="5" />
+		<element firePercent="5" />
+		<element energyPercent="10" />
+		<element earthPercent="20" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="1000" chance="2">
-		<voice sentence="I can kill a man in a thousand ways. And that`s only with a spoon!" />
-		<voice sentence="You shouldn't have come here!" />
-		<voice sentence="Haiiii!" />
+		<voice sentence="I'll teach you the art of death!" yell="0" />
+		<voice sentence="Haiiii!" yell="0" />
+		<voice sentence="You shouldn`t have come here!" yell="0" />
+		<voice sentence="You are no match for a master assassin!" yell="0" />
+		<voice sentence="I can kill a man in a thousand ways. And that`s only with a spoon!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" countmax="50" chance="93210" />	<!-- gold coin -->

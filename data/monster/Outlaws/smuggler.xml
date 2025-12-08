@@ -28,8 +28,8 @@
 		<element deathPercent="-5" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="I will silence you forever!" />
-		<voice sentence="You saw something you shouldn't!" />
+		<voice sentence="I will silence you forever!" yell="0" />
+		<voice sentence="You saw something you shouldn't!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="79815" countmax="10" />

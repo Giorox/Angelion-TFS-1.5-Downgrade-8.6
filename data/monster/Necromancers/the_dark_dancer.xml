@@ -41,18 +41,18 @@
 		</defense>
 	</defenses>
 	<elements>
+		<element deathPercent="1" />
 		<element firePercent="40" />
-		<element deathPercent="20" />
 	</elements>
 	<immunities>
-		<immunity outfit="1" />
-		<immunity drunk="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="3">
 		<summon name="Ghoul" interval="2000" chance="20" />
 	</summons>
 	<voices interval="5000" chance="5">
-		<voice sentence="I hope you like my voice!" />
+		<voice sentence="I hope you like my voice!" yell="0" />
+		<voice sentence="Let us dance the dance of death." yell="0" />
 	</voices>
 </monster>

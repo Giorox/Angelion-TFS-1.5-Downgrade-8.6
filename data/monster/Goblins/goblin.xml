@@ -27,17 +27,17 @@
 	</attacks>
 	<defenses armor="6" defense="6" />
 	<elements>
-		<element energyPercent="20" />
-		<element holyPercent="20" />
-		<element earthPercent="-10" />
 		<element deathPercent="-10" />
+		<element holyPercent="20" />
+		<element energyPercent="20" />
+		<element earthPercent="-10" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Me have him!" />
-		<voice sentence="Zig Zag! Gobo attack!" />
-		<voice sentence="Help! Goblinkiller!" />
-		<voice sentence="Bugga! Bugga!" />
-		<voice sentence="Me green, me mean!" />
+		<voice sentence="Me green, me mean!" yell="0" />
+		<voice sentence="Zig Zag! Gobo attack!" yell="0" />
+		<voice sentence="Me have him!" yell="0" />
+		<voice sentence="Bugga! Bugga!" yell="0" />
+		<voice sentence="Help! Goblinkiller!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="50250" countmax="9" />

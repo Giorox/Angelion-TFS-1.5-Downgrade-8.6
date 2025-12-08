@@ -28,8 +28,8 @@
 		<element deathPercent="-5" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Your money or your life!" />
-		<voice sentence="Hand me your purse!" />
+		<voice sentence="Your money or your life!" yell="0" />
+		<voice sentence="Hand me your purse!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="48956" countmax="30" />

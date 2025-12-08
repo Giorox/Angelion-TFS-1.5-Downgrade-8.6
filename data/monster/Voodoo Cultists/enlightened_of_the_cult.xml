@@ -42,25 +42,25 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element holyPercent="20" />
-		<element icePercent="5" />
-		<element physicalPercent="10" />
-		<element energyPercent="-5" />
+		<element physicalPercent="-5" />
 		<element deathPercent="-5" />
+		<element holyPercent="20" />
+		<element icePercent="20" />
+		<element energyPercent="-5" />
 	</elements>
 	<immunities>
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="2">
 		<summon name="Crypt Shambler" interval="2000" chance="10" />
 		<summon name="Ghost" interval="2000" chance="10" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="Praise to my master Urgith!" />
-		<voice sentence="You will rise as my servant!" />
-		<voice sentence="Praise to my masters! Long live the triangle!" />
-		<voice sentence="You will die in the name of the triangle!" />
+		<voice sentence="You will rise as my servant!" yell="0" />
+		<voice sentence="Praise to my master Urgith!" yell="0" />
+		<voice sentence="You will die in the name of the triangle!" yell="0" />
+		<voice sentence="Praise to my masters! Long live the triangle!" yell="0" />
 	</voices>
 	<loot>
 		<item id="1962" chance="910" /><!-- orange book -->

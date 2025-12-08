@@ -27,8 +27,8 @@
 		<element firePercent="-10" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Meeeeep!" />
-		<voice sentence="Meep!" />
+		<voice sentence="Meeeeep!" yell="0" />
+		<voice sentence="Meep!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="2" chance="85000" />

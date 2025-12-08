@@ -11,8 +11,8 @@
 		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
-		<flag staticattack="80" />
 		<flag targetdistance="1" />
+		<flag staticattack="80" />
 		<flag runonhealth="0" />
 	</flags>
 	<attacks>
@@ -27,18 +27,18 @@
 	</attacks>
 	<defenses armor="25" defense="25" />
 	<elements>
-		<element deathPercent="20" />
+		<element deathPercent="45" />
 		<element icePercent="20" />
-		<element energyPercent="20" />
-		<element firePercent="-25" />
+		<element firePercent="-15" />
+		<element energyPercent="85" />
 	</elements>
 	<immunities>
+		<immunity invisible="0" />
 		<immunity paralyze="1" />
-		<immunity invisible="1" />
 		<immunity earth="1" />
 	</immunities>
 	<voices interval="1000" chance="5">
-		<voice sentence="*STOMP STOMP*" />
+		<voice sentence="*STOMP STOMP*" yell="1" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="87298" countmax="175" />

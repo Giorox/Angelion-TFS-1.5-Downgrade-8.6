@@ -15,6 +15,8 @@
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
@@ -35,22 +37,27 @@
 		<defense name="outfit" interval="4500" chance="30" monster="bat" duration="4000" />
 	</defenses>
 	<elements>
-		<element physicalPercent="20" />
-		<element holyPercent="-15" />
-		<element firePercent="-10" />
+		<element physicalPercent="50" />
+		<element holyPercent="-5" />
 	</elements>
 	<immunities>
 		<immunity lifedrain="1" />
 		<immunity death="1" />
+		<immunity earth="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="3">
 		<summon name="Vampire" interval="3000" chance="40" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="Human blood is not suitable for drinking" />
-		<voice sentence="Your short live is coming to an end" />
-		<voice sentence="Ashari Mortals. Come and stay forever!" />
+		<voice sentence="Ashari Mortals. Come and stay forever!" yell="0" />
+		<voice sentence="Your short live is coming to an end." yell="0" />
+		<voice sentence="Human blood is not suitable for drinking!" yell="0" />
+		<voice sentence="I want Your Blood" yell="0" />
+		<voice sentence="Come Here!" yell="0" />
+		<voice sentence="Human blood is a hardly suitable drink." yell="0" />
+		<voice sentence="I will be still around when my 'noble' race is gone." yell="0" />
 	</voices>
 	<loot>
 		<item name="black pearl" chance="8000" />

@@ -22,11 +22,15 @@
 		<attack name="melee" interval="2000" min="0" max="-35" />
 	</attacks>
 	<defenses armor="7" defense="7" />
+	<immunities>
+		<immunity invisible="0" />
+		<immunity paralyze="1" />
+	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="By the great mother of fire! What is this?" />
-		<voice sentence="Can I at least have a beer??" />
-		<voice sentence="I'll hail no one, not even Durin, until I am brought back to where I was just moments ago!" />
-		<voice sentence="If I ever find out who is behind all that... GRR!" />
-		<voice sentence="What the... where is this place?" />
+		<voice sentence="If I ever find out who is behind all that... GRR!" yell="0" />
+		<voice sentence="I'll hail no one, not even Durin, until I am brought back to where I was just moments ago!" yell="0" />
+		<voice sentence="What the... where is this place?" yell="0" />
+		<voice sentence="By the great mother of fire! What is this?" yell="0" />
+		<voice sentence="Can I at least have a beer??" yell="0" />
 	</voices>
 </monster>

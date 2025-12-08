@@ -48,12 +48,13 @@
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="0" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Outch!" />
-		<voice sentence="Oops, I did it again." />
-		<voice sentence="From the spirits that I called Sir, deliver me!" />
-		<voice sentence="I must dispose of my masters enemies!" />
+		<voice sentence="From the spirits that I called Sir, deliver me!" yell="0" />
+		<voice sentence="Outch!" yell="0" />
+		<voice sentence="Oops, I did it again." yell="0" />
+		<voice sentence="I must dispose of my masters enemies!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="75041" countmax="45" />

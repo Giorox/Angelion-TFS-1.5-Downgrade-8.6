@@ -35,19 +35,18 @@
 		<defense name="healing" interval="2000" chance="15" min="15" max="25" />
 	</defenses>
 	<elements>
-		<element physicalPercent="10" />
-		<element firePercent="-10" />
-		<element holyPercent="-10" />
+		<element physicalPercent="1" />
+		<element holyPercent="-1" />
+		<element firePercent="-1" />
 	</elements>
 	<immunities>
-		<immunity lifedrain="1" />
-		<immunity paralyze="1" />
-		<immunity invisible="1" />
-		<immunity earth="1" />
 		<immunity death="1" />
+		<immunity earth="1" />
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="1000" chance="2">
-		<voice sentence="1... 2... 2... Uh, can't concentrate." />
+		<voice sentence="1... 2... 2... Uh, can't concentrate." yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="92" chance="100000" />

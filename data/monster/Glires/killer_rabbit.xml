@@ -35,7 +35,7 @@
 		<summon name="killer rabbit" interval="2000" chance="30" max="2" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="Who is lunch NOW?" />
+		<voice sentence="Who is lunch NOW?" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="90" chance="50000" />

@@ -27,11 +27,18 @@
 	</attacks>
 	<defenses armor="15" defense="15" />
 	<elements>
-		<element holyPercent="-5" />
+		<element holyPercent="-25" />
 	</elements>
 	<immunities>
 		<immunity death="1" />
+		<immunity invisible="0" />
+		<immunity paralyze="1" />
 	</immunities>
+	<voices>
+		<voice sentence="Grrr..." yell="0" />
+		<voice sentence="Ahrrr... uhmmm... hmm..." yell="0" />
+		<voice sentence="Urrrgh... gnarrr..." yell="0" />
+	</voices>
 	<loot>
 		<item name="gold coin" countmax="10" chance="73000" />
 		<item id="2230" chance="42000" /><!-- bone -->

@@ -25,14 +25,13 @@
 	</attacks>
 	<defenses armor="40" defense="57" />
 	<elements>
-		<element earthPercent="20" />
-		<element icePercent="20" />
-		<element physicalPercent="15" />
+		<element icePercent="-10" />
 		<element firePercent="-10" />
+		<element earthPercent="15" />
 	</elements>
 	<immunities>
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<loot>
 		<item name="gold coin" countmax="65" chance="66900" />

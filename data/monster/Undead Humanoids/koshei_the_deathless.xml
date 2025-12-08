@@ -15,6 +15,7 @@
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
+		<flag canwalkonfire="1" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
@@ -39,26 +40,30 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element energyPercent="80" />
+		<element physicalPercent="20" />
 		<element holyPercent="-15" />
+		<element icePercent="20" />
 		<element firePercent="-10" />
+		<element energyPercent="90" />
 	</elements>
 	<immunities>
 		<immunity death="1" />
 		<immunity earth="1" />
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="1">
 		<summon name="bonebeast" interval="1000" chance="16" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="Your pain will be beyond imagination!" />
-		<voice sentence="You can't defeat me! I will ressurect and take your soul!" />
-		<voice sentence="Death is my ally!" />
-		<voice sentence="Welcome to my domain, visitor!" />
-		<voice sentence="You will be my toy on the other side!" />
-		<voice sentence="What a disgusting smell of life!" />
+		<voice sentence="What a disgusting smell of life!" yell="0" />
+		<voice sentence="You will endure agony beyond thy death!" yell="0" />
+		<voice sentence="You will be my toy on the other side!" yell="0" />
+		<voice sentence="Death is my ally!" yell="0" />
+		<voice sentence="Your pain will be beyond imagination!" yell="0" />
+		<voice sentence="You can't defeat me! I will resurrect and take your soul!" yell="0" />
+		<voice sentence="Welcome to my domain visitor!" yell="0" />
+		<voice sentence="Ahhh, your life energy tastes so delicious!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="100" chance="100000" />

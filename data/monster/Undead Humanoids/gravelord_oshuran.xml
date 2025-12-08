@@ -15,6 +15,9 @@
 		<flag targetdistance="1" />
 		<flag staticattack="80" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
@@ -38,23 +41,25 @@
 		</defense>
 	</defenses>
 	<elements>
+		<element holyPercent="-10" />
 		<element icePercent="35" />
 		<element firePercent="10" />
 		<element energyPercent="80" />
-		<element holyPercent="-10" />
 	</elements>
 	<immunities>
 		<immunity death="1" />
 		<immunity earth="1" />
-		<immunity lifedrain="1" />
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="4">
 		<summon name="Bonebeast" interval="2000" chance="10" />
 	</summons>
 	<voices interval="1000" chance="2">
-		<voice sentence="Your mortality is disgusting!" />
+		<voice sentence="Your mortality is disgusting!" yell="0" />
+		<voice sentence="Fresh Souls!" yell="0" />
+		<voice sentence="I am master of life and death!" yell="0" />
+		<voice sentence="Your forlorn struggle is futile!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" countmax="100" chance="50000" />	<!-- gold coin -->

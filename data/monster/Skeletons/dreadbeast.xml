@@ -11,9 +11,10 @@
 		<flag convinceable="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
-		<flag staticattack="80" />
 		<flag targetdistance="1" />
+		<flag staticattack="80" />
 		<flag runonhealth="0" />
+		<flag canwalkonfire="0" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-50" poison="100" />
@@ -31,16 +32,17 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element holyPercent="-50" />
-		<element firePercent="55" />
-		<element icePercent="40" />
 		<element physicalPercent="30" />
+		<element holyPercent="-50" />
+		<element icePercent="40" />
+		<element firePercent="55" />
 		<element energyPercent="15" />
 		<element drownPercent="75" />
 	</elements>
 	<immunities>
 		<immunity death="1" />
 		<immunity earth="1" />
+		<immunity invisible="0" />
 		<immunity paralyze="1" />
 	</immunities>
 	<loot>

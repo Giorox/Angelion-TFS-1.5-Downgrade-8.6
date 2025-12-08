@@ -16,6 +16,7 @@
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
 		<flag isboss="1" />
 	</flags>
@@ -35,22 +36,21 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="50" />
-		<element icePercent="-10" />
-		<element holyPercent="-5" />
 		<element physicalPercent="-10" />
+		<element holyPercent="-5" />
+		<element icePercent="-10" />
+		<element earthPercent="50" />
 	</elements>
 	<immunities>
 		<immunity fire="1" />
-		<immunity lifedrain="1" />
-		<immunity drunk="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="I have a contract here which you should sign!" />
-		<voice sentence="I sence so much potential in you. It's almost a shame I have to kill you." />
-		<voice sentence="Yes, slay me for the loot I might have. Give in to your greed." />
-		<voice sentence="Wealth, Power, it is all at your fingertips. All you have to do is a bit blackmailing and bullying." />
-		<voice sentence="Come on. being a bit evil won't hurt you." />
+		<voice sentence="Yes, slay me for the loot I might have. Give in to your greed." yell="0" />
+		<voice sentence="Wealth, Power, it is all at your fingertips. All you have to do is a bit blackmailing and bullying." yell="0" />
+		<voice sentence="I sence so much potential in you. It's almost a shame I have to kill you." yell="0" />
+		<voice sentence="I have a contract here which you should sign!" yell="0" />
+		<voice sentence="Come on. being a bit evil won't hurt you." yell="0" />
 	</voices>
 </monster>

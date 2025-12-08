@@ -11,7 +11,9 @@
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag targetdistance="1" />
+		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
@@ -25,16 +27,17 @@
 	</attacks>
 	<defenses armor="0" defense="0" />
 	<elements>
+		<element physicalPercent="30" />
+		<element holyPercent="50" />
 		<element energyPercent="-10" />
 	</elements>
 	<immunities>
-		<immunity fire="1" />
 		<immunity ice="1" />
-		<immunity outfit="1" />
-		<immunity drunk="1" />
+		<immunity fire="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="5">
-		<voice sentence="Blubb" />
+		<voice sentence="Blubb" yell="0" />
 	</voices>
 </monster>

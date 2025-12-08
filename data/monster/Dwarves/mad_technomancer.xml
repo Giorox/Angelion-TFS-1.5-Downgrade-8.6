@@ -16,13 +16,15 @@
 		<flag staticattack="90" />
 		<flag runonhealth="150" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-120" />
-		<attack name="fire" interval="1000" chance="10" range="7" radius="4" target="1" min="-50" max="-120">
-			<attribute key="shootEffect" value="fire" />
-			<attribute key="areaEffect" value="firearea" />
+		<attack name="melee" interval="2000" min="0" max="-50" />
+		<attack name="energy" interval="1000" chance="10" range="7" radius="4" target="1" min="-50" max="-200">
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="energyrea" />
 		</attack>
 		<attack name="physical" interval="1000" chance="34" range="7" min="-55" max="-105">
 			<attribute key="shootEffect" value="largerock" />
@@ -30,27 +32,28 @@
 		<attack name="manadrain" interval="1000" chance="25" range="7" min="-50" max="-80" />
 	</attacks>
 	<defenses armor="15" defense="15">
-		<defense name="healing" interval="1000" chance="50" min="75" max="325">
+		<defense name="healing" interval="1000" chance="50" min="100" max="200">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="80" />
-		<element firePercent="60" />
-		<element energyPercent="10" />
-		<element holyPercent="10" />
-		<element icePercent="-10" />
-		<element deathPercent="-5" />
+		<element icePercent="-1" />
+		<element energyPercent="-5" />
 	</elements>
 	<immunities>
+		<immunity fire="1" />
+		<immunity earth="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="I'm going to make them an offer they can't refuse." />
-		<voice sentence="My masterplan cannot fail!" />
-		<voice sentence="Gentlemen, you can't fight here! This is the War Room!" />
+		<voice sentence="I love the smell of firebombs in the morning." yell="0" />
+		<voice sentence="My masterplan cannot fail!" yell="0" />
+		<voice sentence="Gentlemen, you can't fight here! This is the War Room!" yell="0" />
+		<voice sentence="I'm going to make them an offer they can't refuse." yell="0" />
 	</voices>
 	<loot>
-		<item name="technomancer beard" chance="100000" />
+		<item name="Technomancer Beard" chance="100000" />
+		<item name="Iron Ore" chance="2560" />
 	</loot>
 </monster>

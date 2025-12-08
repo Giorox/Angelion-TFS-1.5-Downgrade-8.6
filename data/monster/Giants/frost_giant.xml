@@ -31,14 +31,16 @@
 	</defenses>
 	<immunities>
 		<immunity ice="1" />
+		<immunity invisible="0" />
+		<immunity paralyze="0" />
 	</immunities>
 	<voices interval="1000" chance="5">
-		<voice sentence="Hmm Humansoup!" />
-		<voice sentence="Stand still ya tasy snack!" />
-		<voice sentence="Joh Thun!" />
-		<voice sentence="Hörre Sjan Flan!" />
-		<voice sentence="Bröre Smöde!" />
-		<voice sentence="Forle Bramma" />
+		<voice sentence="Hmm Humansoup!" yell="0" />
+		<voice sentence="Joh Thun!" yell="0" />
+		<voice sentence="Forle Bramma" yell="0" />
+		<voice sentence="Bröre Smöde!" yell="0" />
+		<voice sentence="Hörre Sjan Flan!" yell="0" />
+		<voice sentence="Stand still ya tasy snack!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="82076" countmax="40" />

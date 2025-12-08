@@ -17,6 +17,7 @@
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-200" poison="100" />
@@ -41,21 +42,19 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element firePercent="-10" />
 		<element holyPercent="-25" />
+		<element firePercent="-10" />
 	</elements>
 	<immunities>
 		<immunity death="1" />
 		<immunity earth="1" />
-		<immunity drown="1" />
-		<immunity lifedrain="1" />
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
 		<immunity drunk="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Cccchhhhhhhhh!" />
-		<voice sentence="Knooorrrrr!" />
+		<voice sentence="Knooorrrrr!" yell="0" />
+		<voice sentence="Cccchhhhhhhhh!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2230" chance="49750" /><!-- bone -->

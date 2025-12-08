@@ -30,16 +30,16 @@
 	</attacks>
 	<defenses armor="28" defense="28" />
 	<elements>
+		<element deathPercent="-5" />
+		<element holyPercent="20" />
+		<element firePercent="10" />
 		<element energyPercent="20" />
 		<element earthPercent="-10" />
-		<element firePercent="10" />
-		<element holyPercent="20" />
-		<element deathPercent="-5" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Outis emoi g' onoma." />
-		<voice sentence="Whack da humy!" />
-		<voice sentence="Ai humy phary ty kaynon" />
+		<voice sentence="Whack da humy!" yell="0" />
+		<voice sentence="Outis emoi g' onoma." yell="0" />
+		<voice sentence="Ai humy phary ty kaynon" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="82761" countmax="70" />

@@ -46,7 +46,7 @@
 		<immunity invisible="1" />
 	</immunities>
 	<voices interval="2000" chance="10">
-		<voice sentence="Fcccccchhhhhh" />
+		<voice sentence="Fcccccchhhhhh" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="170" />

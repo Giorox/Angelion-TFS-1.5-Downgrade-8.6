@@ -17,6 +17,7 @@
 		<flag runonhealth="30" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-150" />
@@ -38,8 +39,8 @@
 	</defenses>
 	<elements>
 		<element physicalPercent="25" />
-		<element firePercent="-10" />
 		<element holyPercent="-25" />
+		<element firePercent="-10" />
 	</elements>
 	<immunities>
 		<immunity lifedrain="1" />
@@ -51,10 +52,10 @@
 		<immunity drunk="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="BLOOD!" />
-		<voice sentence="Let me kiss your neck" />
-		<voice sentence="I smell warm blood!" />
-		<voice sentence="I call you, my bats! Come!" />
+		<voice sentence="I call you, my bats! Come!" yell="0" />
+		<voice sentence="Let me kiss your neck" yell="0" />
+		<voice sentence="I smell warm blood!" yell="0" />
+		<voice sentence="BLOOD!" yell="1" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="60" chance="90230" />

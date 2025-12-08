@@ -17,6 +17,7 @@
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-190" />
@@ -41,24 +42,24 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element energyPercent="10" />
-		<element earthPercent="20" />
-		<element drownPercent="10" />
+		<element holyPercent="-10" />
 		<element icePercent="20" />
 		<element firePercent="-10" />
-		<element holyPercent="-10" />
+		<element energyPercent="10" />
+		<element earthPercent="20" />
 	</elements>
 	<immunities>
 		<immunity death="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="0" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Kneel before your Mistress!" />
-		<voice sentence="Dead is the new alive." />
-		<voice sentence="Come, let me kiss you, darling. Oh wait, I meant kill." />
-		<voice sentence="Enjoy the pain - I know you love it." />
-		<voice sentence="Are you suffering nicely enough?" />
-		<voice sentence="You won't regret you came to me, sweetheart." />
+		<voice sentence="You won't regret you came to me, sweetheart." yell="0" />
+		<voice sentence="Come, let me kiss you, darling. Oh wait, I meant kill." yell="0" />
+		<voice sentence="Are you suffering nicely enough?" yell="0" />
+		<voice sentence="Dead is the new alive." yell="0" />
+		<voice sentence="Kneel before your Mistress!" yell="0" />
+		<voice sentence="Enjoy the pain - I know you love it." yell="0" />
 	</voices>
 	<loot>
 		<item name="emerald bangle" chance="1100" />

@@ -40,6 +40,7 @@
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="6">
 		<summon name="minotaur archer" interval="1000" chance="13" max="2" />
@@ -47,10 +48,10 @@
 		<summon name="minotaur mage" interval="1000" chance="13" max="2" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="You will never get me!" />
-		<voice sentence="I'll be back!" />
-		<voice sentence="Catch me, if you can!" />
-		<voice sentence="Help me, boys!" />
+		<voice sentence="I'll be back!" yell="0" />
+		<voice sentence="You will never get me!" yell="0" />
+		<voice sentence="Help me, Boys!" yell="0" />
+		<voice sentence="Catch me, if you can!" yell="0" />
 	</voices>
 	<loot>
 		<item id="5804" name="nose ring" chance="100000" />

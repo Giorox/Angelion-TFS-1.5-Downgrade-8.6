@@ -17,6 +17,7 @@
 		<flag runonhealth="30" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-115" />
@@ -46,7 +47,7 @@
 		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Crump!" yell="1" />
+		<voice sentence="Crump!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="61" chance="60000" />

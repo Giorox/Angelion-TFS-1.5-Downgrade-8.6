@@ -22,14 +22,16 @@
 	<defenses armor="20" defense="19" />
 	<elements>
 		<element firePercent="10" />
+		<element earthPercent="20" />
 	</elements>
 	<immunities>
-		<immunity outfit="1" />
-		<immunity drunk="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="You won't pass me." />
-		<voice sentence="I have travelled far to fight here." />
+		<voice sentence="Soon you'll be cold as an ice." yell="0" />
+		<voice sentence="You won't pass me." yell="0" />
+		<voice sentence="I have travelled far to fight here." yell="0" />
+		<voice sentence="In the sand or the snow, noone will beat me." yell="0" />
 	</voices>
 </monster>

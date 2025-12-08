@@ -27,10 +27,10 @@
 	</attacks>
 	<defenses armor="7" defense="7" />
 	<voices interval="1000" chance="5">
-		<voice sentence="Go go, Gobo attack!!" />
-		<voice sentence="Me the greenest and the meanest!" />
-		<voice sentence="Me have power to crush you!" />
-		<voice sentence="Goblinkiller! Catch him !!" />
+		<voice sentence="Me the greenest and the meanest!" yell="0" />
+		<voice sentence="Go go, Gobo attack!!" yell="0" />
+		<voice sentence="Me have power to crush you!" yell="0" />
+		<voice sentence="Goblinkiller! Catch him !!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="49369" countmax="9" />

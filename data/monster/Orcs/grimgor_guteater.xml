@@ -11,7 +11,9 @@
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag targetdistance="1" />
+		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
@@ -22,17 +24,16 @@
 	</attacks>
 	<defenses armor="45" defense="45" />
 	<elements>
+		<element deathPercent="-1" />
 		<element energyPercent="20" />
-		<element deathPercent="-10" />
 		<element earthPercent="-10" />
 	</elements>
 	<immunities>
 		<immunity fire="1" />
-		<immunity outfit="1" />
-		<immunity drunk="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="2000" chance="5">
-		<voice sentence="Dont run, You're burning off precious fat." />
+		<voice sentence="Don't run, You're burning off precious fat." yell="0" />
 	</voices>
 </monster>

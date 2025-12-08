@@ -35,15 +35,17 @@
 	<defenses armor="18" defense="18" />
 	<immunities>
 		<immunity energy="1" />
+		<immunity invisible="0" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="2">
 		<summon name="Hyaena" interval="1050" chance="100" />
 	</summons>
 	<voices interval="1000" chance="5">
-		<voice sentence="I will protect the secrets of my master!" />
-		<voice sentence="Kaplar!" />
-		<voice sentence="This isle will become ours alone" />
-		<voice sentence="You already know too much." />
+		<voice sentence="Kaplar!" yell="0" />
+		<voice sentence="This isle will become ours alone" yell="0" />
+		<voice sentence="I will protect the secrets of my master!" yell="0" />
+		<voice sentence="You already know too much." yell="0" />
 	</voices>
 	<loot>
 		<item id="5878" name="minotaur leather" chance="100000" />

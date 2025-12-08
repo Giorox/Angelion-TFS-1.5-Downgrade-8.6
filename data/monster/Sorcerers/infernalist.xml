@@ -49,26 +49,26 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="95" />
 		<element physicalPercent="-5" />
-		<element icePercent="-5" />
+		<element deathPercent="10" />
 		<element holyPercent="20" />
-		<element deathPercent="5" />
+		<element icePercent="-5" />
+		<element earthPercent="95" />
 	</elements>
 	<immunities>
-		<immunity energy="1" />
 		<immunity fire="1" />
-		<immunity paralyze="1" />
+		<immunity energy="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="1">
 		<summon name="fire elemental" interval="2000" chance="20" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="Nothing will remain but your scorched bones!" />
-		<voice sentence="Some like it hot!" />
-		<voice sentence="It's cooking time!" />
-		<voice sentence="Feel the heat of battle!" />
+		<voice sentence="Some like it hot!" yell="0" />
+		<voice sentence="Nothing will remain but your scorched bones!" yell="0" />
+		<voice sentence="Feel the heat of battle!" yell="0" />
+		<voice sentence="It's cooking time!" yell="0" />
 	</voices>
 	<loot>
 		<item name="red tome" chance="300" />

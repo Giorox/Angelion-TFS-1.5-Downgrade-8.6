@@ -16,6 +16,7 @@
 		<flag staticattack="70" />
 		<flag runonhealth="150" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
@@ -32,34 +33,35 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="20" />
-		<element firePercent="60" />
-		<element energyPercent="10" />
+		<element deathPercent="-10" />
 		<element holyPercent="10" />
 		<element icePercent="-5" />
-		<element deathPercent="-10" />
+		<element firePercent="60" />
+		<element energyPercent="10" />
+		<element earthPercent="20" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="0" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Hail Durin!" />
-		<voice sentence="Earth is the strongest element." />
-		<voice sentence="Dust to dust." />
+		<voice sentence="Hail Durin!" yell="0" />
+		<voice sentence="Earth is the strongest element." yell="0" />
+		<voice sentence="Dust to dust." yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="45" chance="75000" />
-		<item name="white mushroom" countmax="2" chance="60000" />
-		<item name="blank rune" chance="33000" />
-		<item name="pear" chance="24000" />
-		<item id="2162" chance="14000" /><!-- magic lightwand -->
-		<item name="geomancer's robe" chance="8000" />
-		<item name="geomancer's staff" chance="7000" />
-		<item name="clerical mace" chance="1120" />
-		<item name="dwarven ring" chance="580" />
-		<item name="small sapphire" chance="580" />
-		<item id="2175" chance="500" /><!-- spellbook -->
-		<item name="terra boots" chance="500" />
-		<item name="iron ore" chance="290" />
+		<item name="Gold Coin" countmax="45" chance="75510" />
+		<item name="White Mushroom" countmax="2" chance="58910" />
+		<item name="Blank Rune" chance="33590" />
+		<item name="Pear" chance="24850" />
+		<item name="Magic Light Wand" chance="13830" />
+		<item name="Geomancer's Robe" chance="8110" />
+		<item name="Geomancer's Staff" chance="6600" />
+		<item name="Clerical Mace" chance="1060" />
+		<item name="Dwarven Ring" chance="660" />
+		<item name="Small Sapphire" chance="570" />
+		<item name="Spellbook" chance="500" />
+		<item name="Terra Boots" chance="400" />
+		<item name="Iron Ore" chance="310" />
 	</loot>
 </monster>

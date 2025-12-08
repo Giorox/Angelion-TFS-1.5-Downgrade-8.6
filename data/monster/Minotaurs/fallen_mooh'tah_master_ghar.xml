@@ -39,13 +39,13 @@
 		<element firePercent="60" />
 	</elements>
 	<immunities>
-		<immunity outfit="1" />
-		<immunity drunk="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="2000" chance="5">
-		<voice sentence="I will finish you!" />
-		<voice sentence="You are no match for a master of the Mooh'Tha!" />
-		<voice sentence="I might be fallen but you will fall before me!" />
+		<voice sentence="I still know the ways of the Moo'Tah." yell="0" />
+		<voice sentence="I might be fallen but you will fall before me!" yell="0" />
+		<voice sentence="I will finish you" yell="0" />
+		<voice sentence="You are no match for a master of the Mooh'Tah!" yell="0" />
 	</voices>
 </monster>

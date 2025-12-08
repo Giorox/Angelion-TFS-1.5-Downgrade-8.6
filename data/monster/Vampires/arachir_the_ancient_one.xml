@@ -37,22 +37,27 @@
 		<defense name="outfit" interval="4500" chance="30" monster="bat" duration="4000" />
 	</defenses>
 	<elements>
-		<element physicalPercent="20" />
-		<element holyPercent="-15" />
-		<element firePercent="-10" />
+		<element physicalPercent="1" />
+		<element holyPercent="-5" />
+		<element icePercent="5" />
+		<element firePercent="-1" />
+		<element energyPercent="5" />
 	</elements>
 	<immunities>
 		<immunity lifedrain="1" />
 		<immunity death="1" />
+		<immunity earth="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="2">
 		<summon name="Lich" interval="4500" chance="100" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="I was the shadow that haunted the cradle of humanity!" />
-		<voice sentence="I exist since eons and you want to defy me?" />
-		<voice sentence="Can you feel the passage of time, mortal?" />
+		<voice sentence="I was the shadow that haunted the cradle of humanity!" yell="0" />
+		<voice sentence="I exist since eons and you want to defy me?" yell="0" />
+		<voice sentence="Can you feel the passage of time, mortal?" yell="0" />
+		<voice sentence="Your worthles existence will nourish something greater!" yell="0" />
 	</voices>
 	<loot>
 		<item name="black pearl" chance="8980" />

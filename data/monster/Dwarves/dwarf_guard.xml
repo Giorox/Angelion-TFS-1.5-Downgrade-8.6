@@ -24,30 +24,31 @@
 	</attacks>
 	<defenses armor="15" defense="15" />
 	<elements>
-		<element earthPercent="20" />
 		<element physicalPercent="20" />
-		<element firePercent="-5" />
 		<element deathPercent="-5" />
+		<element firePercent="-5" />
+		<element earthPercent="20" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="0" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Hail Durin!" />
+		<voice sentence="Hail Durin!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2787" name="white mushroom" chance="55243" countmax="2" />
-		<item id="2643" name="leather boots" chance="40075" />
-		<item id="2148" name="gold coin" chance="39985" countmax="30" />
-		<item id="2483" name="scale armor" chance="9009" />
-		<item id="2513" name="battle shield" chance="6014" />
-		<item id="2417" name="battle hammer" chance="3849" />
-		<item id="3351" name="steel helmet" chance="1549" />
-		<item id="2387" name="double axe" chance="592" />
-		<item id="5880" name="iron ore" chance="481" />
-		<item id="7618" name="health potion" chance="394" />
-		<item id="2208" name="axe ring" chance="198" />
-		<item id="13757" name="coal" chance="195" />
-		<item id="2150" name="small amethyst" chance="120" />
+		<item name="White Mushroom" countmax="2" chance="55200" />
+		<item name="Leather Boots" chance="40090" />
+		<item name="Gold Coin" countmax="30" chance="39940" />
+		<item name="Scale Armor" chance="9000" />
+		<item name="Battle Shield" chance="6030" />
+		<item name="Battle Hammer" chance="3840" />
+		<item name="Steel Helmet" chance="1550" />
+		<item name="Double Axe" chance="600" />
+		<item name="Iron Ore" chance="480" />
+		<item name="Health Potion" chance="390" />
+		<item name="Axe Ring" chance="200" />
+		<item name="Coal" chance="190" />
+		<item name="Small Amethyst" chance="120" />
 	</loot>
 </monster>

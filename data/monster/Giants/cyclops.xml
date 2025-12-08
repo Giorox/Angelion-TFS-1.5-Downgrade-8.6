@@ -16,23 +16,26 @@
 		<flag targetdistance="1"/>
 		<flag staticattack="90"/>
 		<flag runonhealth="0"/>
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="60" attack="30"/>
 	</attacks>
 	<defenses armor="15" defense="20"/>
 	<elements>
-		<element energyPercent="25"/>
-		<element holyPercent="20"/>
-		<element earthPercent="-10"/>
 		<element deathPercent="-10"/>
+		<element holyPercent="20" />
+		<element energyPercent="25" />
+		<element earthPercent="-10" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Il lorstok human!"/>
-		<voice sentence="Toks utat."/>
-		<voice sentence="Human, uh whil dyh!"/>
-		<voice sentence="Youh ah trak!"/>
-		<voice sentence="Let da mashing begin!"/>
+		<voice sentence="Toks utat." yell="0" />
+		<voice sentence="Human, uh whil dyh!" yell="0" />
+		<voice sentence="Youh ah trak!" yell="0" />
+		<voice sentence="Let da mashing begin!" yell="0" />
+		<voice sentence="Il lorstok human!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" countmax="33" chance="22500"/><!-- gold coin -->

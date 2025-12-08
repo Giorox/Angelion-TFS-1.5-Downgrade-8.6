@@ -31,10 +31,10 @@
 		</defense>
 	</defenses>
 	<elements>
+		<element holyPercent="-25" />
+		<element icePercent="10" />
 		<element energyPercent="30" />
 		<element earthPercent="20" />
-		<element icePercent="10" />
-		<element holyPercent="-25" />
 	</elements>
 	<immunities>
 		<immunity death="1" />

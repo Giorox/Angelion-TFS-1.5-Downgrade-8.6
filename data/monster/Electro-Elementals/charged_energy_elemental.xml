@@ -14,34 +14,35 @@
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-100" />
-		<attack name="energy" interval="2000" chance="20" range="6" radius="4" target="1" min="-168" max="-100">
+		<attack name="energy" interval="2000" chance="20" range="6" radius="4" target="1" min="-100" max="-250">
 			<attribute key="shootEffect" value="energy" />
 			<attribute key="areaEffect" value="purpleenergy" />
 		</attack>
-		<attack name="energycondition" interval="1000" chance="15" radius="3" target="0">
+		<attack name="energycondition" interval="1000" chance="15" radius="3" target="0" min="-500" max="-500">
 			<attribute key="areaEffect" value="yellowenergy" />
 		</attack>
 	</attacks>
-	<defenses armor="25" defense="25">
-		<defense name="healing" interval="2000" chance="15" min="90" max="150">
-			<attribute key="areaEffect" value="blueshimmer" />
-		</defense>
-	</defenses>
+	<defenses armor="25" defense="25"/>
 	<elements>
 		<element physicalPercent="-5" />
 	</elements>
 	<immunities>
-		<immunity energy="1" />
-		<immunity fire="1" />
 		<immunity ice="1" />
+		<immunity fire="1" />
+		<immunity energy="1" />
+		<immunity invisible="0" />
+		<immunity paralyze="1" />
 	</immunities>
 	<loot>
-		<item name="gold coin" countmax="100" chance="50000" />
-		<item name="gold coin" countmax="22" chance="50000" />
-		<item name="flash arrow" countmax="3" chance="6250" />
-		<item name="energy soil" chance="2063" />
+		<item name="Gold Coin" countmax="100" chance="74110" />
+		<item name="Gold Coin" countmax="28" chance="74110" />
+		<item name="Energy Soil" chance="6930" />
+		<item name="Flash Arrow" countmax="3" chance="4160" />
 	</loot>
 </monster>

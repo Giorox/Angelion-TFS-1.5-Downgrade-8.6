@@ -38,10 +38,11 @@
 		<immunity lifedrain="1" />
 		<immunity drown="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Oink" />
-		<voice sentence="Oink oink" />
+		<voice sentence="Oink oink" yell="0" />
+		<voice sentence="Oink" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="40" chance="90000" />

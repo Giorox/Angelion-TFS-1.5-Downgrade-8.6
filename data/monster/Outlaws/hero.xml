@@ -15,7 +15,9 @@
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-240" />
@@ -29,23 +31,23 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element energyPercent="40" />
-		<element icePercent="10" />
-		<element firePercent="30" />
-		<element holyPercent="50" />
-		<element earthPercent="50" />
 		<element physicalPercent="10" />
 		<element deathPercent="-20" />
+		<element holyPercent="50" />
+		<element icePercent="10" />
+		<element firePercent="30" />
+		<element energyPercent="40" />
+		<element earthPercent="50" />
 	</elements>
 	<immunities>
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Let's have a fight!" />
-		<voice sentence="Welcome to my battleground!" />
-		<voice sentence="Have you seen princess Lumelia?" />
-		<voice sentence="I will sing a tune at your grave." />
+		<voice sentence="Welcome to my battleground!" yell="0" />
+		<voice sentence="Let's have a fight!" yell="0" />
+		<voice sentence="Have you seen princess Lumelia?" yell="0" />
+		<voice sentence="I will sing a tune at your grave." yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="60324" countmax="100" />

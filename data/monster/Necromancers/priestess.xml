@@ -36,22 +36,23 @@
 		</defense>
 	</defenses>
 	<elements>
+		<element physicalPercent="-10" />
+		<element deathPercent="10" />
+		<element holyPercent="-10" />
 		<element firePercent="40" />
 		<element earthPercent="70" />
-		<element deathPercent="10" />
-		<element physicalPercent="-10" />
-		<element holyPercent="-10" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="0" />
 	</immunities>
 	<summons maxSummons="2">
 		<summon name="ghoul" interval="2000" chance="10" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="Your energy is mine." />
-		<voice sentence="Now your life is come to the end, hahahaha!" />
-		<voice sentence="Throw the soul on the altar!" />
+		<voice sentence="Now your life is come to the end, hahahaha!" yell="0" />
+		<voice sentence="Throw the soul on the altar!" yell="0" />
+		<voice sentence="Your energy is mine." yell="0" />
 	</voices>
 	<loot>
 		<item id="2802" name="sling herb" chance="13494" />

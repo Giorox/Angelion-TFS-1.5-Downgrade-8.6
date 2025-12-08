@@ -11,7 +11,6 @@
 		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
-		<flag staticattack="50" />
 		<flag targetdistance="1" />
 		<flag runonhealth="250" />
 		<flag isboss="1" />
@@ -20,6 +19,13 @@
 		<attack name="melee" interval="2000" min="0" max="-250" />
 	</attacks>
 	<defenses armor="35" defense="50" />
+	<immunities>
+		<immunity invisible="0" />
+		<immunity paralyze="1" />
+	</immunities>
+	<voices>
+		<voice sentence="Muahaha!" yell="0" />
+	</voices>
 	<loot>
 		<item name="gold coin" countmax="50" chance="100000" />
 		<item name="skull of Ratha" countmax="2" chance="100000" />

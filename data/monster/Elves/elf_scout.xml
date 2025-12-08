@@ -27,30 +27,31 @@
 	</attacks>
 	<defenses armor="7" defense="7" />
 	<elements>
-		<element holyPercent="20" />
 		<element deathPercent="-10" />
+		<element holyPercent="20" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="0" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Tha'shi Ab'Dendriel!" />
-		<voice sentence="Feel the sting of my arrows!" />
-		<voice sentence="Thy blood will quench the soil's thirst!" />
-		<voice sentence="Evicor guide my arrow." />
-		<voice sentence="Your existence will end here!" />
+		<voice sentence="Tha'shi Ab'Dendriel!" yell="0" />
+		<voice sentence="Feel the sting of my arrows!" yell="0" />
+		<voice sentence="Your existence will end here!" yell="0" />
+		<voice sentence="Evicor guide my arrow!" yell="0" />
+		<voice sentence="Thy blood will quench the soil's thirst!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="25" chance="75000" />
-		<item id="2544" countmax="12" chance="30710" /><!-- arrow -->
-		<item name="grapes" chance="17750" />
-		<item name="poison arrow" countmax="4" chance="15400" />
-		<item name="elven scouting glass" chance="9750" />
-		<item name="elvish talisman" chance="5200" />
-		<item name="bow" chance="4000" />
-		<item name="waterskin" chance="1350" />
-		<item name="sandals" chance="1180" />
-		<item id="5921" chance="1130" /><!-- heaven blossom -->
-		<item name="elvish bow" chance="140" />
+		<item name="Gold Coin" countmax="25" chance="75200" />
+		<item name="Arrow" countmax="12" chance="30330" />
+		<item name="Grapes" chance="17880" />
+		<item name="Poison Arrow" countmax="4" chance="15120" />
+		<item name="Elven Scouting Glass" chance="10110" />
+		<item name="Elvish Talisman" chance="5140" />
+		<item name="Bow" chance="4030" />
+		<item name="Waterskin" chance="1290" />
+		<item name="Sandals" chance="1170" />
+		<item name="Heaven Blossom" chance="1100" />
+		<item name="Elvish Bow" chance="130" />
 	</loot>
 </monster>

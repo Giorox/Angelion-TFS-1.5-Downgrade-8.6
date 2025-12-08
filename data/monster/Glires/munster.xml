@@ -24,7 +24,8 @@
 		<summon name="Rat" interval="2000" chance="20" max="2" />
 	</summons>
 	<voices interval="2000" chance="5">
-		<voice sentence="Meeeeep!" />
+		<voice sentence="Meeeeep!" yell="0" />
+		<voice sentence="Meep!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="16" chance="100000" />

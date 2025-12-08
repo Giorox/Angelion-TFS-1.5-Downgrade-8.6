@@ -34,7 +34,7 @@
 		<immunity fire="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Harga puchak muhmak!" />
+		<voice sentence="Harga puchak muhmak!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2667" chance="30000" />				<!-- fish -->

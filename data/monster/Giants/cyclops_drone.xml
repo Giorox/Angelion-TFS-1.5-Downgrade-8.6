@@ -26,17 +26,17 @@
 	</attacks>
 	<defenses armor="20" defense="20" />
 	<elements>
-		<element energyPercent="10" />
-		<element icePercent="20" />
-		<element holyPercent="1" />
-		<element earthPercent="-10" />
 		<element deathPercent="-5" />
+		<element holyPercent="20" />
+		<element icePercent="20" />
+		<element energyPercent="10" />
+		<element earthPercent="-10" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Fee! Fie! Foe! Fum!" />
-		<voice sentence="Luttl pest!" />
-		<voice sentence="Me makking you pulp!" />
-		<voice sentence="Humy tasy! Hum hum!" />
+		<voice sentence="Luttl pest!" yell="0" />
+		<voice sentence="Fee! Fie! Foe! Fum!" yell="0" />
+		<voice sentence="Humy tasy! Hum hum!" yell="0" />
+		<voice sentence="Me makking you pulp!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="82050" countmax="30" />

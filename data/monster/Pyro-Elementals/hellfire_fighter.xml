@@ -16,6 +16,7 @@
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
@@ -33,15 +34,15 @@
 	</attacks>
 	<defenses armor="35" defense="35" />
 	<elements>
-		<element energyPercent="25" />
 		<element physicalPercent="50" />
 		<element deathPercent="20" />
 		<element icePercent="-25" />
+		<element energyPercent="20" />
 	</elements>
 	<immunities>
 		<immunity fire="1" />
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<loot>
 		<item name="emerald bangle" chance="2200" />

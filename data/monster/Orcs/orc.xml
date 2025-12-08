@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Orc" nameDescription="a orc" race="blood" experience="25" speed="150" manacost="300">
+<monster name="Orc" nameDescription="an orc" race="blood" experience="25" speed="150" manacost="300">
 	<health now="70" max="70"/>
 	<look type="5" corpse="5966"/>
 	<targetchange interval="2000" chance="0"/>
@@ -16,21 +16,24 @@
 		<flag targetdistance="1"/>
 		<flag staticattack="90"/>
 		<flag runonhealth="15"/>
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" skill="25" attack="20"/>
 	</attacks>
 	<defenses armor="4" defense="8"/>
 	<elements>
-		<element energyPercent="20"/>
-		<element holyPercent="10"/>
-		<element earthPercent="-20"/>
-		<element deathPercent="-5"/>
+		<element deathPercent="-10" />
+		<element holyPercent="10" />
+		<element energyPercent="20" />
+		<element earthPercent="-10" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Grak brrretz!"/>
-		<voice sentence="Grow truk grrrrr."/>
-		<voice sentence="Prek tars, dekklep zurk."/>
+		<voice sentence="Grak brrretz!" yell="0" />
+		<voice sentence="Grow truk grrrrr." yell="0" />
+		<voice sentence="Prek tars, dekklep zurk." yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" countmax="15" chance="17500"/><!-- gold coin -->

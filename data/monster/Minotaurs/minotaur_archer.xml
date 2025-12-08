@@ -27,14 +27,14 @@
 	</attacks>
 	<defenses armor="6" defense="6" />
 	<elements>
-		<element firePercent="20" />
+		<element deathPercent="-5" />
 		<element holyPercent="10" />
 		<element icePercent="-10" />
-		<element deathPercent="-5" />
+		<element firePercent="20" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Ruan Wihmpy!" />
-		<voice sentence="Kaplar!" />
+		<voice sentence="Ruan Wihmpy!" yell="0" />
+		<voice sentence="Kaplar!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2543" name="bolt" chance="90124" countmax="20" />

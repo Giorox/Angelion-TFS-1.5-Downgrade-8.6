@@ -23,8 +23,8 @@
 	</attacks>
 	<defenses armor="5" defense="5" />
 	<voices interval="5000" chance="10">
-		<voice sentence="Mew!" />
-		<voice sentence="Meow!" />
-		<voice sentence="Meow meow!" />
+		<voice sentence="Meow meow!" yell="0" />
+		<voice sentence="Meow!" yell="0" />
+		<voice sentence="Mew!" yell="0" />
 	</voices>
 </monster>

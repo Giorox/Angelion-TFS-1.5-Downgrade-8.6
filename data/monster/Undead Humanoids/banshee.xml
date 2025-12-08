@@ -16,6 +16,8 @@
 		<flag staticattack="90" />
 		<flag runonhealth="599" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-100" poison="3" />
@@ -41,19 +43,17 @@
 		<immunity death="1" />
 		<immunity fire="1" />
 		<immunity earth="1" />
-		<immunity drown="1" />
-		<immunity lifedrain="1" />
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Dance for me your dance of death!" />
-		<voice sentence="Let the music play!" />
-		<voice sentence="I will mourn your death!" />
-		<voice sentence="Are you ready to rock?" />
-		<voice sentence="Feel my gentle kiss of death." />
-		<voice sentence="That's what I call easy listening!" />
-		<voice sentence="IIIIEEEeeeeeehhhHHHH!" yell="1" />
+		<voice sentence="Dance for me your dance of death!" yell="0" />
+		<voice sentence="Are you ready to rock?" yell="0" />
+		<voice sentence="IIIIEEEeeeeeehhhHHHH!" yell="0" />
+		<voice sentence="That's what I call easy listening!" yell="0" />
+		<voice sentence="Let the music play!" yell="0" />
+		<voice sentence="Feel my gentle kiss of death." yell="0" />
+		<voice sentence="I will mourn your death!" yell="0" />
 	</voices>
 	<loot>
 		<item name="candlestick" chance="70000" />

@@ -44,11 +44,20 @@
 		<summon name="Rift Worm" speed="3000" chance="30" />
 	</summons>
 	<voices interval="5000" chance="12">
-		<voice sentence="The ultimate will finally consume this unworthy existence!" />
-		<voice sentence="My masters and I will tear down barriers and join the ultimate in its realm!" />
-		<voice sentence="The power of the Yalahari will all be mine!" />
-		<voice sentence="He who has returned from beyond has taught me secrets you can't even grasp!" />
-		<voice sentence="You can't hope to penetrate my shields!" />
-		<voice sentence="Do you really think you could beat me?" />
+		<voice sentence="You might scratch my shields but they will never break!" yell="0" />
+		<voice sentence="Even gods are HIS pawns and HE laughs about creation! And you are trying to stop his minions?" yell="0" />
+		<voice sentence="The power of the Yalahari will all be mine!" yell="0" />
+		<voice sentence="Even without Yalahari shields, I'm still invincible!" yell="0" />
+		<voice sentence="Don't you understand? Gods, Yalarahi, Humans we are all doing HIS bidding all the time!" yell="0" />
+		<voice sentence="We will open the rift for a new time to come!" yell="0" />
+		<voice sentence="Creation must be undone! We will join the ultimate in the annihiliverse!" yell="0" />
+		<voice sentence="The rift is tearing at me, I can't control it much longer ... Master, where are you?" yell="0" />
+		<voice sentence="You can't hope to penetrate my shields!" yell="0" />
+		<voice sentence="The great machinator will make his entrance soon!" yell="0" />
+		<voice sentence="The ultimate will finally consume this unworthy existence!" yell="0" />
+		<voice sentence="My masters and I will tear down barriers and join the ultimate in its realm!" yell="0" />
+		<voice sentence="Do you really think you could beat me?" yell="0" />
+		<voice sentence="The end of times has come!" yell="0" />
+		<voice sentence="He who has returned from beyond has taught me secrets you can't even grasp!" yell="0" />
 	</voices>
 </monster>

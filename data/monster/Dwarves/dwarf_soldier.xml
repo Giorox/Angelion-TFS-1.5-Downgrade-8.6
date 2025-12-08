@@ -27,25 +27,25 @@
 	</attacks>
 	<defenses armor="9" defense="9" />
 	<elements>
-		<element earthPercent="10" />
-		<element firePercent="-5" />
 		<element deathPercent="-5" />
+		<element firePercent="-5" />
+		<element earthPercent="10" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Hail Durin!" />
+		<voice sentence="Hail Durin!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2787" name="white mushroom" chance="39924" countmax="2" />
-		<item id="2543" name="bolt" chance="37815" countmax="7" />
-		<item id="2148" name="gold coin" chance="28337" countmax="12" />
-		<item id="2481" name="soldier helmet" chance="11820" />
-		<item id="2554" name="shovel" chance="10026" />
-		<item id="2464" name="chain armor" chance="7525" />
-		<item id="7363" name="piercing bolt" chance="3822" countmax="3" />
-		<item id="2525" name="dwarven shield" chance="3056" />
-		<item id="2455" name="crossbow" chance="3023" />
-		<item id="2378" name="battle axe" chance="2481" />
-		<item id="5880" name="iron ore" chance="303" />
-		<item id="2208" name="axe ring" chance="121" />
+		<item name="White Mushroom" countmax="2" chance="39930" />
+		<item name="Bolt" countmax="7" chance="37940" />
+		<item name="Gold Coin" countmax="12" chance="28370" />
+		<item name="Soldier Helmet" chance="11840" />
+		<item name="Shovel" chance="10020" />
+		<item name="Chain Armor" chance="7520" />
+		<item name="Piercing Bolt" countmax="3" chance="3810" />
+		<item name="Dwarven Shield" chance="3040" />
+		<item name="Crossbow" chance="3010" />
+		<item name="Battle Axe" chance="2490" />
+		<item name="Iron Ore" chance="310" />
+		<item name="Axe Ring" chance="120" />
 	</loot>
 </monster>

@@ -16,6 +16,8 @@
 		<flag targetdistance="1" />
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-160" poison="60" />
@@ -38,20 +40,21 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element physicalPercent="35" />
-		<element holyPercent="50" />
+		<element physicalPercent="30" />
 		<element deathPercent="50" />
+		<element holyPercent="50" />
 		<element energyPercent="-25" />
 	</elements>
 	<immunities>
-		<immunity paralyze="1" />
-		<immunity invisible="1" />
-		<immunity drown="1" />
-		<immunity fire="1" />
 		<immunity ice="1" />
+		<immunity fire="1" />
 		<immunity earth="1" />
-		<immunity lifedrain="1" />
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
+	<voices>
+		<voice sentence="Splish splash" yell="0" />
+	</voices>
 	<loot>
 		<item name="small diamond" chance="1000" />
 		<item name="small sapphire" chance="1000" />

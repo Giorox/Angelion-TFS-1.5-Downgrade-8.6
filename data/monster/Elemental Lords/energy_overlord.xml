@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Energy Overlord" nameDescription="an Energy Overlord" race="undead" experience="2800" speed="290">
+<monster name="Energy Overlord" nameDescription="Energy Overlord" race="undead" experience="2800" speed="290">
 	<health now="4000" max="4000" />
 	<look type="290" corpse="8966" />
 	<targetchange interval="20000" chance="15" />
@@ -14,6 +14,8 @@
 		<flag staticattack="85" />
 		<flag targetdistance="1" />
 		<flag runonhealth="0" />
+		<flag lightlevel="4" />
+		<flag lightcolor="85" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-200" />
@@ -26,23 +28,26 @@
 		<attack name="earth" interval="1000" chance="9" radius="5" target="0" min="-50" max="-200">
 			<attribute key="areaEffect" value="bigplants" />
 		</attack>
+		<attack name="speed" interval="2000" chance="20" range="7" speedchange="-750" duration="4000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
 	</attacks>
-	<defenses armor="40" defense="40">
-		<defense name="healing" interval="2000" chance="15" min="90" max="150">
-			<attribute key="areaEffect" value="blueshimmer" />
-		</defense>
-	</defenses>
+	<defenses armor="40" defense="40" />
 	<elements>
 		<element physicalPercent="50" />
-		<element firePercent="-1" />
+		<element firePercent="20" />
+		<element earthPercent="-10" />
 	</elements>
 	<immunities>
 		<immunity ice="1" />
 		<immunity energy="1" />
+		<immunity invisible="0" />
+		<immunity paralyze="1" />
 	</immunities>
 	<loot>
-		<item name="gold coin" countmax="64" chance="100000" />
-		<item name="platinum coin" countmax="2" chance="25000" />
-		<item name="pure energy" chance="100000" />
+		<item name="Pure Energy" chance="100000" />
+		<item name="Gold Coin" countmax="75" chance="69270" />
+		<item name="Platinum Coin" countmax="3" chance="47800" />
+		<item name="Voltage Armor" chance="980" />
 	</loot>
 </monster>

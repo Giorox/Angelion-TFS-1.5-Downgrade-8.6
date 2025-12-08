@@ -24,15 +24,15 @@
 	</attacks>
 	<defenses armor="6" defense="6" />
 	<elements>
-		<element firePercent="40" />
-		<element holyPercent="10" />
-		<element earthPercent="-10" />
-		<element energyPercent="-15" />
 		<element deathPercent="-10" />
+		<element holyPercent="10" />
+		<element firePercent="40" />
+		<element energyPercent="-15" />
+		<element earthPercent="-10" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Brrr" />
-		<voice sentence="Broar!" />
+		<voice sentence="Brrr" yell="0" />
+		<voice sentence="Broar!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="50404" countmax="12" />

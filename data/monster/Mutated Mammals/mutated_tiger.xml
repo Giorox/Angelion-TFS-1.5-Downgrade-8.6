@@ -31,19 +31,19 @@
 		</defense>
 	</defenses>
 	<elements>
+		<element deathPercent="-5" />
+		<element icePercent="20" />
 		<element firePercent="20" />
 		<element energyPercent="20" />
-		<element icePercent="20" />
-		<element deathPercent="-5" />
 		<element earthPercent="80" />
 	</elements>
 	<immunities>
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="GRAAARRRRRR" />
-		<voice sentence="CHHHHHHHHHHH" />
+		<voice sentence="CHHHHHHHHHHH" yell="1" />
+		<voice sentence="GRAAARRRRRR" yell="1" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="100" chance="50000" />

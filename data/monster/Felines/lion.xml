@@ -24,13 +24,13 @@
 	</attacks>
 	<defenses armor="6" defense="6" />
 	<elements>
-		<element earthPercent="20" />
+		<element deathPercent="-8" />
 		<element holyPercent="20" />
 		<element icePercent="-15" />
-		<element deathPercent="-8" />
+		<element earthPercent="20" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Groarrr!" />
+		<voice sentence="Groarrr!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2666" name="meat" chance="45327" />

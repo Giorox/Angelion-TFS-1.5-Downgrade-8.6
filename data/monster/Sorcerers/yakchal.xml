@@ -7,11 +7,10 @@
 		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
-		<flag illusionable="1" />
+		<flag illusionable="0" />
 		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
-		<flag staticattack="50" />
 		<flag targetdistance="4" />
 		<flag runonhealth="0" />
 		<flag isboss="1" />
@@ -38,11 +37,9 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element firePercent="50" />
-		<element earthPercent="40" />
-		<element holyPercent="26" />
-		<element energyPercent="-10" />
-		<element deathPercent="-10" />
+		<element holyPercent="50" />
+		<element energyPercent="-5" />
+		<element earthPercent="80" />
 	</elements>
 	<immunities>
 		<immunity ice="1" />
@@ -53,9 +50,12 @@
 		<summon name="Ice Golem" interval="1000" chance="13" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="So you think you are cool?" />
-		<voice sentence="I hope it is not too cold for you! HeHeHe." />
-		<voice sentence="Freeze!" />
+		<voice sentence="YOU BETTER DIE TO MY MINIONS BECAUSE YOU'LL WISH YOU DID IF I COME FOR YOU!" yell="1" />
+		<voice sentence="DESTROY THE INFIDELS" yell="1" />
+		<voice sentence="No one will stop my plans!" yell="0" />
+		<voice sentence="You are responsible for this!" yell="0" />
+		<voice sentence="You are mine!" yell="0" />
+		<voice sentence="I will make you all pay!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="88" chance="10000" />

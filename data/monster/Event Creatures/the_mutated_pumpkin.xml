@@ -33,17 +33,19 @@
 	</defenses>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="20">
-		<voice sentence="I had the Halloween Hare for breakfast!" />
-		<voice sentence="Your soul will be mine...wait, wrong line" />
-		<voice sentence="Trick or treat? I saw death!" />
-		<voice sentence="No wait! Don't kill me! It's me, your friend!" />
-		<voice sentence="Bunnies, bah! I'm the real thing!" />
-		<voice sentence="Muahahahaha!" />
-		<voice sentence="I've come to avenge all those mutilated pumpkins!" />
-		<voice sentence="Wait until I get you!" />
-		<voice sentence="Fear the spirit of Halloween!" />
+		<voice sentence="I had the Halloween Hare for breakfast!" yell="0" />
+		<voice sentence="No wait! Don't kill me! It's me, your friend!" yell="0" />
+		<voice sentence="You, my little mouse, are doomed." yell="0" />
+		<voice sentence="Bunnies, bah! I'm the real thing!" yell="0" />
+		<voice sentence="I've come to avenge all those mutilated pumpkins!" yell="0" />
+		<voice sentence="Your soul will be mine...wait, wrong line" yell="0" />
+		<voice sentence="Fear the spirit of Halloween!" yell="0" />
+		<voice sentence="Muahahahaha!" yell="0" />
+		<voice sentence="Wait until I get you!" yell="0" />
+		<voice sentence="Trick or treat? I saw death!" yell="0" />
 	</voices>
 	<loot>
 		<item name="yummy gummy worm" countmax="10" chance="100000" />

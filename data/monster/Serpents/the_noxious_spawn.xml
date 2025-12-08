@@ -17,6 +17,7 @@
 		<flag runonhealth="275" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
@@ -48,15 +49,12 @@
 		<element energyPercent="-10" />
 	</elements>
 	<immunities>
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
 		<immunity earth="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Sssssouls for the one" />
-		<voice sentence="HISSSS" yell="1" />
-		<voice sentence="Tsssse one will risssse again" />
-		<voice sentence="I bring your deathhh, mortalssss" />
+		<voice sentence="I bring you deathhhh, mortalssss" yell="0" />
 	</voices>
 	<loot>
 		<item id="10611" name="snake skin" chance="100000" />

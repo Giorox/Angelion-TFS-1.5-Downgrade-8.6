@@ -40,11 +40,12 @@
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="0" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Die!" />
-		<voice sentence="Feel the hand of death!" />
-		<voice sentence="You are on my deathlist!" />
+		<voice sentence="Die!" yell="0" />
+		<voice sentence="You are on my deathlist!" yell="0" />
+		<voice sentence="Feel the hand of death!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="50" chance="83000" />

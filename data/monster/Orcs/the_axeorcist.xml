@@ -15,6 +15,9 @@
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
@@ -32,7 +35,7 @@
 		<immunity invisible="1" />
 	</immunities>
 	<voices interval="2000" chance="9">
+		<voice sentence="Blood! Carnage! Muhahaha!" yell="0" />
 		<voice sentence="DEESTRUCTIOON!" yell="1" />
-		<voice sentence="Blood! Carnage! Muhahaha!" yell="1" />
 	</voices>
 </monster>

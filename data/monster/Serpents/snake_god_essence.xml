@@ -27,10 +27,10 @@
 	</attacks>
 	<defenses armor="70" defense="65" />
 	<elements>
-		<element firePercent="-10" />
-		<element energyPercent="-10" />
 		<element physicalPercent="10" />
 		<element icePercent="20" />
+		<element firePercent="-10" />
+		<element energyPercent="-10" />
 	</elements>
 	<immunities>
 		<immunity earth="1" />
@@ -38,7 +38,7 @@
 		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="2000" chance="10">
-		<voice sentence="AHHH ZHE POWER..." yell="1" />
 		<voice sentence="ZHE TIME OF ZHE SNAKE HAZ COME!" yell="1" />
+		<voice sentence="AHHH ZHE POWER..." yell="1" />
 	</voices>
 </monster>

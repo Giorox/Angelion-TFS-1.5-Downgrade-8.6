@@ -24,15 +24,15 @@
 	</attacks>
 	<defenses armor="26" defense="26" />
 	<elements>
-		<element energyPercent="20" />
-		<element icePercent="10" />
+		<element icePercent="1" />
 		<element firePercent="-10" />
+		<element energyPercent="20" />
 	</elements>
 	<immunities>
 		<immunity earth="1" />
 	</immunities>
 	<voices interval="1000" chance="2">
-		<voice sentence="Hissss!" />
+		<voice sentence="Hissss!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="100" chance="100000" />

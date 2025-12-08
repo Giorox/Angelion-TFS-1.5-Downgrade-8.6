@@ -24,17 +24,17 @@
 	</attacks>
 	<defenses armor="6" defense="6" />
 	<elements>
-		<element energyPercent="20" />
-		<element holyPercent="10" />
-		<element earthPercent="-10" />
 		<element deathPercent="-10" />
+		<element holyPercent="10" />
+		<element energyPercent="20" />
+		<element earthPercent="-10" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Grrrr" />
-		<voice sentence="Groar" />
-		<voice sentence="Gruntz!" />
-		<voice sentence="Hmmm, bugs" />
-		<voice sentence="Hmmm, dogs" />
+		<voice sentence="Groar" yell="0" />
+		<voice sentence="Hmmm, bugs" yell="0" />
+		<voice sentence="Hmmm, dogs" yell="0" />
+		<voice sentence="Grrr" yell="0" />
+		<voice sentence="Gruntz!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="65542" countmax="12" />

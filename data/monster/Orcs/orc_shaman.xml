@@ -34,20 +34,21 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element energyPercent="50" />
-		<element holyPercent="10" />
-		<element earthPercent="-10" />
 		<element deathPercent="-5" />
+		<element holyPercent="10" />
+		<element energyPercent="50" />
+		<element earthPercent="-10" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="0" />
 	</immunities>
 	<summons maxSummons="4">
 		<summon name="Snake" interval="2000" chance="20" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="Huumans stinkk!" />
-		<voice sentence="Grak brrretz gulu." />
+		<voice sentence="Grak brrretz gulu." yell="0" />
+		<voice sentence="Huumans stinkk!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="89750" countmax="5" />

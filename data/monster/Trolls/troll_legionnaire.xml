@@ -32,10 +32,11 @@
 	</defenses>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="9">
-		<voice sentence="Attack!" />
-		<voice sentence="Graaaaar!" />
+		<voice sentence="Attack!" yell="0" />
+		<voice sentence="Graaaaar!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="100" chance="46000" />

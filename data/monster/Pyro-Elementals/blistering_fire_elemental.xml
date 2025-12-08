@@ -16,6 +16,7 @@
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
@@ -30,10 +31,10 @@
 	</attacks>
 	<defenses armor="20" defense="20" />
 	<elements>
-		<element icePercent="-15" />
-		<element energyPercent="20" />
 		<element physicalPercent="25" />
 		<element deathPercent="40" />
+		<element icePercent="-15" />
+		<element energyPercent="20" />
 		<element earthPercent="50" />
 	</elements>
 	<immunities>
@@ -42,7 +43,7 @@
 		<immunity invisible="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="FCHHHRRR" />
+		<voice sentence="FCHHHRRR" yell="1" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="100" chance="44000" />

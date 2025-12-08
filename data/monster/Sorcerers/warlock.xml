@@ -46,24 +46,24 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="95" />
-		<element holyPercent="-8" />
 		<element physicalPercent="-5" />
+		<element holyPercent="-8" />
+		<element earthPercent="95" />
 	</elements>
 	<immunities>
+		<immunity ice="1" />
 		<immunity fire="1" />
 		<immunity energy="1" />
-		<immunity ice="1" />
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="1">
 		<summon name="stone golem" interval="2000" chance="10" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="Learn the secret of our magic! YOUR death!" />
-		<voice sentence="Even a rat is a better mage than you." />
-		<voice sentence="We don't like intruders!" />
+		<voice sentence="Even a rat is a better mage than you!" yell="0" />
+		<voice sentence="Learn the secret of our magic! YOUR death!" yell="0" />
+		<voice sentence="We don't like intruders!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="30006" countmax="80" />

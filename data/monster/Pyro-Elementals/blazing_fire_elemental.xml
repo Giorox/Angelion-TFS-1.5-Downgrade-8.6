@@ -16,6 +16,7 @@
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
@@ -33,9 +34,9 @@
 	</attacks>
 	<defenses armor="20" defense="20" />
 	<elements>
+		<element deathPercent="30" />
 		<element icePercent="-25" />
 		<element energyPercent="20" />
-		<element deathPercent="30" />
 	</elements>
 	<immunities>
 		<immunity fire="1" />

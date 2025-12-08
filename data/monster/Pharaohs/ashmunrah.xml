@@ -4,11 +4,16 @@
 	<look type="87" corpse="6031" />
 	<targetchange interval="5000" chance="8" />
 	<flags>
+		<flag summonable="0" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="0" />
 	</flags>

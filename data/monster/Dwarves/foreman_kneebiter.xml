@@ -4,29 +4,51 @@
 	<look type="70" corpse="6013" />
 	<targetchange interval="5000" chance="8" />
 	<flags>
+		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
 		<flag canpushitems="1" />
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
+		<flag runonhealth="0" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-200" />
+		<attack name="melee" interval="2000" min="0" max="-250" />
+		<attack name="physical" interval="2000" chance="10" range="7" min="0" max="-67">
+			<attribute key="shootEffect" value="bolt" />
+		</attack>
 	</attacks>
-	<defenses armor="15" defense="22" />
+	<defenses armor="15" defense="22">
+		<defense name="healing" interval="1000" chance="50" min="75" max="85">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
 	<elements>
-		<element earthPercent="90" />
-		<element physicalPercent="20" />
-		<element firePercent="-5" />
-		<element deathPercent="-5" />
+		<element physicalPercent="1" />
+		<element deathPercent="-1" />
+		<element firePercent="10" />
+		<element energyPercent="10" />
+		<element earthPercent="20" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
+	<voices>
+		<voice sentence="No one will steal our ore!" yell="0" />
+		<voice sentence="Hail Durin!" yell="0" />
+		<voice sentence="Ashes and rust! I'll get you!" yell="0" />
+		<voice sentence="By Durins beard!" yell="0" />
+		<voice sentence="No trespassing allowed!" yell="0" />
+	</voices>
 	<loot>
-		<item name="gold coin" countmax="100" chance="90000" />
-		<item name="battle shield" chance="6666" />
-		<item name="iron ore" countmax="2" chance="2500" />
+		<item name="Gold Coin" countmax="44" chance="86360" />
+		<item name="Iron Ore" chance="13640" />
+		<item name="Scale Armor" chance="13640" />
+		<item name="Steel Helmet" chance="13640" />
+		<item name="Battle Shield" chance="9090" />
 	</loot>
 </monster>

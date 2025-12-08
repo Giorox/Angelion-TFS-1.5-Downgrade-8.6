@@ -24,13 +24,13 @@
 	</attacks>
 	<defenses armor="6" defense="6" />
 	<elements>
-		<element earthPercent="15" />
 		<element firePercent="-5" />
+		<element earthPercent="15" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Grrrr" />
-		<voice sentence="Groar!" />
-		<voice sentence="Me strong! Me ate spinach!" />
+		<voice sentence="Groar!" yell="0" />
+		<voice sentence="Me strong! Me ate spinach!" yell="0" />
+		<voice sentence="Grrrr" yell="0" />
 	</voices>
 	<loot>
 		<item id="2667" chance="60000" /><!-- fish -->

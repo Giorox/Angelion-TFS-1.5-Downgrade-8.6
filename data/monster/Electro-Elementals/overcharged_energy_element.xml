@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Overcharged Energy Element" nameDescription="an orvercharged energy element" race="energy" experience="1300" speed="300">
-	<health now="1700" max="1700" />
+<monster name="Overcharged Energy Element" nameDescription="an overcharged energy element" race="energy" experience="1300" speed="300">
+	<health now="1200" max="1200" />
 	<look type="290" corpse="8966" />
 	<targetchange interval="20000" chance="15" />
 	<flags>
@@ -17,39 +17,36 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-200" />
-		<attack name="energy" interval="1000" chance="11" target="0" radius="4" min="0" max="-250">
+		<attack name="energy" interval="1000" chance="11" target="0" radius="4" min="-150" max="-420">
 			<attribute key="shootEffect" value="energy" />
 			<attribute key="areaEffect" value="purpleenergy" />
 		</attack>
-		<attack name="energy" interval="1000" chance="12" range="3" target="1" min="0" max="-300">
+		<attack name="energy" interval="1000" chance="12" range="3" target="1" min="-100" max="-250">
 			<attribute key="areaEffect" value="purpleenergy" />
 		</attack>
-		<attack name="physical" interval="1000" chance="12" radius="4" target="0" min="0" max="-200">
-			<attribute key="areaEffect" value="poff" />
-		</attack>
+		<attack name="energy elemental electrify" interval="2000" chance="20" />
 	</attacks>
-	<defenses armor="35" defense="35">
-		<defense name="healing" interval="2000" chance="15" min="90" max="150">
-			<attribute key="areaEffect" value="blueshimmer" />
-		</defense>
-	</defenses>
+	<defenses armor="35" defense="35" />
 	<elements>
 		<element earthPercent="-20" />
 	</elements>
 	<immunities>
 		<immunity ice="1" />
-		<immunity energy="1" />
 		<immunity fire="1" />
+		<immunity energy="1" />
+		<immunity invisible="0" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="BZZZZZZZZZZ" />
+		<voice sentence="BZZZZZZZZZZ" yell="1" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="100" chance="50000" />
-		<item name="gold coin" countmax="56" chance="50000" />
-		<item name="small amethyst" countmax="2" chance="10000" />
-		<item name="berserk potion" chance="2173" />
-		<item name="great health potion" chance="10000" />
-		<item name="energy soil" chance="14285" />
+		<item name="Gold Coin" countmax="100" chance="86040" />
+		<item name="Gold Coin" countmax="75" chance="86040" />
+		<item name="Energy Soil" chance="15770" />
+		<item name="Great Health Potion" chance="9680" />
+		<item name="Small Amethyst" countmax="2" chance="6980" />
+		<item name="Berserk Potion" chance="1580" />
+		<item name="Ring of Healing" chance="450" />
 	</loot>
 </monster>

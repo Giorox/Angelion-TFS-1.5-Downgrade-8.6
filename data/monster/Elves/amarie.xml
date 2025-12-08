@@ -28,12 +28,13 @@
 	<defenses armor="10" defense="10" />
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Aaaaah! Let me out of here!!" />
-		<voice sentence="Help! Where am I?" />
-		<voice sentence="Noooo! What are you doing?" />
-		<voice sentence="Ulathil beia Thratha!" />
-		<voice sentence="What is this devilish scheme??" />
+		<voice sentence="Noooo! What are you doing?" yell="0" />
+		<voice sentence="What is this devilish scheme??" yell="0" />
+		<voice sentence="Help! Where am I?" yell="0" />
+		<voice sentence="Aaaaah! Let me out of here!!" yell="0" />
+		<voice sentence="Ulathil beia Thratha!" yell="0" />
 	</voices>
 </monster>

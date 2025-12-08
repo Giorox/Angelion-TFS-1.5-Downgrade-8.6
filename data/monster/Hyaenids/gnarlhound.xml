@@ -24,8 +24,8 @@
 	</attacks>
 	<defenses armor="10" defense="10" />
 	<voices interval="5000" chance="10">
-		<voice sentence="Gnarllll!" />
-		<voice sentence="Grrrrrr!" />
+		<voice sentence="Grrrrrr!" yell="0" />
+		<voice sentence="Gnarllll!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="30" chance="48000" />

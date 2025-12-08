@@ -17,6 +17,7 @@
 		<flag runonhealth="600" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-450" poison="840" />
@@ -66,10 +67,10 @@
 		<immunity drown="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="You will make ssuch a fine ssstatue!" />
-		<voice sentence="There isss no chhhanccce of esscape" />
-		<voice sentence="Jusssst look at me!" />
-		<voice sentence="Are you tired or why are you moving thhat sslow&lt;chuckle&gt;" />
+		<voice sentence="You will make sssuch a fine ssstatue!" yell="0" />
+		<voice sentence="Jussst look at me!" yell="0" />
+		<voice sentence="Are you tired or why are you moving thhat ssslow <chuckle>" yell="0" />
+		<voice sentence="There isss no chhhanccce of essscape" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="100" chance="50000" />

@@ -11,7 +11,10 @@
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag targetdistance="1" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-80" />
@@ -27,12 +30,13 @@
 	<immunities>
 		<immunity energy="1" />
 		<immunity earth="1" />
-		<immunity outfit="1" />
-		<immunity drunk="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Another little gladiator!" />
-		<voice sentence="Come into my embrace." />
+		<voice sentence="Another little gladiator!" yell="0" />
+		<voice sentence="You'll be history soon enough." yell="0" />
+		<voice sentence="Come into my embrace." yell="0" />
+		<voice sentence="You are too soft for a fight." yell="0" />
 	</voices>
 </monster>

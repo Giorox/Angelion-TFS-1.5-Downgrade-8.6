@@ -30,12 +30,17 @@
 	</defenses>
 	<elements>
 		<element firePercent="-1" />
+		<element earthPercent="1" />
 	</elements>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Maeh" />
-		<voice sentence="Groar!" />
-		<voice sentence="Fchhhh" />
-		<voice sentence="Meow!" />
-		<voice sentence="Woof!" />
+		<voice sentence="Meow!" yell="0" />
+		<voice sentence="Groar!" yell="0" />
+		<voice sentence="Woof!" yell="0" />
+		<voice sentence="Fchhhh" yell="0" />
+		<voice sentence="Maeh" yell="0" />
 	</voices>
 </monster>

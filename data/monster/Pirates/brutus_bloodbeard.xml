@@ -21,6 +21,11 @@
 		<!--<attack name="drunk explosion" interval="2000" />-->
 	</attacks>
 	<defenses armor="35" defense="50" />
+	<elements>
+		<element holyPercent="1" />
+		<element icePercent="-1" />
+		<element energyPercent="-1" />
+	</elements>
 	<immunities>
 		<immunity invisible="1" />
 	</immunities>

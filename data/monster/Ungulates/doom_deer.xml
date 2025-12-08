@@ -15,6 +15,7 @@
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="25" />
+		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="0" />
 	</flags>
@@ -34,9 +35,10 @@
 		<immunity drown="1" />
 		<immunity lifedrain="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="I bet it was you who killed my mom!" />
+		<voice sentence="I bet it was you who killed my mom!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="100" chance="50000" />

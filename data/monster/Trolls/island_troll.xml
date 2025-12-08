@@ -12,7 +12,6 @@
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
-		<flag staticattack="90" />
 		<flag targetdistance="1" />
 		<flag runonhealth="15" />
 		<flag canwalkonenergy="0" />
@@ -24,11 +23,11 @@
 	</attacks>
 	<defenses armor="6" defense="6" />
 	<voices interval="5000" chance="10">
-		<voice sentence="Hmmm, turtles" />
-		<voice sentence="Hmmm, dogs" />
-		<voice sentence="Hmmm, worms" />
-		<voice sentence="Groar" />
-		<voice sentence="Gruntz!" />
+		<voice sentence="Groar" yell="0" />
+		<voice sentence="Hmmm, turtles" yell="0" />
+		<voice sentence="Hmmm, dogs" yell="0" />
+		<voice sentence="Hmmm, worms" yell="0" />
+		<voice sentence="Gruntz!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="59656" countmax="10" />

@@ -17,6 +17,7 @@
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-140" />
@@ -27,17 +28,16 @@
 		<element holyPercent="-25" />
 	</elements>
 	<immunities>
-		<immunity lifedrain="1" />
-		<immunity paralyze="1" />
-		<immunity earth="1" />
 		<immunity death="1" />
-		<immunity drown="1" />
+		<immunity earth="1" />
+		<immunity invisible="0" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Aaaaahhhh!" />
-		<voice sentence="Hoooohhh!" />
-		<voice sentence="Uhhhhhhh!" />
-		<voice sentence="Chhhhhhh!" />
+		<voice sentence="Chhhhhhh!" yell="0" />
+		<voice sentence="Aaaaahhhh!" yell="0" />
+		<voice sentence="Uhhhhhhh!" yell="0" />
+		<voice sentence="Hoooohhh!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="55" chance="58000" />

@@ -32,21 +32,21 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="10" />
-		<element icePercent="10" />
-		<element holyPercent="10" />
 		<element physicalPercent="-10" />
-		<element energyPercent="-8" />
-		<element firePercent="-5" />
 		<element deathPercent="-8" />
+		<element holyPercent="10" />
+		<element icePercent="10" />
+		<element firePercent="-5" />
+		<element energyPercent="-8" />
+		<element earthPercent="10" />
 	</elements>
 	<summons maxSummons="1">
 		<summon name="Chicken" interval="2000" chance="10" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="Fear us!" />
-		<voice sentence="You will not tell anyone what you have seen!" />
-		<voice sentence="Your curiosity will be punished!" />
+		<voice sentence="Fear us!" yell="0" />
+		<voice sentence="You will not tell anyone what you have seen!" yell="0" />
+		<voice sentence="Your curiosity will be punished!" yell="0" />
 	</voices>
 	<loot>
 		<item id="1962" chance="700" /><!-- orange book -->

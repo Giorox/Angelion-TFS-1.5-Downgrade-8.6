@@ -14,19 +14,24 @@
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-50" poison="20" />
-		<attack name="drowncondition" interval="2000" chance="20" target="1" />
+		<attack name="melee" interval="2000" min="0" max="-50" poison="80" />
+		<attack name="drown" interval="2000" chance="20" target="1" min="-20" max="-20"/>
+		<attack name="drowncondition" interval="2000" chance="20" target="1" min="-300" max="-400"/>
 	</attacks>
 	<defenses armor="16" defense="16" />
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="This place is for our eyes only!" />
-		<voice sentence="We will live and let you die!" />
-		<voice sentence="I will die another day!" />
-		<voice sentence="We have license to kill!" />
+		<voice sentence="We have license to kill!" yell="0" />
+		<voice sentence="We will live and let you die!" yell="0" />
+		<voice sentence="This place is for our eyes only!" yell="0" />
+		<voice sentence="I will die another day!" yell="0" />
 	</voices>
 </monster>

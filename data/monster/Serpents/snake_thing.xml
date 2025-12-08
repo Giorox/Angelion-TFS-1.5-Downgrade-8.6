@@ -31,7 +31,7 @@
 	</attacks>
 	<defenses armor="45" defense="30" />
 	<elements>
-		<element icePercent="20" />
+		<element icePercent="10" />
 		<element firePercent="-10" />
 		<element energyPercent="-10" />
 	</elements>

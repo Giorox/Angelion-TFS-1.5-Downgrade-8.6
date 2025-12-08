@@ -24,10 +24,10 @@
 	</attacks>
 	<defenses armor="30" defense="30" />
 	<elements>
-		<element physicalPercent="35" />
+		<element physicalPercent="20" />
 		<element icePercent="20" />
-		<element earthPercent="20" />
 		<element firePercent="-10" />
+		<element earthPercent="20" />
 	</elements>
 	<loot>
 		<item name="gold coin" countmax="30" chance="59000" />

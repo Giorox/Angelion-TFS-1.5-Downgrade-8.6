@@ -44,9 +44,9 @@
 		<summon name="Evil Sheep" interval="2000" chance="30" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="You can COUNT on us!" />
-		<voice sentence="Maeh!" />
-		<voice sentence="I feel you're getting sleepy! Maeh!" />
+		<voice sentence="I feel you're getting sleepy! Maeh!" yell="0" />
+		<voice sentence="You can COUNT on us!" yell="0" />
+		<voice sentence="Maeh!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="60" chance="75000" />

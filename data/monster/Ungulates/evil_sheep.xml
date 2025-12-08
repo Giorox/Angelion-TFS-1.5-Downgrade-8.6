@@ -27,16 +27,17 @@
 	</attacks>
 	<defenses armor="30" defense="35" />
 	<elements>
-		<element firePercent="-10" />
+		<element physicalPercent="10" />
 		<element icePercent="20" />
-		<element physicalPercent="20" />
+		<element firePercent="-10" />
 	</elements>
 	<immunities>
 		<immunity lifedrain="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Grrrr" />
+		<voice sentence="Grrrr" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="50" chance="50000" />

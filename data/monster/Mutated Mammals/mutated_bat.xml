@@ -17,6 +17,7 @@
 		<flag runonhealth="300" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-168" poison="120" />
@@ -44,9 +45,10 @@
 		<immunity earth="1" />
 		<immunity drown="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="0" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Shriiiiiek" />
+		<voice sentence="Shriiiiiek" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="92495" countmax="130" />

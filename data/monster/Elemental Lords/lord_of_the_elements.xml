@@ -15,59 +15,65 @@
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 		<flag isboss="1" />
+		<flag lightlevel="4" />
+		<flag lightcolor="79" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-690" />
+		<attack name="speed" interval="5000" chance="20" target="1" radius="4" range="7" speedchange="-860" duration="20000">
+			<attribute key="areaEffect" value="stones" />
+		</attack>
 	</attacks>
 	<defenses armor="30" defense="30">
-		<defense name="healing" interval="1000" chance="25" min="100" max="195">
+		<defense name="outfit" interval="1500" chance="40" monster="Massive Energy Elemental" duration="3000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
-		<defense name="outfit" interval="1500" chance="40" monster="Energy Overlord" duration="3000">
+		<defense name="outfit" interval="1500" chance="40" monster="Massive Fire Elemental" duration="3000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
-		<defense name="outfit" interval="1500" chance="40" monster="Fire Overlord" duration="3000">
+		<defense name="outfit" interval="1500" chance="40" monster="Massive Earth Elemental" duration="3000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
-		<defense name="outfit" interval="1500" chance="40" monster="Earth Overlord" duration="3000">
-			<attribute key="areaEffect" value="blueshimmer" />
-		</defense>
-		<defense name="outfit" interval="1500" chance="40" monster="Ice Overlord" duration="3000">
+		<defense name="outfit" interval="1500" chance="40" monster="Massive Water Elemental" duration="3000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
 	<elements>
-		<element physicalPercent="1" />
+		<element physicalPercent="50" />
+		<element icePercent="30" />
 		<element firePercent="30" />
 		<element energyPercent="30" />
-		<element icePercent="30" />
 		<element earthPercent="45" />
 	</elements>
 	<immunities>
-		<immunity holy="1" />
 		<immunity death="1" />
-		<immunity drown="1" />
+		<immunity holy="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="2">
-		<summon name="Blistering Fire Elemental" interval="4000" chance="50" />
-		<summon name="Jagged Earth Elemental" interval="4000" chance="50" />
-		<summon name="Roaring Water Elemental" interval="4000" chance="50" />
-		<summon name="Overcharged Energy Elemental" interval="4000" chance="50" />
+		<summon name="Massive Fire Elemental" interval="4000" chance="50" />
+		<summon name="Massive Earth Elemental" interval="4000" chance="50" />
+		<summon name="Massive Water Elemental" interval="4000" chance="50" />
+		<summon name="Massive Energy Elemental" interval="4000" chance="50" />
 	</summons>
 	<voices interval="5000" chance="30">
 		<voice sentence="WHO DARES CALLING ME?" yell="1" />
 		<voice sentence="I'LL FREEZE YOU THEN I CRUSH YOU!" yell="1" />
 	</voices>
 	<loot>
-		<item name="small sapphire" countmax="4" chance="7142" />
-		<item name="small ruby" countmax="4" chance="11111" />
-		<item name="small emerald" countmax="4" chance="11111" />
-		<item name="small amethyst" countmax="3" chance="11111" />
-		<item name="platinum coin" countmax="9" chance="50000" />
-		<item name="earthborn titan armor" chance="2063" />
-		<item name="gold ingot" chance="25000" />
+		<item name="Platinum Coin" countmax="10" chance="92760" />
+		<item name="Gold Ingot" chance="28510" />
+		<item name="Small Sapphire" countmax="4" chance="9050" />
+		<item name="Small Amethyst" countmax="4" chance="8600" />
+		<item name="Small Emerald" countmax="4" chance="8600" />
+		<item name="Small Ruby" countmax="4" chance="6790" />
+		<item name="Earthborn Titan Armor" chance="450" />
+		<item name="Oceanborn Leviathan Armor" chance="450" />
+		<item name="Fireborn Giant Armor" chance="450" />
 	</loot>
 </monster>

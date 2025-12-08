@@ -27,9 +27,9 @@
 	</attacks>
 	<defenses armor="10" defense="10" />
 	<voices interval="5000" chance="10">
-		<voice sentence="You will not live to tell anyone!" />
-		<voice sentence="You are my game today!" />
-		<voice sentence="Look what has stepped into my trap!" />
+		<voice sentence="Look what has stepped into my trap!" yell="0" />
+		<voice sentence="You will not live to tell anyone!" yell="0" />
+		<voice sentence="You are my game today!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2544" name="arrow" chance="47154" countmax="18" />

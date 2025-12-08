@@ -27,14 +27,14 @@
 	</attacks>
 	<defenses armor="8" defense="8" />
 	<elements>
-		<element holyPercent="20" />
 		<element physicalPercent="-5" />
+		<element holyPercent="20" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Guess who we're hunting, haha!" />
-		<voice sentence="Guess who we are hunting!" />
-		<voice sentence="Bullseye!" />
-		<voice sentence="You'll make a nice trophy!" />
+		<voice sentence="Bullseye!" yell="0" />
+		<voice sentence="Guess who we are hunting!" yell="0" />
+		<voice sentence="You'll make a nice trophy!" yell="0" />
+		<voice sentence="Guess who we're hunting, hahaha!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2544" countmax="22" chance="82000" /><!-- arrow -->

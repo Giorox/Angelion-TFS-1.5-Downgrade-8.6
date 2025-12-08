@@ -11,7 +11,6 @@
 		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
-		<flag staticattack="50" />
 		<flag targetdistance="1" />
 		<flag runonhealth="2000" />
 		<flag isboss="1" />
@@ -20,12 +19,22 @@
 		<attack name="melee" interval="2000" min="0" max="-1280" />
 	</attacks>
 	<defenses armor="64" defense="72" />
+	<elements>
+		<element deathPercent="-10" />
+	</elements>
 	<immunities>
-		<immunity energy="1" />
+		<immunity ice="1" />
 		<immunity fire="1" />
+		<immunity energy="1" />
 		<immunity earth="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
+	<voices>
+		<voice sentence="Time for a little torturing practice!" yell="0" />
+		<voice sentence="I kept my axe sharp, especially for you!" yell="0" />
+		<voice sentence="Scream for me!" yell="0" />
+	</voices>
 	<loot>
 		<item name="Mr. Punish's handcuffs" chance="100000" />
 	</loot>

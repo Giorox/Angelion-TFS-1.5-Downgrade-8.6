@@ -38,9 +38,13 @@
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="1000" chance="2">
-		<voice sentence="Han oydar hot auden oydar" />
+		<voice sentence="Cyclops methron!" yell="0" />
+		<voice sentence="Gnothi se authon!" yell="0" />
+		<voice sentence="Han oydar hot auden oydar" yell="0" />
+		<voice sentence="Other humy, other taste" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="100" chance="100000" />

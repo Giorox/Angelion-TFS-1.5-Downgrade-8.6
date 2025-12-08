@@ -24,14 +24,14 @@
 	</attacks>
 	<defenses armor="15" defense="15" />
 	<elements>
-		<element firePercent="20" />
+		<element deathPercent="-10" />
 		<element holyPercent="10" />
 		<element icePercent="-10" />
-		<element deathPercent="-10" />
+		<element firePercent="20" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Kirrl Karrrl!" />
-		<voice sentence="Kaplar" />
+		<voice sentence="Kaplar" yell="0" />
+		<voice sentence="Kirrl Karrrl!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="59686" countmax="20" />

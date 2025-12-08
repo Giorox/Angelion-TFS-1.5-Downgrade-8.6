@@ -36,21 +36,24 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element holyPercent="20" />
-		<element icePercent="5" />
 		<element physicalPercent="35" />
+		<element firePercent="25" />
+		<element energyPercent="5" />
+		<element earthPercent="20" />
 	</elements>
 	<immunities>
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="2">
 		<summon name="crypt shambler" interval="2000" chance="10" />
 		<summon name="ghost" interval="2000" chance="10" />
 	</summons>
 	<voices interval="2000" chance="7">
-		<voice sentence="I will bring peace to your misguided soul!" />
-		<voice sentence="Your intrusion can't be tolerated!" />
+		<voice sentence="Your intrusion can't be tolerated!" yell="0" />
+		<voice sentence="Rejoice! You will die in the name of the triangle!" yell="0" />
+		<voice sentence="You should have joined us when there was time!" yell="0" />
+		<voice sentence="I will bring peace to your misguided soul!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="80" chance="100000" />

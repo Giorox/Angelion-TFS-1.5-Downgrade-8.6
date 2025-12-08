@@ -18,17 +18,19 @@
 	</flags>
 	<defenses armor="0" defense="0" />
 	<immunities>
-		<immunity earth="1" />
 		<immunity physical="1" />
 		<immunity death="1" />
+		<immunity earth="1" />
+		<immunity invisible="0" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="11">
-		<voice sentence="Welcome to Yalahar, outsider." />
-		<voice sentence="Hail Yalahar." />
-		<voice sentence="You can learn a lot from us." />
-		<voice sentence="Our wisdom and knowledge are unequalled in this world." />
-		<voice sentence="That knowledge would overburden your fragile mind." />
-		<voice sentence="I wouldn't expect you to understand." />
-		<voice sentence="One day Yalahar will return to its former glory." />
+		<voice sentence="That knowledge would overburden your fragile mind." yell="0" />
+		<voice sentence="One day Yalahar will return to its former glory." yell="0" />
+		<voice sentence="I wouldn't expect you to understand." yell="0" />
+		<voice sentence="Hail Yalahar." yell="0" />
+		<voice sentence="Our wisdom and knowledge are unequalled in this world." yell="0" />
+		<voice sentence="Welcome to Yalahar, outsider." yell="0" />
+		<voice sentence="You can learn a lot from us." yell="0" />
 	</voices>
 </monster>

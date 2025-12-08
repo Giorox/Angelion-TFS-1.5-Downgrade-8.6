@@ -11,7 +11,6 @@
 		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
-		<flag staticattack="15" />
 		<flag targetdistance="1" />
 		<flag runonhealth="115" />
 		<flag canwalkonenergy="0" />
@@ -36,17 +35,18 @@
 		</defense>
 	</defenses>
 	<elements>
+		<element physicalPercent="60" />
 		<element energyPercent="40" />
 		<element earthPercent="90" />
-		<element physicalPercent="60" />
 	</elements>
 	<immunities>
 		<immunity death="1" />
+		<immunity invisible="0" />
 		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Crackle!" />
-		<voice sentence="Tsshh" />
+		<voice sentence="Crackle!" yell="0" />
+		<voice sentence="Tsshh" yell="0" />
 	</voices>
 	<loot>
 		<item name="moon backpack" chance="140" />

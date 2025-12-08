@@ -16,6 +16,7 @@
 		<flag staticattack="80" />
 		<flag runonhealth="300" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-350" />
@@ -42,23 +43,23 @@
 		</defense>
 	</defenses>
 	<elements>
+		<element deathPercent="55" />
+		<element holyPercent="-5" />
+		<element icePercent="-5" />
+		<element firePercent="-5" />
 		<element energyPercent="15" />
 		<element earthPercent="75" />
-		<element firePercent="-5" />
-		<element icePercent="-5" />
-		<element holyPercent="-5" />
-		<element deathPercent="55" />
 	</elements>
 	<immunities>
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="2">
 		<summon name="war wolf" interval="2000" chance="40" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="BLOOD!" yell="1" />
-		<voice sentence="HRAAAAAAAAAARRRRRR!" yell="1" />
+		<voice sentence="GRROARR" yell="1" />
+		<voice sentence="GRRR" yell="1" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="98760" countmax="301" />

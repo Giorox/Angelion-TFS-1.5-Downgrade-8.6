@@ -15,6 +15,7 @@
 		<flag targetdistance="1" />
 		<flag runonhealth="80" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-110" />
@@ -43,18 +44,21 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element deathPercent="50" />
-		<element icePercent="85" />
-		<element physicalPercent="50" />
+		<element physicalPercent="35" />
+		<element deathPercent="40" />
 		<element holyPercent="50" />
+		<element icePercent="5" />
 		<element firePercent="-25" />
 	</elements>
 	<immunities>
-		<immunity paralyze="1" />
-		<immunity invisible="1" />
-		<immunity earth="1" />
 		<immunity energy="1" />
+		<immunity earth="1" />
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
+	<voices>
+		<voice sentence="Stomp." yell="0" />
+	</voices>
 	<loot>
 		<item name="small stone" countmax="10" chance="10000" />
 		<item name="gold coin" countmax="100" chance="43000" />

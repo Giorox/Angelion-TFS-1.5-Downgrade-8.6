@@ -16,6 +16,7 @@
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-110" />
@@ -44,17 +45,17 @@
 		</defense>
 	</defenses>
 	<elements>
+		<element physicalPercent="20" />
 		<element deathPercent="45" />
-		<element energyPercent="90" />
-		<element physicalPercent="30" />
 		<element holyPercent="50" />
+		<element icePercent="15" />
 		<element firePercent="-15" />
+		<element energyPercent="90" />
 	</elements>
 	<immunities>
-		<immunity paralyze="1" />
-		<immunity invisible="1" />
 		<immunity earth="1" />
-		<immunity ice="1" />
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<loot>
 		<item name="small stone" countmax="10" chance="25280" />

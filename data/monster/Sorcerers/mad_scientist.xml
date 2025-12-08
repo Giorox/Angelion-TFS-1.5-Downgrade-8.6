@@ -40,22 +40,22 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element firePercent="10" />
-		<element earthPercent="20" />
-		<element energyPercent="20" />
-		<element icePercent="10" />
-		<element holyPercent="20" />
 		<element deathPercent="-5" />
+		<element holyPercent="20" />
+		<element icePercent="10" />
+		<element firePercent="10" />
+		<element energyPercent="20" />
+		<element earthPercent="20" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
 		<immunity drown="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Die in the name of Science!" />
-		<voice sentence="You will regret interrupting my studies!" />
-		<voice sentence="Let me test this!" />
-		<voice sentence="I will study your corpse!" />
+		<voice sentence="Let me test this!" yell="0" />
+		<voice sentence="I will study your corpse!" yell="0" />
+		<voice sentence="Die in the name of Science!" yell="0" />
+		<voice sentence="You will regret interrupting my studies!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="65" chance="30000" />

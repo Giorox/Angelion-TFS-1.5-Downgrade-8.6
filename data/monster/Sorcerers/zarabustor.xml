@@ -47,24 +47,25 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="95" />
-		<element holyPercent="-5" />
-		<element physicalPercent="-5" />
+		<element physicalPercent="-1" />
+		<element holyPercent="-1" />
+		<element earthPercent="90" />
 	</elements>
 	<immunities>
+		<immunity ice="1" />
 		<immunity fire="1" />
 		<immunity energy="1" />
-		<immunity ice="1" />
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="3">
 		<summon name="Warlock" interval="2000" chance="10" max="2" />
 		<summon name="Green Djinn" interval="2000" chance="10" max="3" />
 	</summons>
 	<voices interval="1000" chance="2">
-		<voice sentence="Killing is such a splendid diversion from my studies." />
-		<voice sentence="Time to test my newest spells!" />
+		<voice sentence="Killing is such a splendid diversion from my studies." yell="0" />
+		<voice sentence="Time to test my newest spells!" yell="0" />
+		<voice sentence="Ah, practice time once again!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" countmax="80" chance="32000" />	<!-- gold coin -->

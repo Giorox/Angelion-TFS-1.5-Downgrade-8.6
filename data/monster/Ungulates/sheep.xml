@@ -27,7 +27,7 @@
 		<element firePercent="-5" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Maeh" />
+		<voice sentence="Maeh" yell="0" />
 	</voices>
 	<loot>
 		<item name="meat" countmax="4" chance="70000" />

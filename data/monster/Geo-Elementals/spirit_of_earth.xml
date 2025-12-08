@@ -11,8 +11,10 @@
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag targetdistance="1" />
+		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-180" />
@@ -23,11 +25,12 @@
 		<element firePercent="-5" />
 	</elements>
 	<immunities>
-		<immunity outfit="1" />
-		<immunity drunk="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="5">
-		<voice sentence="Show your strengh ... or perish." />
+		<voice sentence="When the dust settles there will only be one." yell="0" />
+		<voice sentence="You're so soft and vulnerable." yell="0" />
+		<voice sentence="Show your strength ... or perish." yell="0" />
 	</voices>
 </monster>

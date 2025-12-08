@@ -12,6 +12,7 @@
 		<flag canpushitems="1" />
 		<flag targetdistance="1" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
@@ -27,12 +28,13 @@
 		<immunity outfit="1" />
 		<immunity drunk="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="2000" chance="5">
-		<voice sentence="I'll extinguish you warmbloods." />
-		<voice sentence="REVENGE!" />
-		<voice sentence="Far too hot." />
-		<voice sentence="DISGUSTING WARMBLOODS!" />
-		<voice sentence="Revenge is sweetest when served cold." />
+		<voice sentence="Revenge is sweetest when served cold." yell="0" />
+		<voice sentence="REVENGE!" yell="1" />
+		<voice sentence="I'll extinguish you warmbloods." yell="0" />
+		<voice sentence="Far too hot." yell="0" />
+		<voice sentence="DISGUSTING WARMBLOODS!" yell="1" />
 	</voices>
 </monster>

@@ -14,10 +14,14 @@
 		<flag staticattack="85" />
 		<flag targetdistance="1" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
+		<flag lightlevel="4" />
+		<flag lightcolor="91" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-175" />
+		<attack name="melee" interval="2000" min="0" max="-220" />
 		<attack name="energy" interval="2000" chance="10" range="7" radius="2" target="1" min="-270" max="-615">
 			<attribute key="shootEffect" value="energy" />
 			<attribute key="areaEffect" value="energy" />
@@ -36,31 +40,30 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element physicalPercent="70" />
-		<element holyPercent="25" />
-		<element deathPercent="1" />
+		<element physicalPercent="50" />
+		<element deathPercent="20" />
+		<element holyPercent="20" />
 		<element earthPercent="-5" />
 	</elements>
 	<immunities>
 		<immunity ice="1" />
-		<immunity energy="1" />
 		<immunity fire="1" />
+		<immunity energy="1" />
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
 	<loot>
-		<item name="gold coin" countmax="100" chance="50000" />
-		<item name="gold coin" countmax="91" chance="50000" />
-		<item name="small amethyst" countmax="3" chance="3270" />
-		<item name="strong mana potion" chance="17450" />
-		<item name="great mana potion" chance="5450" />
-		<item name="flash arrow" countmax="15" chance="6550" />
-		<item name="energy spike sword" chance="500" />
-		<item name="lightning pendant" chance="730" />
-		<item name="lightning legs" chance="150" />
-		<item name="spellbook of warding" chance="360" />
-		<item name="wand of starstorm" chance="730" />
-		<item id="9809" chance="730" /><!-- rusty armor (semi-rare) -->
-		<item name="shockwave amulet" chance="500" />
+		<item name="Gold Coin" countmax="100" chance="99280" />
+		<item name="Gold Coin" countmax="91" chance="99280" />
+		<item name="Strong Mana Potion" chance="14560" />
+		<item name="Flash Arrow" countmax="15" chance="8900" />
+		<item name="Rusted Armor" chance="7390" />
+		<item name="Great Mana Potion" chance="7250" />
+		<item name="Small Amethyst" countmax="3" chance="3520" />
+		<item name="Wand of Starstorm" chance="720" />
+		<item name="Lightning Pendant" chance="430" />
+		<item name="Spellbook of Warding" chance="430" />
+		<item name="Lightning Legs" chance="220" />
+		<item name="Shockwave Amulet" chance="70" />
 	</loot>
 </monster>

@@ -24,15 +24,15 @@
 	</attacks>
 	<defenses armor="8" defense="8" />
 	<elements>
-		<element energyPercent="30" />
-		<element holyPercent="10" />
-		<element earthPercent="-10" />
 		<element deathPercent="-10" />
+		<element holyPercent="10" />
+		<element energyPercent="30" />
+		<element earthPercent="-10" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Grow truk grrrr." />
-		<voice sentence="Trak grrrr brik." />
-		<voice sentence="Alk!" />
+		<voice sentence="Grow truk grrrr." yell="0" />
+		<voice sentence="Trak grrrr brik." yell="0" />
+		<voice sentence="Alk!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="64165" countmax="15" />

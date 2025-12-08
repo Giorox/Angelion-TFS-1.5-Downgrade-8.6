@@ -29,4 +29,7 @@
 		<immunity earth="1" />
 		<immunity invisible="1" />
 	</immunities>
+	<voices>
+		<voice sentence="More blood! More!" yell="0" />
+	</voices>
 </monster>

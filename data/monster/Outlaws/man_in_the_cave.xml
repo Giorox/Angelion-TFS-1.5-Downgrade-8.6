@@ -15,6 +15,9 @@
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
@@ -28,20 +31,18 @@
 	</attacks>
 	<defenses armor="14" defense="10" />
 	<immunities>
-		<immunity fire="1" />
-		<immunity lifedrain="1" />
-		<immunity outfit="1" />
-		<immunity drunk="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="0" />
 	</immunities>
 	<summons maxSummons="2">
 		<summon name="Monk" interval="2000" chance="20" max="1" />
 	</summons>
 	<voices interval="2000" chance="5">
-		<voice sentence="THE MONKS ARE MINE" yell="1" />
-		<voice sentence="I will rope you up! All of you!" />
-		<voice sentence="You have been roped up!" />
-		<voice sentence="A MIC to rule them all!" />
+		<voice sentence="Have you seen my old pal Frack?" yell="0" />
+		<voice sentence="I will rope you up! All of you!" yell="0" />
+		<voice sentence="THE MONKS ARE MINE!" yell="1" />
+		<voice sentence="A MIC to rule them all!" yell="0" />
+		<voice sentence="Let me put my rope around your neck!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2120" chance="20000" /><!-- rope -->

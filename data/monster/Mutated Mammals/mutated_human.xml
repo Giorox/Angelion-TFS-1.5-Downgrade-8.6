@@ -16,6 +16,7 @@
 		<flag staticattack="90" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-90" poison="60" />
@@ -36,25 +37,22 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element icePercent="20" />
 		<element holyPercent="-25" />
+		<element icePercent="20" />
 	</elements>
 	<immunities>
 		<immunity death="1" />
 		<immunity earth="1" />
-		<immunity paralyze="1" />
-		<immunity lifedrain="1" />
-		<immunity drunk="1" />
-		<immunity drown="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Take that creature off my back!! I can fell it!" />
-		<voice sentence="HEEEEEEEELP!" />
-		<voice sentence="You will be the next infected one... GRAAAAAAAAARRR!" />
-		<voice sentence="Science... is a curse." />
-		<voice sentence="Run as fast as you can." />
-		<voice sentence="Oh by the gods! What is this... aaaaaargh!" />
+		<voice sentence="You will regret interrupting my studies!" yell="0" />
+		<voice sentence="Run as fast as you can." yell="0" />
+		<voice sentence="You will be the next infected one... CRAAAHHH!" yell="0" />
+		<voice sentence="Take that creature off my back!! I can feel it!" yell="0" />
+		<voice sentence="Oh by the gods! What is this... aaaaaargh!" yell="0" />
+		<voice sentence="Science... is a curse." yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="88222" countmax="130" />

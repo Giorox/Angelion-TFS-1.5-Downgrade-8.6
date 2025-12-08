@@ -30,20 +30,20 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element firePercent="20" />
-		<element holyPercent="10" />
-		<element energyPercent="-10" />
 		<element deathPercent="-3" />
+		<element holyPercent="10" />
+		<element firePercent="20" />
+		<element energyPercent="-10" />
 	</elements>
 	<immunities>
 		<immunity ice="1" />
 	</immunities>
 	<voices interval="1000" chance="5">
-		<voice sentence="Ymirs Mjalle!" />
-		<voice sentence="No run so much, must stay fat!" />
-		<voice sentence="Hörre Sjan Flan!" />
-		<voice sentence="Damned fast food." />
-		<voice sentence="Come kiss the cook!" />
+		<voice sentence="Come kiss the cook!" yell="0" />
+		<voice sentence="Ymirs Mjalle!" yell="0" />
+		<voice sentence="No run so much, must stay fat!" yell="0" />
+		<voice sentence="Hörre Sjan Flan!" yell="0" />
+		<voice sentence="Damned fast food." yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="82053" countmax="40" />

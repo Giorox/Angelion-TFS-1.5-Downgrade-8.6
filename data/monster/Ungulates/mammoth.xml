@@ -25,14 +25,14 @@
 	<defenses armor="20" defense="20" />
 	<elements>
 		<element physicalPercent="10" />
-		<element earthPercent="20" />
-		<element firePercent="-10" />
 		<element icePercent="20" />
+		<element firePercent="-10" />
+		<element earthPercent="20" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="Troooooot!" />
-		<voice sentence="Hooooot-Toooooot!" />
-		<voice sentence="Tooooot." />
+		<voice sentence="Troooooot!" yell="0" />
+		<voice sentence="Hooooot-Toooooot!" yell="0" />
+		<voice sentence="Tooooot." yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="89882" countmax="40" />

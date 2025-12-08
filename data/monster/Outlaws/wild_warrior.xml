@@ -28,13 +28,13 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element holyPercent="10" />
 		<element physicalPercent="-5" />
 		<element deathPercent="-5" />
+		<element holyPercent="10" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="An enemy!" />
-		<voice sentence="Gimme your money!" />
+		<voice sentence="An enemy!" yell="0" />
+		<voice sentence="Gimme your money!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="65608" countmax="30" />

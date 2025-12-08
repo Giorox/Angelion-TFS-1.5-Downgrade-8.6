@@ -15,22 +15,27 @@
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-100" />
 		<attack name="lifedrain" interval="3000" chance="15" range="1" min="-40" max="-70" />
 	</attacks>
 	<defenses armor="10" defense="10" />
+	<elements>
+		<element icePercent="1" />
+	</elements>
 	<immunities>
-		<immunity earth="1" />
-		<immunity death="1" />
 		<immunity physical="1" />
-		<immunity lifedrain="1" />
-		<immunity paralyze="1" />
+		<immunity death="1" />
+		<immunity earth="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Haaahhh!" />
-		<voice sentence="Grrglll" />
+		<voice sentence="Haaahhh" yell="0" />
+		<voice sentence="Grrg" yell="0" />
 	</voices>
 </monster>

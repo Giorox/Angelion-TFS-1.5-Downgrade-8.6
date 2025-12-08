@@ -31,13 +31,13 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element deathPercent="5" />
-		<element physicalPercent="-20" />
-		<element holyPercent="-5" />
+		<element physicalPercent="-10" />
+		<element deathPercent="10" />
+		<element holyPercent="-10" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
-		<immunity lifedrain="1" />
+		<immunity paralyze="0" />
 	</immunities>
 	<loot>
 		<item id="2148" name="gold coin" chance="13123" countmax="8" />

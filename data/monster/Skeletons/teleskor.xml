@@ -25,8 +25,8 @@
 		<element holyPercent="-5" />
 	</elements>
 	<voices interval="1000" chance="2">
-		<voice sentence="Who disturbs my slumber?" />
-		<voice sentence="Mourn the dead, do not hunt them!" />
+		<voice sentence="Who Disturbs my slumber?" yell="0" />
+		<voice sentence="Mourn the dead, do not hunt them!" yell="0" />
 	</voices>
 	<loot>
 		<item id="12437" chance="100000" />				<!-- pelvis bone -->

@@ -28,10 +28,10 @@
 		</defense>
 	</defenses>
 	<elements>
+		<element holyPercent="-25" />
+		<element icePercent="10" />
 		<element energyPercent="30" />
 		<element earthPercent="20" />
-		<element icePercent="10" />
-		<element holyPercent="-25" />
 	</elements>
 	<immunities>
 		<immunity lifedrain="1" />
@@ -39,9 +39,9 @@
 		<immunity drown="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Our mine... leave us alone." />
-		<voice sentence="Turn back..." />
-		<voice sentence="These mine is ours... you shall not pass." />
+		<voice sentence="Our mine... leave us alone." yell="0" />
+		<voice sentence="Turn back..." yell="0" />
+		<voice sentence="These mine is ours... you shall not pass." yell="0" />
 	</voices>
 	<loot>
 		<item id="3976" name="worm" chance="80636" countmax="6" />

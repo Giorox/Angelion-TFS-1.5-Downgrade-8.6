@@ -28,15 +28,16 @@
 	<defenses armor="20" defense="20" />
 	<elements>
 		<element physicalPercent="5" />
-		<element earthPercent="20" />
 		<element firePercent="-10" />
 		<element energyPercent="-5" />
+		<element earthPercent="20" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="0" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Zrp zrp!" />
+		<voice sentence="Zrp zrp!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="45" chance="97520" />

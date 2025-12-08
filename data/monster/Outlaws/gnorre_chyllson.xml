@@ -12,6 +12,7 @@
 		<flag canpushitems="1" />
 		<flag targetdistance="1" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
@@ -25,21 +26,20 @@
 	</attacks>
 	<defenses armor="51" defense="52" />
 	<elements>
-		<element deathPercent="-10" />
-		<element physicalPercent="-15" />
+		<element physicalPercent="-1" />
+		<element holyPercent="1" />
+		<element energyPercent="-10" />
 	</elements>
 	<immunities>
-		<immunity fire="1" />
 		<immunity ice="1" />
+		<immunity fire="1" />
 		<immunity earth="1" />
-		<immunity paralyze="1" />
-		<immunity outfit="1" />
-		<immunity drunk="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="2000" chance="5">
-		<voice sentence="I am like the merciless northwind." />
-		<voice sentence="Snow will be your death shroud." />
-		<voice sentence="Feel the wrath of father chyll!" />
+		<voice sentence="Snow will be your death shroud." yell="0" />
+		<voice sentence="Feel the wrath of father chyll!" yell="0" />
+		<voice sentence="I am like the merciless northwind." yell="0" />
 	</voices>
 </monster>

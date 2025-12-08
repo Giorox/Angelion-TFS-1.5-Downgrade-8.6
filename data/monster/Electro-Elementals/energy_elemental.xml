@@ -14,7 +14,11 @@
 		<flag staticattack="85" />
 		<flag targetdistance="1" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
+		<flag lightlevel="4" />
+		<flag lightcolor="85" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-175" />
@@ -34,33 +38,32 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element physicalPercent="30" />
-		<element holyPercent="10" />
+		<element physicalPercent="35" />
 		<element deathPercent="5" />
+		<element holyPercent="5" />
 		<element earthPercent="-15" />
 	</elements>
 	<immunities>
+		<immunity ice="1" />
 		<immunity fire="1" />
 		<immunity energy="1" />
-		<immunity ice="1" />
-		<immunity lifedrain="1" />
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
 	<loot>
-		<item id="2124" chance="2000" /><!-- crystal ring -->
-		<item name="gold coin" countmax="100" chance="50000" />
-		<item name="gold coin" countmax="70" chance="50000" />
-		<item name="small amethyst" countmax="2" chance="5000" />
-		<item name="energy ring" chance="892" />
-		<item name="silver amulet" chance="1020" />
-		<item name="wand of cosmic energy" chance="636" />
-		<item name="throwing star" countmax="5" chance="9900" />
-		<item name="obsidian lance" chance="3571" />
-		<item name="guardian shield" chance="243" />
-		<item name="crystal sword" chance="5882" />
-		<item name="strong mana potion" chance="7692" />
-		<item name="mana potion" chance="11711" />
-		<item name="flash arrow" countmax="10" chance="10000" />
+		<item name="Gold Coin" countmax="100" chance="98050" />
+		<item name="Gold Coin" countmax="70" chance="98050" />
+		<item name="Mana Potion" chance="11980" />
+		<item name="Flash Arrow" countmax="10" chance="10100" />
+		<item name="Throwing Star" countmax="5" chance="9980" />
+		<item name="Strong Mana Potion" chance="7920" />
+		<item name="Crystal Sword" chance="6030" />
+		<item name="Small Amethyst" countmax="2" chance="5020" />
+		<item name="Obsidian Lance" chance="3640" />
+		<item name="Crystal Ring" chance="2050" />
+		<item name="Silver Amulet" chance="1080" />
+		<item name="Energy Ring" chance="930" />
+		<item name="Wand of Cosmic Energy" chance="590" />
+		<item name="Guardian Shield" chance="280" />
 	</loot>
 </monster>

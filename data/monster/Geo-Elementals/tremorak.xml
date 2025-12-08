@@ -35,10 +35,10 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element deathPercent="35" />
-		<element icePercent="20" />
 		<element physicalPercent="50" />
+		<element deathPercent="35" />
 		<element holyPercent="50" />
+		<element icePercent="20" />
 		<element firePercent="-15" />
 		<element energyPercent="85" />
 	</elements>
@@ -46,7 +46,7 @@
 		<immunity earth="1" />
 		<immunity invisible="1" />
 	</immunities>
-		<voices interval="5000" chance="10">
-		<voice sentence="STOMP STOMP!" yell="1" />
+	<voices interval="5000" chance="10">
+		<voice sentence="*STOMP STOMP*" yell="1" />
 	</voices>
 </monster>

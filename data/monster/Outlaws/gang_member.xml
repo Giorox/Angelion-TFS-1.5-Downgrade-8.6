@@ -12,7 +12,6 @@
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
-		<flag staticattack="90" />
 		<flag targetdistance="1" />
 		<flag runonhealth="35" />
 		<flag canwalkonenergy="0" />
@@ -27,11 +26,11 @@
 		<element deathPercent="-5" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="This is our territory!" />
-		<voice sentence="Help me guys!" />
-		<voice sentence="I don't like the way you look!" />
-		<voice sentence="You're wearing the wrong colours!" />
-		<voice sentence="Don't mess with us!" />
+		<voice sentence="Help me guys!" yell="0" />
+		<voice sentence="This is our territory!" yell="0" />
+		<voice sentence="You're wearing the wrong colours!" yell="0" />
+		<voice sentence="I don't like the way you look!" yell="0" />
+		<voice sentence="Don't mess with us!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="48971" countmax="30" />

@@ -12,7 +12,6 @@
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
-		<flag staticattack="90" />
 		<flag targetdistance="1" />
 		<flag runonhealth="10" />
 		<flag canwalkonenergy="0" />
@@ -28,15 +27,15 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element holyPercent="10" />
-		<element physicalPercent="15" />
+		<element physicalPercent="5" />
 		<element deathPercent="-5" />
+		<element holyPercent="10" />
 	</elements>
 	<voices interval="5000" chance="10">
-		<voice sentence="You are no match for me!" />
-		<voice sentence="Feel my prowess" />
-		<voice sentence="Fight!" />
-		<voice sentence="Take this!" />
+		<voice sentence="Fight!" yell="0" />
+		<voice sentence="You are no match for me!" yell="0" />
+		<voice sentence="Feel my prowess." yell="0" />
+		<voice sentence="Take this!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="30" chance="49500" />

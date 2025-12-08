@@ -11,6 +11,7 @@
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag targetdistance="1" />
+		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="0" />
@@ -26,13 +27,12 @@
 		<element firePercent="-5" />
 	</elements>
 	<immunities>
-		<immunity outfit="1" />
-		<immunity drunk="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="2000" chance="5">
-		<voice sentence="Hicks!" />
-		<voice sentence="Stand still! Both of you! hicks" />
-		<voice sentence="This victory will earn me a casket of beer." />
+		<voice sentence="This victory will earn me a casket of beer." yell="0" />
+		<voice sentence="Stand still! Both of you! <hicks>" yell="0" />
+		<voice sentence="Hicks" yell="0" />
 	</voices>
 </monster>

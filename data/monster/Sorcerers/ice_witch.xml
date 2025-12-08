@@ -42,21 +42,21 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element firePercent="50" />
-		<element earthPercent="40" />
-		<element holyPercent="30" />
-		<element energyPercent="-10" />
 		<element deathPercent="-10" />
+		<element holyPercent="30" />
+		<element firePercent="50" />
+		<element energyPercent="-10" />
+		<element earthPercent="40" />
 	</elements>
 	<immunities>
 		<immunity ice="1" />
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="So you think you are cool?" />
-		<voice sentence="I hope it is not too cold for you! HeHeHe." />
-		<voice sentence="Freeze!" />
+		<voice sentence="I hope it is not too cold for you! HeHeHe." yell="0" />
+		<voice sentence="So you think you are cool?" yell="0" />
+		<voice sentence="Freeze!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="90" chance="29630" />

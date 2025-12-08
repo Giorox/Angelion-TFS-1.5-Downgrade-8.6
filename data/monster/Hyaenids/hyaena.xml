@@ -24,8 +24,8 @@
 	</attacks>
 	<defenses armor="1" defense="1" />
 	<voices interval="5000" chance="10">
-		<voice sentence="Grrrrrr" />
-		<voice sentence="Hou hou hou!" />
+		<voice sentence="Grrrrrr" yell="0" />
+		<voice sentence="Hou hou hou!" yell="0" />
 	</voices>
 	<loot>
 		<item name="worm" countmax="3" chance="50130" />

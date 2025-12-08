@@ -24,10 +24,10 @@
 	</attacks>
 	<defenses armor="40" defense="40" />
 	<elements>
-		<element physicalPercent="45" />
-		<element earthPercent="20" />
+		<element physicalPercent="30" />
 		<element icePercent="20" />
 		<element firePercent="-10" />
+		<element earthPercent="20" />
 	</elements>
 	<loot>
 		<item name="white pearl" chance="1600" />

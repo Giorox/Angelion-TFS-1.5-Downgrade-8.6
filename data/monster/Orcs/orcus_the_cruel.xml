@@ -11,7 +11,9 @@
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag targetdistance="1" />
+		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
@@ -27,8 +29,11 @@
 	</elements>
 	<immunities>
 		<immunity fire="1" />
-		<immunity outfit="1" />
-		<immunity drunk="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
+	<voices>
+		<voice sentence="Ocrus will rule!" yell="0" />
+		<voice sentence="I'll kill you slow and painful." yell="0" />
+	</voices>
 </monster>

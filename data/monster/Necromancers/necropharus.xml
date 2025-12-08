@@ -45,8 +45,8 @@
 		<summon name="mummy" interval="1000" chance="15" max="1" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="You will rise as my servant!" />
-		<voice sentence="Praise to my master Urgith!" />
+		<voice sentence="You will rise as my servant!" yell="0" />
+		<voice sentence="Praise to my master Urgith!" yell="0" />
 	</voices>
 	<loot>
 		<item name="gold coin" countmax="100" chance="100000" />

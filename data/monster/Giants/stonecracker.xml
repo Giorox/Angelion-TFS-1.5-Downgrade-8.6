@@ -16,6 +16,8 @@
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
@@ -33,19 +35,18 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element earthPercent="85" />
-		<element holyPercent="35" />
+		<element physicalPercent="1" />
+		<element holyPercent="1" />
 		<element firePercent="40" />
-		<element energyPercent="15" />
-		<element physicalPercent="15" />
-		<element icePercent="-5" />
+		<element energyPercent="30" />
+		<element earthPercent="75" />
 	</elements>
 	<immunities>
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="HUAHAHA!" />
+		<voice sentence="HUAHAHA!" yell="1" />
 	</voices>
 	<loot>
 		<item id="5930" name="behemoth claw" chance="100000" />

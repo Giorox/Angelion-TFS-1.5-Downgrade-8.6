@@ -15,6 +15,7 @@
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
+		<flag canwalkonpoison="0" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
@@ -22,11 +23,11 @@
 	</attacks>
 	<defenses armor="32" defense="35" />
 	<elements>
-		<element firePercent="80" />
-		<element energyPercent="30" />
-		<element holyPercent="10" />
-		<element earthPercent="-10" />
 		<element deathPercent="-10" />
+		<element holyPercent="10" />
+		<element firePercent="80" />
+		<element energyPercent="1" />
+		<element earthPercent="-10" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
@@ -35,6 +36,12 @@
 	<summons maxSummons="3">
 		<summon name="Orc Berserker" interval="2000" chance="30" />
 	</summons>
+	<voices>
+		<voice sentence="Gadarat Ulderek!" yell="0" />
+		<voice sentence="Ikem rambo zambo!" yell="0" />
+		<voice sentence="Ruzad buta bana!" yell="0" />
+		<voice sentence="Rahi Gosh!" yell="0" />
+	</voices>
 	<loot>
 		<item id="2478" name="brass legs" chance="50000" />
 		<item id="2148" name="gold coin" chance="25000" countmax="54" />

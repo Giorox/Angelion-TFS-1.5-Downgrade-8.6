@@ -16,6 +16,8 @@
 		<flag staticattack="70" />
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-455" />
@@ -30,21 +32,21 @@
 	</defenses>
 	<elements>
 		<element physicalPercent="10" />
+		<element deathPercent="-5" />
+		<element holyPercent="30" />
+		<element icePercent="-10" />
+		<element firePercent="30" />
 		<element energyPercent="10" />
 		<element earthPercent="80" />
-		<element firePercent="30" />
-		<element icePercent="-10" />
-		<element holyPercent="30" />
-		<element deathPercent="-5" />
 	</elements>
 	<immunities>
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="You're so little!" />
-		<voice sentence="Human flesh - delicious!" />
-		<voice sentence="Crush the intruders!" />
+		<voice sentence="Human flesh -  delicious!" yell="0" />
+		<voice sentence="Crush the intruders!" yell="0" />
+		<voice sentence="You're so little!" yell="0" />
 	</voices>
 	<loot>
 		<item id="2148" name="gold coin" chance="100000" countmax="200" />
