@@ -23,8 +23,8 @@
 		<voice sentence="Chchch" yell="0" />
 	</voices>
 	<loot>
-		<item id="11213" name="acorn" chance="36613" />
-		<item id="7910" name="peanut" chance="652" />
-		<item id="7909" name="walnut" chance="516" />
+		<item name="Acorn" chance="36230" />
+		<item name="Peanut" chance="660" />
+		<item name="Walnut" chance="630" />
 	</loot>
 </monster>

@@ -14,7 +14,7 @@
 		<flag canpushcreatures="0" />
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
-		<flag runonhealth="10" />
+		<flag runonhealth="14" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="0" />
@@ -33,15 +33,15 @@
 		<voice sentence="Goblinkiller! Catch him !!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="49369" countmax="9" />
-		<item id="2379" name="dagger" chance="17498" />
-		<item id="2667" name="fish" chance="12989" />
-		<item id="2230" name="bone" chance="11545" />
-		<item id="2559" name="small axe" chance="10704" />
-		<item id="2461" name="leather helmet" chance="9862" />
-		<item id="2406" name="short sword" chance="9862" />
-		<item id="2467" name="leather armor" chance="7456" />
-		<item id="2235" name="mouldy cheese" chance="7276" />
-		<item id="2449" name="bone club" chance="4871" />
+		<item name="Gold Coin" countmax="9" chance="49270" />
+		<item name="Dagger" chance="17410" />
+		<item name="Fish" chance="13000" />
+		<item name="Bone" chance="11610" />
+		<item name="Small Axe" chance="10620" />
+		<item name="Leather Helmet" chance="10330" />
+		<item name="Short Sword" chance="9750" />
+		<item name="Leather Armor" chance="7720" />
+		<item name="Mouldy Cheese" chance="7430" />
+		<item name="Bone Club" chance="4760" />
 	</loot>
 </monster>

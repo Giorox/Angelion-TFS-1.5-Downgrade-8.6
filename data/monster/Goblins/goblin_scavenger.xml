@@ -4,6 +4,7 @@
 	<look type="297" corpse="6002" />
 	<targetchange interval="4000" chance="10" />
 	<flags>
+		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
 		<flag illusionable="1" />
@@ -13,7 +14,7 @@
 		<flag canpushcreatures="0" />
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
-		<flag runonhealth="10" />
+		<flag runonhealth="15" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="0" />
@@ -36,6 +37,9 @@
 		<defense name="healing" interval="2000" chance="15" min="10" max="16">
 			<attribute key="areaEffect" value="energy" />
 		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="160" duration="3000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
 	</defenses>
 	<elements>
 		<element deathPercent="-10" />
@@ -51,16 +55,16 @@
 		<voice sentence="Shiny, shiny!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="50077" countmax="9" />
-		<item id="1294" name="small stone" chance="24937" countmax="2" />
-		<item id="2379" name="dagger" chance="18190" />
-		<item id="2667" name="fish" chance="12982" />
-		<item id="2230" name="bone" chance="12643" />
-		<item id="2461" name="leather helmet" chance="9855" />
-		<item id="2559" name="small axe" chance="9448" />
-		<item id="2406" name="short sword" chance="8993" />
-		<item id="2467" name="leather armor" chance="7696" />
-		<item id="2235" name="mouldy cheese" chance="7018" />
-		<item id="2449" name="bone club" chance="5044" />
+		<item name="Gold Coin" countmax="9" chance="50080" />
+		<item name="Small Stone" countmax="2" chance="24950" />
+		<item name="Dagger" chance="18170" />
+		<item name="Fish" chance="12960" />
+		<item name="Bone" chance="12670" />
+		<item name="Leather Helmet" chance="9960" />
+		<item name="Small Axe" chance="9440" />
+		<item name="Short Sword" chance="8980" />
+		<item name="Leather Armor" chance="7670" />
+		<item name="Mouldy Cheese" chance="6970" />
+		<item name="Bone Club" chance="5010" />
 	</loot>
 </monster>

@@ -33,8 +33,8 @@
 		<voice sentence="Groarrr!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="45327" />
-		<item id="2671" name="ham" chance="19265" />
-		<item id="10608" name="lion's mane" chance="1148" />
+		<item name="Meat" countmax="4" chance="45300" />
+		<item name="Ham" countmax="2" chance="19580" />
+		<item name="Lion's Mane" chance="1170" />
 	</loot>
 </monster>

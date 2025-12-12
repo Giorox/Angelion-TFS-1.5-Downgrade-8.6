@@ -7,13 +7,14 @@
 		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
-		<flag illusionable="0" />
+		<flag illusionable="1" />
 		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag staticattack="80" />
 		<flag targetdistance="1" />
-		<flag runonhealth="80" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="1" />
 	</flags>
@@ -60,16 +61,16 @@
 		<voice sentence="Stomp." yell="0" />
 	</voices>
 	<loot>
-		<item name="small stone" countmax="10" chance="10000" />
-		<item name="gold coin" countmax="100" chance="43000" />
-		<item name="gold coin" countmax="30" chance="50000" />
-		<item name="blank rune" chance="10000" />
-		<item name="strong mana potion" chance="1910" />
-		<item name="earth arrow" countmax="30" chance="20160" />
-		<item id="9808" chance="350" /><!-- rusty armor (common) -->
-		<item name="small topaz" chance="620" />
-		<item name="lump of earth" chance="20460" />
-		<item name="clay lump" chance="570" />
-		<item id="13757" chance="470" /><!-- coal -->
+		<item name="Gold Coin" countmax="100" chance="92950" />
+		<item name="Gold Coin" countmax="30" chance="92950" />
+		<item name="Earth Arrow" countmax="30" chance="20160" />
+		<item name="Lump of Earth" chance="19940" />
+		<item name="Small Stone" countmax="10" chance="10110" />
+		<item name="Blank Rune" chance="9780" />
+		<item name="Heavily Rusted Armor" chance="5130" />
+		<item name="Strong Mana Potion" chance="2000" />
+		<item name="Clay Lump" chance="610" />
+		<item name="Coal" chance="480" />
+		<item name="Small Topaz" chance="470" />
 	</loot>
 </monster>

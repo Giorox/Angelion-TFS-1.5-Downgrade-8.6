@@ -18,11 +18,14 @@
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="0" />
+		<flag lightlevel="3" />
+		<flag lightcolor="66" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-210" />
-		<attack name="ice" interval="2000" chance="100" range="7" target="1" min="-50" max="-100">
+		<attack name="ice" interval="2000" chance="100" range="7" target="1" min="-50" max="-130">
 			<attribute key="shootEffect" value="smallice" />
+			<attribute key="areaEffect" value="icearea" />
 		</attack>
 		<attack name="souleater drown" interval="2000" chance="10" />
 		<attack name="death" interval="2000" chance="10" length="4" spread="3" target="0" min="-100" max="-200">
@@ -36,7 +39,7 @@
 		<defense name="invisible" interval="2000" chance="5" duration="3000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
-		<defense name="healing" interval="2000" chance="15" min="120" max="125">
+		<defense name="healing" interval="2000" chance="15" min="75" max="202">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
@@ -60,17 +63,17 @@
 		<voice sentence="I will devour your soul." yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="100" chance="33400" />
-		<item name="gold coin" countmax="100" chance="33400" />
-		<item name="platinum coin" countmax="6" chance="49610" />
-		<item name="necrotic rod" chance="980" />
-		<item name="wand of cosmic energy" chance="910" />
-		<item name="spirit container" chance="140" />
-		<item id="6300" chance="300" /><!-- death ring -->
-		<item name="great mana potion" chance="8000" />
-		<item name="ultimate health potion" chance="9400" />
-		<item name="souleater trophy" chance="20" />
-		<item name="lizard essence" chance="15250" />
-		<item name="ectoplasmic sushi" chance="2000" />
+		<item name="Gold Coin" countmax="100" chance="88040" />
+		<item name="Gold Coin" countmax="100" chance="88040" />
+		<item name="Platinum Coin" countmax="6" chance="49750" />
+		<item name="Lizard Essence" chance="15000" />
+		<item name="Ultimate Health Potion" chance="9160" />
+		<item name="Great Mana Potion" chance="7940" />
+		<item name="Ectoplasmic Sushi" chance="1980" />
+		<item name="Necrotic Rod" chance="960" />
+		<item name="Wand of Cosmic Energy" chance="940" />
+		<item name="Death Ring" chance="320" />
+		<item name="Spirit Container" chance="130" />
+		<item name="Souleater Trophy" chance="10" />
 	</loot>
 </monster>

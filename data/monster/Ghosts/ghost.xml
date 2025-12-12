@@ -7,7 +7,7 @@
 		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
-		<flag illusionable="0" />
+		<flag illusionable="1" />
 		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
@@ -25,12 +25,13 @@
 			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
 	</attacks>
+	<defenses armor="10" defense="10" />
 	<immunities>
 		<immunity physical="1" />
 		<immunity drown="1" />
-		<immunity earth="1" />
 		<immunity death="1" />
-		<immunity lifedrain="1" />
+		<immunity earth="1" />
+		<immunity invisible="0" />
 		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
@@ -39,14 +40,14 @@
 		<voice sentence="Buuuuuh" yell="0" />
 	</voices>
 	<loot>
-		<item id="1962" chance="1310" /><!-- orange book -->
-		<item name="stealth ring" chance="180" />
-		<item name="morning star" chance="10610" />
-		<item name="combat knife" chance="7002" />
-		<item name="ancient shield" chance="860" />
-		<item name="cape" chance="8800" />
-		<item name="shadow herb" chance="14400" />
-		<item name="white piece of cloth" chance="1940" />
-		<item name="ghostly tissue" chance="1870" />
+		<item name="Shadow Herb" chance="14610" />
+		<item name="Morning Star" chance="10710" />
+		<item name="Cape" chance="8970" />
+		<item name="Combat Knife" chance="7030" />
+		<item name="White Piece of Cloth" chance="1930" />
+		<item name="Ghostly Tissue" chance="1870" />
+		<item name="Book (Orange)" chance="1440" />
+		<item name="Ancient Shield" chance="820" />
+		<item name="Stealth Ring" chance="180" />
 	</loot>
 </monster>

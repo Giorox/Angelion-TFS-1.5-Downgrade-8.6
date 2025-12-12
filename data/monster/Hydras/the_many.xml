@@ -52,19 +52,17 @@
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
-	<voices interval="5000" chance="10">
-		<voice sentence="FCHHHHH" />
-		<voice sentence="HISSSS" />
-	</voices>
+	<voices interval="5000" chance="10" />
 	<loot>
-		<item name="small sapphire" countmax="5" chance="56325" />
-		<item name="stone skin amulet" chance="100000" />
-		<item name="warrior helmet" chance="75500" />
-		<item name="royal helmet" chance="25500" />
-		<item name="medusa shield" chance="75500" />
-		<item name="strong mana potion" countmax="2" chance="100000" />
-		<item name="gold ingot" countmax="3" chance="47725" />
-		<item name="sacred tree amulet" chance="75500" />
-		<item name="egg of The Many" chance="100000" />
+		<item name="Stone Skin Amulet" chance="89590" />
+		<item name="Strong Mana Potion" countmax="5" chance="81840" />
+		<item name="Sacred Tree Amulet" chance="79660" />
+		<item name="Warrior Helmet" chance="79420" />
+		<item name="Small Sapphire" countmax="5" chance="77970" />
+		<item name="Gold Ingot" countmax="3" chance="61260" />
+		<item name="Medusa Shield" chance="53750" />
+		<item name="Egg of The Many" chance="35840" />
+		<item name="Royal Helmet" chance="20580" />
+		<item name="Knight Armor" chance="10410" />
 	</loot>
 </monster>

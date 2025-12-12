@@ -28,7 +28,7 @@
 		<voice sentence="Hou hou hou!" yell="0" />
 	</voices>
 	<loot>
-		<item name="worm" countmax="3" chance="50130" />
-		<item name="meat" countmax="2" chance="30860" />
+		<item name="Worm" countmax="3" chance="50430" />
+		<item name="Meat" countmax="2" chance="30470" />
 	</loot>
 </monster>

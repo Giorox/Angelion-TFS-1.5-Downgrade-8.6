@@ -12,10 +12,13 @@
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag targetdistance="1" />
+		<flag staticattack="15" />
 		<flag runonhealth="115" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="0" />
+		<flag lightlevel="4" />
+		<flag lightcolor="79" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-1" />
@@ -49,6 +52,6 @@
 		<voice sentence="Tsshh" yell="0" />
 	</voices>
 	<loot>
-		<item name="moon backpack" chance="140" />
+		<item name="Moon Backpack" chance="150" />
 	</loot>
 </monster>

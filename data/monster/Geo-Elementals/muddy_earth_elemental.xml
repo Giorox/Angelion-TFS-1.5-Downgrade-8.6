@@ -14,34 +14,55 @@
 		<flag staticattack="80" />
 		<flag targetdistance="1" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-160" />
-		<attack name="earth" interval="2000" chance="15" range="7" target="1" radius="2" min="-25" max="-155">
-			<attribute key="areaEffect" value="stones" />
+		<attack name="physical" interval="2000" chance="10" range="7" radius="2" target="1" min="0" max="-180">
+			<attribute key="shootEffect" value="largerock" />
+			<attribute key="areaEffect" value="poff" />
 		</attack>
-		<attack name="poisoncondition" interval="1000" chance="10" length="6" spread="0" min="0" max="-26">
-			<attribute key="areaEffect" value="groundshaker" />
+		<attack name="poisoncondition" interval="2000" chance="20" length="6" spread="0" min="-100" max="-120">
+			<attribute key="areaEffect" value="bigplants" />
+		</attack>
+		<attack name="earth" interval="2000" chance="10" range="7" target="1" min="-70" max="-110">
+			<attribute key="shootEffect" value="smallearth" />
+			<attribute key="areaEffect" value="greenbubble" />
+		</attack>
+		<attack name="poisoncondition" interval="2000" chance="10" target="0" radius="5" min="-100" max="-140">
+			<attribute key="shootEffect" value="poison" />
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+		<attack name="speed" interval="2000" chance="10" range="5" target="1" speedchange="-330" duration="5000">
+			<attribute key="areaEffect" value="smallplants" />
 		</attack>
 	</attacks>
-	<defenses armor="30" defense="30" />
+	<defenses armor="30" defense="30" >
+		<defense name="healing" interval="2000" chance="5" min="60" max="80">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
 	<elements>
-		<element deathPercent="20" />
+		<element deathPercent="40" />
 		<element icePercent="20" />
-		<element physicalPercent="20" />
-		<element energyPercent="20" />
-		<element firePercent="-25" />
+		<element firePercent="-15" />
+		<element energyPercent="85" />
 	</elements>
 	<immunities>
-		<immunity paralyze="1" />
+		<immunity paralyze="0" />
 		<immunity invisible="1" />
 		<immunity earth="1" />
 	</immunities>
 	<loot>
-		<item name="small stone" countmax="3" chance="40000" />
-		<item name="gold coin" countmax="80" chance="24500" />
-		<item name="gold coin" countmax="47" chance="24500" />
-		<item id="2244" chance="22000" /><!-- some leaves -->
-		<item name="natural soil" chance="3750" />
+		<item name="Gold Coin" countmax="100" chance="77040" />
+		<item name="Gold Coin" countmax="28" chance="77040" />
+		<item name="Small Stone" countmax="5" chance="39420" />
+		<item name="Lump of Earth" chance="20590" />
+		<item name="Some Leaves" chance="19140" />
+		<item name="Natural Soil" chance="3990" />
+		<item name="Clay Lump" chance="830" />
+		<item name="Coal" chance="440" />
 	</loot>
 </monster>

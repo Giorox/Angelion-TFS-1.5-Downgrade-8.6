@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Munster" nameDescription="Munster" race="blood" experience="35" speed="200" manacost="250">
+<monster name="Munster" nameDescription="Munster" race="blood" experience="35" speed="200">
 	<health now="58" max="58" />
 	<look type="56" corpse="2813" />
 	<targetchange interval="60000" chance="0" />
@@ -7,12 +7,12 @@
 		<flag summonable="1" />
 		<flag attackable="1" />
 		<flag hostile="1" />
-		<flag illusionable="1" />
+		<flag illusionable="0" />
 		<flag convinceable="1" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
-		<flag staticattack="80" />
 		<flag targetdistance="1" />
+		<flag staticattack="80" />
 		<flag runonhealth="10" />
 		<flag isboss="1" />
 	</flags>
@@ -28,10 +28,11 @@
 		<voice sentence="Meep!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="16" chance="100000" />
-		<item name="bone club" chance="5000" />
-		<item name="jacket" chance="50000" />
-		<item name="cookie" chance="5000" />
-		<item id="2696" chance="50000" /><!-- cheese -->
+		<item name="Bone Club" chance="85710" />
+		<item name="Gold Coin" countmax="24" chance="81120" />
+		<item name="Cheese" chance="72450" />
+		<item name="Worm" countmax="4" chance="51020" />
+		<item name="Die" chance="1020" />
+		<item name="Cookie" countmax="2" chance="510" />
 	</loot>
 </monster>

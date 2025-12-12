@@ -11,16 +11,34 @@
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag targetdistance="1" />
+		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-225" />
+		<attack name="melee" interval="2000" min="0" max="-280" />
+		<attack name="physical" interval="2000" range="5">
+			<attribute key="areaEffect" value="stun">
+		</attack>
+		<attack name="ice" interval="2000" chance="10" length="8" spread="3" min="-95" max="-125">
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+		<attack name="speed" interval="2000" chance="10" range="7" duration="4000" speedchange="-100">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="ice" interval="2000" chance="10" target="1" range="7" radius="5" min="-120" max="-160">
+			<attribute key="shootEffect" value="snowball" />
+			<attribute key="areaEffect" value="poff" />
+		</attack>
 	</attacks>
-	<defenses armor="25" defense="27" />
+	<defenses armor="25" defense="27">
+		<defense name="healing" interval="6000" chance="65" min="65" max="90">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
 	<elements>
-		<element deathPercent="-15" />
+		<element deathPercent="-1" />
 		<element energyPercent="-10" />
 	</elements>
 	<immunities>

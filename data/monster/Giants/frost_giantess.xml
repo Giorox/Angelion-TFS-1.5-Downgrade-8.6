@@ -19,6 +19,8 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
+		<!--<attack name="Melee (0-60)" />-->
+		<!--<attack name="Boulder throw (0-90)" />-->
 		<attack name="melee" interval="2000" min="0" max="-60" />
 		<attack name="physical" interval="2000" chance="30" range="7" min="0" max="-90">
 			<attribute key="shootEffect" value="largerock" />
@@ -46,17 +48,17 @@
 		<voice sentence="Damned fast food." yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82053" countmax="40" />
-		<item id="2671" name="ham" chance="20794" />
-		<item id="1294" name="small stone" chance="10397" countmax="3" />
-		<item id="2406" name="short sword" chance="7946" />
-		<item id="10575" name="frost giant pelt" chance="4953" />
-		<item id="7441" name="ice cube" chance="2093" />
-		<item id="2513" name="battle shield" chance="1532" />
-		<item id="7620" name="mana potion" chance="945" />
-		<item id="7460" name="norse shield" chance="287" />
-		<item id="2490" name="dark helmet" chance="172" />
-		<item id="7290" name="shard" chance="102" />
-		<item id="2209" name="club ring" chance="70" />
+		<item name="Gold Coin" countmax="40" chance="82040" />
+		<item name="Ham" countmax="2" chance="20790" />
+		<item name="Small Stone" countmax="3" chance="10400" />
+		<item name="Short Sword" chance="7930" />
+		<item name="Frost Giant Pelt" chance="4950" />
+		<item name="Ice Cube" chance="2090" />
+		<item name="Battle Shield" chance="1530" />
+		<item name="Mana Potion" chance="940" />
+		<item name="Norse Shield" chance="290" />
+		<item name="Dark Helmet" chance="170" />
+		<item name="Shard" chance="100" />
+		<item name="Club Ring" chance="70" />
 	</loot>
 </monster>

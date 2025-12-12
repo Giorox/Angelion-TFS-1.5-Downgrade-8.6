@@ -11,10 +11,19 @@
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="0" />
 	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-1" max="-3" />
+		<attack name="physical" interval="2000" range="3" min="0" max="-11">
+			<attribute key="areaEffect" value="energy" />
+		</attack>
+	</attacks>
+	<defenses armor="1" defense="1" />
 	<immunities>
 		<immunity invisible="0" />
 		<immunity paralyze="0" />
@@ -23,6 +32,6 @@
 		<voice sentence="Chchch" yell="0" />
 	</voices>
 	<loot>
-		<item id="7909" name="walnut" chance="2564" />
+		<item name="Walnut" chance="2330" />
 	</loot>
 </monster>

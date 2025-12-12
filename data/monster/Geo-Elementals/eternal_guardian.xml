@@ -41,19 +41,19 @@
 		<voice sentence="Zzrrkrrch!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99955" countmax="100" />
-		<item id="2152" name="platinum coin" chance="99708" countmax="4" />
-		<item id="1294" name="small stone" chance="30268" countmax="10" />
-		<item id="10549" name="ancient stone" chance="20024" />
-		<item id="11325" name="spiked iron ball" chance="10020" />
-		<item id="11323" name="zaoan halberd" chance="1991" />
-		<item id="5880" name="iron ore" chance="1682" />
-		<item id="11227" name="shiny stone" chance="819" />
-		<item id="2528" name="tower shield" chance="807" />
-		<item id="11339" name="clay lump" chance="729" />
-		<item id="2427" name="guardian halberd" chance="566" />
-		<item id="11343" name="piece of marble rock" chance="499" />
-		<item id="13757" name="coal" chance="443" />
-		<item id="11307" name="zaoan sword" chance="107" />
+		<item name="Gold Coin" countmax="100" chance="99960" />
+		<item name="Platinum Coin" countmax="4" chance="99720" />
+		<item name="Small Stone" countmax="10" chance="30250" />
+		<item name="Ancient Stone" chance="19990" />
+		<item name="Spiked Iron Ball" chance="9950" />
+		<item name="Zaoan Halberd" chance="2020" />
+		<item name="Iron Ore" chance="1670" />
+		<item name="Shiny Stone" chance="810" />
+		<item name="Tower Shield" chance="770" />
+		<item name="Clay Lump" chance="760" />
+		<item name="Guardian Halberd" chance="570" />
+		<item name="Piece of Marble Rock" chance="480" />
+		<item name="Coal" chance="460" />
+		<item name="Zaoan Sword" chance="110" />
 	</loot>
 </monster>

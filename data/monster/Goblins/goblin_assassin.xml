@@ -4,6 +4,7 @@
 	<look type="296" corpse="6002" />
 	<targetchange interval="10000" chance="0" />
 	<flags>
+		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
 		<flag illusionable="1" />
@@ -49,16 +50,16 @@
 		<voice sentence="Me green menace!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="49810" countmax="9" />
-		<item id="2379" name="dagger" chance="17664" />
-		<item id="2667" name="fish" chance="12472" />
-		<item id="2230" name="bone" chance="12282" />
-		<item id="1294" name="small stone" chance="10620" countmax="3" />
-		<item id="2461" name="leather helmet" chance="10130" />
-		<item id="2559" name="small axe" chance="9687" />
-		<item id="2406" name="short sword" chance="8816" />
-		<item id="2467" name="leather armor" chance="7281" />
-		<item id="2235" name="mouldy cheese" chance="6933" />
-		<item id="2449" name="bone club" chance="5065" />
+		<item name="Gold Coin" countmax="9" chance="50060" />
+		<item name="Dagger" chance="17680" />
+		<item name="Fish" chance="12420" />
+		<item name="Bone" chance="12260" />
+		<item name="Small Stone" countmax="3" chance="10690" />
+		<item name="Leather Helmet" chance="10090" />
+		<item name="Small Axe" chance="9720" />
+		<item name="Short Sword" chance="8710" />
+		<item name="Leather Armor" chance="7200" />
+		<item name="Mouldy Cheese" chance="7030" />
+		<item name="Bone Club" chance="4980" />
 	</loot>
 </monster>

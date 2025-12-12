@@ -21,7 +21,7 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="60" attack="30"/>
+		<attack name="melee" interval="2000" min="0" max="-105"/>
 	</attacks>
 	<defenses armor="15" defense="20"/>
 	<elements>
@@ -38,22 +38,17 @@
 		<voice sentence="Il lorstok human!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" countmax="33" chance="22500"/><!-- gold coin -->
-		<item id="2148" countmax="22" chance="22500"/><!-- gold coin -->
-		<item id="2671" countmax="4" chance="4500"/><!-- ham -->
-		<item id="7618" chance="250"/><!-- health potion -->	
-		<item id="2666" countmax="3" chance="18333"/><!-- meat -->
-		<item id="2510" chance="2500"/><!-- plate shield -->
-		<item id="2406" chance="7000"/><!-- short sword -->
-		<item id="1987" chance="100000"><!-- bag -->
-			
-				<item id="2513" chance="2300"/><!-- battle shield -->
-				<item id="2129" chance="400"/><!-- wolf tooth chain -->
-				<item id="2381" chance="800"/><!-- halberd -->
-				<item id="2490" chance="250"/><!-- dark helmet -->
-				<item id="2209" chance="100"/><!-- club ring -->			
-				<item id="7398" chance="70"/><!-- cyclops trophy -->
-			
-		</item>
+		<item name="Gold Coin" countmax="47" chance="82540" />
+		<item name="Meat" chance="29680" />
+		<item name="Short Sword" chance="8020" />
+		<item name="Cyclops Toe" chance="5140" />
+		<item name="Plate Shield" chance="2560" />
+		<item name="Battle Shield" chance="1500" />
+		<item name="Halberd" chance="980" />
+		<item name="Wolf Tooth Chain" chance="280" />
+		<item name="Dark Helmet" chance="240" />
+		<item name="Health Potion" chance="140" />
+		<item name="Cyclops Trophy" chance="90" />
+		<item name="Club Ring" chance="50" />
 	</loot>
 </monster>

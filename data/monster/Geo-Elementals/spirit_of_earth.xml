@@ -18,11 +18,32 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-180" />
+		<attack name="earth" interval="2000" chance="10" range="7" target="1" min="-50" max="-130">
+			<attribute key="shootEffect" value="smallstone" />
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+		<attack name="physical" interval="2000" chance="10" length="7" spread="0" min="-67" max="-100">
+			<attribute key="areaEffect" value="groundshaker" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="10" target="0" radius="3" min="-100" max="-160">
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+		<attack name="speed" interval="2000" chance="10" range="5" target="1" speedchange="-330" duration="5000">
+			<attribute key="shootEffect" value="poison" />			
+			<attribute key="areaEffect" value="sleep" />
+		</attack>
+		<attack name="poisoncondition" interval="2000" chance="20" length="8" spread="0" min="-200" max="-260">
+			<attribute key="areaEffect" value="bigplants" />
+		</attack>		
 	</attacks>
-	<defenses armor="30" defense="32" />
+	<defenses armor="30" defense="32">
+		<defense name="healing" interval="2000" chance="5" min="66" max="127">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
 	<elements>
+		<element icePercent="-5" />
 		<element energyPercent="50" />
-		<element firePercent="-5" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />

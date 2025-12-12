@@ -7,7 +7,7 @@
 		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
-		<flag illusionable="0" />
+		<flag illusionable="1" />
 		<flag convinceable="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
@@ -42,19 +42,19 @@
 		<voice sentence="Ai humy phary ty kaynon" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82761" countmax="70" />
-		<item id="2666" name="meat" chance="50252" />
-		<item id="10574" name="cyclops toe" chance="10011" />
-		<item id="2513" name="battle shield" chance="6211" />
-		<item id="2378" name="battle axe" chance="5139" />
-		<item id="2417" name="battle hammer" chance="5117" />
-		<item id="2510" name="plate shield" chance="2099" />
-		<item id="2442" name="heavy machete" chance="2064" />
-		<item id="2387" name="double axe" chance="977" />
-		<item id="7588" name="strong health potion" chance="520" />
-		<item id="2490" name="dark helmet" chance="199" />
-		<item id="7452" name="spiked squelcher" chance="142" />
-		<item id="7398" name="cyclops trophy" chance="126" />
-		<item id="2209" name="club ring" chance="88" />
+		<item name="Gold Coin" countmax="70" chance="82780" />
+		<item name="Meat" chance="50240" />
+		<item name="Cyclops Toe" chance="10060" />
+		<item name="Battle Shield" chance="6230" />
+		<item name="Battle Axe" chance="5150" />
+		<item name="Battle Hammer" chance="5080" />
+		<item name="Plate Shield" chance="2090" />
+		<item name="Heavy Machete" chance="2050" />
+		<item name="Double Axe" chance="960" />
+		<item name="Strong Health Potion" chance="530" />
+		<item name="Dark Helmet" chance="190" />
+		<item name="Spiked Squelcher" chance="140" />
+		<item name="Cyclops Trophy" chance="120" />
+		<item name="Club Ring" chance="90" />
 	</loot>
 </monster>
