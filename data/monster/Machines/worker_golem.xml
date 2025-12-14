@@ -18,6 +18,8 @@
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="1" />
+		<flag lightlevel="3" />
+		<flag lightcolor="85" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-240" />
@@ -50,23 +52,24 @@
 		<voice sentence="Secret objective complete." yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="93817" countmax="139" />
-		<item id="8309" name="nail" chance="4809" countmax="5" />
-		<item id="10572" name="gear crystal" chance="2169" />
-		<item id="7591" name="great health potion" chance="1974" />
-		<item id="7590" name="great mana potion" chance="1574" />
-		<item id="9809" name="rusted armor" chance="1559" />
-		<item id="9690" name="gear wheel" chance="1066" />
-		<item id="2177" name="life crystal" chance="1010" />
-		<item id="2391" name="war hammer" chance="990" />
-		<item id="2145" name="small diamond" chance="974" countmax="2" />
-		<item id="9812" name="rusted legs" chance="928" />
-		<item id="7452" name="spiked squelcher" chance="913" />
-		<item id="5880" name="iron ore" chance="872" />
-		<item id="8472" name="great spirit potion" chance="820" />
-		<item id="7439" name="berserk potion" chance="784" />
-		<item id="2164" name="might ring" chance="502" />
-		<item id="9979" name="crystal pedestal" chance="159" />
-		<item id="7428" name="bonebreaker" chance="113" />
+		<item name="Gold Coin" countmax="100" chance="93800" />
+		<item name="Gold Coin" countmax="39" chance="93800" />
+		<item name="Nail" countmax="5" chance="4850" />
+		<item name="Gear Crystal" chance="2180" />
+		<item name="Great Health Potion" chance="1950" />
+		<item name="Rusted Armor" chance="1570" />
+		<item name="Great Mana Potion" chance="1560" />
+		<item name="Gear Wheel" chance="1060" />
+		<item name="Life Crystal" chance="1020" />
+		<item name="War Hammer" chance="990" />
+		<item name="Small Diamond" countmax="2" chance="970" />
+		<item name="Rusted Legs" chance="900" />
+		<item name="Spiked Squelcher" chance="900" />
+		<item name="Iron Ore" chance="860" />
+		<item name="Great Spirit Potion" chance="830" />
+		<item name="Berserk Potion" chance="770" />
+		<item name="Might Ring" chance="500" />
+		<item name="Crystal Pedestal (Cyan)" chance="160" />
+		<item name="Bonebreaker" chance="110" />
 	</loot>
 </monster>

@@ -4,11 +4,11 @@
 	<look type="56" corpse="2813" />
 	<targetchange interval="60000" chance="0" />
 	<flags>
-		<flag summonable="1" />
+		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
 		<flag illusionable="0" />
-		<flag convinceable="1" />
+		<flag convinceable="0" />
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag targetdistance="1" />

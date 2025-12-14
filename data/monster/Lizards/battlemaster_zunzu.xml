@@ -14,17 +14,27 @@
 		<flag canpushcreatures="0" />
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
-		<flag runonhealth="150" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-300" />
-		<attack name="earth" interval="2000" chance="25" range="1" radius="1" target="1" min="-115" max="-350">
+		<attack name="earth" interval="2000" chance="25" range="1" radius="1" target="1" min="-300" max="-350">
 			<attribute key="areaEffect" value="poison" />
+		</attack>
+		<attack name="poisoncondition" interval="2000" chance="11" target="1" min="-200" max="-400">
+			<attribute key="shootEffect" value="poison" />
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+		<attack name="physical" interval="2000" chance="10" range="7" min="0" max="-200">
+			<attribute key="shootEffect" value="whirlwindclub" />
 		</attack>
 	</attacks>
 	<defenses armor="45" defense="35">
-		<defense name="healing" interval="1000" chance="18" min="200" max="400">
+		<defense name="healing" interval="1000" chance="18" min="200" max="350">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
@@ -38,6 +48,7 @@
 	<immunities>
 		<immunity earth="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="0" />
 	</immunities>
 	<voices>
 		<voice sentence="Softzzkinzz from zze zzouzz!" yell="0" />
@@ -46,16 +57,15 @@
 		<voice sentence="Hissss!" yell="0" />
 	</voices>
 	<loot>
-		<item name="platinum coin" countmax="3" chance="26800" />
-		<item name="lizard leather" chance="1825" />
-		<item name="lizard scale" chance="800" />
-		<item name="strong health potion" countmax="2" chance="2875" />
-		<item name="great health potion" countmax="2" chance="2775" />
-		<item name="red lantern" chance="100000" />
-		<item name="Zaoan armor" chance="1050" />
-		<item name="Zaoan shoes" chance="3150" />
-		<item name="Zaoan legs" chance="2625" />
-		<item name="zaogun flag" chance="11250" />
-		<item name="zaogun shoulderplates" chance="100000" />
+		<item name="Red Lantern" chance="100000" />
+		<item name="Zaogun Shoulderplates" chance="100000" />
+		<item name="Gold Coin" countmax="100" chance="75000" />
+		<item name="Gold Coin" countmax="36" chance="75000" />
+		<item name="Great Health Potion" chance="12500" />
+		<item name="Small Emerald" countmax="10" chance="12500" />
+		<item name="Zaoan Armor" chance="5260" />
+		<item name="Zaoan Shoes" chance="5260" />
+		<item name="Zaoan Legs" chance="5260" />
+		<item name="Zaogun Flag" chance="5260" />
 	</loot>
 </monster>

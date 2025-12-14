@@ -4,6 +4,11 @@
 	<look type="611" corpse="0" />
 	<targetchange interval="2000" chance="5" />
 	<flags>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
 		<flag isboss="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
@@ -14,12 +19,14 @@
 		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="1" />
-		flag isboss="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-400" />
 		<attack name="energy beam" interval="2000" chance="10" range="1" min="0" max="-500" />
 		<attack name="berserk" interval="2000" chance="10" range="1" min="0" max="-100" />
+		<attack name="speed" interval="2000" chance="13" range="7" speedchange="-700" duration="25000">
+			<attribute key="areaEffect" value="sleep" />
+		</attack>
 	</attacks>
 	<defenses armor="30" defense="30" />
 	<elements>
@@ -30,6 +37,12 @@
 		<element energyPercent="30" />
 	</elements>
 	<immunities>
+		<element ice="1" />
+		<element physical="1" />
+		<element death="20" />
+		<element fire="30" />
+		<element energy="30" />
+		<element holy="40" />
 		<immunity earth="1" />
 		<immunity invisible="1" />
 		<immunity paralyze="1" />

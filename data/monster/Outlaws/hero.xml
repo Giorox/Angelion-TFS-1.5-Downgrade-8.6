@@ -50,31 +50,31 @@
 		<voice sentence="I will sing a tune at your grave." yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="60324" countmax="100" />
-		<item id="1949" name="scroll" chance="45128" />
-		<item id="2544" name="arrow" chance="27005" countmax="13" />
-		<item id="2744" name="red rose" chance="20384" />
-		<item id="2681" name="grapes" chance="20164" />
-		<item id="2456" name="bow" chance="13005" />
-		<item id="7364" name="sniper arrow" chance="11558" countmax="4" />
-		<item id="2666" name="meat" chance="8585" />
-		<item id="2652" name="green tunic" chance="7964" />
-		<item id="2121" name="wedding ring" chance="5153" />
-		<item id="12466" name="scroll of heroic deeds" chance="5038" />
-		<item id="2120" name="rope" chance="2079" />
-		<item id="5911" name="red piece of cloth" chance="2013" />
-		<item id="2377" name="two handed sword" chance="1612" />
-		<item id="2071" name="lyre" chance="1577" />
-		<item id="2661" name="scarf" chance="1120" />
-		<item id="2391" name="war hammer" chance="959" />
-		<item id="12406" name="small notebook" chance="952" />
-		<item id="7591" name="great health potion" chance="736" />
-		<item id="2487" name="crown armor" chance="614" />
-		<item id="2488" name="crown legs" chance="586" />
-		<item id="2164" name="might ring" chance="527" />
-		<item id="2392" name="fire sword" chance="478" />
-		<item id="2491" name="crown helmet" chance="450" />
-		<item id="2519" name="crown shield" chance="202" />
-		<item id="2114" name="piggy bank" chance="73" />
+		<item name="Gold Coin" countmax="100" chance="60390" />
+		<item name="Scroll" chance="45090" />
+		<item name="Arrow" countmax="13" chance="26960" />
+		<item name="Red Rose" chance="20350" />
+		<item name="Grapes" chance="20170" />
+		<item name="Bow" chance="13020" />
+		<item name="Sniper Arrow" countmax="4" chance="11520" />
+		<item name="Meat" chance="8570" />
+		<item name="Green Tunic" chance="7950" />
+		<item name="Wedding Ring" chance="5160" />
+		<item name="Scroll of Heroic Deeds" chance="5030" />
+		<item name="Rope" chance="2050" />
+		<item name="Red Piece of Cloth" chance="2010" />
+		<item name="Two Handed Sword" chance="1590" />
+		<item name="Lyre" chance="1590" />
+		<item name="Scarf" chance="1120" />
+		<item name="War Hammer" chance="960" />
+		<item name="Small Notebook" chance="940" />
+		<item name="Great Health Potion" chance="750" />
+		<item name="Crown Armor" chance="620" />
+		<item name="Crown Legs" chance="590" />
+		<item name="Might Ring" chance="510" />
+		<item name="Fire Sword" chance="470" />
+		<item name="Crown Helmet" chance="430" />
+		<item name="Crown Shield" chance="200" />
+		<item name="Piggy Bank" chance="80" />
 	</loot>
 </monster>

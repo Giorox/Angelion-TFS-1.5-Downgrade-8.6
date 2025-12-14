@@ -40,17 +40,17 @@
 		<voice sentence="Tssss!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="86497" countmax="54" />
-		<item id="2389" name="spear" chance="10100" countmax="3" />
-		<item id="2464" name="chain armor" chance="9189" />
-		<item id="2483" name="scale armor" chance="8069" />
-		<item id="3965" name="hunting spear" chance="4424" />
-		<item id="5876" name="lizard leather" chance="2207" />
-		<item id="5881" name="lizard scale" chance="2031" />
-		<item id="2381" name="halberd" chance="1504" />
-		<item id="2425" name="obsidian lance" chance="1317" />
-		<item id="7618" name="health potion" chance="1219" />
-		<item id="3974" name="sentinel shield" chance="373" />
-		<item id="2145" name="small diamond" chance="88" />
+		<item name="Gold Coin" countmax="80" chance="86540" />
+		<item name="Spear" countmax="3" chance="10230" />
+		<item name="Chain Armor" chance="9270" />
+		<item name="Scale Armor" chance="8010" />
+		<item name="Hunting Spear" chance="4650" />
+		<item name="Lizard Leather" chance="2230" />
+		<item name="Lizard Scale" chance="2020" />
+		<item name="Halberd" chance="1490" />
+		<item name="Obsidian Lance" chance="1270" />
+		<item name="Health Potion" chance="1230" />
+		<item name="Sentinel Shield" chance="350" />
+		<item name="Small Diamond" chance="90" />
 	</loot>
 </monster>

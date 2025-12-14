@@ -21,7 +21,7 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" skill="25" attack="20"/>
+		<attack name="melee" interval="2000" min="0" max="-35"/>
 	</attacks>
 	<defenses armor="4" defense="8"/>
 	<elements>
@@ -36,16 +36,14 @@
 		<voice sentence="Prek tars, dekklep zurk." yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" countmax="15" chance="17500"/><!-- gold coin -->
-		<item id="2666" countmax="2" chance="22500"/><!-- meat -->
-		<item id="1987" chance="100000"><!-- bag -->
-			
-		<item id="2484" chance="15000"/><!-- studded armor -->
-		<item id="2482" chance="10000"/><!-- studded helmet -->
-		<item id="2526" chance="1600"/><!-- studded shield -->
-		<item id="2385" chance="17500"/><!-- sabre -->
-		<item id="2386" chance="18000"/><!-- axe -->
-			
-		</item>
+		<item name="Gold Coin" countmax="14" chance="84680" />
+		<item name="Meat" chance="9550" />
+		<item name="Studded Armor" chance="8320" />
+		<item name="Studded Shield" chance="6630" />
+		<item name="Sabre" chance="5490" />
+		<item name="Axe" chance="5160" />
+		<item name="Studded Helmet" chance="2900" />
+		<item name="Orc Leather" chance="370" />
+		<item name="Orc Tooth" chance="40" />
 	</loot>
 </monster>

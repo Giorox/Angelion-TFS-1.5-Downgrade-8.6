@@ -18,6 +18,8 @@
 		<flag canwalkonenergy="1" />
 		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="1" />
+		<flag lightlevel="3" />
+		<flag lightcolor="94" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-550" />
@@ -62,28 +64,31 @@
 		<voice sentence="Threat level processed." yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="90" chance="37500" />
-		<item name="gold coin" countmax="80" chance="37500" />
-		<item name="life crystal" chance="1000" />
-		<item name="club ring" chance="810" />
-		<item name="dwarven ring" chance="1210" />
-		<item name="two handed sword" chance="5500" />
-		<item name="morning star" chance="7000" />
-		<item name="epee" chance="6400" />
-		<item name="plate shield" chance="9000" />
-		<item name="battle shield" chance="6500" />
-		<item name="steel boots" chance="620" />
-		<item name="iron ore" chance="1920" />
-		<item name="berserker" chance="50" />
-		<item name="jade hammer" chance="120" />
-		<item name="bonebreaker" chance="770" />
-		<item name="berserk potion" chance="900" />
-		<item name="great mana potion" chance="8860" />
-		<item name="lightning boots" chance="90" />
-		<item name="nail" countmax="5" chance="5260" />
-		<item name="ultimate health potion" chance="10080" />
-		<item id="9809" chance="260" /><!-- rusty armor (semi-rare) -->
-		<item id="9978" chance="1080" /><!-- crystal pedestal -->
-		<item name="crystal of power" chance="130" />
+		<item name="Gold Coin" countmax="100" chance="99530" />
+		<item name="Gold Coin" countmax="100" chance="99530" />
+		<item name="Gold Coin" countmax="64" chance="99530" />
+		<item name="Ultimate Health Potion" chance="9830" />
+		<item name="Morning Star" chance="8800" />
+		<item name="Great Mana Potion" chance="8760" />
+		<item name="Plate Shield" chance="8670" />
+		<item name="War Crystal" chance="7860" />
+		<item name="Epee" chance="6910" />
+		<item name="Battle Shield" chance="5320" />
+		<item name="Nail" countmax="5" chance="5240" />
+		<item name="Two Handed Sword" chance="4810" />
+		<item name="Rusted Armor" chance="3520" />
+		<item name="Iron Ore" chance="1800" />
+		<item name="Dwarven Ring" chance="1120" />
+		<item name="Crystal Pedestal (Red)" chance="990" />
+		<item name="Life Crystal" chance="860" />
+		<item name="Berserk Potion" chance="820" />
+		<item name="Club Ring" chance="690" />
+		<item name="Bonebreaker" chance="600" />
+		<item name="Steel Boots" chance="560" />
+		<item name="Lightning Boots" chance="210" />
+		<item name="Jade Hammer" chance="170" />
+		<item name="Crystal of Power" chance="130" />
+		<item name="Berserker" chance="90" />
+		<item name="Crystal Pedestal" chance="40" />
 	</loot>
 </monster>

@@ -70,8 +70,6 @@
 		<item name="Zaoan Robe" chance="800" />
 		<item name="Spellweaver's Robe" chance="660" />
 		<item name="Ring of the Sky" chance="380" />
-		<item name="Bamboo Leaves" chance="220" />
-		<item name="Harness" chance="20" />
 		<item name="Draken Trophy" chance="10" />
 	</loot>
 </monster>

@@ -36,13 +36,13 @@
 		<voice sentence="Ugaar!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2666" name="meat" chance="30387" />
-		<item id="2148" name="gold coin" chance="24846" countmax="11" />
-		<item id="2389" name="spear" chance="17907" />
-		<item id="2468" name="studded legs" chance="9210" />
-		<item id="2482" name="studded helmet" chance="8239" />
-		<item id="2420" name="machete" chance="3027" />
-		<item id="12435" name="orc leather" chance="2013" />
-		<item id="11113" name="orc tooth" chance="100" />
+		<item name="Meat" chance="30460" />
+		<item name="Gold Coin" countmax="11" chance="24350" />
+		<item name="Spear" chance="17840" />
+		<item name="Studded Legs" chance="9370" />
+		<item name="Studded Helmet" chance="8440" />
+		<item name="Machete" chance="2980" />
+		<item name="Orc Leather" chance="1880" />
+		<item name="Orc Tooth" chance="80" />
 	</loot>
 </monster>

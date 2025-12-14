@@ -25,13 +25,13 @@
 			<attribute key="shootEffect" value="death" />
 			<attribute key="areaEffect" value="smallclouds" />
 		</attack>
-		<attack name="earth" interval="2000" chance="20" range="7" min="-65" max="-120">
+		<attack name="earth" interval="2000" chance="20" range="7" min="-35" max="-95">
 			<attribute key="shootEffect" value="poison" />
 			<attribute key="areaEffect" value="poison" />
 		</attack>
 	</attacks>
 	<defenses armor="50" defense="50">
-		<defense name="healing" interval="2000" chance="25" min="50" max="80">
+		<defense name="healing" interval="2000" chance="25" min="45" max="70">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
@@ -48,27 +48,27 @@
 		<immunity invisible="1" />
 		<immunity paralyze="0" />
 	</immunities>
-	<summons maxSummons="2">
-		<summon name="Ghoul" interval="2000" chance="15" />
-		<summon name="Ghost" interval="2000" chance="5" />
-		<summon name="Mummy" interval="2000" chance="5" />
+	<summons maxSummons="4">
+		<summon name="Ghoul" interval="2000" chance="15" max="2" />
+		<summon name="Ghost" interval="2000" chance="5" max="1" />
+		<summon name="Mummy" interval="2000" chance="5" max="1" />
 	</summons>
 	<voices interval="5000" chance="10">
 		<voice sentence="Taste the sweetness of death!" yell="0" />
 		<voice sentence="Your corpse will be mine." yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="90" chance="30050" />
-		<item name="poison arrow" countmax="5" chance="15000" />
-		<item name="book of necromantic rituals" chance="10130" />
-		<item name="green mushroom" chance="1470" />
-		<item name="necromantic robe" chance="1001" />
-		<item name="mystic turban" chance="500" />
-		<item name="clerical mace" chance="390" />
-		<item name="strong mana potion" chance="300" />
-		<item name="boots of haste" chance="210" />
-		<item name="spellbook of warding" chance="130" />
-		<item name="skull staff" chance="100" />
-		<item name="noble axe" chance="10" />
+		<item name="Gold Coin" countmax="90" chance="30000" />
+		<item name="Poison Arrow" countmax="5" chance="14910" />
+		<item name="Book of Necromantic Rituals" chance="10030" />
+		<item name="Green Mushroom" chance="1500" />
+		<item name="Necromantic Robe" chance="1020" />
+		<item name="Mystic Turban" chance="500" />
+		<item name="Clerical Mace" chance="370" />
+		<item name="Strong Mana Potion" chance="340" />
+		<item name="Boots of Haste" chance="190" />
+		<item name="Skull Staff" chance="100" />
+		<item name="Spellbook of Warding" chance="100" />
+		<item name="Noble Axe" chance="10" />
 	</loot>
 </monster>

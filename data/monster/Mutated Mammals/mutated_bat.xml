@@ -14,7 +14,7 @@
 		<flag canpushcreatures="1" />
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
-		<flag runonhealth="300" />
+		<flag runonhealth="275" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="1" />
@@ -37,9 +37,6 @@
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
-	<elements>
-		<element firePercent="-10" />
-	</elements>
 	<immunities>
 		<immunity death="1" />
 		<immunity earth="1" />
@@ -51,19 +48,20 @@
 		<voice sentence="Shriiiiiek" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="92495" countmax="130" />
-		<item id="9808" name="heavily rusted armor" chance="12568" />
-		<item id="2513" name="battle shield" chance="8554" />
-		<item id="2425" name="obsidian lance" chance="6597" />
-		<item id="10579" name="mutated bat ear" chance="5205" />
-		<item id="2800" name="star herb" chance="4862" />
-		<item id="5894" name="bat wing" chance="4761" countmax="2" />
-		<item id="2167" name="energy ring" chance="1029" />
-		<item id="2144" name="black pearl" chance="908" countmax="3" />
-		<item id="9809" name="rusted armor" chance="726" />
-		<item id="2150" name="small amethyst" chance="625" countmax="2" />
-		<item id="10016" name="batwing hat" chance="141" />
-		<item id="2529" name="black shield" chance="121" />
-		<item id="7386" name="mercenary sword" chance="121" />
+		<item name="Gold Coin" countmax="100" chance="92340" />
+		<item name="Gold Coin" countmax="30" chance="92340" />
+		<item name="Heavily Rusted Armor" chance="12470" />
+		<item name="Battle Shield" chance="8020" />
+		<item name="Obsidian Lance" chance="6460" />
+		<item name="Mutated Bat Ear" chance="5010" />
+		<item name="Star Herb" chance="4840" />
+		<item name="Bat Wing" countmax="2" chance="4620" />
+		<item name="Energy Ring" chance="880" />
+		<item name="Black Pearl" countmax="3" chance="780" />
+		<item name="Rusted Armor" chance="700" />
+		<item name="Small Amethyst" countmax="2" chance="610" />
+		<item name="Batwing Hat" chance="120" />
+		<item name="Mercenary Sword" chance="120" />
+		<item name="Black Shield" chance="90" />
 	</loot>
 </monster>

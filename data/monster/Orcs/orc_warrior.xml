@@ -35,14 +35,14 @@
 		<voice sentence="Alk!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="64165" countmax="15" />
-		<item id="2666" name="meat" chance="15373" />
-		<item id="12409" name="broken helmet" chance="9694" />
-		<item id="2464" name="chain armor" chance="7516" />
-		<item id="12435" name="orc leather" chance="3696" />
-		<item id="12436" name="skull belt" chance="1001" />
-		<item id="11113" name="orc tooth" chance="681" />
-		<item id="2530" name="copper shield" chance="506" />
-		<item id="2411" name="poison dagger" chance="41" />
+		<item name="Gold Coin" countmax="15" chance="64680" />
+		<item name="Meat" chance="14950" />
+		<item name="Broken Helmet" chance="9500" />
+		<item name="Chain Armor" chance="7570" />
+		<item name="Orc Leather" chance="3870" />
+		<item name="Skull Belt" chance="1070" />
+		<item name="Orc Tooth" chance="670" />
+		<item name="Copper Shield" chance="490" />
+		<item name="Poison Dagger" chance="50" />
 	</loot>
 </monster>

@@ -7,8 +7,8 @@
 		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
-		<flag illusionable="0" />
-		<flag convinceable="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag staticattack="90" />
@@ -20,18 +20,18 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-175" />
-		<attack name="earth" interval="2000" chance="20" range="7" target="1" min="0" max="-130">
-			<attribute key="shootEffect" value="earth" />
+		<attack name="drown" interval="2000" chance="15" target="1" range="7" radius="2" min="-180" max="-245">
+			<attribute key="areaEffect" value="bluebubble" />
 		</attack>
-		<attack name="ice" interval="1000" chance="10" range="6" target="1" min="0" max="-220">
-			<attribute key="shootEffect" value="snowball" />
-		</attack>
-		<attack name="ice" interval="2000" chance="18" range="4" target="1" min="0" max="-103">
+		<attack name="ice" interval="2000" chance="20" range="7" min="-80" max="-120">
 			<attribute key="shootEffect" value="smallice" />
+		</attack>
+		<attack name="poisoncondition" interval="2000" chance="20" target="0" radius="5" min="-120" max="-240">
+			<attribute key="areaEffect" value="poison" />
 		</attack>
 	</attacks>
 	<defenses armor="30" defense="30">
-		<defense name="healing" interval="2000" chance="15" min="90" max="150">
+		<defense name="healing" interval="2000" chance="15" min="31" max="35">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
@@ -44,6 +44,7 @@
 		<immunity ice="1" />
 		<immunity fire="1" />
 		<immunity earth="1" />
+		<immunity drown="1" />
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
@@ -52,9 +53,9 @@
 		<voice sentence="SPLISH SPLASH" yell="1" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="70" chance="22500" />
-		<item name="gold coin" countmax="60" chance="22500" />
-		<item name="shiver arrow" chance="2575" countmax="3" />
-		<item name="iced soil" chance="6000" />
+		<item name="Gold Coin" countmax="100" chance="75760" />
+		<item name="Gold Coin" countmax="29" chance="75760" />
+		<item name="Iced Soil" chance="5360" />
+		<item name="Shiver Arrow" countmax="3" chance="4200" />
 	</loot>
 </monster>

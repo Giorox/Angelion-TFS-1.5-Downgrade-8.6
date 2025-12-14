@@ -7,7 +7,7 @@
 		<flag summonable="1" />
 		<flag attackable="1" />
 		<flag hostile="1" />
-		<flag illusionable="1" />
+		<flag illusionable="0" />
 		<flag convinceable="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
@@ -40,15 +40,15 @@
 		<voice sentence="We are the true sons of the desert!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="40" chance="56250" />
-		<item name="axe" chance="2730" />
-		<item name="mace" chance="2120" />
-		<item name="iron helmet" chance="650" />
-		<item name="brass armor" chance="2350" />
-		<item name="steel shield" chance="920" />
-		<item name="nomad parchment" chance="200" />
-		<item name="potato" countmax="3" chance="4840" />
-		<item name="dirty turban" chance="2160" />
-		<item name="rope belt" chance="6420" />
+		<item name="Gold Coin" countmax="40" chance="56240" />
+		<item name="Rope Belt" chance="6440" />
+		<item name="Potato" countmax="3" chance="4730" />
+		<item name="Axe" chance="2820" />
+		<item name="Brass Armor" chance="2480" />
+		<item name="Dirty Turban" chance="2030" />
+		<item name="Mace" chance="2030" />
+		<item name="Steel Shield" chance="970" />
+		<item name="Iron Helmet" chance="590" />
+		<item name="Nomad Parchment" chance="210" />
 	</loot>
 </monster>

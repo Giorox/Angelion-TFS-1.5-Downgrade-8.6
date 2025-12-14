@@ -17,12 +17,15 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-400" />
-		<attack name="poisonfield" interval="1000" chance="50">
+		<attack name="melee" interval="2000" min="0" max="-200" />
+		<attack name="drown" interval="2000" chance="15" target="1" range="7" radius="2" min="-150" max="-195">
+			<attribute key="areaEffect" value="bluebubble" />
+		</attack>
+		<attack name="poisoncondition" interval="2000" chance="20" range="7" min="-100" max="-180">
 			<attribute key="shootEffect" value="poison" />
 		</attack>
-		<attack name="physical" spread="3" chance="40" interval="2000" min="-1" max="-120">
-			<attribute key="areaEffect" value="bluebubble" />
+		<attack name="poisoncondition" interval="2000" chance="20" target="0" radius="5" min="-110" max="-220">
+			<attribute key="areaEffect" value="poison" />
 		</attack>
 	</attacks>
 	<defenses armor="0" defense="0" />
@@ -36,6 +39,7 @@
 		<immunity fire="1" />
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
+		<immunity drown="1" />
 	</immunities>
 	<voices interval="5000" chance="5">
 		<voice sentence="Blubb" yell="0" />

@@ -12,8 +12,8 @@
 		<flag pushable="1" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
-		<flag staticattack="90" />
 		<flag targetdistance="1" />
+		<flag staticattack="90" />
 		<flag runonhealth="10" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -37,15 +37,15 @@
 		<voice sentence="Gimme your money!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="65608" countmax="30" />
-		<item id="2386" name="axe" chance="20940" />
-		<item id="2511" name="brass shield" chance="17483" />
-		<item id="2398" name="mace" chance="13081" />
-		<item id="3606" name="egg" chance="12596" countmax="2" />
-		<item id="2458" name="chain helmet" chance="5204" />
-		<item id="2465" name="brass armor" chance="2779" />
-		<item id="2509" name="steel shield" chance="1314" />
-		<item id="2459" name="iron helmet" chance="1032" />
-		<item id="2110" name="doll" chance="529" />
+		<item name="Gold Coin" countmax="30" chance="65790" />
+		<item name="Axe" chance="21060" />
+		<item name="Brass Shield" chance="17470" />
+		<item name="Mace" chance="13300" />
+		<item name="Egg" countmax="2" chance="12770" />
+		<item name="Chain Helmet" chance="5190" />
+		<item name="Brass Armor" chance="2790" />
+		<item name="Steel Shield" chance="1260" />
+		<item name="Iron Helmet" chance="970" />
+		<item name="Doll" chance="530" />
 	</loot>
 </monster>

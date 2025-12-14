@@ -28,6 +28,7 @@
 		<immunity death="1" />
 		<immunity earth="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices>
 		<voice sentence="More blood! More!" yell="0" />

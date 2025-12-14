@@ -48,18 +48,19 @@
 		<immunity earth="1" />
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
+		<immunity drown="1" />
 	</immunities>
 	<loot>
-		<item name="small diamond" countmax="2" chance="1900" />
-		<item name="gold coin" countmax="100" chance="50000" />
-		<item name="small emerald" countmax="2" chance="1000" />
-		<item name="platinum coin" countmax="2" chance="20000" />
-		<item name="energy ring" chance="910" />
-		<item name="life ring" chance="1000" />
-		<item id="2667" countmax="2" chance="40000" /><!-- fish -->
-		<item name="rainbow trout" chance="1340" />
-		<item name="green perch" chance="1590" />
-		<item name="great mana potion" chance="10400" />
-		<item name="great health potion" chance="10000" />
+		<item name="Gold Coin" countmax="100" chance="99700" />
+		<item name="Fish" countmax="2" chance="39350" />
+		<item name="Platinum Coin" countmax="2" chance="29310" />
+		<item name="Great Health Potion" chance="10150" />
+		<item name="Great Mana Potion" chance="10040" />
+		<item name="Small Diamond" countmax="2" chance="5790" />
+		<item name="Small Emerald" countmax="2" chance="4500" />
+		<item name="Green Perch" chance="1160" />
+		<item name="Energy Ring" chance="1100" />
+		<item name="Rainbow Trout" chance="940" />
+		<item name="Life Ring" chance="810" />
 	</loot>
 </monster>

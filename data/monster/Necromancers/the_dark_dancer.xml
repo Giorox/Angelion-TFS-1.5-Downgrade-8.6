@@ -10,7 +10,8 @@
 		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
-		<flag targetdistance="1" />
+		<flag targetdistance="4" />
+		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="0" />
@@ -28,15 +29,15 @@
 		<attack name="speed" interval="3500" chance="35" radius="1" target="1" range="5" duration="10000" speedchange="-400">
 			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
-		<attack name="manadrain" interval="4000" chance="30" radius="1" target="1" range="5" min="-2" max="-110">
+		<attack name="manadrain" interval="4000" chance="30" radius="1" target="1" range="5" min="-70" max="-110">
 			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
 	</attacks>
 	<defenses armor="11" defense="12">
-		<defense name="healing" interval="2000" chance="45" min="75" max="135">
+		<defense name="healing" interval="2000" chance="45" min="10" max="55">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
-		<defense name="invisible" interval="3000" chance="50" duration="5000">
+		<defense name="invisible" interval="3000" chance="50" duration="3000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>

@@ -20,8 +20,8 @@
 		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-75" />
-		<attack name="earth" interval="2000" chance="10" range="1" min="0" max="-35">
+		<attack name="melee" interval="2000" min="0" max="-65" />
+		<attack name="earth" interval="2000" chance="10" range="1" min="-15" max="-35">
 			<attribute key="shootEffect" value="poison" />
 		</attack>
 		<attack name="poisonfield" interval="2000" chance="10" radius="1" target="0" />
@@ -46,12 +46,12 @@
 		<event name="ScarabDeath" />
 	</script>
 	<loot>
-		<item name="gold coin" countmax="52" chance="87000" />
-		<item name="meat" countmax="2" chance="40000" />
-		<item name="piece of scarab shell" chance="5000" />
-		<item name="scarab coin" chance="1100" />
-		<item name="small amethyst" chance="540" />
-		<item name="small emerald" chance="400" />
-		<item name="daramian mace" chance="300" />
+		<item name="Gold Coin" countmax="52" chance="87300" />
+		<item name="Meat" countmax="2" chance="39930" />
+		<item name="Piece of Scarab Shell" chance="5030" />
+		<item name="Scarab Coin" chance="1110" />
+		<item name="Small Amethyst" chance="510" />
+		<item name="Small Emerald" chance="350" />
+		<item name="Daramian Mace" chance="300" />
 	</loot>
 </monster>

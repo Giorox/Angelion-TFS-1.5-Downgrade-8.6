@@ -14,7 +14,10 @@
 		<flag canpushcreatures="1" />
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
-		<flag runonhealth="100" />
+		<flag runonhealth="260" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-150" />
@@ -46,16 +49,16 @@
 		<voice sentence="GRAAARRRRRR" yell="1" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="100" chance="50000" />
-		<item name="gold coin" countmax="5" chance="50000" />
-		<item name="life ring" chance="5580" />
-		<item name="guardian shield" chance="380" />
-		<item name="meat" countmax="2" chance="29500" />
-		<item name="angelic axe" chance="440" />
-		<item name="glorious axe" chance="870" />
-		<item name="strong health potion" chance="6000" />
-		<item name="silky tapestry" chance="730" />
-		<item name="striped fur" chance="20130" />
-		<item name="sabretooth" chance="10600" />
+		<item name="Gold Coin" countmax="100" chance="100000" />
+		<item name="Gold Coin" countmax="76" chance="100000" />
+		<item name="Meat" countmax="2" chance="29930" />
+		<item name="Striped Fur" chance="20590" />
+		<item name="Sabretooth" chance="11220" />
+		<item name="Strong Health Potion" countmax="2" chance="5990" />
+		<item name="Life Ring" countmax="2" chance="5910" />
+		<item name="Glorious Axe" chance="1000" />
+		<item name="Silky Tapestry" chance="940" />
+		<item name="Guardian Shield" chance="450" />
+		<item name="Angelic Axe" chance="440" />
 	</loot>
 </monster>

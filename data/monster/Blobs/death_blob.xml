@@ -45,7 +45,7 @@
 	<summons maxSummons="3">
 		<summon name="Death Blob" interval="2000" chance="10" />
 	</summons>
-	<voices>
+	<voices interval="5000" chance="10">
 		<voice sentence="Shlorz" yell="0" />
 	</voices>
 	<loot>

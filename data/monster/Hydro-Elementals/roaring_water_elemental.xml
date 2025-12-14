@@ -20,13 +20,19 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-225" />
-		<attack name="ice" interval="1000" chance="15" radius="2" target="1" min="-240" max="-320">
+		<attack name="drown" interval="1000" chance="15" radius="2" target="1" min="-240" max="-320">
 			<attribute key="areaEffect" value="bluebubble" />
 			<attribute key="shootEffect" value="ice" />
 		</attack>
+		<attack name="ice" interval="2000" chance="20" range="7" min="-165" max="-255">
+			<attribute key="shootEffect" value="smallice" />
+		</attack>
+		<attack name="poisoncondition" interval="2000" chance="20" target="0" radius="5" min="-355" max="-460">
+			<attribute key="areaEffect" value="poison" />
+		</attack>
 	</attacks>
 	<defenses armor="30" defense="30">
-		<defense name="healing" interval="2000" chance="15" min="90" max="150">
+		<defense name="healing" interval="2000" chance="15" min="57" max="78">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
@@ -39,19 +45,20 @@
 		<immunity ice="1" />
 		<immunity fire="1" />
 		<immunity earth="1" />
+		<immunity drown="1" />
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
-	<voices>
+	<voices interval="5000" chance="10">
 		<voice sentence="SWASHHH" yell="1" />
 		<voice sentence="BLUB BLUB" yell="1" />
 	</voices>
 	<loot>
-		<item name="small sapphire" countmax="2" chance="4125" />
-		<item name="gold coin" countmax="90" chance="27000" />
-		<item name="gold coin" countmax="87" chance="27000" />
-		<item name="shiver arrow" countmax="2" chance="1000" />
-		<item name="iced soil" chance="9000" />
-		<item name="northwind rod" chance="750" />
+		<item name="Gold Coin" countmax="100" chance="86180" />
+		<item name="Gold Coin" countmax="80" chance="86180" />
+		<item name="Iced Soil" chance="9020" />
+		<item name="Small Sapphire" countmax="2" chance="3840" />
+		<item name="Giant Shimmering Pearl" chance="2300" />
+		<item name="Northwind Rod" chance="380" />
 	</loot>
 </monster>

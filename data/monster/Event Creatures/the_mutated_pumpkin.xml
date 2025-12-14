@@ -16,6 +16,11 @@
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
 		<flag isboss="1" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+		<flag lightlevel="6" />
+		<flag lightcolor="77" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-300" />
@@ -48,11 +53,11 @@
 		<voice sentence="Trick or treat? I saw death!" yell="0" />
 	</voices>
 	<loot>
-		<item name="yummy gummy worm" countmax="10" chance="100000" />
-		<item name="pumpkin" countmax="5" chance="100000" />
-		<item id="6492" chance="300" /><!-- bat decoration -->
-		<item name="skeleton decoration" chance="300" />
-		<item name="spiderwebs" chance="250" />
-		<item id="9006" chance="250" /><!-- toy spider -->
+		<item name="Yummy Gummy Worm" countmax="10" chance="53330" />
+		<item name="Toy Spider" countmax="50" chance="13330" /> <!-- ID = 9006 -->
+		<item name="Bat Decoration" chance="20000" /> <!-- ID = 6492 -->
+		<item name="Pumpkin" chance="6670" />
+		<item name="Spiderwebs" chance="6670" />
+		<item name="Skeleton Decoration" chance="6670" />
 	</loot>
 </monster>

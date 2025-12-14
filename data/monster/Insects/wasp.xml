@@ -20,7 +20,7 @@
 		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-20" poison="20" />
+		<attack name="melee" interval="2000" min="0" max="-20" poison="40" />
 	</attacks>
 	<defenses armor="4" defense="4" />
 	<elements>
@@ -33,6 +33,6 @@
 		<voice sentence="Bssssss" yell="0" />
 	</voices>
 	<loot>
-		<item name="honeycomb" chance="3000" />
+		<item name="Honeycomb" chance="2980" />
 	</loot>
 </monster>

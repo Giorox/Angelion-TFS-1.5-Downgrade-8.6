@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Grimgor Guteater" nameDescription="Grimgor Guteater" race="blood" experience="670" speed="240">
-	<health now="1115" max="1115" />
+	<health now="1155" max="1155" />
 	<look type="2" corpse="7349" />
 	<flags>
 		<flag summonable="0" />
@@ -22,7 +22,11 @@
 			<attribute key="shootEffect" value="throwingstar" />
 		</attack>
 	</attacks>
-	<defenses armor="45" defense="45" />
+	<defenses armor="45" defense="45" >
+		<defense name="invisible" interval="3000" chance="50" duration="2000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
 	<elements>
 		<element deathPercent="-1" />
 		<element energyPercent="20" />

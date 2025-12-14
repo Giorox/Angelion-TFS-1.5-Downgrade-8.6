@@ -52,20 +52,22 @@
 		<voice sentence="Grzzzzzzz!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="97523" countmax="236" />
-		<item id="11325" name="spiked iron ball" chance="10048" />
-		<item id="7591" name="great health potion" chance="6895" countmax="3" />
-		<item id="11327" name="cursed shoulder spikes" chance="5939" />
-		<item id="2152" name="platinum coin" chance="2997" countmax="5" />
-		<item id="12629" name="scale of corruption" chance="2995" />
-		<item id="11326" name="corrupted flag" chance="2971" />
-		<item id="2145" name="small diamond" chance="2537" countmax="5" />
-		<item id="5876" name="lizard leather" chance="2003" />
-		<item id="2528" name="tower shield" chance="1118" />
-		<item id="5881" name="lizard scale" chance="1035" />
-		<item id="11301" name="zaoan armor" chance="992" />
-		<item id="11304" name="zaoan legs" chance="889" />
-		<item id="11303" name="zaoan shoes" chance="809" />
-		<item id="11302" name="zaoan helmet" chance="130" />
+		<item name="Gold Coin" countmax="100" chance="97520" />
+		<item name="Gold Coin" countmax="100" chance="97520" />
+		<item name="Gold Coin" countmax="36" chance="97520" />
+		<item name="Spiked Iron Ball" chance="10020" />
+		<item name="Great Health Potion" countmax="3" chance="6890" />
+		<item name="Cursed Shoulder Spikes" chance="5950" />
+		<item name="Platinum Coin" countmax="5" chance="3020" />
+		<item name="Scale of Corruption" chance="2990" />
+		<item name="Corrupted Flag" chance="2970" />
+		<item name="Small Diamond" countmax="5" chance="2550" />
+		<item name="Lizard Leather" chance="2010" />
+		<item name="Tower Shield" chance="1110" />
+		<item name="Lizard Scale" chance="1050" />
+		<item name="Zaoan Armor" chance="980" />
+		<item name="Zaoan Legs" chance="900" />
+		<item name="Zaoan Shoes" chance="800" />
+		<item name="Zaoan Helmet" chance="130" />
 	</loot>
 </monster>

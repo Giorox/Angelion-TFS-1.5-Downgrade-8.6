@@ -14,6 +14,7 @@
 		<flag canpushcreatures="1" />
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
+		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="1" />
@@ -43,6 +44,7 @@
 	<immunities>
 		<immunity death="1" />
 		<immunity earth="1" />
+		<immunity drown="1" />
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
@@ -55,17 +57,18 @@
 		<voice sentence="Science... is a curse." yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="88222" countmax="130" />
-		<item id="11225" name="mutated flesh" chance="19936" />
-		<item id="2226" name="fishbone" chance="10064" />
-		<item id="3607" name="cheese" chance="8076" />
-		<item id="2483" name="scale armor" chance="7833" />
-		<item id="3976" name="worm" chance="7081" countmax="2" />
-		<item id="2376" name="sword" chance="5069" />
-		<item id="2161" name="strange talisman" chance="4946" />
-		<item id="9808" name="heavily rusted armor" chance="2007" />
-		<item id="7910" name="peanut" chance="534" />
-		<item id="2801" name="fern" chance="421" />
-		<item id="2170" name="silver amulet" chance="102" />
+		<item name="Gold Coin" countmax="100" chance="88250" />
+		<item name="Gold Coin" countmax="30" chance="88250" />
+		<item name="Mutated Flesh" chance="19960" />
+		<item name="Fishbone" chance="10060" />
+		<item name="Cheese" chance="8060" />
+		<item name="Scale Armor" chance="7830" />
+		<item name="Worm" countmax="2" chance="7080" />
+		<item name="Sword" chance="5080" />
+		<item name="Strange Talisman" chance="4950" />
+		<item name="Heavily Rusted Armor" chance="2010" />
+		<item name="Peanut" chance="540" />
+		<item name="Fern" chance="420" />
+		<item name="Silver Amulet" chance="100" />
 	</loot>
 </monster>

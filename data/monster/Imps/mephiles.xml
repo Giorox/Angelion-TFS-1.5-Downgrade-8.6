@@ -46,6 +46,9 @@
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
+	<summons maxSummons="2">
+		<summon name="Fire Devil" interval="1000" chance="10" />
+	</summons>
 	<voices interval="5000" chance="10">
 		<voice sentence="Yes, slay me for the loot I might have. Give in to your greed." yell="0" />
 		<voice sentence="Wealth, Power, it is all at your fingertips. All you have to do is a bit blackmailing and bullying." yell="0" />

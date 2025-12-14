@@ -16,13 +16,16 @@
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
 		<flag isboss="1" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-122" />
-		<attack name="physical" interval="1000" chance="25" range="7" min="-50" max="-120">
+		<attack name="melee" interval="2000" min="0" max="-100" />
+		<attack name="physical" interval="1000" chance="25" range="7" min="-10" max="-20">
 			<attribute key="shootEffect" value="bolt" />
 		</attack>
-		<attack name="poisoncondition" interval="1000" chance="17" range="7" min="-50" max="-120">
+		<attack name="poisoncondition" interval="1000" chance="17" range="7" min="-80" max="-120">
 			<attribute key="shootEffect" value="bolt" />
 		</attack>
 	</attacks>
@@ -42,10 +45,10 @@
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
-	<summons maxSummons="6">
-		<summon name="minotaur archer" interval="1000" chance="13" max="2" />
-		<summon name="minotaur guard" interval="1000" chance="13" max="2" />
-		<summon name="minotaur mage" interval="1000" chance="13" max="2" />
+	<summons maxSummons="2">
+		<summon name="Minotaur Archer" interval="1000" chance="13" max="2" />
+		<summon name="Minotaur Guard" interval="1000" chance="13" max="2" />
+		<summon name="Minotaur Mage" interval="1000" chance="13" max="2" />
 	</summons>
 	<voices interval="5000" chance="10">
 		<voice sentence="I'll be back!" yell="0" />
@@ -54,18 +57,18 @@
 		<voice sentence="Catch me, if you can!" yell="0" />
 	</voices>
 	<loot>
-		<item id="5804" name="nose ring" chance="100000" />
-		<item id="2148" name="gold coin" chance="96875" countmax="99" />
-		<item id="5878" name="minotaur leather" chance="96875" />
-		<item id="12428" name="minotaur horn" chance="93750" countmax="2" />
-		<item id="12438" name="piece of warrior armor" chance="81250" />
-		<item id="7363" name="piercing bolt" chance="46875" countmax="14" />
-		<item id="2465" name="brass armor" chance="28125" />
-		<item id="2666" name="meat" chance="15625" />
-		<item id="2513" name="battle shield" chance="12500" />
-		<item id="2502" name="dwarven helmet" chance="9375" />
-		<item id="7588" name="strong health potion" chance="9375" />
-		<item id="2580" name="fishing rod" chance="6250" />
-		<item id="2387" name="double axe" chance="3125" />
+		<item name="Nose Ring" chance="100000" />
+		<item name="Gold Coin" countmax="99" chance="96880" />
+		<item name="Minotaur Leather" chance="96880" />
+		<item name="Minotaur Horn" countmax="2" chance="93750" />
+		<item name="Piece of Warrior Armor" chance="81250" />
+		<item name="Piercing Bolt" countmax="14" chance="46880" />
+		<item name="Brass Armor" chance="28130" />
+		<item name="Meat" chance="15630" />
+		<item name="Battle Shield" chance="12500" />
+		<item name="Dwarven Helmet" chance="9380" />
+		<item name="Strong Health Potion" chance="9380" />
+		<item name="Fishing Rod" chance="6250" />
+		<item name="Double Axe" chance="3130" />
 	</loot>
 </monster>

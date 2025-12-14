@@ -14,7 +14,7 @@
 		<flag canpushcreatures="0" />
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
-		<flag runonhealth="5" />
+		<flag runonhealth="10" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="0" />
@@ -32,13 +32,13 @@
 		<voice sentence="You are my game today!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2544" name="arrow" chance="47154" countmax="18" />
-		<item id="2461" name="leather helmet" chance="30758" />
-		<item id="2649" name="leather legs" chance="27912" />
-		<item id="2456" name="bow" chance="14901" />
-		<item id="2690" name="roll" chance="11049" countmax="2" />
-		<item id="2050" name="torch" chance="5082" />
-		<item id="2545" name="poison arrow" chance="2521" countmax="3" />
-		<item id="2578" name="closed trap" chance="1006" />
+		<item name="Arrow" countmax="18" chance="47010" />
+		<item name="Leather Helmet" chance="30760" />
+		<item name="Leather Legs" chance="28050" />
+		<item name="Bow" chance="15120" />
+		<item name="Roll" countmax="2" chance="11050" />
+		<item name="Torch" chance="5040" />
+		<item name="Poison Arrow" countmax="3" chance="2610" />
+		<item name="Closed Trap" chance="1100" />
 	</loot>
 </monster>

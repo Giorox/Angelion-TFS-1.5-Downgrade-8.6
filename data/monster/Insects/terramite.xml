@@ -7,7 +7,7 @@
 		<flag summonable="1" />
 		<flag attackable="1" />
 		<flag hostile="1" />
-		<flag illusionable="0" />
+		<flag illusionable="1" />
 		<flag convinceable="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
@@ -40,9 +40,9 @@
 		<voice sentence="Zrp zrp!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="45" chance="97520" />
-		<item name="terramite shell" chance="7730" />
-		<item name="terramite eggs" countmax="3" chance="4680" />
-		<item name="terramite legs" chance="14880" />
+		<item name="Gold Coin" countmax="45" chance="97500" />
+		<item name="Terramite Legs" chance="14970" />
+		<item name="Terramite Shell" chance="7460" />
+		<item name="Terramite Eggs" countmax="3" chance="4990" />
 	</loot>
 </monster>

@@ -14,7 +14,7 @@
 		<flag canpushcreatures="0" />
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
-		<flag runonhealth="15" />
+		<flag runonhealth="0" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
@@ -24,17 +24,17 @@
 		</attack>
 	</attacks>
 	<defenses armor="15" defense="15">
-		<defense name="healing" interval="2000" chance="15" min="10" max="50">
+		<defense name="healing" interval="2000" chance="15" min="10" max="25">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
-	<elements>
-		<element physicalPercent="-5" />
-		<element deathPercent="-5" />
-	</elements>
 	<summons maxSummons="3">
 		<summon name="Wild Warrior" interval="2000" chance="20" />
 	</summons>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+	</immunities>
 	<voices interval="1000" chance="2">
 		<voice sentence="I will make your death look like an accident!" yell="0" />
 		<voice sentence="I see some profit in your death!" yell="0" />
@@ -43,16 +43,8 @@
 		<voice sentence="I expect you to die!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" countmax="30" chance="80000" />	<!-- gold coin -->
-		<item id="2050" countmax="2" chance="30200" />	<!-- torch -->
-		<item id="2649" chance="14000" />				<!-- leather legs -->
-		<item id="2671" chance="10000" />				<!-- ham -->
-		<item id="2406" chance="10000" />				<!-- short sword -->
-		<item id="2461" chance="10000" />				<!-- leather helmet -->
-		<item id="2403" chance="10000" />				<!-- knife -->
-		<item id="2376" chance="5000" />					<!-- sword -->
-		<item id="8840" countmax="5" chance="5000" />	<!-- raspberries -->
-		<item id="2404" chance="4000" />					<!-- combat knife -->
-		<item id="7397" chance="110" />					<!-- deer trophy -->
+		<item name="Gold Coin" countmax="30" chance="75000" />
+		<item name="Meat" chance="75000" />
+		<item name="Deer Trophy" chance="25000" />
 	</loot>
 </monster>

@@ -11,17 +11,36 @@
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag targetdistance="1" />
+		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-455" />
-		<attack name="melee" interval="3000" chance="50" target="0" min="-500" max="-800">
+		<attack name="physical" interval="3000" chance="50" target="0" min="-65" max="-190">
 			<attribute key="areaEffect" value="blackspark" />
 		</attack>
-		<attack name="ice" interval="1000" chance="15" range="7" min="-170" max="-200">
+		<attack name="ice" interval="1000" chance="15" range="7" min="0" max="0">
 			<attribute key="shootEffect" value="snowball" />
+			<attribute key="areaEffect" value="bluebubble" />
+		</attack>
+		<attack name="death" interval="1000" chance="15" range="7" target="1" min="0" max="-16">
+			<attribute key="shootEffect" value="snowball" />
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="drown" interval="1000" chance="15" radius="5" range="1" target="0" min="-100" max="-250">
+			<attribute key="areaEffect" value="bluebubble" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="10" length="9" spread="0" min="-120" max="-260">
+			<attribute key="areaEffect" value="purplenote" />
+		</attack>
+		<attack name="drown" interval="2000" chance="10" length="7" spread="3" min="-100" max="-250">
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+		<attack name="speed" interval="1000" chance="15" range="7" speedchange="-700" durationg="5000">
+			<attribute key="shootEffect" value="snowball" />
+			<attribute key="areaEffect" value="mortarea" />
 		</attack>
 	</attacks>
 	<defenses armor="51" defense="52" />

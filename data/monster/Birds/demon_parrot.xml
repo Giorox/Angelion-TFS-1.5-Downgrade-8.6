@@ -26,7 +26,7 @@
 		</attack>
 		<attack name="lifedrain" interval="1000" chance="30" target="1" radius="5" range="5" min="-15" max="-45">
 			<attribute key="shootEffect" value="suddendeath" />
-			<attribute key="areaEffect" value="yellowbubbles" />
+			<attribute key="areaEffect" value="yellowbubble" />
 		</attack>
 		<attack name="lifedrain" interval="1000" chance="30" target="0" radius="3" min="-25" max="-45" >
 			<attribute key="areaEffect" value="mortarea" />

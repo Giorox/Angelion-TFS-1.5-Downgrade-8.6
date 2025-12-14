@@ -32,16 +32,16 @@
 		<voice sentence="You saw something you shouldn't!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="79815" countmax="10" />
-		<item id="2050" name="torch" chance="30203" countmax="2" />
-		<item id="2649" name="leather legs" chance="14782" />
-		<item id="2671" name="ham" chance="10185" />
-		<item id="2406" name="short sword" chance="10051" />
-		<item id="2461" name="leather helmet" chance="10036" />
-		<item id="2403" name="knife" chance="10012" />
-		<item id="2376" name="sword" chance="5012" />
-		<item id="8840" name="raspberry" chance="4896" countmax="5" />
-		<item id="2404" name="combat knife" chance="4042" />
-		<item id="7397" name="deer trophy" chance="112" />
+		<item name="Gold Coin" countmax="10" chance="79830" />
+		<item name="Torch" countmax="2" chance="30220" />
+		<item name="Leather Legs" chance="14800" />
+		<item name="Ham" chance="10180" />
+		<item name="Short Sword" chance="10050" />
+		<item name="Leather Helmet" chance="10050" />
+		<item name="Knife" chance="10020" />
+		<item name="Sword" chance="5030" />
+		<item name="Raspberry" countmax="5" chance="4920" />
+		<item name="Combat Knife" chance="4060" />
+		<item name="Deer Trophy" chance="110" />
 	</loot>
 </monster>

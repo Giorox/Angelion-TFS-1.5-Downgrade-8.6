@@ -31,12 +31,6 @@
 		<defense name="healing" interval="1000" chance="15" min="90" max="120">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
-		<defense name="speed" interval="1000" chance="7" speedchange="310" duration="10000">
-			<attribute key="areaEffect" value="redshimmer" />
-		</defense>
-		<defense name="effect" interval="1000" chance="5">
-			<attribute key="areaEffect" value="redshimmer" />
-		</defense>
 		<defense name="outfit" interval="1000" chance="5" monster="war wolf" duration="14000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
@@ -59,24 +53,24 @@
 		<voice sentence="Grrrrrrr" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="94" chance="100000" />
-		<item name="book of prayers" chance="100000" />
-		<item name="platinum coin" countmax="3" chance="97000" />
-		<item name="star herb" chance="92000" />
-		<item name="rope belt" chance="56000" />
-		<item name="yellow gem" chance="43000" />
-		<item name="safety pin" chance="41000" />
-		<item name="power ring" chance="41000" />
-		<item name="blank rune" chance="17000" />
-		<item name="brown flask" chance="12000" />
-		<item name="bread" chance="12000" />
-		<item id="2044" chance="12000" /><!-- lamp -->
-		<item id="2401" chance="12000" /><!-- staff -->
-		<item name="green tunic" chance="12000" />
-		<item name="strong mana potion" chance="10200" />
-		<item name="wooden whistle" chance="7600" />
-		<item name="sling herb" chance="5100" />
-		<item name="wolf tooth chain" chance="5100" />
-		<item name="life crystal" chance="2500" />
+		<item name="Book of Prayers" chance="100000" />
+		<item name="Gold Coin" countmax="99" chance="100000" />
+		<item name="Platinum Coin" countmax="3" chance="97830" />
+		<item name="Star Herb" chance="91300" />
+		<item name="Rope Belt" chance="56520" />
+		<item name="Power Ring" chance="45650" />
+		<item name="Yellow Gem" chance="45650" />
+		<item name="Safety Pin" chance="41300" />
+		<item name="Blank Rune" chance="17390" />
+		<item name="Bread" chance="13040" />
+		<item name="Green Tunic" chance="13040" />
+		<item name="Strong Mana Potion" chance="13040" />
+		<item name="Brown Flask" chance="10870" />
+		<item name="Lamp" chance="10870" />
+		<item name="Staff" chance="10870" />
+		<item name="Wolf Tooth Chain" chance="8700" />
+		<item name="Sling Herb" chance="6520" />
+		<item name="Wooden Whistle" chance="6520" />
+		<item name="Life Crystal" chance="2170" />
 	</loot>
 </monster>

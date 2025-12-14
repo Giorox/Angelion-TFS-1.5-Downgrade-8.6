@@ -14,15 +14,19 @@
 		<flag canpushcreatures="1" />
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
-		<flag runonhealth="0" />
+		<flag runonhealth="16" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-500" />
+		<attack name="melee" interval="2000" min="0" max="-200" />
 	</attacks>
-	<defenses armor="199" defense="199" />
+	<defenses armor="199" defense="199" >
+		<defense name="speed" interval="2000" chance="8" speedchange="350" duration="9000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
 	<elements>
 		<element energyPercent="50" />
 	</elements>

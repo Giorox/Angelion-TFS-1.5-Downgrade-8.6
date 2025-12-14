@@ -14,18 +14,18 @@
 		<flag canpushcreatures="1" />
 		<flag targetdistance="4" />
 		<flag staticattack="90" />
-		<flag runonhealth="400" />
+		<flag runonhealth="584" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-240" poison="160" />
-		<attack name="fire" interval="2000" chance="20" range="7" radius="4" target="1" min="-100" max="-240">
+		<attack name="fire" interval="2000" chance="20" range="7" radius="2" target="1" min="-100" max="-240">
 			<attribute key="shootEffect" value="fire" />
 			<attribute key="areaEffect" value="firearea" />
 		</attack>
-		<attack name="fire" interval="2000" chance="10" range="7" radius="2" target="1" min="-300" max="-430">
+		<attack name="fire" interval="2000" chance="10" range="7" radius="4" target="1" min="-300" max="-430">
 			<attribute key="shootEffect" value="fire" />
 			<attribute key="areaEffect" value="fireattack" />
 		</attack>
@@ -58,22 +58,23 @@
 		<voice sentence="Muahaha!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="99347" countmax="200" />
-		<item id="2548" name="pitchfork" chance="50468" />
-		<item id="6558" name="flask of demonic blood" chance="24610" />
-		<item id="2260" name="blank rune" chance="14973" countmax="2" />
-		<item id="2568" name="cleaver" chance="8828" />
-		<item id="2515" name="guardian shield" chance="8274" />
-		<item id="6500" name="demonic essence" chance="7777" />
-		<item id="5944" name="soul orb" chance="6912" />
-		<item id="2419" name="scimitar" chance="5351" />
-		<item id="2152" name="platinum coin" chance="3364" countmax="7" />
-		<item id="2165" name="stealth ring" chance="2739" />
-		<item id="2150" name="small amethyst" chance="2583" countmax="3" />
-		<item id="2387" name="double axe" chance="1746" />
-		<item id="2185" name="necrotic rod" chance="781" />
-		<item id="7900" name="magma monocle" chance="525" />
-		<item id="7899" name="magma coat" chance="355" />
-		<item id="6300" name="death ring" chance="99" />
+		<item name="Gold Coin" countmax="100" chance="99390" />
+		<item name="Gold Coin" countmax="100" chance="99390" />
+		<item name="Pitchfork" chance="50600" />
+		<item name="Flask of Demonic Blood" countmax="2" chance="24670" />
+		<item name="Blank Rune" countmax="2" chance="14900" />
+		<item name="Cleaver" chance="8890" />
+		<item name="Guardian Shield" chance="8320" />
+		<item name="Demonic Essence" chance="7760" />
+		<item name="Soul Orb" chance="6930" />
+		<item name="Scimitar" chance="5350" />
+		<item name="Platinum Coin" countmax="7" chance="3380" />
+		<item name="Stealth Ring" chance="2760" />
+		<item name="Small Amethyst" countmax="3" chance="2560" />
+		<item name="Double Axe" chance="1730" />
+		<item name="Necrotic Rod" chance="800" />
+		<item name="Magma Monocle" chance="520" />
+		<item name="Magma Coat" chance="330" />
+		<item name="Death Ring" chance="110" />
 	</loot>
 </monster>

@@ -8,7 +8,7 @@
 		<flag attackable="1" />
 		<flag hostile="1" />
 		<flag illusionable="0" />
-		<flag convinceable="490" />
+		<flag convinceable="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
@@ -21,7 +21,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-100" />
-		<attack name="physical" interval="2000" chance="50" range="7" min="0" max="-100">
+		<attack name="physical" interval="2000" chance="50" range="7" min="0" max="-80">
 			<attribute key="shootEffect" value="onyxarrow" />
 		</attack>
 	</attacks>
@@ -44,16 +44,16 @@
 		<voice sentence="Grrrrrr" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="90" chance="55000" />
-		<item name="obsidian lance" chance="1110" />
-		<item name="orcish axe" chance="1320" />
-		<item name="crossbow" chance="440" />
-		<item name="bow" chance="5210" />
-		<item name="meat" chance="24600" />
-		<item name="silkweaver bow" chance="70" />
-		<item name="orc tooth" chance="3890" />
-		<item name="shaggy tail" chance="10090" />
-		<item name="broken crossbow" chance="4830" />
-		<item name="orc leather" chance="3800" />
+		<item name="Gold Coin" countmax="90" chance="55290" />
+		<item name="Meat" chance="24670" />
+		<item name="Shaggy Tail" chance="10010" />
+		<item name="Bow" chance="5160" />
+		<item name="Broken Crossbow" chance="5080" />
+		<item name="Orc Tooth" chance="3940" />
+		<item name="Orc Leather" chance="3890" />
+		<item name="Orcish Axe" chance="1410" />
+		<item name="Obsidian Lance" chance="1070" />
+		<item name="Crossbow" chance="490" />
+		<item name="Silkweaver Bow" chance="60" />
 	</loot>
 </monster>

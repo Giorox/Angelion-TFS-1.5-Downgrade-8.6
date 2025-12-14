@@ -58,17 +58,18 @@
 		<voice sentence="Grrrrrrrrrrrrrr!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="78725" countmax="130" />
-		<item id="2229" name="skull (item)" chance="20298" />
-		<item id="2799" name="stone herb" chance="4874" />
-		<item id="10585" name="mutated rat tail" chance="3852" />
-		<item id="2510" name="plate shield" chance="3777" />
-		<item id="2381" name="halberd" chance="2957" />
-		<item id="2796" name="green mushroom" chance="1370" />
-		<item id="2235" name="mouldy cheese" chance="950" />
-		<item id="2165" name="stealth ring" chance="562" />
-		<item id="7618" name="health potion" chance="507" />
-		<item id="8900" name="spellbook of enlightenment" chance="297" />
-		<item id="2528" name="tower shield" chance="50" />
+		<item name="Gold Coin" countmax="100" chance="78660" />
+		<item name="Gold Coin" countmax="30" chance="78660" />
+		<item name="Skull" chance="20260" />
+		<item name="Stone Herb" chance="4900" />
+		<item name="Mutated Rat Tail" chance="3840" />
+		<item name="Plate Shield" chance="3750" />
+		<item name="Halberd" chance="2940" />
+		<item name="Green Mushroom" chance="1400" />
+		<item name="Mouldy Cheese" chance="930" />
+		<item name="Stealth Ring" chance="560" />
+		<item name="Health Potion" chance="500" />
+		<item name="Spellbook of Enlightenment" chance="290" />
+		<item name="Tower Shield" chance="50" />
 	</loot>
 </monster>

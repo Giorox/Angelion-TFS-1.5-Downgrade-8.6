@@ -31,7 +31,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="30" defense="30">
-		<defense name="healing" interval="2000" chance="15" min="50" max="80">
+		<defense name="healing" interval="2000" chance="15" min="35" max="60">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
@@ -47,7 +47,7 @@
 		<immunity paralyze="0" />
 	</immunities>
 	<summons maxSummons="2">
-		<summon name="ghoul" interval="2000" chance="10" />
+		<summon name="Ghoul" interval="2000" chance="10" />
 	</summons>
 	<voices interval="5000" chance="10">
 		<voice sentence="Now your life is come to the end, hahahaha!" yell="0" />
@@ -55,23 +55,23 @@
 		<voice sentence="Your energy is mine." yell="0" />
 	</voices>
 	<loot>
-		<item id="2802" name="sling herb" chance="13494" />
-		<item id="2760" name="goat grass" chance="12093" />
-		<item id="11220" name="dark rosary" chance="9795" />
-		<item id="2674" name="red apple" chance="7403" countmax="2" />
-		<item id="2803" name="powder herb" chance="6183" />
-		<item id="10562" name="black hood" chance="5036" />
-		<item id="2791" name="wood mushroom" chance="3343" />
-		<item id="10556" name="cultish robe" chance="1796" />
-		<item id="2423" name="clerical mace" chance="1484" />
-		<item id="2070" name="wooden flute" chance="1425" />
-		<item id="2192" name="crystal ball" chance="1132" />
-		<item id="2183" name="hailstorm rod" chance="1069" />
-		<item id="1962" name="book (orange)" chance="932" />
-		<item id="7620" name="mana potion" chance="932" />
-		<item id="2151" name="talon" chance="717" />
-		<item id="2125" name="crystal necklace" chance="615" />
-		<item id="2529" name="black shield" chance="210" />
-		<item id="2114" name="piggy bank" chance="68" />
+		<item name="Sling Herb" chance="13560" />
+		<item name="Goat Grass" chance="12040" />
+		<item name="Dark Rosary" chance="9810" />
+		<item name="Red Apple" countmax="2" chance="7430" />
+		<item name="Powder Herb" chance="6120" />
+		<item name="Black Hood" chance="5020" />
+		<item name="Wood Mushroom" chance="3330" />
+		<item name="Cultish Robe" chance="1820" />
+		<item name="Clerical Mace" chance="1500" />
+		<item name="Wooden Flute" chance="1410" />
+		<item name="Crystal Ball" chance="1130" />
+		<item name="Hailstorm Rod" chance="1100" />
+		<item name="Mana Potion" chance="940" />
+		<item name="Book (Orange)" chance="920" />
+		<item name="Talon" chance="730" />
+		<item name="Crystal Necklace" chance="610" />
+		<item name="Black Shield" chance="220" />
+		<item name="Piggy Bank" chance="80" />
 	</loot>
 </monster>

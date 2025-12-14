@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="The Voice Of Ruin" nameDescription="The Voice Of Ruin" race="blood" experience="3500" speed="460">
+<monster name="The Voice of Ruin" nameDescription="The Voice of Ruin" race="blood" experience="3500" speed="460">
 	<health now="5500" max="5500" />
 	<look type="344" corpse="11288" />
 	<targetchange interval="2000" chance="5" />
 	<flags>
-		<flag isboss="1" />
-		<flag ignorespawnblock="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag summonable="0" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag canwalkonenergy="0" />
-		<flag canwalkonfire="0" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
+		<flag isboss="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-400" />
@@ -38,8 +43,12 @@
 		<immunity drunk="1" />
 	</immunities>
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="43" />
-		<item id="11326" name="corrupted flag" chance="50000" />
-		<item id="2152" name="platinum coin" chance="50000" countmax="2" />
+		<item name="Gold Coin" countmax="95" chance="100000" />
+		<item name="Corrupted Flag" chance="46670" />
+		<item name="Spiked Iron Ball" chance="40000" />
+		<item name="Platinum Coin" countmax="5" chance="26670" />
+		<item name="Cursed Shoulder Spikes" chance="20000" />
+		<item name="Scale of Corruption" chance="6670" />
+		<item name="Zaoan Shoes" chance="6670" />
 	</loot>
 </monster>

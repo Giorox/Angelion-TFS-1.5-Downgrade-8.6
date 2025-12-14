@@ -8,7 +8,7 @@
 		<flag attackable="1" />
 		<flag hostile="1" />
 		<flag illusionable="1" />
-		<flag convinceable="670" />
+		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="0" />
@@ -20,15 +20,19 @@
 		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-115" />
+		<attack name="melee" interval="2000" min="0" max="-115" poison="80"/>
 		<attack name="poisonfield" interval="2000" chance="10" target="0" radius="4">
 			<attribute key="areaEffect" value="poison" />
 		</attack>
-		<attack name="lifedrain" interval="2000" chance="15" length="7" spread="0" min="0" max="-90">
-			<attribute key="areaEffect" value="greenspark" />
+		<attack name="lifedrain" interval="2000" chance="15" length="7" spread="0" min="0" max="-115">
+			<attribute key="areaEffect" value="poison" />
 		</attack>
 		<attack name="poisoncondition" interval="2000" chance="10" range="7" target="0" min="-40" max="-80">
 			<attribute key="shootEffect" value="poison" />
+		</attack>
+		<attack name="speed" interval="2000" chance="13" range="7" speedchange="-700" duration="5000">
+			<attribute key="shootEffect" value="poison" />
+			<attribute key="areaEffect" value="poison" />
 		</attack>
 		<attack name="lancer beetle curse" interval="2000" range="5" chance="5" />
 	</attacks>
@@ -50,12 +54,12 @@
 		<voice sentence="Crump!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="61" chance="60000" />
-		<item name="gold coin" countmax="79" chance="60000" />
-		<item name="small amethyst" chance="247" />
-		<item name="poisonous slime" chance="8333" />
-		<item name="lump of dirt" chance="4166" />
-		<item name="lancer beetle shell" chance="16666" />
-		<item name="beetle necklace" chance="1123" />
+		<item name="Gold Coin" countmax="100" chance="82710" />
+		<item name="Gold Coin" countmax="30" chance="82710" />
+		<item name="Lancer Beetle Shell" chance="14820" />
+		<item name="Poisonous Slime" chance="8230" />
+		<item name="Lump of Dirt" chance="3820" />
+		<item name="Beetle Necklace" chance="880" />
+		<item name="Small Amethyst" chance="310" />
 	</loot>
 </monster>

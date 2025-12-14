@@ -7,7 +7,7 @@
 		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
-		<flag illusionable="0" />
+		<flag illusionable="1" />
 		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
@@ -20,7 +20,7 @@
 		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-160" poison="60" />
+		<attack name="melee" interval="2000" min="0" max="-165" poison="60" />
 		<attack name="drown" interval="2000" chance="10" target="1" range="7" radius="2" min="-125" max="-235">
 			<attribute key="areaEffect" value="bluebubble" />
 		</attack>
@@ -32,7 +32,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="20" defense="20">
-		<defense name="healing" interval="2000" chance="5" min="50" max="80">
+		<defense name="healing" interval="2000" chance="5" min="25" max="40">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 		<defense name="speed" interval="2000" chance="15" speedchange="300" duration="5000">
@@ -52,24 +52,20 @@
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
-	<voices>
+	<voices interval="5000" chance="10">
 		<voice sentence="Splish splash" yell="0" />
 	</voices>
 	<loot>
-		<item name="small diamond" chance="1000" />
-		<item name="small sapphire" chance="1000" />
-		<item name="gold coin" countmax="100" chance="50000" />
-		<item name="small emerald" countmax="2" chance="1000" />
-		<item name="platinum coin" chance="10000" />
-		<item name="energy ring" chance="950" />
-		<item name="life ring" chance="930" />
-		<item id="2667" chance="20000" /><!-- fish -->
-		<item name="rainbow trout" chance="940" />
-		<item name="green perch" chance="1050" />
-		<item name="strong health potion" chance="10000" />
-		<item name="strong mana potion" chance="10000" />
-		<item id="7632" chance="800" /><!-- giant shimmering pearl -->
-		<item id="7633" chance="800" /><!-- giant shimmering pearl -->
-		<item name="leviathan's amulet" chance="260" />
+		<item name="Gold Coin" countmax="100" chance="99470" />
+		<item name="Platinum Coin" chance="24610" />
+		<item name="Fish" chance="20270" />
+		<item name="Strong Mana Potion" chance="10100" />
+		<item name="Strong Health Potion" chance="9950" />
+		<item name="Small Emerald" countmax="2" chance="2600" />
+		<item name="Small Diamond" chance="2520" />
+		<item name="Energy Ring" chance="1050" />
+		<item name="Rainbow Trout" chance="980" />
+		<item name="Life Ring" chance="980" />
+		<item name="Green Perch" chance="970" />
 	</loot>
 </monster>

@@ -18,6 +18,8 @@
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="1" />
+		<flag lightlevel="3" />
+		<flag lightcolor="85" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-45" />
@@ -53,11 +55,11 @@
 		<voice sentence="Failure! Failure!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="88" chance="68810" />
-		<item name="sword ring" chance="570" />
-		<item name="iron ore" chance="400" />
-		<item name="nail" chance="1460" />
-		<item id="9808" chance="790" /><!-- rusty armor (common) -->
-		<item name="gear crystal" chance="200" />
+		<item name="Gold Coin" countmax="89" chance="68240" />
+		<item name="Heavily Rusted Armor" chance="10060" />
+		<item name="Nail" chance="1230" />
+		<item name="Sword Ring" chance="490" />
+		<item name="Iron Ore" chance="410" />
+		<item name="Gear Crystal" chance="210" />
 	</loot>
 </monster>

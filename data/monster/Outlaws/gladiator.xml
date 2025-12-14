@@ -13,6 +13,7 @@
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag targetdistance="1" />
+		<flag staticattack="90" />
 		<flag runonhealth="10" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -38,15 +39,15 @@
 		<voice sentence="Take this!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="30" chance="49500" />
-		<item id="2376" chance="12620" /><!-- sword -->
-		<item name="mace" chance="11160" />
-		<item name="chain helmet" chance="5200" />
-		<item name="iron helmet" chance="590" />
-		<item name="brass armor" chance="2750" />
-		<item name="steel shield" chance="840" />
-		<item name="plate shield" chance="9950" />
-		<item name="meat" chance="19000" />
-		<item name="belted cape" chance="340" />
+		<item name="Gold Coin" countmax="30" chance="49440" />
+		<item name="Meat" chance="19360" />
+		<item name="Sword" chance="12160" />
+		<item name="Mace" chance="10130" />
+		<item name="Plate Shield" chance="10000" />
+		<item name="Chain Helmet" chance="5010" />
+		<item name="Brass Armor" chance="2650" />
+		<item name="Steel Shield" chance="870" />
+		<item name="Iron Helmet" chance="600" />
+		<item name="Belted Cape" chance="440" />
 	</loot>
 </monster>

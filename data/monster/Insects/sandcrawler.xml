@@ -7,7 +7,7 @@
 		<flag summonable="1" />
 		<flag attackable="1" />
 		<flag hostile="1" />
-		<flag illusionable="0" />
+		<flag illusionable="1" />
 		<flag convinceable="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
@@ -20,7 +20,7 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-3" />
+		<attack name="melee" interval="2000" min="0" max="-8" />
 	</attacks>
 	<defenses armor="10" defense="10" />
 	<elements>
@@ -30,7 +30,7 @@
 		<voice sentence="Chrk chrk!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="6" chance="33333" />
-		<item name="sandcrawler shell" chance="2173" />
+		<item name="Gold Coin" countmax="6" chance="34680" />
+		<item name="Sandcrawler Shell" chance="2030" />
 	</loot>
 </monster>

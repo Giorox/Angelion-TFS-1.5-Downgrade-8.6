@@ -31,30 +31,25 @@
 			<attribute key="shootEffect" value="fire" />
 			<attribute key="areaEffect" value="firearea" />
 		</attack>
+		<attack name="energy" interval="2000" chance="20" radius="6" target="0">
+			<attribute key="areaEffect" value="energyarea" />
+		</attack>
+		<attack name="firefield" interval="2000" chance="10" range="7" radius="3" target="1">
+			<attribute key="shootEffect" value="fire" />
+		</attack>
 	</attacks>
 	<defenses armor="15" defense="15">
 		<defense name="healing" interval="2000" chance="50" min="175" max="505">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
-		<defense name="speed" interval="2000" chance="12" speedchange="380" duration="4000">
-			<attribute key="areaEffect" value="redshimmer" />
-		</defense>
-		<defense name="invisible" interval="3000" chance="20" duration="5000">
-			<attribute key="areaEffect" value="redshimmer" />
-		</defense>
 	</defenses>
-	<elements>
-		<element icePercent="-20" />
-		<element holyPercent="-20" />
-		<element deathPercent="20" />
-	</elements>
 	<immunities>
 		<immunity fire="1" />
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="2">
-		<summon name="diabolic imp" interval="5500" chance="30" />
+		<summon name="Diabolic Imp" interval="5500" chance="30" />
 	</summons>
 	<voices interval="5000" chance="10">
 		<voice sentence="I am so bad today" yell="0" />
@@ -62,24 +57,20 @@
 		<voice sentence="Poke! Poke! <chuckle>" yell="0" />
 	</voices>
 	<loot>
-		<item id="2050" chance="15000" /><!-- torch -->
-		<item name="gold coin" countmax="79" chance="100000" />
-		<item name="small amethyst" chance="8888" />
-		<item name="stealth ring" chance="4555" />
-		<item name="necrotic rod" chance="833" />
-		<item name="blank rune" chance="18000" />
-		<item name="chain armor" chance="7887" />
-		<item name="brass armor" chance="6577" />
-		<item name="brass armor" chance="6577" />
-		<item name="pitchfork" chance="20000" />
-		<item name="soul orb" chance="5666" />
-		<item id="6300" chance="999" /><!-- death ring -->
-		<item name="demonic essence" chance="7777" />
-		<item name="infernal bolt" countmax="5" chance="5000" />
-		<item name="the Imperor's trident" chance="100000" />
-		<item name="flask of demonic blood" chance="2222" />
-		<item name="magma boots" chance="2000" />
-		<item name="magma coat" chance="2000" />
-		<item name="magma monocle" chance="2000" />
+		<item name="Demonic Essence" chance="100000" />
+		<item name="Gold Coin" countmax="100" chance="100000" />
+		<item name="Gold Coin" countmax="48" chance="100000" />
+		<item name="Soul Orb" chance="100000" />
+		<item name="The Imperor's Trident" chance="100000" />
+		<item name="Pitchfork" chance="55000" />
+		<item name="Platinum Coin" countmax="3" chance="45000" />
+		<item name="Small Amethyst" countmax="4" chance="40000" />
+		<item name="Crown Legs" chance="30000" />
+		<item name="Demonbone Amulet" chance="10000" />
+		<item name="Magma Coat" chance="10000" />
+		<item name="Fire Axe" chance="5000" />
+		<item name="Golden Legs" chance="5000" />
+		<item name="Small Ruby" countmax="4" chance="5000" />
+		<item name="Tempest Shield" chance="5000" />
 	</loot>
 </monster>

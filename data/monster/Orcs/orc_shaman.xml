@@ -20,8 +20,8 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-15" />
-		<attack name="energy" interval="2000" chance="15" range="7" min="-20" max="-35">
+		<attack name="melee" interval="2000" min="0" max="-20" />
+		<attack name="energy" interval="2000" chance="15" range="7" min="-20" max="-30">
 			<attribute key="shootEffect" value="energyball" />
 		</attack>
 		<attack name="fire" interval="2000" chance="5" range="7" radius="1" target="1" min="-5" max="-45">
@@ -51,15 +51,15 @@
 		<voice sentence="Huumans stinkk!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="89750" countmax="5" />
-		<item id="2686" name="corncob" chance="10877" countmax="2" />
-		<item id="12408" name="broken shamanic staff" chance="10161" />
-		<item id="2464" name="chain armor" chance="8658" />
-		<item id="12434" name="shamanic hood" chance="7513" />
-		<item id="2389" name="spear" chance="5170" />
-		<item id="12435" name="orc leather" chance="3792" />
-		<item id="11113" name="orc tooth" chance="2182" />
-		<item id="2188" name="wand of decay" chance="966" />
-		<item id="1958" name="book (grey)" chance="465" />
+		<item name="Gold Coin" countmax="5" chance="89880" />
+		<item name="Corncob" countmax="2" chance="10840" />
+		<item name="Broken Shamanic Staff" chance="10380" />
+		<item name="Chain Armor" chance="8720" />
+		<item name="Shamanic Hood" chance="7410" />
+		<item name="Spear" chance="5240" />
+		<item name="Orc Leather" chance="3750" />
+		<item name="Orc Tooth" chance="2240" />
+		<item name="Wand of Decay" chance="960" />
+		<item name="Book (Grey)" chance="460" />
 	</loot>
 </monster>

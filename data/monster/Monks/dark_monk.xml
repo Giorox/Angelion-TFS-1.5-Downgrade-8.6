@@ -48,19 +48,19 @@
 		<voice sentence="Your end has come!" yell="0" />
 	</voices>
 	<loot>
-		<item name="bread" chance="20550" />
-		<item name="gold coin" countmax="18" chance="14600" />
-		<item name="dark rosary" chance="10500" />
-		<item name="rope belt" chance="6666" />
-		<item name="book of prayers" chance="1900" />
-		<item id="1949" chance="1790" /><!-- scroll -->
-		<item name="life crystal" chance="990" />
-		<item name="safety pin" chance="990" />
-		<item name="ankh" chance="900" />
-		<item name="mana potion" chance="850" />
-		<item name="sandals" chance="850" />
-		<item id="2044" chance="550" /><!-- lamp -->
-		<item name="brown flask" chance="390" />
-		<item name="power ring" chance="120" />
+		<item name="Bread" chance="20450" />
+		<item name="Gold Coin" countmax="18" chance="14440" />
+		<item name="Dark Rosary" chance="10200" />
+		<item name="Rope Belt" chance="6020" />
+		<item name="Book of Prayers" chance="1940" />
+		<item name="Scroll" chance="1860" />
+		<item name="Life Crystal" chance="1000" />
+		<item name="Safety Pin" chance="950" />
+		<item name="Ankh" chance="930" />
+		<item name="Sandals" chance="870" />
+		<item name="Mana Potion" chance="840" />
+		<item name="Lamp" chance="570" />
+		<item name="Brown Flask" chance="380" />
+		<item name="Power Ring" chance="120" />
 	</loot>
 </monster>

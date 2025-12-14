@@ -14,7 +14,7 @@
 		<flag canpushcreatures="1" />
 		<flag targetdistance="1" />
 		<flag staticattack="80" />
-		<flag runonhealth="0" />
+		<flag runonhealth="500" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="1" />
@@ -51,24 +51,25 @@
 		<voice sentence="It's party time!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="100000" countmax="199" />
-		<item id="2671" name="ham" chance="65733" />
-		<item id="2152" name="platinum coin" chance="57202" countmax="8" />
-		<item id="6558" name="flask of demonic blood" chance="35009" />
-		<item id="5944" name="soul orb" chance="24088" />
-		<item id="7590" name="great mana potion" chance="15083" countmax="2" />
-		<item id="7591" name="great health potion" chance="9602" countmax="2" />
-		<item id="6500" name="demonic essence" chance="8860" />
-		<item id="2558" name="saw" chance="5316" />
-		<item id="2645" name="steel boots" chance="5007" />
-		<item id="9971" name="gold ingot" chance="3132" />
-		<item id="5022" name="orichalcum pearl" chance="2823" countmax="2" />
-		<item id="5480" name="cat's paw" chance="2061" />
-		<item id="6300" name="death ring" chance="1958" />
-		<item id="7368" name="assassin star" chance="1772" countmax="5" />
-		<item id="5801" name="jewelled backpack" chance="845" />
-		<item id="7412" name="butcher's axe" chance="762" />
-		<item id="7388" name="vile axe" chance="536" />
-		<item id="2470" name="golden legs" chance="82" />
+		<item name="Gold Coin" countmax="100" chance="100000" />
+		<item name="Gold Coin" countmax="100" chance="100000" />
+		<item name="Ham" countmax="2" chance="67290" />
+		<item name="Platinum Coin" countmax="8" chance="59080" />
+		<item name="Flask of Demonic Blood" countmax="3" chance="35230" />
+		<item name="Soul Orb" chance="21230" />
+		<item name="Great Mana Potion" countmax="2" chance="14880" />
+		<item name="Great Health Potion" countmax="2" chance="9850" />
+		<item name="Demonic Essence" chance="9740" />
+		<item name="Saw" chance="5030" />
+		<item name="Steel Boots" chance="3720" />
+		<item name="Gold Ingot" chance="3170" />
+		<item name="Orichalcum Pearl" countmax="2" chance="2840" />
+		<item name="Assassin Star" countmax="5" chance="2410" />
+		<item name="Cat's Paw" chance="1640" />
+		<item name="Death Ring" chance="1310" />
+		<item name="Jewelled Backpack" chance="880" />
+		<item name="Butcher's Axe" chance="440" />
+		<item name="Vile Axe" chance="330" />
+		<item name="Golden Legs" chance="110" />
 	</loot>
 </monster>

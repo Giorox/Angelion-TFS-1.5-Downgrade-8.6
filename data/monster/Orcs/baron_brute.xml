@@ -20,17 +20,13 @@
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-475" />
 	</attacks>
-	<defenses armor="22" defense="35">
-	</defenses>
+	<defenses armor="22" defense="35" />
 	<elements>
-		<element earthPercent="-10" />
-		<element energyPercent="-10" />
-		<element deathPercent="-5" />
-		<element holyPercent="10" />
 		<element firePercent="80" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="2000" chance="10">
 		<voice sentence="Mash'n!" yell="0" />

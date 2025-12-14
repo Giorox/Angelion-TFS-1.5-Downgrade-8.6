@@ -37,22 +37,22 @@
 		<voice sentence="Guess who we're hunting, hahaha!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2544" countmax="22" chance="82000" /><!-- arrow -->
-		<item name="orange" countmax="2" chance="20300" />
-		<item name="roll" countmax="2" chance="11370" />
-		<item name="hunter's quiver" chance="10240" />
-		<item name="bow" chance="5770" />
-		<item id="2546" countmax="3" chance="5360" /><!-- burst arrow -->
-		<item name="brass armor" chance="5070" />
-		<item name="brass helmet" chance="5050" />
-		<item name="poison arrow" countmax="4" chance="4500" />
-		<item name="dragon necklace" chance="3000" />
-		<item id="2050" chance="3300" /><!-- torch -->
-		<item name="sniper gloves" chance="610" />
-		<item id="7397" chance="520" /><!-- deer trophy -->
-		<item name="small ruby" chance="170" />
-		<item id="7400" chance="140" /><!-- lion trophy -->
-		<item id="7394" chance="130" /><!-- wolf trophy -->
-		<item name="slingshot" chance="120" />
+		<item name="Arrow" countmax="22" chance="82480" />
+		<item name="Orange" countmax="2" chance="20130" />
+		<item name="Roll" countmax="2" chance="11080" />
+		<item name="Hunter's Quiver" chance="10130" />
+		<item name="Bow" chance="5830" />
+		<item name="Burst Arrow" countmax="3" chance="5160" />
+		<item name="Brass Armor" chance="5130" />
+		<item name="Brass Helmet" chance="5020" />
+		<item name="Poison Arrow" countmax="4" chance="4340" />
+		<item name="Dragon Necklace" chance="3130" />
+		<item name="Torch" chance="3080" />
+		<item name="Sniper Gloves" chance="550" />
+		<item name="Deer Trophy" chance="440" />
+		<item name="Small Ruby" chance="170" />
+		<item name="Lion Trophy" chance="130" />
+		<item name="Wolf Trophy" chance="130" />
+		<item name="Slingshot" chance="120" />
 	</loot>
 </monster>
