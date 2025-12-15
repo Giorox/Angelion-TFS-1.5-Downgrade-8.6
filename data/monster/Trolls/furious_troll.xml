@@ -7,7 +7,7 @@
 		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
-		<flag illusionable="1" />
+		<flag illusionable="0" />
 		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
@@ -32,10 +32,10 @@
 		<voice sentence="Slice! Slice!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="100" chance="47000" />
-		<item name="gold coin" countmax="46" chance="47000" />
-		<item name="platinum coin" chance="6000" />
-		<item name="war hammer" chance="750" />
-		<item name="bunch of troll hair" chance="4400" />
+		<item name="Gold Coin" countmax="100" chance="93290" />
+		<item name="Gold Coin" countmax="47" chance="93290" />
+		<item name="Platinum Coin" chance="5220" />
+		<item name="Bunch of Troll Hair" chance="4750" />
+		<item name="War Hammer" chance="790" />
 	</loot>
 </monster>

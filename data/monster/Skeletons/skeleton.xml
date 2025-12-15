@@ -33,14 +33,14 @@
 		<immunity lifedrain="1" />
 	</immunities>
 	<loot>
-		<item id="2230" name="bone" chance="50915" />
-		<item id="2148" name="gold coin" chance="44978" countmax="10" />
-		<item id="2050" name="torch" chance="10285" />
-		<item id="12437" name="pelvis bone" chance="10178" />
-		<item id="2473" name="viking helmet" chance="7687" />
-		<item id="2388" name="hatchet" chance="5375" />
-		<item id="2398" name="mace" chance="4625" />
-		<item id="2376" name="sword" chance="2107" />
-		<item id="2511" name="brass shield" chance="920" />
+		<item name="Bone" chance="50610" />
+		<item name="Gold Coin" countmax="10" chance="45110" />
+		<item name="Torch" chance="10190" />
+		<item name="Pelvis Bone" chance="9960" />
+		<item name="Viking Helmet" chance="7800" />
+		<item name="Hatchet" chance="5380" />
+		<item name="Mace" chance="4740" />
+		<item name="Sword" chance="2120" />
+		<item name="Brass Shield" chance="1020" />
 	</loot>
 </monster>

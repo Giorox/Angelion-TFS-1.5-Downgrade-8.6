@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Big Boss Trolliver" nameDescription="Big Boss Trolliver" race="blood" experience="105" speed="140">
-	<health now="150" max="150" />
+	<health now="140" max="140" />
 	<look type="281" corpse="7926" />
 	<targetchange interval="2000" chance="0" />
 	<flags>
@@ -13,23 +13,37 @@
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag targetdistance="1" />
-		<flag runonhealth="20" />
+		<flag runonhealth="15" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-90" />
+		<attack name="melee" interval="2000" min="0" max="-40" />
 	</attacks>
 	<defenses armor="10" defense="12" />
-	<elements>
-		<element energyPercent="22" />
-		<element holyPercent="11" />
-		<element earthPercent="-3" />
-		<element deathPercent="-4" />
-	</elements>
+	<summons maxSummons="5">
+		<summon name="Troll Champion" interval="2000" chance="25" max="5" />
+		<summon name="Troll" interval="2000" chance="25" max="2" />
+	</summons>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+	</immunities>
+	<voices>
+		<voice sentence="Waaahh!" yell="0" />
+		<voice sentence="Me big nauti! Hehehe!" yell="0" />
+		<voice sentence="Kill'em boys!" yell="0" />
+		<voice sentence="Frind or day?!" yell="0" />
+	</voices>
 	<loot>
-		<item name="gold coin" countmax="57" chance="6000" />
-		<item name="spear" countmax="2" chance="2000" />
-		<item name="studded club" chance="5000" />
-		<item name="meat" countmax="3" chance="1500" />
+		<item name="Gold Coin" countmax="59" chance="81250" />
+		<item name="Meat" countmax="3" chance="43750" />
+		<item name="Studded Club" chance="31250" />
+		<item name="Wooden Shield" chance="31250" />
+		<item name="Silver Amulet" chance="25000" />
+		<item name="Bunch of Troll Hair" chance="12500" />
+		<item name="Hand Axe" chance="12500" />
+		<item name="Leather Boots" chance="12500" />
+		<item name="Leather Helmet" chance="12500" />
+		<item name="Spear" chance="12500" />
 	</loot>
 </monster>

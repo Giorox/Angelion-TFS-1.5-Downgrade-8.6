@@ -37,15 +37,16 @@
 		<voice sentence="Gruntz!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="65542" countmax="12" />
-		<item id="2380" name="hand axe" chance="19690" />
-		<item id="2666" name="meat" chance="15431" />
-		<item id="2389" name="spear" chance="12998" />
-		<item id="2461" name="leather helmet" chance="11892" />
-		<item id="2643" name="leather boots" chance="9983" />
-		<item id="2120" name="rope" chance="8131" />
-		<item id="2448" name="studded club" chance="5448" />
-		<item id="2512" name="wooden shield" chance="5448" />
-		<item id="10606" name="bunch of troll hair" chance="1189" />
+		<item name="Gold Coin" countmax="12" chance="64820" />
+		<item name="Hand Axe" chance="18340" />
+		<item name="Meat" chance="15050" />
+		<item name="Spear" chance="13150" />
+		<item name="Leather Helmet" chance="12180" />
+		<item name="Leather Boots" chance="10150" />
+		<item name="Rope" chance="8280" />
+		<item name="Studded Club" chance="5220" />
+		<item name="Wooden Shield" chance="4940" />
+		<item name="Bunch of Troll Hair" chance="1010" />
+		<item name="Silver Amulet" chance="80" />
 	</loot>
 </monster>

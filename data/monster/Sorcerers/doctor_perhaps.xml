@@ -4,6 +4,11 @@
 	<look type="133" head="95" body="0" legs="94" feet="114" addons="1" corpse="20439" />
 	<targetchange interval="2000" chance="5" />
 	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -38,6 +43,9 @@
 		<element energyPercent="20" />
 		<element earthPercent="20" />
 	</elements>
+	<summons maxSummons="2">
+		<summon name="Zombie" interval="3000" chance="12" />
+	</summons>
 	<immunities>
 		<immunity drown="1" />
 		<immunity paralyze="1" />
@@ -50,9 +58,4 @@
 		<voice sentence="You can't beat what you can't comprehend!" yell="0" />
 		<voice sentence="My creations will kill you!" yell="0" />
 	</voices>
-	<loot>
-		<item id="10290" name="glutton's mace" chance="40000" />
-		<item id="10300" name="trousers of the ancients" chance="20000" />
-		<item id="10289" name="meat shield" chance="40000" />
-	</loot>
 </monster>

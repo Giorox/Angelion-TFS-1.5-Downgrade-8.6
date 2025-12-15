@@ -22,17 +22,14 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-250" />
-		<attack name="speed" interval="2000" chance="6" range="7" speedchange="-660" duration="5000">
+		<attack name="speed" interval="2000" chance="10" range="7" radius="5" target="0" speedchange="-660" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
 		<attack name="earth" interval="2000" chance="7" length="8" spread="3" min="0" max="-550">
 			<attribute key="areaEffect" value="smallplants" />
 		</attack>
 		<attack name="lifedrain" interval="2000" chance="9" length="8" spread="0" min="0" max="-550">
 			<attribute key="areaEffect" value="rednote" />
-		</attack>
-		<attack name="earth" interval="2000" chance="12" range="1" min="0" max="-300">
-			<attribute key="shootEffect" value="poison" />
-			<attribute key="areaEffect" value="poison" />
 		</attack>
 		<attack name="outfit" interval="2000" chance="11" range="7" item="3976" duration="4000">
 			<attribute key="areaEffect" value="blueshimmer" />
@@ -44,35 +41,33 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element icePercent="20" />
 		<element firePercent="-10" />
 		<element energyPercent="-10" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
-		<immunity earth="1" />
 		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="I bring you deathhhh, mortalssss" yell="0" />
 	</voices>
 	<loot>
-		<item id="10611" name="snake skin" chance="100000" />
-		<item id="11230" name="winged tail" chance="100000" />
-		<item id="2152" name="platinum coin" chance="80822" countmax="5" />
-		<item id="2149" name="small emerald" chance="71233" countmax="5" />
-		<item id="7590" name="great mana potion" chance="64384" countmax="4" />
-		<item id="10309" name="claw of 'the noxious spawn'" chance="45205" />
-		<item id="2528" name="tower shield" chance="43836" />
-		<item id="7456" name="noble axe" chance="42466" />
-		<item id="7386" name="mercenary sword" chance="36986" />
-		<item id="2033" name="golden mug" chance="32877" />
-		<item id="7368" name="assassin star" chance="31507" countmax="98" />
-		<item id="2487" name="crown armor" chance="30137" />
-		<item id="2796" name="green mushroom" chance="16438" />
-		<item id="8902" name="spellbook of mind control" chance="16438" />
-		<item id="2168" name="life ring" chance="12329" />
-		<item id="2498" name="royal helmet" chance="2740" />
-		<item id="8880" name="swamplair armor" chance="2740" />
+		<item name="Snake Skin" chance="100000" />
+		<item name="Winged Tail" chance="100000" />
+		<item name="Platinum Coin" countmax="5" chance="80000" />
+		<item name="Small Emerald" countmax="5" chance="72000" />
+		<item name="Great Mana Potion" countmax="4" chance="65330" />
+		<item name="Claw of 'The Noxious Spawn'" chance="44000" />
+		<item name="Noble Axe" chance="42670" />
+		<item name="Tower Shield" chance="42670" />
+		<item name="Mercenary Sword" chance="37330" />
+		<item name="Golden Mug" chance="32000" />
+		<item name="Assassin Star" countmax="98" chance="30670" />
+		<item name="Crown Armor" chance="29330" />
+		<item name="Green Mushroom" chance="16000" />
+		<item name="Spellbook of Mind Control" chance="16000" />
+		<item name="Life Ring" chance="12000" />
+		<item name="Royal Helmet" chance="5330" />
+		<item name="Swamplair Armor" chance="2670" />
 	</loot>
 </monster>

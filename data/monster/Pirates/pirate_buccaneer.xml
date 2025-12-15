@@ -2,19 +2,19 @@
 <monster name="Pirate Buccaneer" nameDescription="a pirate buccaneer" race="blood" experience="250" speed="220" manacost="595">
 	<health now="425" max="425" />
 	<look type="97" corpse="20471" />
-	<targetchange interval="4000" chance="15" />
+	<targetchange interval="4000" chance="45" />
 	<flags>
 		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
-		<flag illusionable="0" />
+		<flag illusionable="1" />
 		<flag convinceable="1" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
-		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag runonhealth="50" />
+		<flag staticattack="90" />
+		<flag runonhealth="20" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="0" />
@@ -45,22 +45,22 @@
 		<voice sentence="Plundeeeeer!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2050" chance="10190" /><!-- torch -->
-		<item name="gold coin" countmax="59" chance="67740" />
-		<item id="2238" chance="9900" /><!-- worn leather boots -->
-		<item name="sabre" chance="10100" />
-		<item name="throwing knife" countmax="5" chance="9000" />
-		<item name="plate armor" chance="1130" />
-		<item name="battle shield" chance="3850" />
-		<item id="5091" chance="1000" /><!-- treasure map -->
-		<item name="rum flask" chance="120" />
-		<item id="5792" chance="40" /><!-- die -->
-		<item name="pirate backpack" chance="430" />
-		<item name="pirate shirt" chance="1200" />
-		<item name="hook" chance="450" />
-		<item name="eye patch" chance="420" />
-		<item name="peg leg" chance="510" />
-		<item name="strong health potion" chance="670" />
-		<item name="compass" chance="9780" />
+		<item name="Gold Coin" countmax="60" chance="67730" />
+		<item name="Torch" chance="10060" />
+		<item name="Sabre" chance="10010" />
+		<item name="Worn Leather Boots" chance="9870" />
+		<item name="Compass" chance="9830" />
+		<item name="Throwing Knife" countmax="5" chance="8980" />
+		<item name="Battle Shield" chance="4050" />
+		<item name="Pirate Shirt" chance="1120" />
+		<item name="Treasure Map (Pirate)" chance="1020" />
+		<item name="Plate Armor" chance="1020" />
+		<item name="Strong Health Potion" chance="710" />
+		<item name="Peg Leg" chance="490" />
+		<item name="Pirate Backpack" chance="480" />
+		<item name="Hook" chance="470" />
+		<item name="Eye Patch" chance="450" />
+		<item name="Rum Flask" chance="130" />
+		<item name="Die" chance="50" />
 	</loot>
 </monster>

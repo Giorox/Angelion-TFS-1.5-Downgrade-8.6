@@ -20,7 +20,7 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-13" poison="1" />
+		<attack name="melee" interval="2000" min="0" max="-13" poison="20" />
 	</attacks>
 	<defenses armor="6" defense="6" />
 	<elements>
@@ -33,15 +33,15 @@
 		<voice sentence="Grrrr" yell="0" />
 	</voices>
 	<loot>
-		<item id="2667" chance="60000" /><!-- fish -->
-		<item name="gold coin" countmax="5" chance="50300" />
-		<item id="2050" chance="15000" /><!-- torch -->
-		<item name="spear" chance="13000" />
-		<item name="mouldy cheese" chance="10000" />
-		<item name="leather boots" chance="10000" />
-		<item name="swamp grass" chance="3100" />
-		<item id="5901" chance="2000" /><!-- wood -->
-		<item name="troll green" chance="1000" />
-		<item name="fishing rod" chance="80" />
+		<item name="Fish" chance="59980" />
+		<item name="Gold Coin" countmax="5" chance="50040" />
+		<item name="Torch" chance="15240" />
+		<item name="Spear" chance="13060" />
+		<item name="Mouldy Cheese" chance="10120" />
+		<item name="Leather Boots" chance="9900" />
+		<item name="Swamp Grass" chance="3080" />
+		<item name="Wood" chance="2050" />
+		<item name="Troll Green" chance="1080" />
+		<item name="Fishing Rod" chance="80" />
 	</loot>
 </monster>

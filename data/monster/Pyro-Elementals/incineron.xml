@@ -19,6 +19,8 @@
 		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="1" />
 		<flag isboss="1" />
+		<flag lightlevel="5" />
+		<flag lightcolor="79" />
 	</flags>
 	<attacks>
 		<attack name="fire" interval="2000" chance="35" length="8" spread="1" min="0" max="-1000">

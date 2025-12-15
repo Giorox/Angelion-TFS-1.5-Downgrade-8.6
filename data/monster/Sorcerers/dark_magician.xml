@@ -20,7 +20,7 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-40" />
+		<attack name="melee" interval="2000" min="0" max="-30" />
 		<attack name="fire" interval="2000" chance="20" range="7" min="-5" max="-40">
 			<attribute key="shootEffect" value="fire" />
 		</attack>
@@ -29,7 +29,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="15" defense="15">
-		<defense name="healing" interval="2000" chance="20" min="60" max="80">
+		<defense name="healing" interval="2000" chance="20" min="21" max="25">
 			<attribute key="areaEffect" value="greenshimmer" />
 		</defense>
 		<defense name="invisible" interval="2000" chance="10" duration="5000">
@@ -55,14 +55,13 @@
 		<voice sentence="My secrets are mine alone!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="55" chance="75100" />
-		<item name="wand of decay" chance="280" />
-		<item name="blank rune" chance="10000" />
-		<item name="strong health potion" chance="3000" />
-		<item name="strong mana potion" chance="2860" />
-		<item name="health potion" chance="12000" />
-		<item name="mana potion" chance="11900" />
-		<item name="small enchanted emerald" chance="510" />
-		<item name="reins" chance="20" />
+		<item name="Gold Coin" countmax="55" chance="75000" />
+		<item name="Health Potion" chance="12000" />
+		<item name="Mana Potion" chance="11920" />
+		<item name="Blank Rune" chance="9990" />
+		<item name="Strong Health Potion" chance="2970" />
+		<item name="Strong Mana Potion" chance="2890" />
+		<item name="Small Enchanted Amethyst" chance="520" />
+		<item name="Necrotic Rod" chance="290" />
 	</loot>
 </monster>

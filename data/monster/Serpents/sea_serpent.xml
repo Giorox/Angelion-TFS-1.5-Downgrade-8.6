@@ -37,12 +37,6 @@
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
 	</defenses>
-	<immunities>
-		<immunity ice="1" />
-		<immunity paralyze="1" />
-		<immunity invisible="1" />
-		<immunity drown="1" />
-	</immunities>
 	<elements>
 		<element physicalPercent="-10" />
 		<element deathPercent="10" />
@@ -53,32 +47,33 @@
 		<immunity ice="1" />
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
+		<immunity drown="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
 		<voice sentence="HISSSS" yell="1" />
 		<voice sentence="CHHHRRRR" yell="1" />
 	</voices>
 	<loot>
-		<item name="small sapphire" countmax="3" chance="5600" />
-		<item name="gold coin" countmax="100" chance="38000" />
-		<item name="gold coin" countmax="100" chance="30000" />
-		<item name="gold coin" countmax="36" chance="30000" />
-		<item name="platinum coin" countmax="3" chance="25000" />
-		<item name="stealth ring" chance="400" />
-		<item name="ring of healing" chance="1100" />
-		<item name="serpent sword" chance="4200" />
-		<item name="plate legs" chance="7150" />
-		<item name="dragon ham" countmax="2" chance="60000" />
-		<item name="strong health potion" chance="5500" />
-		<item name="strong mana potion" chance="3850" />
-		<item name="great mana potion" chance="920" />
-		<item name="glacier amulet" chance="880" />
-		<item name="glacier kilt" chance="430" />
-		<item name="spirit cloak" chance="2900" />
-		<item name="focus cape" chance="370" />
-		<item name="crystalline armor" chance="90" />
-		<item name="oceanborn leviathan armor" chance="110" />
-		<item name="northwind rod" chance="930" />
-		<item name="sea serpent scale" chance="10200" />
+		<item name="Gold Coin" countmax="100" chance="98310" />
+		<item name="Gold Coin" countmax="100" chance="98310" />
+		<item name="Gold Coin" countmax="36" chance="98310" />
+		<item name="Dragon Ham" chance="60560" />
+		<item name="Platinum Coin" countmax="3" chance="26720" />
+		<item name="Sea Serpent Scale" chance="10110" />
+		<item name="Plate Legs" chance="7110" />
+		<item name="Small Sapphire" countmax="3" chance="5890" />
+		<item name="Strong Health Potion" chance="5000" />
+		<item name="Serpent Sword" chance="4050" />
+		<item name="Strong Mana Potion" chance="3970" />
+		<item name="Spirit Cloak" chance="2900" />
+		<item name="Ring of Healing" chance="1140" />
+		<item name="Northwind Rod" chance="1020" />
+		<item name="Great Mana Potion" chance="930" />
+		<item name="Glacier Amulet" chance="880" />
+		<item name="Glacier Kilt" chance="430" />
+		<item name="Stealth Ring" chance="410" />
+		<item name="Focus Cape" chance="410" />
+		<item name="Leviathan's Amulet" chance="120" />
+		<item name="Crystalline Armor" chance="90" />
 	</loot>
 </monster>

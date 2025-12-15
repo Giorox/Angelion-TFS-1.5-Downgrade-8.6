@@ -7,7 +7,7 @@
 		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
-		<flag illusionable="0" />
+		<flag illusionable="1" />
 		<flag convinceable="1" />
 		<flag pushable="1" />
 		<flag canpushitems="1" />
@@ -30,12 +30,12 @@
 		<element earthPercent="20" />
 	</elements>
 	<loot>
-		<item name="gold coin" countmax="30" chance="59000" />
-		<item name="battle hammer" chance="730" />
-		<item name="plate shield" chance="2850" />
-		<item id="2667" chance="4600" /><!-- fish -->
-		<item name="tortoise egg" countmax="2" chance="770" />
-		<item name="turtle shell" chance="1300" />
-		<item name="tortoise shield" chance="200" />
+		<item name="Gold Coin" countmax="30" chance="60260" />
+		<item name="Fish" chance="5040" />
+		<item name="Plate Shield" chance="2920" />
+		<item name="Tortoise Egg" countmax="2" chance="1090" />
+		<item name="Battle Hammer" chance="870" />
+		<item name="Turtle Shell" chance="800" />
+		<item name="Tortoise Shield" chance="150" />
 	</loot>
 </monster>

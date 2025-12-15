@@ -23,12 +23,15 @@
 			<attribute key="shootEffect" value="suddendeath" />
 		</attack>
 		<attack name="lifedrain" interval="2000" chance="20" radius="3" target="0" min="-10" max="-80">
-			<attribute key="areaEffect" value="purpleenergy" />
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="poisoncondition" interval="2000" chance="20" radius="3" target="0" min="-40" max="-120">
+			<attribute key="areaEffect" value="poison" />
 		</attack>
 	</attacks>
 	<defenses armor="40" defense="40">
 		<defense name="healing" interval="2000" chance="15" min="35" max="65">
-			<attribute key="areaEffect" value="blueshimmer" />
+			<attribute key="areaEffect" value="greenspark" />
 		</defense>
 	</defenses>
 	<elements>
@@ -46,15 +49,15 @@
 		<immunity paralyze="1" />
 	</immunities>
 	<loot>
-		<item name="gold coin" countmax="88" chance="11690" />
-		<item id="2230" chance="8230" /><!-- bone -->
-		<item name="plate armor" chance="2810" />
-		<item id="2229" chance="2810" /><!-- skull -->
-		<item id="2231" chance="1950" /><!-- big bone -->
-		<item name="bone club" chance="1520" />
-		<item name="bone shield" chance="1520" />
-		<item name="health potion" chance="870" />
-		<item name="green mushroom" chance="650" />
-		<item name="hardened bone" chance="650" />
+		<item name="Gold Coin" countmax="88" chance="13350" />
+		<item name="Bone" chance="10970" />
+		<item name="Plate Armor" chance="3470" />
+		<item name="Skull" chance="3110" />
+		<item name="Big Bone" chance="2190" />
+		<item name="Bone Club" chance="2010" />
+		<item name="Bone Shield" chance="1280" />
+		<item name="Green Mushroom" chance="1280" />
+		<item name="Hardened Bone" chance="730" />
+		<item name="Health Potion" chance="730" />
 	</loot>
 </monster>

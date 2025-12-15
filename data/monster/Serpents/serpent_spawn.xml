@@ -20,7 +20,7 @@
 		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-250" />
+		<attack name="melee" interval="2000" min="0" max="-290" />
 		<attack name="earth" interval="2000" chance="20" range="7" min="-80" max="-300">
 			<attribute key="shootEffect" value="poison" />
 		</attack>
@@ -39,7 +39,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="35" defense="35">
-		<defense name="healing" interval="2000" chance="15" min="250" max="500">
+		<defense name="healing" interval="2000" chance="15" min="300" max="400">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 		<defense name="speed" interval="2000" chance="15" speedchange="340" duration="5000">
@@ -63,28 +63,30 @@
 		<voice sentence="Sssssouls for the one" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="97236" countmax="245" />
-		<item id="2796" name="green mushroom" chance="18300" />
-		<item id="10611" name="snake skin" chance="14967" />
-		<item id="2146" name="small sapphire" chance="12132" />
-		<item id="2547" name="power bolt" chance="6107" />
-		<item id="2168" name="life ring" chance="6058" />
-		<item id="2167" name="energy ring" chance="5968" />
-		<item id="2033" name="golden mug" chance="2958" />
-		<item id="7386" name="mercenary sword" chance="2030" />
-		<item id="7590" name="great mana potion" chance="2014" />
-		<item id="2182" name="snakebite rod" chance="986" />
-		<item id="11230" name="winged tail" chance="941" />
-		<item id="2528" name="tower shield" chance="855" />
-		<item id="7456" name="noble axe" chance="807" />
-		<item id="2177" name="life crystal" chance="789" />
-		<item id="2479" name="strange helmet" chance="633" />
-		<item id="5956" name="old parchment" chance="569" />
-		<item id="2475" name="warrior helmet" chance="564" />
-		<item id="2487" name="crown armor" chance="504" />
-		<item id="3971" name="charmer's tiara" chance="184" />
-		<item id="2498" name="royal helmet" chance="124" />
-		<item id="8902" name="spellbook of mind control" chance="98" />
-		<item id="8880" name="swamplair armor" chance="84" />
+		<item name="Gold Coin" countmax="100" chance="97230" />
+		<item name="Gold Coin" countmax="100" chance="97230" />
+		<item name="Gold Coin" countmax="45" chance="97230" />
+		<item name="Green Mushroom" chance="18320" />
+		<item name="Snake Skin" chance="14980" />
+		<item name="Small Sapphire" chance="12130" />
+		<item name="Power Bolt" chance="6090" />
+		<item name="Life Ring" chance="6040" />
+		<item name="Energy Ring" chance="5950" />
+		<item name="Golden Mug" chance="2980" />
+		<item name="Mercenary Sword" chance="2030" />
+		<item name="Great Mana Potion" chance="2020" />
+		<item name="Snakebite Rod" chance="990" />
+		<item name="Winged Tail" chance="940" />
+		<item name="Tower Shield" chance="860" />
+		<item name="Noble Axe" chance="800" />
+		<item name="Life Crystal" chance="790" />
+		<item name="Strange Helmet" chance="640" />
+		<item name="Warrior Helmet" chance="560" />
+		<item name="Old Parchment" chance="560" />
+		<item name="Crown Armor" chance="510" />
+		<item name="Charmer's Tiara" chance="180" />
+		<item name="Royal Helmet" chance="120" />
+		<item name="Spellbook of Mind Control" chance="100" />
+		<item name="Swamplair Armor" chance="80" />
 	</loot>
 </monster>

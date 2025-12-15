@@ -7,17 +7,17 @@
 		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
-		<flag illusionable="1" />
+		<flag illusionable="0" />
 		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="0" />
 		<flag targetdistance="4" />
 		<flag staticattack="90" />
-		<flag runonhealth="30" />
+		<flag runonhealth="62" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-35" />
+		<attack name="melee" interval="2000" min="0" max="-40" />
 		<attack name="physical" interval="2000" chance="18" target="1" range="6" min="0" max="-130">
 			<attribute key="shootEffect" value="throwingstar" />
 		</attack>
@@ -26,7 +26,7 @@
 		<defense name="invisible" interval="2000" chance="18" duration="20000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
-		<defense name="healing" interval="2000" chance="28" min="17" max="25">
+		<defense name="healing" interval="2000" chance="28" min="50" max="85">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
@@ -39,10 +39,10 @@
 		<voice sentence="Graaaaar!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="100" chance="46000" />
-		<item name="gold coin" countmax="55" chance="46000" />
-		<item name="stealth ring" chance="560" />
-		<item name="throwing star" countmax="10" chance="28000" />
-		<item name="frosty ear of a troll" chance="5120" />
+		<item name="Gold Coin" countmax="100" chance="93800" />
+		<item name="Gold Coin" countmax="56" chance="93800" />
+		<item name="Throwing Star" countmax="10" chance="28960" />
+		<item name="Frosty Ear of a Troll" chance="4660" />
+		<item name="Stealth Ring" chance="280" />
 	</loot>
 </monster>

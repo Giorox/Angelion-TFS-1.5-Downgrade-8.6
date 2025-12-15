@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Eye of the Seven" nameDescription="an eye of the seven" race="venom" experience="0" speed="0">
-	<health now="1" max="1" />
+	<health now="120" max="120" />
 	<look type="109" corpse="6036" />
 	<targetchange interval="5000" chance="20" />
 	<flags>
@@ -20,8 +20,21 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-500" />
-		<attack name="lifedrain" interval="1000" chance="9" range="6" min="0" max="-500" />
+		<attack name="lifedrain" interval="1000" chance="9" range="6" min="0" max="-500" >
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="ice" interval="2000" chance="25" range="6" min="0" max="-250">
+			<attribute key="shootEffect" value="ice" />
+			<attribute key="areaEffect" value="icearea" />
+		</attack>
+		<attack name="energy" interval="2000" chance="25" range="6" min="0" max="-250">
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="energyarea" />
+		</attack>
+		<attack name="fire" interval="2000" chance="25" range="6" min="0" max="-250">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
 	</attacks>
 	<defenses armor="1" defense="1" />
 	<immunities>

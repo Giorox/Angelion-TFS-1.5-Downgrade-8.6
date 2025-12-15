@@ -26,6 +26,12 @@
 		<attack name="outfit" interval="2000" chance="5" target="1" range="7" monster="skeleton" duration="4000">
 			<attribute key="shootEffect" value="explosion" />
 		</attack>
+		<attack name="physical" interval="2000" chance="10" target="0" radius="4" min="-40" max="-70">
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
+		<attack name="physical" interval="2000" chance="10" target="0" radius="4" min="-40" max="-55">
+			<attribute key="areaEffect" value="rednote" />
+		</attack>
 	</attacks>
 	<defenses>
 		<defense name="healing" interval="2000" chance="5" min="40" max="70">
@@ -33,20 +39,23 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element holyPercent="-5" />
+		<element firePercent="10" />
+		<element energyPercent="10" />
+		<element icePercent="20" />
 	</elements>
 	<immunities>
 		<immunity physical="1" />
+		<immunity earth="1" />
 		<immunity paralyze="1" />
-		<immunity lifedrain="1" />
+		<immunity invisible="1" />
 	</immunities>
 	<loot>
-		<item name="gold coin" countmax="100" chance="50000" />
-		<item name="gold coin" countmax="50" chance="50000" />
-		<item name="stealth ring" chance="20000" />
-		<item id="2488" name="crown legs" chance="5000" />
-		<item name="focus cape" chance="5000" />
-		<item name="red robe" chance="5000" />
-		<item name="spike sword" chance="5000" />
+		<item name="Gold Coin" countmax="100" chance="50000" />
+		<item name="Gold Coin" countmax="50" chance="50000" />
+		<item name="Stealth Ring" chance="11110" />
+		<item name="Crown Legs" chance="5000" />
+		<item name="Focus Cape" chance="5000" />
+		<item name="Red Robe" chance="5000" />
+		<item name="Spike Sword" chance="5000" />
 	</loot>
 </monster>

@@ -31,6 +31,6 @@
 		<immunity invisible="1" />
 	</immunities>
 	<summons maxSummons="1">
-		<summon name="deathspawn" interval="2000" chance="25" />
+		<summon name="Deathspawn" interval="2000" chance="25" />
 	</summons>
 </monster>

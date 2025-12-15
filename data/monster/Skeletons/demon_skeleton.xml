@@ -39,19 +39,19 @@
 		<immunity drunk="1" />
 	</immunities>
 	<loot>
-		<item id="2148" name="gold coin" chance="97515" countmax="75" />
-		<item id="10564" name="demonic skeletal hand" chance="11978" />
-		<item id="2399" name="throwing star" chance="9982" countmax="3" />
-		<item id="7618" name="health potion" chance="9693" countmax="2" />
-		<item id="7620" name="mana potion" chance="5050" />
-		<item id="2513" name="battle shield" chance="4960" />
-		<item id="2050" name="torch" chance="4861" />
-		<item id="2417" name="battle hammer" chance="4061" />
-		<item id="2459" name="iron helmet" chance="3377" />
-		<item id="2144" name="black pearl" chance="2976" />
-		<item id="2147" name="small ruby" chance="1531" />
-		<item id="2194" name="mysterious fetish" chance="535" />
-		<item id="2178" name="mind stone" chance="469" />
-		<item id="2515" name="guardian shield" chance="113" />
+		<item name="Gold Coin" countmax="75" chance="97510" />
+		<item name="Demonic Skeletal Hand" chance="12010" />
+		<item name="Throwing Star" countmax="3" chance="9990" />
+		<item name="Health Potion" countmax="2" chance="9720" />
+		<item name="Mana Potion" chance="5040" />
+		<item name="Battle Shield" chance="4950" />
+		<item name="Torch" chance="4850" />
+		<item name="Battle Hammer" chance="4050" />
+		<item name="Iron Helmet" chance="3390" />
+		<item name="Black Pearl" chance="2990" />
+		<item name="Small Ruby" chance="1510" />
+		<item name="Mysterious Fetish" chance="530" />
+		<item name="Mind Stone" chance="470" />
+		<item name="Guardian Shield" chance="110" />
 	</loot>
 </monster>

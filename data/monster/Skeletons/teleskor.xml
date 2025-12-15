@@ -21,21 +21,22 @@
 		<attack name="melee" interval="2000" min="0" max="-30" />
 	</attacks>
 	<defenses armor="15" defense="15" />
-	<elements>
-		<element holyPercent="-5" />
-	</elements>
+	<immunities>
+		<immunity invisible="0" />
+		<immunity paralyze="1" />
+	</immunities>
 	<voices interval="1000" chance="2">
 		<voice sentence="Who Disturbs my slumber?" yell="0" />
 		<voice sentence="Mourn the dead, do not hunt them!" yell="0" />
 	</voices>
 	<loot>
-		<item id="12437" chance="100000" />				<!-- pelvis bone -->
-		<item id="2148" countmax="79" chance="81000" />	<!-- gold coin -->
-		<item id="2398" chance="72000" />				<!-- mace -->
-		<item id="2473" chance="72000" />				<!-- viking helmet -->
-		<item id="2511" chance="45000" />				<!-- brass shield -->
-		<item id="2050" chance="36000" />				<!-- torch -->
-		<item id="2388" chance="27000" />				<!-- hatchet -->
-		<item id="2376" chance="27000" />				<!-- sword -->
+		<item name="Pelvis Bone" chance="100000" />
+		<item name="Viking Helmet" chance="71430" />
+		<item name="Gold Coin" countmax="79" chance="60710" />
+		<item name="Mace" chance="57140" />
+		<item name="Brass Shield" chance="42860" />
+		<item name="Hatchet" chance="42860" />
+		<item name="Sword" chance="28570" />
+		<item name="Torch" chance="17860" />
 	</loot>
 </monster>

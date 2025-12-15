@@ -58,17 +58,17 @@
 		<voice sentence="You will regret interrupting my studies!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="65" chance="30000" />
-		<item name="gold coin" countmax="50" chance="30000" />
-		<item id="2162" chance="2000" /><!-- magic lightwand -->
-		<item name="life crystal" chance="2000" />
-		<item name="soulfire rune" chance="6000" />
-		<item name="cookie" countmax="5" chance="1200" />
-		<item name="white mushroom" countmax="3" chance="8000" />
-		<item id="6324" chance="820" /><!-- cream cake -->
-		<item name="mastermind potion" chance="130" />
-		<item name="health potion" chance="19000" />
-		<item name="mana potion" chance="19000" />
-		<item name="small enchanted amethyst" chance="470" />
+		<item name="Gold Coin" countmax="100" chance="60080" />
+		<item name="Gold Coin" countmax="15" chance="60080" />
+		<item name="Health Potion" chance="20040" />
+		<item name="Mana Potion" chance="19620" />
+		<item name="White Mushroom" countmax="3" chance="8030" />
+		<item name="Powder Herb" chance="6030" />
+		<item name="Magic Light Wand" chance="2040" />
+		<item name="Life Crystal" chance="2020" />
+		<item name="Cookie" countmax="5" chance="1180" />
+		<item name="Cream Cake" chance="820" />
+		<item name="Small Enchanted Amethyst" chance="480" />
+		<item name="Mastermind Potion" chance="120" />
 	</loot>
 </monster>

@@ -12,27 +12,33 @@
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag targetdistance="4" />
-		<flag runonhealth="0" />
+		<flag staticattack="50" />
+		<flag runonhealth="229" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-389" />
 		<attack name="outfit" interval="1000" chance="10" range="7" item="7172" duration="8000">
-			<attribute key="areaEffect" value="blueshimmer" />
-		</attack>
-		<attack name="ice" interval="2000" chance="18" target="1" radius="4" min="0" max="-430">
-			<attribute key="areaEffect" value="icearea" />
-			<attribute key="shootEffect" value="smallice" />
-		</attack>
-		<attack name="physical" interval="3000" chance="34" range="7" radius="3" target="1" min="-200" max="-310">
 			<attribute key="shootEffect" value="snowball" />
+			<attribute key="areaEffect" value="bluefirework" />
+		</attack>
+		<attack name="ice" interval="2000" chance="18" spread="2" length="6" min="-300" max="-430">
+			<attribute key="areaEffect" value="icearea" />
+		</attack>
+		<attack name="ice" interval="3000" chance="34" range="7" radius="3" target="1" min="-180" max="-210">
+			<attribute key="shootEffect" value="smallice" />
+			<attribute key="areaEffect" value="icearea" />
 		</attack>
 		<attack name="speed" interval="1000" chance="10" range="7" speedchange="-600" duration="20000">
-			<attribute key="areaEffect" value="redshimmer" />
+			<attribute key="areaEffect" value="blackspark" />
+			<attribute key="shootEffect" value="smallice" />
 		</attack>
 	</attacks>
 	<defenses armor="15" defense="20">
-		<defense name="healing" interval="1000" chance="25" min="50" max="100">
+		<defense name="healing" interval="1000" chance="25" min="325" max="575">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
@@ -42,9 +48,8 @@
 		<element earthPercent="80" />
 	</elements>
 	<immunities>
-		<immunity ice="1" />
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="4">
 		<summon name="Ice Golem" interval="1000" chance="13" />
@@ -58,21 +63,25 @@
 		<voice sentence="I will make you all pay!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="88" chance="10000" />
-		<item name="boots of haste" chance="2000" />
-		<item name="dragon necklace" chance="3250" />
-		<item name="skull staff" chance="4500" />
-		<item name="crystal mace" chance="4000" />
-		<item name="blue piece of cloth" chance="5000" />
-		<item name="shard" chance="100000" />
-		<item name="queen's sceptre" chance="1500" />
-		<item name="berserk potion" chance="1500" />
-		<item name="mastermind potion" chance="1500" />
-		<item name="bullseye potion" chance="1500" />
-		<item name="crystal sword" chance="4000" />
-		<item name="pair of earmuffs" chance="1000" />
-		<item name="glacier kilt" chance="2650" />
-		<item name="glacier robe" chance="3000" />
-		<item name="gold ingot" chance="5000" />
+		<item name="Shard" chance="100000" />
+		<item name="Gold Coin" countmax="100" chance="98040" />
+		<item name="Gold Coin" countmax="100" chance="98040" />
+		<item name="Gold Coin" countmax="24" chance="98040" />
+		<item name="Blue Piece of Cloth" chance="76470" />
+		<item name="Mastermind Potion" chance="61440" />
+		<item name="Gold Ingot" chance="36600" />
+		<item name="Crystal Sword" chance="15690" />
+		<item name="Glacier Kilt" chance="13070" />
+		<item name="Glacier Robe" chance="11760" />
+		<item name="Dragon Necklace" chance="11110" />
+		<item name="Great Mana Potion" chance="9800" />
+		<item name="Skull Staff" chance="6540" />
+		<item name="Life Ring" chance="5880" />
+		<item name="Pair of Earmuffs" chance="5230" />
+		<item name="Bullseye Potion" chance="4580" />
+		<item name="Berserk Potion" chance="3920" />
+		<item name="Queen's Sceptre" chance="3270" />
+		<item name="Boots of Haste" chance="1310" />
+		<item name="Green Mushroom" chance="650" />
 	</loot>
 </monster>

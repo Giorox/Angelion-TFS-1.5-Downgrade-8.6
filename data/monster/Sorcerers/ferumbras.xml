@@ -14,57 +14,61 @@
 		<flag canpushcreatures="1" />
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
-		<flag runonhealth="2500" />
+		<flag runonhealth="3599" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-350" />
-		<attack name="manadrain" interval="2000" chance="20" range="7" min="-300" max="-700">
-			<attribute key="areaEffect" value="redshimmer" />
-		</attack>
-		<attack name="earth" interval="3000" chance="20" radius="6" target="0" min="-250" max="-550">
-			<attribute key="areaEffect" value="poison" />
-		</attack>
-		<attack name="energy" interval="2000" chance="18" radius="6" target="0" min="-200" max="-400">
-			<attribute key="areaEffect" value="energy" />
-		</attack>
-		<attack name="manadrain" interval="2000" chance="16" radius="6" target="0" min="-225" max="-375">
-			<attribute key="areaEffect" value="redshimmer" />
-		</attack>
-		<attack name="lifedrain" interval="2000" chance="21" radius="6" target="0" min="-200" max="-450">
-			<attribute key="areaEffect" value="poff" />
-		</attack>
-		<attack name="effect" interval="3000" chance="20" radius="5" target="0" min="-200" max="-600">
-			<attribute key="areaEffect" value="blackspark" />
-		</attack>
+		<attack name="melee" interval="2000" min="0" max="-1360" />
 		<attack name="firecondition" interval="3000" chance="20" range="7" radius="7" target="1" min="-200" max="-800">
 			<attribute key="shootEffect" value="fire" />
 			<attribute key="areaEffect" value="firearea" />
 		</attack>
-		<attack name="lifedrain" interval="2000" chance="25" length="8" spread="0" min="-50" max="-250">
+		<attack name="lifedrain" interval="2000" chance="25" length="8" spread="0" min="-50" max="-850">
 			<attribute key="areaEffect" value="greenspark" />
+		</attack>
+		<attack name="manadrain" interval="2000" chance="20" range="7" min="-350" max="-650">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="poisoncondition" interval="3000" chance="20" radius="6" target="0" min="-400" max="-760">
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+		<attack name="energycondition" interval="2000" chance="18" radius="6" target="0" min="-300" max="-800">
+			<attribute key="areaEffect" value="energy" />
+		</attack>
+		<attack name="manadrain" interval="2000" chance="16" radius="6" target="0" min="-125" max="-375">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="21" radius="6" target="0" min="-200" max="-400">
+			<attribute key="areaEffect" value="poff" />
 		</attack>
 	</attacks>
 	<defenses armor="100" defense="120">
-		<defense name="healing" interval="2000" chance="10" min="900" max="1500">
+		<defense name="healing" interval="2000" chance="10" min="600" max="1000">
+			<attribute key="areaEffect" value="greenshimmer" />
+		</defense>
+		<defense name="healing" interval="8000" chance="10" min="1400" max="2600">
 			<attribute key="areaEffect" value="greenshimmer" />
 		</defense>
 		<defense name="speed" interval="3000" chance="30" speedchange="360" duration="7000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
-		<defense name="invisible" interval="4000" chance="20" duration="5000">
+		<defense name="invisible" interval="4000" chance="20" duration="9000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
 	<elements>
-		<element firePercent="90" />
-		<element energyPercent="90" />
+		<element physicalPercent="5" />
+		<element deathPercent="5" />
 		<element holyPercent="20" />
 		<element icePercent="20" />
-		<element physicalPercent="10" />
+		<element firePercent="90" />
+		<element energyPercent="90" />
+		<element earthPercent="90" />
 	</elements>
 	<immunities>
-		<immunity earth="1" />
 		<immunity lifedrain="1" />
 		<immunity outfit="1" />
 		<immunity drunk="1" />
@@ -82,64 +86,64 @@
 		<voice sentence="I returned from death and you dream about defeating me?" yell="0" />
 	</voices>
 	<loot>
-		<item id="5903" name="Ferumbras' hat" chance="100000" />
-		<item name="gold coin" countmax="100" chance="97000" />
-		<item name="gold coin" countmax="100" chance="97000" />
-		<item name="gold coin" countmax="70" chance="33000" />
-		<item name="gold ingot" countmax="2" chance="75000" />
-		<item name="great shield" chance="26000" />
-		<item name="spellbook of lost souls" chance="26000" />
-		<item name="golden armor" chance="24000" />
-		<item name="golden legs" chance="22000" />
-		<item name="spellbook of mind control" chance="22000" />
-		<item name="velvet mantle" chance="22000" />
-		<item name="demon shield" chance="20000" />
-		<item name="divine plate" chance="20000" />
-		<item name="magma legs" chance="20000" />
-		<item name="tempest shield" chance="20000" />
-		<item name="emerald bangle" chance="18000" />
-		<item name="glacier kilt" chance="18000" />
-		<item name="lightning legs" chance="18000" />
-		<item name="phoenix shield" chance="18000" />
-		<item name="spellbook of dark mysteries" chance="18000" />
-		<item name="terra legs" chance="18000" />
-		<item name="emerald sword" chance="16000" />
-		<item name="havoc blade" chance="16000" />
-		<item name="shadow sceptre" chance="16000" />
-		<item name="small emerald" countmax="100" chance="16000" />
-		<item id="7632" countmax="5" chance="14000" /><!-- giant shimmering pearl -->
-		<item id="7633" countmax="5" chance="14000" /><!-- giant shimmering pearl -->
-		<item name="magic plate armor" chance="14000" />
-		<item id="2514" name="mastermind shield" chance="14000" />
-		<item name="runed sword" chance="14000" />
-		<item name="spellscroll of prophecies" chance="14000" />
-		<item name="chaos mace" chance="12000" />
-		<item name="demonwing axe" chance="12000" />
-		<item name="greenwood coat" chance="12000" />
-		<item name="small sapphire" countmax="98" chance="12000" />
-		<item name="white pearl" countmax="88" chance="12000" />
-		<item name="haunted blade" chance="10000" />
-		<item name="hellforged axe" chance="10000" />
-		<item name="obsidian truncheon" chance="10000" />
-		<item name="ornamented axe" chance="10000" />
-		<item name="queen's sceptre" chance="10000" />
-		<item name="small amethyst" countmax="54" chance="10000" />
-		<item name="small topaz" countmax="87" chance="10000" />
-		<item name="demonrage sword" chance="8100" />
-		<item name="jade hammer" chance="8100" />
-		<item name="platinum coin" countmax="58" chance="8100" />
-		<item name="skullcrusher" chance="8100" />
-		<item name="soul orb" countmax="9" chance="8100" />
-		<item name="vile axe" chance="8100" />
-		<item name="abyss hammer" chance="6100" />
-		<item name="berserker" chance="6100" />
-		<item name="black pearl" countmax="83" chance="6100" />
-		<item name="bloody edge" chance="6100" />
-		<item name="nightmare blade" chance="6100" />
-		<item name="great axe" chance="4000" />
-		<item name="impaler" chance="4000" />
-		<item name="red tome" chance="4000" />
-		<item name="small diamond" countmax="82" chance="4000" />
-		<item name="small ruby" countmax="92" chance="4000" />
+		<item name="Ferumbras' Hat" chance="100000" />
+		<item name="Gold Coin" countmax="100" chance="97960" />
+		<item name="Gold Coin" countmax="100" chance="97960" />
+		<item name="Gold Coin" countmax="70" chance="97960" />
+		<item name="Gold Ingot" countmax="2" chance="75510" />
+		<item name="Great Shield" chance="26530" />
+		<item name="Spellbook of Lost Souls" chance="26530" />
+		<item name="Golden Armor" chance="24490" />
+		<item name="Golden Legs" chance="22450" />
+		<item name="Spellbook of Mind Control" chance="22450" />
+		<item name="Velvet Mantle" chance="22450" />
+		<item name="Demon Shield" chance="20410" />
+		<item name="Divine Plate" chance="20410" />
+		<item name="Magma Legs" chance="20410" />
+		<item name="Tempest Shield" chance="20410" />
+		<item name="Emerald Bangle" chance="18370" />
+		<item name="Glacier Kilt" chance="18370" />
+		<item name="Lightning Legs" chance="18370" />
+		<item name="Phoenix Shield" chance="18370" />
+		<item name="Spellbook of Dark Mysteries" chance="18370" />
+		<item name="Terra Legs" chance="18370" />
+		<item name="Emerald Sword" chance="16330" />
+		<item name="Havoc Blade" chance="16330" />
+		<item name="Shadow Sceptre" chance="16330" />
+		<item name="Small Emerald" countmax="100" chance="16330" />
+		<item id="7632" name="Giant Shimmering Pearl" countmax="5" chance="14290" />
+		<item id="7633" name="Giant Shimmering Pearl" countmax="5" chance="14290" />
+		<item name="Magic Plate Armor" chance="14290" />
+		<item name="Mastermind Shield" chance="14290" />
+		<item name="Runed Sword" chance="14290" />
+		<item name="Spellscroll of Prophecies" chance="14290" />
+		<item name="Chaos Mace" chance="12240" />
+		<item name="Demonwing Axe" chance="12240" />
+		<item name="Greenwood Coat" chance="12240" />
+		<item name="Small Sapphire" countmax="98" chance="12240" />
+		<item name="White Pearl" countmax="88" chance="12240" />
+		<item name="Haunted Blade" chance="10200" />
+		<item name="Hellforged Axe" chance="10200" />
+		<item name="Obsidian Truncheon" chance="10200" />
+		<item name="Ornamented Axe" chance="10200" />
+		<item name="Queen's Sceptre" chance="10200" />
+		<item name="Small Amethyst" countmax="54" chance="10200" />
+		<item name="Small Topaz" countmax="87" chance="10200" />
+		<item name="Demonrage Sword" chance="8160" />
+		<item name="Jade Hammer" chance="8160" />
+		<item name="Platinum Coin" countmax="58" chance="8160" />
+		<item name="Skullcrusher" chance="8160" />
+		<item name="Soul Orb" countmax="9" chance="8160" />
+		<item name="Vile Axe" chance="8160" />
+		<item name="Abyss Hammer" chance="6120" />
+		<item name="Berserker" chance="6120" />
+		<item name="Black Pearl" countmax="83" chance="6120" />
+		<item name="Bloody Edge" chance="6120" />
+		<item name="Nightmare Blade" chance="6120" />
+		<item name="Great Axe" chance="4080" />
+		<item name="Impaler" chance="4080" />
+		<item name="Red Tome" chance="4080" />
+		<item name="Small Diamond" countmax="82" chance="4080" />
+		<item name="Small Ruby" countmax="92" chance="4080" />
 	</loot>
 </monster>

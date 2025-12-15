@@ -7,7 +7,7 @@
 		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
-		<flag illusionable="1" />
+		<flag illusionable="0" />
 		<flag convinceable="0" />
 		<flag pushable="0" />
 		<flag canpushitems="1" />
@@ -18,6 +18,8 @@
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
+		<flag lightlevel="5" />
+		<flag lightcolor="79" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-520" />
@@ -45,24 +47,24 @@
 		<immunity paralyze="1" />
 	</immunities>
 	<loot>
-		<item name="emerald bangle" chance="2200" />
-		<item id="2136" chance="190" /><!-- demonbone amulet -->
-		<item name="small diamond" chance="1400" />
-		<item name="gold coin" countmax="100" chance="50000" />
-		<item name="gold coin" countmax="100" chance="40000" />
-		<item name="gold coin" countmax="46" chance="10000" />
-		<item name="bronze amulet" chance="1000" />
-		<item name="wand of inferno" chance="9450" />
-		<item name="burnt scroll" chance="50000" />
-		<item name="blank rune" countmax="2" chance="30000" />
-		<item name="fire sword" chance="4140" />
-		<item name="fire axe" chance="440" />
-		<item name="soul orb" chance="12150" />
-		<item name="demonic essence" chance="14500" />
-		<item name="magma legs" chance="730" />
-		<item name="magma coat" chance="470" />
-		<item name="fiery heart" chance="9570" />
-		<item name="piece of hellfire armor" chance="5060" />
-		<item id="13757" chance="670" /><!-- coal -->
+		<item name="Gold Coin" countmax="100" chance="100000" />
+		<item name="Gold Coin" countmax="100" chance="100000" />
+		<item name="Gold Coin" countmax="43" chance="100000" />
+		<item name="Burnt Scroll" chance="49860" />
+		<item name="Blank Rune" countmax="2" chance="30270" />
+		<item name="Demonic Essence" chance="15200" />
+		<item name="Soul Orb" chance="11800" />
+		<item name="Fiery Heart" chance="10690" />
+		<item name="Wand of Inferno" chance="9130" />
+		<item name="Piece of Hellfire Armor" chance="4440" />
+		<item name="Fire Sword" chance="4280" />
+		<item name="Emerald Bangle" chance="1890" />
+		<item name="Small Diamond" chance="1370" />
+		<item name="Platinum Coin" chance="900" />
+		<item name="Magma Legs" chance="870" />
+		<item name="Coal" chance="510" /> <!-- ID=13757 -->
+		<item name="Magma Coat" chance="490" />
+		<item name="Fire Axe" chance="420" />
+		<item name="Demonbone Amulet" chance="220" />
 	</loot>
 </monster>

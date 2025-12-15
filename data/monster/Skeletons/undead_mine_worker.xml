@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Undead Mine Worker" nameDescription="an undead mine worker" race="undead" experience="45" speed="150">
+<monster name="Undead Mine Worker" nameDescription="an undead mine worker" race="undead" experience="45" speed="150" manacost="350">
 	<health now="65" max="65" />
 	<look type="33" corpse="5972" />
 	<targetchange interval="4000" chance="0" />
 	<flags>
-		<flag summonable="0" />
+		<flag summonable="1" />
 		<flag attackable="1" />
 		<flag hostile="1" />
-		<flag illusionable="0" />
-		<flag convinceable="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
 		<flag pushable="0" />
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
@@ -40,11 +40,11 @@
 		<voice sentence="Urrrgh... gnarrr..." yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="10" chance="73000" />
-		<item id="2230" chance="42000" /><!-- bone -->
-		<item id="2376" chance="3850" /><!-- sword -->
-		<item name="mace" chance="26900" />
-		<item name="white mushroom" countmax="3" chance="15400" />
-		<item name="brown mushroom" chance="3850" />
+		<item name="Bone" chance="50130" />
+		<item name="Gold Coin" countmax="10" chance="44840" />
+		<item name="Mace" chance="20270" />
+		<item name="White Mushroom" countmax="3" chance="16930" />
+		<item name="Brown Mushroom" chance="4890" />
+		<item name="Sword" chance="2090" />
 	</loot>
 </monster>

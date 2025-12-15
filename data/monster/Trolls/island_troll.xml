@@ -13,6 +13,7 @@
 		<flag canpushitems="0" />
 		<flag canpushcreatures="0" />
 		<flag targetdistance="1" />
+		<flag staticattack="90" />
 		<flag runonhealth="15" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
@@ -30,17 +31,17 @@
 		<voice sentence="Gruntz!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="59656" countmax="10" />
-		<item id="5901" name="wood" chance="30727" />
-		<item id="2389" name="spear" chance="20007" />
-		<item id="2380" name="hand axe" chance="17701" />
-		<item id="2512" name="wooden shield" chance="15244" />
-		<item id="2643" name="leather boots" chance="9794" />
-		<item id="2461" name="leather helmet" chance="9670" />
-		<item id="2120" name="rope" chance="7889" />
-		<item id="2448" name="studded club" chance="5182" />
-		<item id="5097" name="mango" chance="5102" />
-		<item id="7963" name="marlin" chance="71" />
-		<item id="2170" name="silver amulet" chance="71" />
+		<item name="Gold Coin" countmax="10" chance="59950" />
+		<item name="Wood" chance="30670" />
+		<item name="Spear" chance="19990" />
+		<item name="Hand Axe" chance="17780" />
+		<item name="Wooden Shield" chance="15300" />
+		<item name="Leather Boots" chance="9970" />
+		<item name="Leather Helmet" chance="9780" />
+		<item name="Rope" chance="7950" />
+		<item name="Studded Club" chance="5070" />
+		<item name="Mango" chance="5040" />
+		<item name="Silver Amulet" chance="80" />
+		<item name="Marlin" chance="70" />
 	</loot>
 </monster>

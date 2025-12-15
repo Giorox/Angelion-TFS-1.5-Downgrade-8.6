@@ -15,6 +15,7 @@
 		<flag targetdistance="4" />
 		<flag staticattack="90" />
 		<flag runonhealth="900" />
+		<flag canwalkonfire="1" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
@@ -36,7 +37,6 @@
 		<attack name="speed" interval="2000" chance="15" range="7" speedchange="-330" duration="20000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
-		<attack name="warlock skill reducer" range="5" interval="2000" chance="5" />
 	</attacks>
 	<defenses armor="20" defense="20">
 		<defense name="healing" interval="2000" chance="20" min="100" max="225">
@@ -59,7 +59,6 @@
 		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="3">
-		<summon name="Warlock" interval="2000" chance="10" max="2" />
 		<summon name="Green Djinn" interval="2000" chance="10" max="3" />
 	</summons>
 	<voices interval="1000" chance="2">
@@ -68,29 +67,17 @@
 		<voice sentence="Ah, practice time once again!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" countmax="80" chance="32000" />	<!-- gold coin -->
-		<item id="2679" countmax="4" chance="21000" />	<!-- cherry -->
-		<item id="2689" chance="11000" />				<!-- bread -->
-		<item id="2411" chance="9600" />					<!-- poison dagger -->
-		<item id="2436" chance="8330" />					<!-- skull staff -->
-		<item id="7591" chance="7190" />					<!-- great health potion -->
-		<item id="7590" chance="6760" />					<!-- great mana potion -->
-		<item id="7368" countmax="4" chance="5500" />	<!-- assassin star -->
-		<item id="2792" chance="5000" />					<!-- dark mushroom -->
-		<item id="2167" chance="4200" />					<!-- energy ring -->
-		<item id="2178" chance="4000" />					<!-- mind stone -->
-		<item id="2047" chance="3500" />					<!-- candlestick -->
-		<item id="2656" chance="3390" />					<!-- blue robe -->
-		<item id="2146" chance="3190" />					<!-- small sapphire -->
-		<item id="2151" chance="3160" />					<!-- talon -->
-		<item id="7898" chance="3040" />					<!-- lightning robe -->
-		<item id="2600" chance="3000" />					<!-- inkwell -->
-		<item id="2124" chance="2670" />					<!-- crystal ring -->
-		<item id="12410" chance="2500" />				<!-- luminous orb -->
-		<item id="2123" chance="2420" />					<!-- ring of the sky -->
-		<item id="2197" chance="2320" />					<!-- stone skin amulet -->
-		<item id="1986" chance="2310" />					<!-- red tome -->
-		<item id="2466" chance="2240" />					<!-- golden armor -->
-		<item id="2114" chance="2060" />					<!-- piggy bank -->
+		<item name="Gold Coin" countmax="100" chance="47830" />
+		<item name="Gold Coin" countmax="50" chance="47830" />
+		<item name="Poison Dagger" chance="30430" />
+		<item name="Skull Staff" chance="30430" />
+		<item name="Blue Robe" chance="13040" />
+		<item name="Assassin Star" countmax="3" chance="8700" />
+		<item name="Great Mana Potion" chance="8700" />
+		<item name="Golden Armor" chance="4350" />
+		<item name="Lightning Robe" chance="4350" />
+		<item name="Ring of the Sky" chance="4350" />
+		<item name="Spellbook of Mind Control" chance="500" />
+		<item name="Lightning Legs" chance="500" />
 	</loot>
 </monster>

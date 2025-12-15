@@ -17,19 +17,19 @@
 		<flag isboss="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-298" />
+		<attack name="melee" interval="2000" min="0" max="-400" />
 		<attack name="earth" interval="1000" chance="8" length="9" spread="3" min="-130" max="-460">
 			<attribute key="areaEffect" value="bigplants" />
 		</attack>
 		<attack name="ice" interval="1000" chance="10" length="9" spread="3" min="-365" max="-491">
 			<attribute key="areaEffect" value="icearea" />
 		</attack>
-		<attack name="drown" interval="1000" chance="11" radius="4" target="1" min="-15" max="-20">
+		<attack name="drown" interval="1000" chance="11" radius="4" target="1" min="-120" max="-120">
 			<attribute key="areaEffect" value="bluebubble" />
 		</attack>
 	</attacks>
 	<defenses armor="20" defense="30">
-		<defense name="healing" interval="1000" chance="25" min="50" max="150">
+		<defense name="healing" interval="1000" chance="25" min="450" max="550">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
@@ -50,9 +50,15 @@
 		<voice sentence="CHHHRRRR" yell="1" />
 	</voices>
 	<loot>
-		<item name="small sapphire" countmax="3" chance="10000" />
-		<item name="gold coin" countmax="80" chance="40000" />
-		<item name="gold coin" countmax="80" chance="40000" />
-		<item name="platinum coin" countmax="6" chance="40000" />
+		<item name="Leviathan's Amulet" chance="100000" />
+		<item name="Sea Serpent Trophy" chance="100000" />
+		<item name="Rusted Armor" chance="84560" />
+		<item name="Platinum Coin" countmax="7" chance="83090" />
+		<item name="Rusted Legs" chance="83090" />
+		<item name="Bonebreaker" chance="53680" />
+		<item name="Small Sapphire" countmax="5" chance="50740" />
+		<item name="Strong Mana Potion" chance="49260" />
+		<item name="Moon Backpack" chance="15440" />
+		<item name="Frozen Plate" chance="740" />
 	</loot>
 </monster>

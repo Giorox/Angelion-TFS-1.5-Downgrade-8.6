@@ -7,14 +7,14 @@
 		<flag summonable="0" />
 		<flag attackable="1" />
 		<flag hostile="1" />
-		<flag illusionable="0" />
-		<flag convinceable="1" />
+		<flag illusionable="1" />
+		<flag convinceable="0" />
 		<flag pushable="1" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="0" />
-		<flag staticattack="90" />
 		<flag targetdistance="1" />
-		<flag runonhealth="0" />
+		<flag staticattack="90" />
+		<flag runonhealth="20" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="0" />
@@ -24,6 +24,9 @@
 		<attack name="physical" interval="2000" chance="20" range="7" radius="1" target="1" min="0" max="-95">
 			<attribute key="shootEffect" value="explosion" />
 			<attribute key="areaEffect" value="explosionarea" />
+		</attack>
+		<attack name="physical" interval="2000" chance="20" radius="1" target="0">
+			<attribute key="areaEffect" value="purplenote" />
 		</attack>
 	</attacks>
 	<defenses armor="15" defense="15" />
@@ -44,18 +47,18 @@
 		<voice sentence="Hiyaa!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="77548" countmax="50" />
-		<item id="11219" name="compass" chance="10074" />
-		<item id="2483" name="scale armor" chance="3070" />
-		<item id="2509" name="steel shield" chance="2884" />
-		<item id="5710" name="light shovel" chance="1960" />
-		<item id="14337" name="treasure map (pirate)" chance="1092" />
-		<item id="5918" name="pirate knee breeches" chance="1019" />
-		<item id="5927" name="pirate bag" chance="987" />
-		<item id="6097" name="hook" chance="534" />
-		<item id="6126" name="peg leg" chance="514" />
-		<item id="6098" name="eye patch" chance="468" />
-		<item id="5792" name="die" chance="93" />
-		<item id="5553" name="rum flask" chance="89" />
+		<item name="Gold Coin" countmax="50" chance="77520" />
+		<item name="Compass" chance="10060" />
+		<item name="Scale Armor" chance="3050" />
+		<item name="Steel Shield" chance="2890" />
+		<item name="Light Shovel" chance="1950" />
+		<item name="Treasure Map (Pirate)" chance="1080" />
+		<item name="Pirate Knee Breeches" chance="1030" />
+		<item name="Pirate Bag" chance="990" />
+		<item name="Hook" chance="530" />
+		<item name="Peg Leg" chance="530" />
+		<item name="Eye Patch" chance="470" />
+		<item name="Die" chance="100" />
+		<item name="Rum Flask" chance="90" />
 	</loot>
 </monster>

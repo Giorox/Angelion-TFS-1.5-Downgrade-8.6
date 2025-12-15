@@ -32,7 +32,7 @@
 		<attack name="firefield" interval="2000" chance="13" range="7">
 			<attribute key="shootEffect" value="fire" />
 		</attack>
-		<attack name="outfit" interval="2000" chance="1" target="1" range="5" monster="green frog" duration="2000" />
+		<attack name="outfit" interval="2000" chance="1" target="1" range="5" monster="Green Frog" duration="2000" />
 	</attacks>
 	<defenses armor="15" defense="20">
 		<defense name="invisible" interval="1000" chance="9" duration="5000">

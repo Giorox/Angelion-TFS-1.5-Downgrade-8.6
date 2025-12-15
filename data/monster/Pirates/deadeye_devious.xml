@@ -18,10 +18,11 @@
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="0" />
 		<flag isboss="1" />
+		<flag runonhealth="434" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-550" />
-		<attack name="physical" interval="4000" chance="60" min="-200" max="-250">
+		<attack name="melee" interval="2000" min="0" max="-350" />
+		<attack name="physical" interval="4000" range="5" chance="60" min="-200" max="-250">
 			<attribute key="shootEffect" value="throwingknife" />
 		</attack>
 	</attacks>
@@ -32,19 +33,28 @@
 	</defenses>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Let's kill 'em" />
-		<voice sentence="Arrrgh!" />
-		<voice sentence="You'll never take me alive!" />
+		<voice sentence="§%§&§! #*$§$!!" yell="0" />
+		<voice sentence="You'll never take me alive!" yell="0" />
+		<voice sentence="You won't get me alive!" yell="0" />
+		<voice sentence="Arrrgh!" yell="0" />
+		<voice sentence="Let's kill 'em" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="65" chance="100000" />
-		<item name="skull of Ratha" countmax="2" chance="100000" />
-		<item name="plate armor" chance="4000" />
-		<item name="knight armor" chance="1200" />
-		<item name="meat" chance="100000" />
-		<item name="pirate backpack" chance="4000" />
-		<item name="Deadeye Devious' eye patch" chance="100000" />
+		<item name="Deadeye Devious' Eye Patch" chance="100000" />
+		<item name="Gold Coin" countmax="100" chance="100000" />
+		<item name="Gold Coin" countmax="40" chance="100000" />
+		<item name="Plate Armor" chance="82350" />
+		<item name="Skull" countmax="2" chance="76470" />
+		<item name="Meat" countmax="3" chance="41180" />
+		<item name="Dagger" chance="29410" />
+		<item name="Knight Armor" chance="23530" />
+		<item name="Small Diamond" chance="17650" />
+		<item name="Double Axe" chance="5880" />
+		<item name="Great Health Potion" chance="5880" />
+		<item name="Pirate Backpack" chance="5880" />
+		<item name="Very Old Piece of Paper" chance="5880" />
 	</loot>
 </monster>

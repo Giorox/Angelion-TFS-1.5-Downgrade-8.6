@@ -14,34 +14,52 @@
 		<flag canpushcreatures="1" />
 		<flag targetdistance="1" />
 		<flag staticattack="85" />
-		<flag runonhealth="0" />
+		<flag runonhealth="1039" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-900" />
-		<attack name="manadrain" interval="2000" chance="10" range="7" min="0" max="-2000">
+		<attack name="manadrain" interval="2000" chance="10" range="7" min="0" max="-3800">
 			<attribute key="shootEffect" value="energy" />
 			<attribute key="areaEffect" value="poff" />
 		</attack>
-		<attack name="manadrain" interval="2000" chance="15" range="7" radius="7" target="1" min="0" max="-800">
-			<attribute key="shootEffect" value="fire" />
-			<attribute key="areaEffect" value="bigclouds" />
+		<attack name="death" interval="2000" chance="15" radius="3" target="0" min="0" max="-800">
+			<attribute key="shootEffect" value="suddendeath" />
+			<attribute key="areaEffect" value="mortarea" />
 		</attack>
 		<attack name="death" interval="2000" chance="20" range="7" min="0" max="-524">
 			<attribute key="shootEffect" value="suddendeath" />
 			<attribute key="areaEffect" value="mortarea" />
 		</attack>
-		<attack name="lifedrain" interval="1000" chance="10" length="8" spread="0" min="-100" max="-500">
-			<attribute key="areaEffect" value="sleep" />
+		<attack name="fire" interval="1000" chance="10" length="8" spread="0" min="-100" max="-1050">
+			<attribute key="areaEffect" value="fire" />
 		</attack>
 	</attacks>
 	<defenses armor="40" defense="65">
-		<defense name="healing" interval="1000" chance="11" min="400" max="900">
+		<defense name="healing" interval="1000" chance="11" min="400" max="600">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="460" duration="5000">
 			<attribute key="areaEffect" value="greenshimmer" />
 		</defense>
 	</defenses>
+	<elements>
+		<element deathPercent="15" />
+		<element holyPercent="15" />
+		<element icePercent="15" />
+		<element firePercent="15" />
+		<element energyPercent="15" />
+		<element earthPercent="15" />
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+	</immunities>
 	<summons maxSummons="10">
-		<summon name="Rift Worm" speed="3000" chance="30" />
+		<summon name="Rift Worm" speed="3000" chance="30" max="8" />
+		<summon name="Rift Brood" speed="3000" chance="30" max="8" />
+		<summon name="Rift Scythe" speed="3000" chance="30" max="8" />
+		<summon name="War Golem" speed="3000" chance="30" max="5" />
 	</summons>
 	<voices interval="5000" chance="12">
 		<voice sentence="You might scratch my shields but they will never break!" yell="0" />
