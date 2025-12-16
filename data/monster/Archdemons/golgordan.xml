@@ -15,34 +15,103 @@
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-575" />
-		<attack name="death" interval="3000" chance="15" length="8" spread="0" min="-250" max="-850">
-			<attribute key="areaEffect" value="mortarea" />
-		</attack>
-		<attack name="poisoncondition" interval="1000" chance="11" length="5" spread="2" min="-300" max="-350">
-			<attribute key="areaEffect" value="poison" />
-		</attack>
-		<attack name="physical" interval="1000" chance="8" radius="6" target="0" min="-50" max="-955">
-			<attribute key="areaEffect" value="groundshaker" />
-		</attack>
-		<attack name="fire" interval="2000" chance="15" radius="7" target="1" min="-50" max="-200">
+		<attack name="fire" interval="2000" chance="15" radius="1" target="1" min="-50" max="-200">
+			<attribute key="shootEffect" value="fire" />
 			<attribute key="areaEffect" value="firearea" />
 		</attack>
+		<attack name="poisoncondition" interval="1000" chance="11" length="8" spread="0" min="-300" max="-350">
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+		<attack name="death" interval="3000" chance="15" length="5" spread="2" min="-250" max="-600">
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="death" interval="1000" chance="8" radius="1" target="1" range="9" min="-400" max="-600">
+			<attribute key="shootEffect" value="death" />
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="fire" interval="1000" chance="11" length="8" spread="0" min="-300" max="-600">
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+		<attack name="fire" interval="1000" chance="8" radius="1" target="0" range="4" min="-400" max="-600">
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+		<attack name="physical" interval="1000" chance="11" length="8" spread="0" min="0" max="0">
+			<attribute key="areaEffect" value="poff" />
+		</attack>
 	</attacks>
-	<defenses armor="48" defense="54" />
+	<defenses armor="48" defense="54" >
+		<defense name="healing" interval="3000" chance="25" min="460" max="550">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
 	<elements>
-		<element icePercent="-10" />
-		<element holyPercent="15" />
-		<element physicalPercent="20" />
+		<element physicalPercent="1" />
+		<element holyPercent="1" />
+		<element icePercent="-1" />
 		<element firePercent="-5" />
+		<element energyPercent="30" />
+		<element earthPercent="5" />
 	</elements>
 	<immunities>
 		<immunity death="1" />
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="Latrivan your fool" yell="1" />
+		<voice sentence="We are the right hand and the left hand of the seven!" yell="0" />
+		<voice sentence="Latrivan, you fool!" yell="0" />
 	</voices>
+	<loot>
+		<item name="Gold Coin" countmax="100" chance="100000" />
+		<item name="Gold Coin" countmax="100" chance="100000" />
+		<item name="Gold Coin" countmax="62" chance="100000" />
+		<item name="Great Health Potion" countmax="2" chance="36820" />
+		<item name="Ring of Healing" chance="27730" />
+		<item name="Magic Light Wand" chance="25450" />
+		<item name="Double Axe" chance="20000" />
+		<item name="Small Amethyst" countmax="20" chance="19550" />
+		<item name="Gold Ring" chance="18180" />
+		<item name="Stealth Ring" chance="17270" />
+		<item name="Energy Ring" chance="16820" />
+		<item name="Small Sapphire" countmax="10" chance="16360" />
+		<item name="Silver Dagger" chance="15910" />
+		<item name="Black Pearl" countmax="15" chance="15450" />
+		<item name="Silver Amulet" chance="14550" />
+		<item name="Small Emerald" countmax="10" chance="14550" />
+		<item name="Stone Skin Amulet" chance="10910" />
+		<item name="Devil Helmet" chance="10000" />
+		<item name="Fire Axe" chance="9550" />
+		<item name="Onyx Arrow" countmax="8" chance="8180" />
+		<item name="White Pearl" countmax="15" chance="8180" />
+		<item name="Demon Shield" chance="7730" />
+		<item name="Ice Rapier" chance="7730" />
+		<item name="Small Diamond" countmax="5" chance="7730" />
+		<item name="Demonic Essence" chance="7270" />
+		<item name="Giant Sword" chance="6820" />
+		<item name="Gold Ingot" chance="6820" />
+		<item name="Death Ring" chance="5910" />
+		<item name="Protection Amulet" chance="5910" />
+		<item name="Skull Staff" chance="5450" />
+		<item name="Mind Stone" chance="4550" />
+		<item name="Moonlight Rod" chance="4090" />
+		<item name="Might Ring" chance="3180" />
+		<item name="Boots of Haste" chance="2270" />
+		<item name="Crystal Ball" chance="1820" />
+		<item name="Snakebite Rod" chance="1820" />
+		<item name="Blue Gem" chance="1360" />
+		<item name="Necrotic Rod" chance="1360" />
+		<item name="Wand of Decay" chance="1360" />
+		<item name="Assassin Star" countmax="6" chance="450" />
+		<item name="Golden Legs" chance="450" />
+		<item name="Golden Sickle" chance="450" />
+		<item name="Green Gem" chance="450" />
+		<item name="Mastermind Shield" chance="450" />
+	</loot>
 </monster>

@@ -14,26 +14,38 @@
 		<flag canpushcreatures="1" />
 		<flag targetdistance="1" />
 		<flag staticattack="85" />
-		<flag runonhealth="0" />
+		<flag runonhealth="4500" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-715" />
-		<attack name="fire" interval="3000" chance="20" target="1" radius="4" min="-250" max="-850">
-			<attribute key="areaEffect" value="explosion" />
-		</attack>
-		<attack name="death" interval="2000" chance="15" target="0" radius="4" min="-100" max="-350">
-			<attribute key="areaEffect" value="smallclouds" />
-		</attack>
-		<attack name="manadrain" interval="1000" chance="13" radius="5" target="0" min="-60" max="-230">
-			<attribute key="areaEffect" value="watersplash" />
+		<attack name="melee" interval="2000" min="0" max="-800" />
+		<attack name="lifedrain" interval="1000" chance="13" radius="1" target="1" min="-60" max="-500">
+			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
 		<attack name="death" interval="2000" chance="15" length="7" spread="0" min="0" max="-500">
 			<attribute key="areaEffect" value="mortarea" />
 		</attack>
+		<attack name="death" interval="2000" chance="15" target="0" radius="4" min="-100" max="-350">
+			<attribute key="areaEffect" value="smallclouds" />
+		</attack>
+		<attack name="firecondition" interval="3000" chance="20" target="1" radius="4" min="-250" max="-850">
+			<attribute key="areaEffect" value="explosion" />
+		</attack>
+		<attack name="manadrain" interval="1000" chance="13" radius="5" target="0" min="-60" max="-230">
+			<attribute key="areaEffect" value="watersplash" />
+		</attack>
+		<attack name="speed" interval="1000" chance="10" radius="9" target="0" speedchange="-1800" duration="30000">
+			<attribute key="areaEffect" value="greenshimmer" />
+		</attack>
 	</attacks>
 	<defenses armor="45" defense="55">
-		<defense name="healing" interval="2000" chance="15" min="400" max="900">
+		<defense name="healing" interval="2000" chance="5" min="40" max="60">
+			<attribute key="areaEffect" value="greenshimmer" />
+		</defense>
+		<defense name="healing" interval="2000" chance="25" min="400" max="600">
 			<attribute key="areaEffect" value="greenshimmer" />
 		</defense>
 		<defense name="invisible" interval="1000" chance="5" duration="6000">
@@ -41,36 +53,51 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element icePercent="-15" />
-		<element energyPercent="-5" />
-		<element earthPercent="-8" />
-		<element firePercent="25" />
+		<element physicalPercent="50" />
+		<element holyPercent="30" />
+		<element icePercent="30" />
+		<element firePercent="30" />
+		<element energyPercent="30" />
+		<element earthPercent="30" />
 	</elements>
 	<immunities>
 		<immunity death="1" />
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="You will run out of resources soon enough!!" yell="1" />
-		<voice sentence="One little mistake and your all are mine!" />
-		<voice sentence="I sense your strength fading!" />
+		<voice sentence="One little mistake and you're all are mine!" yell="0" />
+		<voice sentence="You will run out of resources soon enough!" yell="0" />
+		<voice sentence="Your fear will make you prone to mistakes!" yell="0" />
+		<voice sentence="I know you will show a weakness!" yell="0" />
+		<voice sentence="I sense your strength fading!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="100" chance="100000" />
-		<item name="gold coin" countmax="50" chance="100000" />
-		<item name="small emerald" countmax="3" chance="1428" />
-		<item name="talon" countmax="11" chance="6000" />
-		<item name="blue gem" chance="4444" />
-		<item name="platinum amulet" chance="2333" />
-		<item name="boots of haste" chance="4444" />
-		<item name="giant sword" chance="3000" />
-		<item name="silver dagger" chance="10000" />
-		<item name="fire axe" chance="5555" />
-		<item name="devil helmet" chance="9700" />
-		<item name="golden legs" chance="6500" />
-		<item name="knight legs" chance="6666" />
-		<item name="demon shield" chance="9999" />
-		<item id="6300" chance="7777" /><!-- death ring -->
+		<item name="Demonic Essence" chance="100000" />
+		<item name="Gold Coin" countmax="100" chance="100000" />
+		<item name="Gold Coin" countmax="95" chance="100000" />
+		<item name="Slightly Rusted Legs" chance="52210" />
+		<item name="Slightly Rusted Armor" chance="47790" />
+		<item name="Great Mana Potion" chance="25670" />
+		<item name="Great Spirit Potion" chance="25600" />
+		<item name="Great Health Potion" chance="24800" />
+		<item name="Ultimate Health Potion" chance="23930" />
+		<item name="Platinum Coin" countmax="30" chance="21170" />
+		<item name="Soul Orb" countmax="10" chance="20740" />
+		<item name="Jewel Case" chance="20520" />
+		<item name="Gold Ingot" chance="20160" />
+		<item name="Silver Brooch" chance="19870" />
+		<item name="Talon" countmax="30" chance="18780" />
+		<item name="Red Piece of Cloth" countmax="10" chance="17330" />
+		<item name="Blue Piece of Cloth" countmax="10" chance="15660" />
+		<item name="White Piece of Cloth" countmax="10" chance="14940" />
+		<item name="Brown Piece of Cloth" countmax="10" chance="14290" />
+		<item name="Green Piece of Cloth" countmax="10" chance="13920" />
+		<item name="Yellow Piece of Cloth" countmax="10" chance="13630" />
+		<item name="Demon Horn" countmax="2" chance="9280" />
+		<item name="Boots of Haste" chance="8920" />
+		<item name="Steel Boots" chance="4930" />
+		<item name="Amulet of Loss" chance="4860" />
+		<item name="Golden Boots" chance="1310" />
 	</loot>
 </monster>

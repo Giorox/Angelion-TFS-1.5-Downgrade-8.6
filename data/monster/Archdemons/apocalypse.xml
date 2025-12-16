@@ -15,38 +15,44 @@
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="3000" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-3500" />
-		<attack name="death" interval="1000" chance="8" radius="9" target="0" min="-800" max="-1900">
+		<attack name="melee" interval="2000" min="0" max="-3500" poison="500"/>
+		<attack name="death" interval="1000" chance="8" radius="9" target="0" min="-450" max="-4000">
 			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="fire" interval="3000" chance="13" range="7" radius="7" target="1" min="-100" max="-900">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+		<attack name="manadrain" interval="3000" chance="8" length="8" spread="3" min="-600" max="-1100">
+			<attribute key="areaEffect" value="teleport" />
+		</attack>
+		<attack name="physical" interval="1000" chance="10" length="8" spread="3" min="-300" max="-900">
+			<attribute key="areaEffect" value="explosionarea" />
+		</attack>
+		<attack name="energy" interval="1000" chance="10" target="0" radius="3" min="-100" max="-600">
+			<attribute key="areaEffect" value="explosionarea" />
+		</attack>
+		<attack name="energy" interval="2000" chance="9" length="8" spread="0" min="-500" max="-1500">
+			<attribute key="areaEffect" value="yellowenergy" />
+		</attack>
+		<attack name="death" interval="2000" chance="9" length="8" spread="0" min="-300" max="-1000">
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="poisoncondition" interval="5000" chance="18" length="0" spread="0" min="-800" max="-2000">
+			<attribute key="areaEffect" value="poison" />
 		</attack>
 		<attack name="speed" interval="1000" chance="12" radius="6" target="0" speedchange="-850" duration="60000">
 			<attribute key="areaEffect" value="poison" />
 		</attack>
-		<attack name="physical" interval="1000" chance="10" radius="5" target="0" min="-600" max="-1450">
-			<attribute key="areaEffect" value="blackspark" />
-		</attack>
-		<attack name="fire" interval="3000" chance="13" range="7" radius="7" target="1" min="-300" max="-800">
-			<attribute key="shootEffect" value="fire" />
-			<attribute key="areaEffect" value="firearea" />
-		</attack>
-		<attack name="manadrain" interval="3000" chance="8" radius="10" target="0" min="-600" max="-700">
-			<attribute key="areaEffect" value="energyarea" />
-		</attack>
-		<attack name="energy" interval="2000" chance="9" length="8" spread="0" min="-400" max="-800">
-			<attribute key="areaEffect" value="redshimmer" />
-		</attack>
-		<attack name="poisoncondition" interval="5000" chance="18" length="0" spread="0" min="-800" max="-1000">
-			<attribute key="areaEffect" value="greenspark" />
-		</attack>
-		<attack name="lifedrain" interval="2000" chance="6" radius="14" target="0" min="-600" max="-1200">
-			<attribute key="areaEffect" value="greenshimmer" />
-		</attack>
 	</attacks>
 	<defenses armor="188" defense="145">
-		<defense name="healing" interval="2000" chance="15" min="2000" max="4000">
+		<defense name="healing" interval="2000" chance="15" min="2000" max="3000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 		<defense name="healing" interval="2000" chance="5" min="6000" max="10000">
@@ -57,8 +63,8 @@
 		</defense>
 	</defenses>
 	<elements>
-		<element icePercent="-10" />
-		<element deathPercent="-2" />
+		<element deathPercent="1" />
+		<element icePercent="10" />
 	</elements>
 	<immunities>
 		<immunity energy="1" />
@@ -71,65 +77,68 @@
 		<immunity invisible="1" />
 	</immunities>
 	<voices interval="5000" chance="10">
-		<voice sentence="BOW TO THE POWER OF THE RUTHLESS SEVEN!" yell="1" />
-		<voice sentence="DESTRUCTION!" yell="1" />
-		<voice sentence="CHAOS!" yell="1" />
 		<voice sentence="DEATH TO ALL!" yell="1" />
+		<voice sentence="CHAOS!" yell="1" />
+		<voice sentence="DESTRUCTION!" yell="1" />
+		<voice sentence="BOW TO THE POWER OF THE RUTHLESS SEVEN!" yell="1" />
 	</voices>
 	<loot>
-		<item name="purple tome" chance="2600" />
-		<item name="golden mug" chance="7500" />
-		<item name="teddy bear" chance="14500" />
-		<item name="ring of the sky" chance="3500" />
-		<item id="2124" name="crystal ring" chance="5500" />
-		<item name="crystal necklace" chance="1500" />
-		<item id="2142" name="ancient amulet" chance="3500" />
-		<item name="white pearl" countmax="15" chance="12500" />
-		<item name="black pearl" countmax="15" chance="15000" />
-		<item name="small diamond" countmax="5" chance="9500" />
-		<item name="small sapphire" countmax="10" chance="13500" />
-		<item name="gold coin" countmax="400" chance="99900" />
-		<item name="small emerald" countmax="10" chance="15500" />
-		<item name="small amethyst" countmax="20" chance="13500" />
-		<item name="talon" countmax="7" chance="14000" />
-		<item name="green gem" chance="1500" />
-		<item name="blue gem" chance="1500" />
-		<item id="2162" name="magic lightwand" chance="11500" />
-		<item name="might ring" chance="5000" />
-		<item name="stealth ring" chance="9500" />
-		<item name="energy ring" chance="13500" />
-		<item name="silver amulet" chance="13000" />
-		<item name="platinum amulet" chance="4500" />
-		<item name="strange symbol" chance="2500" />
-		<item name="orb" chance="12000" />
-		<item name="life crystal" chance="1000" />
-		<item id="2178" name="mind stone" chance="4000" />
-		<item name="gold ring" chance="8000" />
-		<item name="snakebite rod" chance="3500" />
-		<item name="necrotic rod" chance="3500" />
-		<item name="moonlight rod" chance="3500" />
-		<item name="wand of decay" chance="2500" />
-		<item id="2192" name="crystal ball" chance="2500" />
-		<item name="boots of haste" chance="4000" />
-		<item name="stone skin amulet" chance="4000" />
-		<item name="protection amulet" chance="4500" />
-		<item name="ring of healing" chance="13000" />
-		<item id="2231" name="big bone" chance="9000" />
-		<item name="two handed sword" chance="20000" />
-		<item name="double axe" chance="20000" />
-		<item name="giant sword" chance="12500" />
-		<item name="ice rapier" chance="7500" />
-		<item name="silver dagger" chance="15500" />
-		<item name="golden sickle" chance="4500" />
-		<item name="thunder hammer" chance="13500" />
-		<item name="fire axe" chance="17000" />
-		<item name="dragon hammer" chance="4500" />
-		<item name="skull staff" chance="5000" />
-		<item name="devil helmet" chance="11000" />
-		<item name="golden legs" chance="5000" />
-		<item name="magic plate armor" chance="3000" />
-		<item id="2514" name="mastermind shield" chance="7500" />
-		<item name="demon shield" chance="15500" />
-		<item id="3955" name="voodoo doll" chance="100" />
+		<item name="Purple Tome" chance="2600" />
+		<item name="Golden Mug" chance="7500" />
+		<item name="Teddy Bear" chance="14500" />
+		<item name="Ring of the Sky" chance="3500" />
+		<item name="Crystal Ring" chance="5500" />
+		<item name="Crystal Necklace" chance="1500" />
+		<item name="Ancient Amulet" chance="3500" />
+		<item name="White Pearl" countmax="15" chance="12500" />
+		<item name="Black Pearl" countmax="15" chance="15000" />
+		<item name="Small Diamond" countmax="5" chance="9500" />
+		<item name="Small Sapphire" countmax="10" chance="13500" />
+		<item name="Gold Coin" countmax="100" chance="99900" />
+		<item name="Gold Coin" countmax="100" chance="99900" />
+		<item name="Gold Coin" countmax="100" chance="99900" />
+		<item name="Gold Coin" countmax="100" chance="99900" />
+		<item name="Small Emerald" countmax="10" chance="15500" />
+		<item name="Small Amethyst" countmax="20" chance="13500" />
+		<item name="Talon" countmax="7" chance="14000" />
+		<item name="Green Gem" chance="1500" />
+		<item name="Blue Gem" chance="1500" />
+		<item name="Magic Lightwand" chance="11500" />
+		<item name="Might Ring" chance="5000" />
+		<item name="Stealth Ring" chance="9500" />
+		<item name="Energy Ring" chance="13500" />
+		<item name="Silver Amulet" chance="13000" />
+		<item name="Platinum Amulet" chance="4500" />
+		<item name="Strange Symbol" chance="2500" />
+		<item name="Orb" chance="12000" />
+		<item name="Life Crystal" chance="1000" />
+		<item name="Mind Stone" chance="4000" />
+		<item name="Gold Ring" chance="8000" />
+		<item name="Snakebite Rod" chance="3500" />
+		<item name="Necrotic Rod" chance="3500" />
+		<item name="Moonlight Rod" chance="3500" />
+		<item name="Wand of Decay" chance="2500" />
+		<item name="Crystal Ball" chance="2500" />
+		<item name="Boots of Haste" chance="4000" />
+		<item name="Stone Skin Amulet" chance="4000" />
+		<item name="Protection Amulet" chance="4500" />
+		<item name="Ring of Healing" chance="13000" />
+		<item name="Big Bone" chance="9000" />
+		<item name="Two Handed Sword" chance="20000" />
+		<item name="Double Axe" chance="20000" />
+		<item name="Giant Sword" chance="12500" />
+		<item name="Ice Rapier" chance="7500" />
+		<item name="Silver Dagger" chance="15500" />
+		<item name="Golden Sickle" chance="4500" />
+		<item name="Thunder Hammer" chance="13500" />
+		<item name="Fire Axe" chance="17000" />
+		<item name="Dragon Hammer" chance="4500" />
+		<item name="Skull Staff" chance="5000" />
+		<item name="Devil Helmet" chance="11000" />
+		<item name="Golden Legs" chance="5000" />
+		<item name="Magic Plate Armor" chance="3000" />
+		<item name="Mastermind Shield" chance="7500" />
+		<item name="Demon Shield" chance="15500" />
+		<item name="Voodoo Doll" chance="100" />
 	</loot>
 </monster>

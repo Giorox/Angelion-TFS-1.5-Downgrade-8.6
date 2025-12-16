@@ -12,24 +12,23 @@
 		<flag pushable="0" />
 		<flag canpushitems="1" />
 		<flag canpushcreatures="1" />
-		<flag staticattack="98" />
 		<flag targetdistance="1" />
+		<flag staticattack="98" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-1013" />
+		<attack name="melee" interval="2000" min="0" max="-1300" />
 		<attack name="energy" interval="1000" chance="12" radius="7" target="0" min="-600" max="-900">
-			<attribute key="areaEffect" value="energy" />
+			<attribute key="areaEffect" value="bigclouds" />
 		</attack>
 		<attack name="earth" interval="1000" chance="12" radius="7" target="0" min="-400" max="-800">
 			<attribute key="areaEffect" value="smallplants" />
 		</attack>
-		<attack name="manadrain" interval="2000" chance="25" range="7" min="-500" max="-800">
-			<attribute key="areaEffect" value="blueshimmer" />
-		</attack>
 		<attack name="fire" interval="3000" chance="35" range="7" radius="7" target="1" min="-200" max="-600">
-			<attribute key="shootEffect" value="fire" />
 			<attribute key="areaEffect" value="firearea" />
 		</attack>
 	</attacks>
@@ -40,49 +39,51 @@
 		<defense name="speed" interval="4000" chance="80" speedchange="440" duration="6000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
-		<defense name="outfit" interval="2000" chance="10" monster="behemoth" duration="10000">
+		<defense name="outfit" interval="2000" chance="10" monster="Behemoth" duration="10000">
 			<attribute key="areaEffect" value="dice" />
 		</defense>
-		<defense name="outfit" interval="2000" chance="10" monster="fire devil" duration="10000">
+		<defense name="outfit" interval="2000" chance="10" monster="Fire Devil" duration="10000">
 			<attribute key="areaEffect" value="dice" />
 		</defense>
-		<defense name="outfit" interval="2000" chance="10" monster="giant spider" duration="10000">
+		<defense name="outfit" interval="2000" chance="10" monster="Giant Spider" duration="10000">
 			<attribute key="areaEffect" value="dice" />
 		</defense>
-		<defense name="outfit" interval="2000" chance="10" monster="undead dragon" duration="10000">
+		<defense name="outfit" interval="2000" chance="10" monster="Undead Dragon" duration="10000">
 			<attribute key="areaEffect" value="dice" />
 		</defense>
-		<defense name="outfit" interval="2000" chance="10" monster="lost soul" duration="10000">
+		<defense name="outfit" interval="2000" chance="10" monster="Demon" duration="10000">
 			<attribute key="areaEffect" value="dice" />
 		</defense>
 	</defenses>
+	<elements>
+		<element physicalPercent="60" />
+		<element deathPercent="90" />
+		<element holyPercent="40" />
+		<element icePercent="50" />
+		<element energyPercent="60" />
+		<element earthPercent="80" />
+	</elements>
 	<immunities>
-		<immunity energy="1" />
 		<immunity fire="1" />
-		<immunity earth="1" />
-		<immunity lifedrain="1" />
-		<immunity paralyze="1" />
-		<immunity outfit="1" />
-		<immunity drunk="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="2">
-		<summon name="demon" interval="4000" chance="50" />
+		<summon name="Demon" interval="4000" chance="50" />
 	</summons>
 	<voices interval="5000" chance="30">
-		<voice sentence="I AM ZORALURK, THE DEMON WITH A THOUSAND FACES!" yell="1" />
 		<voice sentence="BRING IT, COCKROACHES!" yell="1" />
+		<voice sentence="I AM ZORALURK, THE DEMON WITH A THOUSAND FACES" yell="1" />
 	</voices>
 	<loot>
-		<item name="white pearl" chance="10000" countmax="5" />
-		<item name="gold coin" chance="100000" countmax="100" />
-		<item name="gold coin" chance="50000" countmax="90" />
-		<item name="boots of haste" chance="16033" />
-		<item name="giant sword" chance="60000" />
-		<item name="bright sword" chance="20000" />
-		<item name="bright sword" chance="20000" />
-		<item name="warlord sword" chance="6000" />
-		<item name="patched boots" chance="7000" />
-		<item id="6530" chance="16000" /><!-- worn soft boots -->
+		<item name="White Pearl" chance="10000" countmax="5" />
+		<item name="Gold Coin" chance="100000" countmax="100" />
+		<item name="Gold Coin" chance="50000" countmax="90" />
+		<item name="Boots of Haste" chance="16033" />
+		<item name="Giant Sword" chance="60000" />
+		<item name="Bright Sword" chance="20000" />
+		<item name="Warlord Sword" chance="6000" />
+		<item name="Patched Boots" chance="7000" />
+		<item id="6530" chance="16000" /> <!-- worn soft boots -->
 	</loot>
 </monster>
