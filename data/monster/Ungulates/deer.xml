@@ -24,8 +24,8 @@
 	</attacks>
 	<defenses armor="2" defense="2" />
 	<loot>
-		<item id="2666" name="meat" chance="80405" />
-		<item id="2671" name="ham" chance="51110" />
-		<item id="11214" name="antlers" chance="1063" />
+		<item name="Meat" countmax="4" chance="80070" />
+		<item name="Ham" chance="50560" />
+		<item name="Antlers" chance="1090" />
 	</loot>
 </monster>

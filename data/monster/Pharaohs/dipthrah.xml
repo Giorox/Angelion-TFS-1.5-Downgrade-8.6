@@ -20,18 +20,17 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-200" poison="65" />
-		<attack name="lifedrain" interval="4000" chance="20" range="1" min="-100" max="-800" />
-		<attack name="manadrain" interval="2000" chance="15" range="7" min="-100" max="-500">
+		<attack name="melee" interval="2000" min="0" max="-260" poison="80" />
+		<attack name="lifedrain" interval="4000" chance="20" range="1" min="-400" max="-800" >
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="manadrain" interval="2000" chance="15" range="7" min="-200" max="-500">
 			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
 		<attack name="speed" interval="1000" chance="15" range="7" speedchange="-650" duration="50000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
-		<attack name="drunk" interval="1000" chance="12" radius="7" target="0">
-			<attribute key="areaEffect" value="bluebubble" />
-		</attack>
-		<attack name="melee" interval="3000" chance="34" radius="3" target="0" min="-50" max="-600">
+		<attack name="drunk" interval="1000" chance="12" radius="7" target="0" duration="60000">
 			<attribute key="areaEffect" value="bluebubble" />
 		</attack>
 		<attack name="dipthrah skill reducer" interval="2000" chance="10" />
@@ -43,6 +42,7 @@
 	</defenses>
 	<elements>
 		<element holyPercent="-10" />
+		<element firePercent="5" />
 		<element energyPercent="20" />
 		<element earthPercent="20" />
 	</elements>
@@ -50,27 +50,30 @@
 		<immunity physical="1" />
 		<immunity death="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="4">
 		<summon name="Priestess" interval="2000" chance="15" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="Come closer to learn the final lesson." />
-		<voice sentence="You can't escape death forever." />
-		<voice sentence="Undeath will shatter my shackles." />
-		<voice sentence="You don't need this magic anymore." />
+		<voice sentence="Come closer to learn the final lesson" yell="0" />
+		<voice sentence="Undeath will shatter my shackles." yell="0" />
+		<voice sentence="You can't escape death forever" yell="0" />
+		<voice sentence="You don't need this magic anymore." yell="0" />
 	</voices>
 	<loot>
-		<item id="3241" name="ornamented ankh" chance="100000" />
-		<item id="2148" name="gold coin" chance="90981" countmax="226" />
-		<item id="2146" name="small sapphire" chance="9806" countmax="3" />
-		<item id="7590" name="great mana potion" chance="8927" />
-		<item id="2167" name="energy ring" chance="4857" />
-		<item id="2178" name="mind stone" chance="925" />
-		<item id="2158" name="blue gem" chance="833" />
-		<item id="2193" name="ankh" chance="601" />
-		<item id="2436" name="skull staff" chance="555" />
-		<item id="11207" name="mini mummy" chance="93" />
-		<item id="2446" name="pharaoh sword" chance="93" />
+		<item name="Ornamented Ankh" chance="100000" />
+		<item name="Gold Coin" countmax="100" chance="90800" />
+		<item name="Gold Coin" countmax="100" chance="90800" />
+		<item name="Gold Coin" countmax="26" chance="90800" />
+		<item name="Small Sapphire" countmax="3" chance="9740" />
+		<item name="Great Mana Potion" chance="9020" />
+		<item name="Energy Ring" chance="4910" />
+		<item name="Mind Stone" chance="1030" />
+		<item name="Blue Gem" chance="850" />
+		<item name="Ankh" chance="580" />
+		<item name="Skull Staff" chance="580" />
+		<item name="Mini Mummy" chance="90" />
+		<item name="Pharaoh Sword" chance="90" />
 	</loot>
 </monster>

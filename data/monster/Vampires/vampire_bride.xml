@@ -62,23 +62,22 @@
 		<voice sentence="Enjoy the pain - I know you love it." yell="0" />
 	</voices>
 	<loot>
-		<item name="emerald bangle" chance="1100" />
-		<item name="small diamond" countmax="2" chance="1020" />
-		<item name="gold coin" countmax="100" chance="45000" />
-		<item name="gold coin" countmax="49" chance="45000" />
-		<item name="platinum coin" chance="9910" />
-		<item name="moonlight rod" chance="5500" />
-		<item name="boots of haste" chance="220" />
-		<item name="enigmatic voodoo skull" chance="170" />
-		<item name="strong health potion" chance="5000" />
-		<item name="strong mana potion" chance="10210" />
-		<item id="7733" chance="200" /><!-- flower bouquet -->
-		<item name="hibiscus dress" chance="1030" />
-		<item name="blood goblet" chance="60" />
-		<item id="9809" chance="1010" /><!-- rusty armor (semi-rare) -->
-		<item id="9837" chance="970" /><!-- velvet tapestry -->
-		<item name="vampire teeth" chance="10000" />
-		<item name="blood preservation" chance="4950" />
-		<item name="leather whip" chance="20" />
+		<item name="Gold Coin" countmax="100" chance="93630" />
+		<item name="Gold Coin" countmax="49" chance="93630" />
+		<item name="Strong Mana Potion" chance="10300" />
+		<item name="Vampire Teeth" chance="10010" />
+		<item name="Platinum Coin" chance="9980" />
+		<item name="Moonlight Rod" chance="5210" />
+		<item name="Blood Preservation" chance="5030" />
+		<item name="Strong Health Potion" chance="4820" />
+		<item name="Emerald Bangle" chance="1050" />
+		<item name="Rusted Armor" chance="1040" />
+		<item name="Small Diamond" countmax="2" chance="1040" />
+		<item name="Velvet Tapestry" chance="1010" />
+		<item name="Hibiscus Dress" chance="1000" />
+		<item name="Boots of Haste" chance="220" />
+		<item name="Flower Bouquet" chance="170" />
+		<item name="Mysterious Voodoo Skull" chance="130" />
+		<item name="Blood Goblet" chance="100" />
 	</loot>
 </monster>

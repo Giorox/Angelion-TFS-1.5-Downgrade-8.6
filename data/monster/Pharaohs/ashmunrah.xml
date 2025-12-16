@@ -18,72 +18,63 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-1000" poison="55" />
-		<attack name="lifedrain" interval="3000" chance="7" range="1" min="-100" max="-700" />
-		<attack name="earth" interval="2000" chance="12" range="7" min="-100" max="-500">
-			<attribute key="shootEffect" value="poison" />
-			<attribute key="areaEffect" value="poison" />
-		</attack>
+		<attack name="melee" interval="2000" min="0" max="-1000" poison="140" />
 		<attack name="physical" interval="3000" chance="12" range="7" min="-120" max="-750">
 			<attribute key="shootEffect" value="energy" />
 			<attribute key="areaEffect" value="mortarea" />
 		</attack>
-		<attack name="speed" interval="3000" chance="25" range="7" speedchange="-650" duration="50000">
-			<attribute key="areaEffect" value="redshimmer" />
-		</attack>
-		<attack name="lifedrain" interval="2000" chance="18" length="8" spread="3" min="-50" max="-550">
+		<attack name="lifedrain" interval="2000" chance="18" length="8" spread="3" min="-300" max="-1100">
 			<attribute key="areaEffect" value="yellowbubble" />
 		</attack>
 	</attacks>
 	<defenses armor="25" defense="30">
-		<defense name="healing" interval="1000" chance="20" min="200" max="400">
+		<defense name="healing" interval="1000" chance="20" min="200" max="450">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 		<defense name="invisible" interval="1000" chance="7" duration="2000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
-		<defense name="outfit" interval="1000" chance="3" monster="ancient scarab" duration="6000">
+		<defense name="outfit" interval="1000" chance="3" monster="Ancient Scarab" duration="6000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
 	<elements>
 		<element physicalPercent="10" />
+		<element holyPercent="-10" />
+		<element icePercent="20" />
+		<element firePercent="-5" />
 		<element energyPercent="20" />
 		<element earthPercent="25" />
-		<element firePercent="-5" />
-		<element icePercent="20" />
-		<element holyPercent="-10" />
 	</elements>
 	<immunities>
 		<immunity death="1" />
-		<immunity lifedrain="1" />
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="4">
 		<summon name="Ancient Scarab" interval="1000" chance="100" max="2" />
 		<summon name="Green Djinn" interval="1000" chance="100" max="4" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="No mortal or undead will steal my secrets!" />
-		<voice sentence="Ahhhh all those long years." />
-		<voice sentence="My traitorous son has thee." />
-		<voice sentence="Come to me, my allys and underlings." />
-		<voice sentence="I might be trapped but not without power." />
-		<voice sentence="Ages come, ages go. Ashmunrah remains." />
-		<voice sentence="You will be history soon." />
+		<voice sentence="I might be trapped but not without power" yell="0" />
+		<voice sentence="No mortal or undead will steal my secrets!" yell="0" />
+		<voice sentence="Ages come, ages go. Ashmunrah remains." yell="0" />
+		<voice sentence="My traitorous son has thee." yell="0" />
+		<voice sentence="Ahhhh all those long years." yell="0" />
+		<voice sentence="You will be history soon." yell="0" />
+		<voice sentence="Come to me, my allys and underlings." yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="100" chance="33000" />
-		<item name="gold coin" countmax="100" chance="33000" />
-		<item name="gold coin" countmax="100" chance="33000" />
-		<item name="gold coin" countmax="4" chance="50000" />
-		<item id="7590" name="great mana potion" chance="12005" />
-		<item id="2164" name="might ring" chance="4662" />
-		<item id="2134" name="silver brooch" chance="4196" />
-		<item id="2487" name="crown armor" chance="466" />
-		<item id="11207" name="mini mummy" chance="175" />
-		<item id="2444" name="hammer of wrath" chance="117" />
-		<item id="2140" name="holy scarab" chance="117" />
+		<item name="Gold Coin" countmax="100" chance="93870" />
+		<item name="Gold Coin" countmax="100" chance="93870" />
+		<item name="Gold Coin" countmax="100" chance="93870" />
+		<item name="Gold Coin" countmax="4" chance="93870" />
+		<item name="Great Mana Potion" chance="11980" />
+		<item name="Might Ring" chance="4670" />
+		<item name="Silver Brooch" chance="4270" />
+		<item name="Crown Armor" chance="450" />
+		<item name="Mini Mummy" chance="170" />
+		<item name="Hammer of Wrath" chance="110" />
+		<item name="Holy Scarab" chance="110" />
 	</loot>
 </monster>

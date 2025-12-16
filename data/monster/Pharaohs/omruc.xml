@@ -20,12 +20,12 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-120" poison="116" />
+		<attack name="melee" interval="2000" min="0" max="-120" poison="60" />
 		<attack name="lifedrain" interval="5000" chance="20" range="1" min="-100" max="-250" />
-		<attack name="earth" interval="2000" chance="20" min="-200" max="-500">
+		<attack name="earth" interval="2000" chance="20" min="-100" max="-500">
 			<attribute key="shootEffect" value="poisonarrow" />
 		</attack>
-		<attack name="fire" interval="1000" chance="20" range="3" min="-120" max="-450">
+		<attack name="fire" interval="1000" chance="20" range="3" min="-100" max="-500">
 			<attribute key="shootEffect" value="burstarrow" />
 			<attribute key="areaEffect" value="explosionarea" />
 		</attack>
@@ -40,16 +40,16 @@
 		<defense name="healing" interval="1000" chance="17" min="100" max="200">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
-		<defense name="invisible" interval="2000" chance="14" duration="8000">
+		<defense name="invisible" interval="2000" chance="14" duration="20000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
 	<elements>
-		<element energyPercent="5" />
-		<element icePercent="5" />
-		<element firePercent="20" />
-		<element earthPercent="20" />
 		<element holyPercent="-10" />
+		<element icePercent="-5" />
+		<element firePercent="20" />
+		<element energyPercent="-5" />
+		<element earthPercent="20" />
 	</elements>
 	<immunities>
 		<immunity death="1" />
@@ -60,25 +60,27 @@
 		<summon name="Stalker" interval="2000" chance="100" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="Now chhhou shhhee me ... Now chhhou don't." />
-		<voice sentence="Chhhhou are marked ashhh my prey." />
-		<voice sentence="Psssst, I am over chhhere." />
-		<voice sentence="Catchhhh me if chhhou can." />
-		<voice sentence="Die!" />
+		<voice sentence="Die!" yell="0" />
+		<voice sentence="Catchhhh me if chhhou can." yell="0" />
+		<voice sentence="Now chhhou shhhee me ... Now chhhou don't." yell="0" />
+		<voice sentence="Chhhhou are marked ashhh my prey." yell="0" />
+		<voice sentence="Psssst, I am over chhhere." yell="0" />
 	</voices>
 	<loot>
-		<item id="2352" name="crystal arrow" chance="100000" />
-		<item id="2148" name="gold coin" chance="85417" countmax="211" />
-		<item id="2674" name="red apple" chance="78125" countmax="2" />
-		<item id="2545" name="poison arrow" chance="57292" countmax="19" />
-		<item id="2546" name="burst arrow" chance="47917" countmax="15" />
-		<item id="7365" name="onyx arrow" chance="33333" countmax="6" />
-		<item id="2544" name="arrow" chance="22917" countmax="25" />
-		<item id="2547" name="power bolt" chance="17708" countmax="5" />
-		<item id="7591" name="great health potion" chance="11458" />
-		<item id="2145" name="small diamond" chance="9375" countmax="3" />
-		<item id="2165" name="stealth ring" chance="3125" />
-		<item id="11207" name="mini mummy" chance="2083" />
-		<item id="2195" name="boots of haste" chance="1042" />
+		<item name="Crystal Arrow" chance="100000" />
+		<item name="Gold Coin" countmax="100" chance="85920" />
+		<item name="Gold Coin" countmax="100" chance="85920" />
+		<item name="Gold Coin" countmax="11" chance="85920" />
+		<item name="Red Apple" countmax="2" chance="82390" />
+		<item name="Poison Arrow" countmax="20" chance="59860" />
+		<item name="Burst Arrow" countmax="15" chance="45770" />
+		<item name="Onyx Arrow" countmax="6" chance="34510" />
+		<item name="Arrow" countmax="25" chance="19010" />
+		<item name="Power Bolt" countmax="5" chance="14080" />
+		<item name="Small Diamond" countmax="3" chance="9860" />
+		<item name="Great Health Potion" chance="7750" />
+		<item name="Stealth Ring" chance="3520" />
+		<item name="Mini Mummy" chance="1410" />
+		<item name="Boots of Haste" chance="700" />
 	</loot>
 </monster>

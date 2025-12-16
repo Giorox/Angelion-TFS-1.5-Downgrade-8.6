@@ -62,15 +62,15 @@
 		<voice sentence="Your forlorn struggle is futile!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" countmax="100" chance="50000" />	<!-- gold coin -->
-		<item id="2148" countmax="15" chance="50000" />	<!-- gold coin -->
-		<item id="7589" chance="17500" />					<!-- strong mana potion -->
-		<item id="2144" chance="15960" />					<!-- black pearl -->
-		<item id="2143" chance="15000" />					<!-- white pearl -->
-		<item id="2214" chance="15040" />					<!-- ring of healing -->
-		<item id="2656" chance="500" />						<!-- blue robe -->
-		<item id="7893" chance="900" />						<!-- lightning boots -->
-		<item id="8904" chance="300" />						<!-- spellscroll of prophecies -->
-		<item id="2175" chance="4650" />					<!-- spellbook -->
+		<item name="Gold Coin" countmax="100" chance="88460" />
+		<item name="Gold Coin" countmax="37" chance="88460" />
+		<item name="Ring of Healing" chance="19230" />
+		<item name="Spellbook" chance="19230" />
+		<item name="Spellscroll of Prophecies" chance="15380" />
+		<item name="Black Pearl" chance="11540" />
+		<item name="Lightning Boots" chance="7690" />
+		<item name="White Pearl" chance="7690" />
+		<item name="Blue Robe" chance="3850" />
+		<item name="Strong Mana Potion" chance="3850" />
 	</loot>
 </monster>

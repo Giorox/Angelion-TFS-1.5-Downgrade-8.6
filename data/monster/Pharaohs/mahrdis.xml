@@ -16,10 +16,11 @@
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-400" poison="65" />
+		<attack name="melee" interval="2000" min="0" max="-400" poison="60" />
 		<attack name="physical" interval="1600" chance="7" range="1" min="-60" max="-600">
 			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
@@ -30,7 +31,7 @@
 		<attack name="speed" interval="2000" chance="13" range="7" speedchange="-850" duration="50000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
-		<attack name="fire" interval="2000" chance="34" radius="3" target="0" min="-80" max="-800">
+		<attack name="fire" interval="2000" chance="34" radius="3" target="0" min="-150" max="-800">
 			<attribute key="areaEffect" value="explosionarea" />
 		</attack>
 		<attack name="firefield" interval="1000" chance="12" radius="4" target="0">
@@ -41,42 +42,45 @@
 		</attack>
 	</attacks>
 	<defenses armor="42" defense="42">
-		<defense name="healing" interval="2000" chance="40" min="150" max="600">
+		<defense name="healing" interval="2000" chance="40" min="20" max="800">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
 	<elements>
-		<element energyPercent="20" />
-		<element earthPercent="20" />
 		<element holyPercent="-20" />
 		<element icePercent="-10" />
+		<element energyPercent="20" />
+		<element earthPercent="20" />
 	</elements>
 	<immunities>
-		<immunity fire="1" />
 		<immunity death="1" />
+		<immunity fire="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="4">
 		<summon name="Fire Elemental" interval="2000" chance="30" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="Ashes to ashes!" />
-		<voice sentence="Fire, Fire!" />
-		<voice sentence="The eternal flame demands its due!" />
-		<voice sentence="Burnnnnnnnnn!" />
-		<voice sentence="May my flames engulf you!" />
-		<voice sentence="This is why I'm hot." />
+		<voice sentence="Burnnnnnnnnn!" yell="0" />
+		<voice sentence="May my flames engulf you!" yell="0" />
+		<voice sentence="Ashes to ashes!" yell="0" />
+		<voice sentence="Fire, Fire!" yell="0" />
+		<voice sentence="This is why I'm hot." yell="0" />
+		<voice sentence="The eternal flame demands its due!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2353" name="burning heart" chance="100000" />
-		<item id="2148" name="gold coin" chance="88738" countmax="230" />
-		<item id="2147" name="small ruby" chance="12255" countmax="3" />
-		<item id="7591" name="great health potion" chance="10213" />
-		<item id="2168" name="life ring" chance="6752" />
-		<item id="2432" name="fire axe" chance="936" />
-		<item id="2156" name="red gem" chance="624" />
-		<item id="2141" name="holy falcon" chance="142" />
-		<item id="11207" name="mini mummy" chance="113" />
-		<item id="2539" name="phoenix shield" chance="113" />
+		<item name="Burning Heart" chance="100000" />
+		<item name="Gold Coin" countmax="100" chance="88690" />
+		<item name="Gold Coin" countmax="100" chance="88690" />
+		<item name="Gold Coin" countmax="30" chance="88690" />
+		<item name="Small Ruby" countmax="3" chance="12210" />
+		<item name="Great Health Potion" chance="10210" />
+		<item name="Life Ring" chance="6730" />
+		<item name="Fire Axe" chance="930" />
+		<item name="Red Gem" chance="620" />
+		<item name="Holy Falcon" chance="140" />
+		<item name="Phoenix Shield" chance="140" />
+		<item name="Mini Mummy" chance="110" />
 	</loot>
 </monster>

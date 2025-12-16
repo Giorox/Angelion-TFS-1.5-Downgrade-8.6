@@ -15,13 +15,15 @@
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
 		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-380" />
-		<attack name="death" interval="1000" chance="12" target="1" radius="4" min="0" max="-190">
-			<attribute key="areaEffect" value="mortarea" />
-			<attribute key="shootEffect" value="suddendeath" />
+		<attack name="melee" interval="2000" min="0" max="-700" />
+		<attack name="drunk" interval="2000" chance="15" range="7" target="1" duration="10000">
+			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
 	</attacks>
 	<defenses armor="38" defense="35">
@@ -30,6 +32,9 @@
 		</defense>
 		<defense name="invisible" interval="3000" chance="25" duration="6000">
 			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="450" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
 	</defenses>
 	<elements>
@@ -53,15 +58,14 @@
 		<voice sentence="A battle makes the blood so hot and sweet." yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" chance="100000" countmax="93" />
-		<item name="platinum coin" chance="50000" countmax="5" />
-		<item name="sword ring" chance="1400" />
-		<item name="ring of healing" chance="17111" />
-		<item id="2229" chance="15000" /><!-- skull -->
-		<item name="vampire shield" chance="6300" />
-		<item name="chaos mace" chance="250" />
-		<item name="strong health potion" chance="1500" />
-		<item name="vampire lord token" chance="100000" />
-		<item name="vampire lord token" chance="100000" />
+		<item name="Gold Coin" countmax="99" chance="100000" />
+		<item name="Vampire Lord Token" chance="100000" />
+		<item name="Strong Health Potion" chance="20000" />
+		<item name="Ring of Healing" chance="13000" />
+		<item name="Skull" chance="11000" />
+		<item name="Vampire Shield" chance="11000" />
+		<item name="Platinum Coin" countmax="4" chance="7000" />
+		<item name="Black Pearl" chance="1000" />
+		<item name="Chaos Mace" chance="1000" />
 	</loot>
 </monster>

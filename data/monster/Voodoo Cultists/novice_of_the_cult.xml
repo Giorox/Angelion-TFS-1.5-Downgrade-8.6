@@ -20,7 +20,7 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-65" poison="1" />
+		<attack name="melee" interval="2000" min="0" max="-65" poison="20" />
 		<attack name="lifedrain" interval="2000" chance="15" range="7" radius="1" target="1" min="-20" max="-80">
 			<attribute key="shootEffect" value="poison" />
 			<attribute key="areaEffect" value="redshimmer" />
@@ -49,16 +49,16 @@
 		<voice sentence="Your curiosity will be punished!" yell="0" />
 	</voices>
 	<loot>
-		<item id="1962" chance="700" /><!-- orange book -->
-		<item name="small diamond" chance="210" />
-		<item name="gold coin" countmax="40" chance="43380" />
-		<item name="wand of vortex" chance="450" />
-		<item name="garlic necklace" chance="420" />
-		<item name="dwarven ring" chance="500" />
-		<item name="scarf" chance="2900" />
-		<item name="pirate voodoo doll" chance="520" />
-		<item id="6087" chance="970" /><!-- music sheet 1st verse -->
-		<item name="cultish robe" chance="1030" />
-		<item name="rope belt" chance="5910" />
+		<item name="Gold Coin" countmax="40" chance="43570" />
+		<item name="Rope Belt" chance="5940" />
+		<item name="Scarf" chance="2960" />
+		<item name="Music Sheet (First Verse)" chance="1060" />
+		<item name="Cultish Robe" chance="1010" />
+		<item name="Book (Orange)" chance="700" />
+		<item name="Dwarven Ring" chance="500" />
+		<item name="Pirate Voodoo Doll" chance="490" />
+		<item name="Wand of Vortex" chance="450" />
+		<item name="Garlic Necklace" chance="420" />
+		<item name="Small Diamond" chance="190" />
 	</loot>
 </monster>

@@ -55,30 +55,29 @@
 		<voice sentence="I can see you decaying!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="100" chance="50000" />
-		<item name="gold coin" countmax="97" chance="50000" />
-		<item name="platinum coin" countmax="5" chance="100000" />
-		<item name="amulet of loss" chance="120" />
-		<item name="gold ring" chance="1870" />
-		<item name="hailstorm rod" chance="10000" />
-		<item name="garlic necklace" chance="2050" />
-		<item name="blank rune" countmax="2" chance="26250" />
-		<item name="golden sickle" chance="350" />
-		<item name="skull staff" chance="1520" />
-		<item name="scythe" chance="3000" />
-		<item name="bunch of wheat" chance="50000" />
-		<item name="soul orb" chance="23720" />
-		<item id="6300" chance="1410" /><!-- death ring -->
-		<item name="demonic essence" chance="28000" />
-		<item name="assassin star" countmax="10" chance="5900" />
-		<item name="great mana potion" countmax="3" chance="31360" />
-		<item id="7632" chance="4450" /><!-- giant shimmering pearl -->
-		<item id="7633" chance="4450" /><!-- giant shimmering pearl -->
-		<item name="seeds" chance="4300" />
-		<item name="terra mantle" chance="1050" />
-		<item name="terra legs" chance="2500" />
-		<item name="ultimate health potion" countmax="2" chance="14720" />
-		<item name="gold ingot" chance="5270" />
-		<item name="bundle of cursed straw" chance="15000" />
+		<item name="Gold Coin" countmax="100" chance="100000" />
+		<item name="Gold Coin" countmax="99" chance="100000" />
+		<item name="Platinum Coin" countmax="5" chance="100000" />
+		<item name="Bunch of Wheat" countmax="2" chance="49920" />
+		<item name="Great Mana Potion" countmax="3" chance="30270" />
+		<item name="Demonic Essence" chance="29790" />
+		<item name="Soul Orb" chance="25650" />
+		<item name="Blank Rune" countmax="2" chance="25450" />
+		<item name="Bundle of Cursed Straw" chance="14750" />
+		<item name="Ultimate Health Potion" countmax="2" chance="14590" />
+		<item name="Hailstorm Rod" chance="9730" />
+		<item name="Assassin Star" countmax="10" chance="7160" />
+		<item name="Gold Ingot" chance="5290" />
+		<item name="Giant Shimmering Pearl (Green)" chance="4600" />
+		<item name="Seeds" chance="3780" />
+		<item name="Scythe" chance="3030" />
+		<item name="Terra Legs" chance="2670" />
+		<item name="Garlic Necklace" chance="2050" />
+		<item name="Skull Staff" chance="1780" />
+		<item name="Gold Ring" chance="1420" />
+		<item name="Death Ring" chance="1360" />
+		<item name="Terra Mantle" chance="1240" />
+		<item name="Amulet of Loss" chance="150" />
+		<item name="Golden Sickle" chance="150" />
 	</loot>
 </monster>

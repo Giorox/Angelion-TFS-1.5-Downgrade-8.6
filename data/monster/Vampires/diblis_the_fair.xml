@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Diblis The Fair" nameDescription="Diblis The Fair" race="undead" experience="1800" speed="280">
+<monster name="Diblis the Fair" nameDescription="Diblis The Fair" race="undead" experience="1800" speed="280">
 	<health now="1500" max="1500" />
 	<look type="287" corpse="8937" />
 	<targetchange interval="5000" chance="10" />
@@ -14,14 +14,23 @@
 		<flag canpushcreatures="1" />
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
-		<flag runonhealth="0" />
+		<flag runonhealth="700" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
 		<flag isboss="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-380" />
-		<attack name="death" interval="1000" chance="12" target="1" min="0" max="-155">
+		<attack name="melee" interval="2000" min="0" max="-300" />
+		<attack name="death" interval="1000" chance="12" target="1" min="0" max="-200">
 			<attribute key="areaEffect" value="mortarea" />
 			<attribute key="shootEffect" value="suddendeath" />
+		</attack>
+		<attack name="speed" interval="2000" chance="15" range="7" target="1" speedchange="-700" duration="10000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="drunk" interval="2000" chance="15" range="7" target="1" duration="10000">
+			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
 	</attacks>
 	<defenses armor="30" defense="30">
@@ -53,15 +62,15 @@
 		<voice sentence="My brides will feast on your souls!" yell="0" />
 	</voices>
 	<loot>
-		<item name="black pearl" chance="8900" countmax="2" />
-		<item name="gold coin" chance="100000" countmax="99" />
-		<item name="platinum coin" chance="50000" countmax="5" />
-		<item name="ring of healing" chance="14111" />
-		<item id="2229" chance="15000" /><!-- skull -->
-		<item name="vampire shield" chance="2100" />
-		<item name="strong health potion" chance="1500" />
-		<item name="spellbook of lost souls" chance="300" />
-		<item name="vampire lord token" chance="100000" />
-		<item name="scum bag" chance="500" />
+		<item name="Gold Coin" countmax="99" chance="100000" />
+		<item name="Vampire Lord Token" chance="100000" />
+		<item name="Blood Preservation" chance="90630" />
+		<item name="Strong Health Potion" chance="20830" />
+		<item name="Vampire Shield" chance="15630" />
+		<item name="Skull" chance="12500" />
+		<item name="Ring of Healing" chance="11460" />
+		<item name="Platinum Coin" countmax="5" chance="8330" />
+		<item name="Spellbook of Lost Souls" chance="2080" />
+		<item name="Black Pearl" chance="1040" />
 	</loot>
 </monster>

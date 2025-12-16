@@ -35,10 +35,10 @@
 	</defenses>
 	<elements>
 		<element firePercent="-5" />
-		<element physicalPercent="-20" />
 	</elements>
 	<immunities>
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="3">
 		<summon name="Evil Sheep" interval="2000" chance="30" />
@@ -49,6 +49,6 @@
 		<voice sentence="Maeh!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="60" chance="75000" />
+		<item name="Gold Coin" countmax="60" chance="79360" />
 	</loot>
 </monster>

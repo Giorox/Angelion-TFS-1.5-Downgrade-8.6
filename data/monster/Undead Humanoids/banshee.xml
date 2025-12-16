@@ -14,13 +14,13 @@
 		<flag canpushcreatures="1" />
 		<flag targetdistance="1" />
 		<flag staticattack="90" />
-		<flag runonhealth="599" />
+		<flag runonhealth="500" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="1" />
 		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-100" poison="3" />
+		<attack name="melee" interval="2000" min="0" max="-100" poison="80" />
 		<attack name="lifedrain" interval="2000" chance="15" radius="4" target="0" min="-100" max="-200">
 			<attribute key="areaEffect" value="rednote" />
 		</attack>
@@ -56,27 +56,26 @@
 		<voice sentence="I will mourn your death!" yell="0" />
 	</voices>
 	<loot>
-		<item name="candlestick" chance="70000" />
-		<item name="gold coin" countmax="80" chance="30000" />
-		<item name="silver amulet" chance="9400" />
-		<item name="simple dress" chance="6300" />
-		<item name="hair of a banshee" chance="5000" />
-		<item name="petrified scream" chance="4250" />
-		<item name="black pearl" chance="2130" />
-		<item name="silver brooch" chance="1550" />
-		<item name="poison dagger" chance="1550" />
-		<item name="white pearl" chance="1110" />
-		<item id="2372" chance="970" /><!-- lyre -->
-		<item name="stone skin amulet" chance="820" />
-		<item name="strong mana potion" chance="770" />
-		<item name="ring of healing" chance="750" />
-		<item name="blue robe" chance="700" />
-		<item name="wedding ring" chance="560" />
-		<item id="2175" chance="520" /><!-- spellbook -->
-		<item name="terra mantle" chance="340" />
-		<item id="2124" chance="180" /><!-- crystal ring -->
-		<item name="red robe" chance="150" />
-		<item name="life crystal" chance="100" />
-		<item name="sweet smelling bait" chance="40" />
+		<item name="Candlestick" chance="72810" />
+		<item name="Gold Coin" countmax="80" chance="30920" />
+		<item name="Silver Amulet" chance="9400" />
+		<item name="Simple Dress" chance="6290" />
+		<item name="Hair of a Banshee" chance="4970" />
+		<item name="Petrified Scream" chance="4280" />
+		<item name="Black Pearl" chance="2170" />
+		<item name="Silver Brooch" chance="1540" />
+		<item name="Poison Dagger" chance="1520" />
+		<item name="White Pearl" chance="1130" />
+		<item name="Lyre" chance="970" />
+		<item name="Stone Skin Amulet" chance="830" />
+		<item name="Strong Mana Potion" chance="770" />
+		<item name="Ring of Healing" chance="750" />
+		<item name="Blue Robe" chance="660" />
+		<item name="Wedding Ring" chance="560" />
+		<item name="Spellbook" chance="510" />
+		<item name="Terra Mantle" chance="340" />
+		<item name="Crystal Ring" chance="220" />
+		<item name="Red Robe" chance="100" />
+		<item name="Life Crystal" chance="100" />
 	</loot>
 </monster>

@@ -30,7 +30,7 @@
 		<voice sentence="Maeh" yell="0" />
 	</voices>
 	<loot>
-		<item name="meat" countmax="4" chance="70000" />
-		<item name="wool" chance="1000" />
+		<item name="Meat" countmax="4" chance="65430" />
+		<item name="Wool" chance="870" />
 	</loot>
 </monster>

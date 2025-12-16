@@ -20,7 +20,7 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-100" poison="4" />
+		<attack name="melee" interval="2000" min="0" max="-100" poison="80" />
 		<attack name="lifedrain" interval="2000" chance="25" range="1" radius="1" target="1" min="-70" max="-185">
 			<attribute key="shootEffect" value="holy" />
 			<attribute key="areaEffect" value="holyarea" />
@@ -63,24 +63,24 @@
 		<voice sentence="Praise to my masters! Long live the triangle!" yell="0" />
 	</voices>
 	<loot>
-		<item id="1962" chance="910" /><!-- orange book -->
-		<item name="piggy bank" chance="130" />
-		<item name="small sapphire" chance="550" />
-		<item name="gold coin" countmax="70" chance="64550" />
-		<item name="energy ring" chance="450" />
-		<item name="platinum amulet" chance="200" />
-		<item name="wand of inferno" chance="180" />
-		<item name="protection amulet" chance="790" />
-		<item name="skull staff" chance="350" />
-		<item name="blue robe" chance="40" />
-		<item name="enigmatic voodoo skull" chance="130" />
-		<item name="jewelled backpack" chance="100" />
-		<item name="pirate voodoo doll" chance="430" />
-		<item id="6090" chance="490" /><!-- music sheet 4th verse -->
-		<item name="amber staff" chance="100" />
-		<item name="strong mana potion" chance="740" />
-		<item name="cultish mask" chance="10250" />
-		<item name="cultish symbol" chance="890" />
-		<item name="broken key ring" chance="100" />
+		<item name="Gold Coin" countmax="92" chance="64950" />
+		<item name="Cultish Mask" chance="10290" />
+		<item name="Cultish Symbol" chance="1010" />
+		<item name="Strong Mana Potion" chance="880" />
+		<item name="Protection Amulet" chance="850" />
+		<item name="Book (Orange)" chance="770" />
+		<item name="Music Sheet (Fourth Verse)" chance="550" />
+		<item name="Small Sapphire" chance="530" />
+		<item name="Pirate Voodoo Doll" chance="440" />
+		<item name="Energy Ring" chance="430" />
+		<item name="Skull Staff" chance="360" />
+		<item name="Platinum Amulet" chance="200" />
+		<item name="Wand of Inferno" chance="140" />
+		<item name="Broken Key Ring" chance="140" />
+		<item name="Jewelled Backpack" chance="130" />
+		<item name="Piggy Bank" chance="110" />
+		<item name="Amber Staff" chance="100" />
+		<item name="Mysterious Voodoo Skull" chance="90" />
+		<item name="Blue Robe" chance="80" />
 	</loot>
 </monster>

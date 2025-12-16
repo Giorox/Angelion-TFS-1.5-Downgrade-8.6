@@ -18,15 +18,15 @@
 		<flag isboss="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-945" />
+		<attack name="melee" interval="2000" min="0" max="-450" />
 		<attack name="lifedrain" interval="1000" chance="9" target="0" radius="4" min="0" max="-300">
 			<attribute key="areaEffect" value="smallclouds" />
 		</attack>
+		<attack name="energy" interval="2000" chance="10" length="8" spread="2" min="-100" max="-200">
+			<attribute key="areaEffect" value="bigclouds" />
+		</attack>
 	</attacks>
 	<defenses armor="30" defense="30">
-		<defense name="healing" interval="1000" chance="25" min="100" max="195">
-			<attribute key="areaEffect" value="blueshimmer" />
-		</defense>
 		<defense name="invisible" interval="3000" chance="30" duration="6000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
@@ -46,8 +46,8 @@
 		<summon name="Banshee" interval="4000" chance="50" />
 	</summons>
 	<loot>
-		<item name="gold coin" countmax="98" chance="40000" />
-		<item name="war hammer" chance="2300" />
-		<item name="the ring of the count" chance="100000" />
+		<item name="The Ring of the Count" chance="100000" />
+		<item name="Gold Coin" countmax="100" chance="72220" />
+		<item name="Vampire Shield" countmax="100" chance="22220" />
 	</loot>
 </monster>

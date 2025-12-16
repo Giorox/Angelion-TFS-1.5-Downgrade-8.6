@@ -20,12 +20,12 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-90" poison="2" />
+		<attack name="melee" interval="2000" min="0" max="-90" poison="40" />
 		<attack name="lifedrain" interval="2000" chance="20" range="7" target="1" min="-70" max="-150">
 			<attribute key="shootEffect" value="poison" />
 			<attribute key="areaEffect" value="poison" />
 		</attack>
-		<attack name="drunk" interval="2000" chance="10" range="7" radius="1" target="1" duration="4000">
+		<attack name="drunk" interval="2000" chance="10" range="7" radius="1" target="1" duration="2000">
 			<attribute key="shootEffect" value="holy" />
 			<attribute key="areaEffect" value="holydamage" />
 		</attack>
@@ -34,7 +34,7 @@
 		<defense name="healing" interval="3000" chance="20" min="45" max="60">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
-		<defense name="invisible" interval="2000" chance="10" duration="3000">
+		<defense name="invisible" interval="2000" chance="10" duration="2000">
 			<attribute key="areaEffect" value="yellowbubble" />
 		</defense>
 	</defenses>
@@ -58,21 +58,21 @@
 		<voice sentence="Praise the voodoo!" yell="0" />
 	</voices>
 	<loot>
-		<item id="1962" chance="940" /><!-- orange book -->
-		<item name="small ruby" chance="320" />
-		<item name="gold coin" countmax="60" chance="65520" />
-		<item id="2169" chance="420" /><!-- time ring -->
-		<item name="silver amulet" chance="1020" />
-		<item name="hailstorm rod" chance="220" />
-		<item name="clerical mace" chance="1260" />
-		<item name="red robe" chance="80" />
-		<item name="pirate voodoo doll" chance="1730" />
-		<item id="6089" chance="700" /><!-- music sheet 3rd verse -->
-		<item name="lunar staff" chance="120" />
-		<item name="amber staff" chance="680" />
-		<item name="cultish robe" chance="10080" />
-		<item name="cultish symbol" chance="90" />
-		<item name="rope belt" chance="10000" />
-		<item name="broken key ring" chance="120" />
+		<item name="Gold Coin" countmax="60" chance="65530" />
+		<item name="Cultish Robe" chance="10240" />
+		<item name="Rope Belt" chance="9970" />
+		<item name="Pirate Voodoo Doll" chance="1470" />
+		<item name="Silver Amulet" chance="990" />
+		<item name="Clerical Mace" chance="990" />
+		<item name="Book (Orange)" chance="880" />
+		<item name="Music Sheet (Third Verse)" chance="610" />
+		<item name="Amber Staff" chance="550" />
+		<item name="Time Ring" chance="450" />
+		<item name="Small Ruby" chance="280" />
+		<item name="Hailstorm Rod" chance="180" />
+		<item name="Cultish Symbol" chance="90" />
+		<item name="Lunar Staff" chance="90" />
+		<item name="Red Robe" chance="80" />
+		<item name="Broken Key Ring" chance="80" />
 	</loot>
 </monster>

@@ -20,21 +20,31 @@
 		<flag isboss="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-282" />
-		<attack name="death" interval="1000" chance="12" target="1" min="0" max="-200">
-			<attribute key="areaEffect" value="mortarea" />
-			<attribute key="shootEffect" value="suddendeath" />
+		<attack name="melee" interval="2000" min="0" max="-400" />
+		<attack name="manadrain" interval="1000" chance="12" range="3" target="1" min="0" max="-80">
+			<attribute key="areaEffect" value="blueshimmer" />
 		</attack>
-		<attack name="speed" interval="2000" chance="15" target="1" speedchange="-700" />
+		<attack name="physical" interval="9000" chance="20" target="1" range="7" min="-80" max="-100">
+			<attribute key="shootEffect" value="sniperarrow" />
+		</attack>
+		<attack name="lifedrain" interval="1000" chance="12" range="3" target="1" min="-50" max="-200">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="speed" interval="2000" chance="15" range="7" target="1" speedchange="-700" duration="10000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="drunk" interval="2000" chance="15" range="7" target="1" duration="10000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
 	</attacks>
 	<defenses armor="30" defense="30">
-		<defense name="healing" interval="1000" chance="12" min="100" max="235">
+		<defense name="healing" interval="1000" chance="12" min="60" max="70">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 		<defense name="invisible" interval="3000" chance="25" duration="6000">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
-		<defense name="outfit" interval="4500" chance="30" monster="bat" duration="4000" />
+		<defense name="outfit" interval="4500" chance="30" monster="Bat" duration="4000" />
 	</defenses>
 	<elements>
 		<element physicalPercent="50" />
@@ -60,12 +70,14 @@
 		<voice sentence="I will be still around when my 'noble' race is gone." yell="0" />
 	</voices>
 	<loot>
-		<item name="black pearl" chance="8000" />
-		<item name="gold coin" chance="100000" countmax="75" />
-		<item name="platinum coin" chance="50000" countmax="5" />
-		<item name="ring of healing" chance="11111" />
-		<item name="vampire shield" chance="4500" />
-		<item name="strong health potion" chance="4000" />
-		<item name="vampire lord token" chance="100000" />
+		<item name="Gold Coin" countmax="100" chance="100000" />
+		<item name="Vampire Lord Token" chance="100000" />
+		<item name="Strong Health Potion" chance="15450" />
+		<item name="Vampire Shield" chance="10570" />
+		<item name="Skull" chance="6500" />
+		<item name="Platinum Coin" countmax="5" chance="4880" />
+		<item name="Ring of Healing" chance="4070" />
+		<item name="Dreaded Cleaver" chance="2440" />
+		<item name="Black Pearl" chance="810" />
 	</loot>
 </monster>

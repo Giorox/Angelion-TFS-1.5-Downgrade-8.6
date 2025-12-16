@@ -41,6 +41,6 @@
 		<voice sentence="I bet it was you who killed my mom!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="100" chance="50000" />
+		<item name="Gold Coin" countmax="100" chance="59550" />
 	</loot>
 </monster>

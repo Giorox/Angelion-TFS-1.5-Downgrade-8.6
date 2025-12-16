@@ -24,16 +24,15 @@
 		<attack name="lifedrain" interval="2000" chance="30" target="1" radius="4" min="-15" max="-25">
 			<attribute key="areaEffect" value="bats" />
 		</attack>
-		<attack name="lifedrain" interval="2000" chance="10" target="1" range="3" min="-35" max="-55" />
+		<attack name="lifedrain" interval="2000" chance="10" target="1" range="3" min="-35" max="-55">
+			<attribute key="shootEffect" value="death" />
+		</attack>
 	</attacks>
 	<defenses armor="30" defense="35">
-		<defense name="outfit" interval="2000" chance="20" monster="mutated bat" duration="1500">
+		<defense name="outfit" interval="2000" chance="20" monster="Mutated Bat" duration="1500">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
-	<elements>
-		<element physicalPercent="10" />
-	</elements>
 	<immunities>
 		<immunity lifedrain="1" />
 		<immunity drown="1" />
@@ -45,6 +44,6 @@
 		<voice sentence="Oink" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="40" chance="90000" />
+		<item name="Gold Coin" countmax="40" chance="88800" />
 	</loot>
 </monster>

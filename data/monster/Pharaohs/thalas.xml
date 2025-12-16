@@ -17,19 +17,22 @@
 		<flag runonhealth="0" />
 		<flag canwalkonenergy="0" />
 		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-900" />
+		<attack name="melee" interval="2000" min="0" max="-900" poison="700" />
 		<attack name="earth" interval="2000" chance="25" range="7" min="-150" max="-650">
 			<attribute key="shootEffect" value="poison" />
 			<attribute key="areaEffect" value="poison" />
 		</attack>
-		<attack name="melee" interval="3000" chance="20" range="7" radius="1" target="1" min="-150" max="-650">
-			<attribute key="shootEffect" value="poison" />
-			<attribute key="areaEffect" value="poison" />
+		<attack name="lifedrain" interval="3000" chance="20" range="1" radius="1" target="1" min="-400" max="-900">
+			<attribute key="areaEffect" value="poff" />
 		</attack>
-		<attack name="speed" interval="1000" chance="6" range="7" speedchange="-800" duration="20000">
+		<attack name="speed" interval="1000" chance="6" range="7" speedchange="-800" duration="50000">
 			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="speed" interval="1000" chance="15" radius="5" target="0" speedchange="-600" duration="12000">
+			<attribute key="areaEffect" value="poison" />
 		</attack>
 		<attack name="poisoncondition" interval="1000" chance="15" radius="5" target="0" min="-34" max="-35">
 			<attribute key="areaEffect" value="poison" />
@@ -45,32 +48,33 @@
 	</defenses>
 	<elements>
 		<element holyPercent="-20" />
-		<element firePercent="-10" />
 		<element icePercent="-10" />
+		<element firePercent="-10" />
 		<element energyPercent="20" />
 	</elements>
 	<immunities>
 		<immunity death="1" />
 		<immunity earth="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="8">
 		<summon name="Slime" interval="2000" chance="100" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="You will become a feast for my maggots!" />
+		<voice sentence="You will become a feast for my maggots!" yell="0" />
 	</voices>
 	<loot>
-		<item name="cobrafang dagger" chance="100000" />
-		<item name="gold coin" countmax="100" chance="30000" />
-		<item name="gold coin" countmax="100" chance="30000" />
-		<item name="gold coin" countmax="38" chance="30000" />
-		<item name="poison dagger" chance="21000" />
-		<item name="small emerald" countmax="3" chance="9000" />
-		<item name="great health potion" chance="8200" />
-		<item id="2169" chance="5200" /><!-- time ring -->
-		<item name="serpent sword" chance="2700" />
-		<item name="djinn blade" chance="1000" />
-		<item name="green gem" chance="100" />
+		<item name="Cobrafang Dagger" chance="100000" />
+		<item name="Gold Coin" countmax="100" chance="91130" />
+		<item name="Gold Coin" countmax="100" chance="91130" />
+		<item name="Gold Coin" countmax="38" chance="91130" />
+		<item name="Poison Dagger" chance="21040" />
+		<item name="Small Emerald" countmax="3" chance="9000" />
+		<item name="Great Health Potion" chance="8110" />
+		<item name="Time Ring" chance="5320" />
+		<item name="Serpent Sword" chance="2660" />
+		<item name="Djinn Blade" chance="1010" />
+		<item name="Green Gem" chance="890" />
 	</loot>
 </monster>

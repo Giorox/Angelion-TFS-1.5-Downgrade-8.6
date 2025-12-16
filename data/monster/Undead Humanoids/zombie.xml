@@ -50,15 +50,16 @@
 		<voice sentence="Dnnnt... cmmm... clsrrr...." yell="0" />
 	</voices>
 	<loot>
-		<item id="2148" name="gold coin" chance="82036" countmax="65" />
-		<item id="2460" name="brass helmet" chance="9793" />
-		<item id="2398" name="mace" chance="7847" />
-		<item id="2417" name="battle hammer" chance="6856" />
-		<item id="9808" name="heavily rusted armor" chance="5790" />
-		<item id="3351" name="steel helmet" chance="4799" />
-		<item id="2381" name="halberd" chance="3802" />
-		<item id="2168" name="life ring" chance="960" />
-		<item id="7620" name="mana potion" chance="748" />
-		<item id="2657" name="simple dress" chance="530" />
+		<item name="Gold Coin" countmax="65" chance="82090" />
+		<item name="Half-Eaten Brain" chance="10280" />
+		<item name="Brass Helmet" chance="9760" />
+		<item name="Mace" chance="7990" />
+		<item name="Battle Hammer" chance="6880" />
+		<item name="Heavily Rusted Armor" chance="5850" />
+		<item name="Steel Helmet" chance="4820" />
+		<item name="Halberd" chance="3780" />
+		<item name="Life Ring" chance="940" />
+		<item name="Mana Potion" chance="720" />
+		<item name="Simple Dress" chance="510" />
 	</loot>
 </monster>

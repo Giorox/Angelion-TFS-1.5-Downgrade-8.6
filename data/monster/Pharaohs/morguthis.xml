@@ -20,15 +20,17 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-1000" poison="65" />
-		<attack name="lifedrain" interval="3000" chance="7" range="1" min="-55" max="-550" />
+		<attack name="melee" interval="2000" min="0" max="-680" poison="80" />
+		<attack name="lifedrain" interval="3000" chance="7" range="1" min="-250" max="-550" >
+			<attribute key="areaEffect" value="blueshimmer" />
+		</attack>
 		<attack name="speed" interval="1000" chance="25" range="7" speedchange="-650" duration="50000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
-		<attack name="physical" interval="1000" chance="20" radius="3" target="0" min="-40" max="-400">
+		<attack name="physical" interval="1000" chance="20" radius="3" target="0" min="-300" max="-600">
 			<attribute key="areaEffect" value="blackspark" />
 		</attack>
-		<attack name="physical" interval="3000" chance="7" radius="3" target="0" min="-50" max="-500">
+		<attack name="physical" interval="3000" chance="7" radius="3" target="0" min="-450" max="-750">
 			<attribute key="areaEffect" value="mortarea" />
 		</attack>
 	</attacks>
@@ -39,47 +41,46 @@
 		<defense name="speed" interval="1000" chance="7" speedchange="600" duration="5000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
-		<defense name="invisible" interval="2000" chance="10" duration="4000">
+		<defense name="invisible" interval="2000" chance="10" duration="1000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
 	</defenses>
 	<elements>
+		<element physicalPercent="20" />
+		<element holyPercent="-20" />
 		<element icePercent="20" />
 		<element firePercent="20" />
 		<element energyPercent="20" />
-		<element physicalPercent="20" />
 		<element earthPercent="-10" />
-		<element holyPercent="-20" />
 	</elements>
 	<immunities>
 		<immunity death="1" />
-		<immunity paralyze="1" />
 		<immunity invisible="1" />
+		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="3">
 		<summon name="Hero" interval="2000" chance="100" />
 	</summons>
 	<voices interval="5000" chance="10">
-		<voice sentence="Vengeance!" />
-		<voice sentence="You will make a fine trophy." />
-		<voice sentence="Come and fight me, cowards!" />
-		<voice sentence="I am the supreme warrior!" />
-		<voice sentence="Let me hear the music of battle." />
-		<voice sentence="Anotherone to bite the dust!" />
+		<voice sentence="Another one to bite the dust!" yell="0" />
+		<voice sentence="Come and fight me, cowards!" yell="0" />
+		<voice sentence="I am the supreme warrior!" yell="0" />
+		<voice sentence="You will make a fine trophy." yell="0" />
+		<voice sentence="Let me hear the music of battle." yell="0" />
+		<voice sentence="Vengeance!" yell="0" />
 	</voices>
 	<loot>
-		<item name="sword hilt" chance="100000" />
-		<item name="gold coin" countmax="100" chance="30000" />
-		<item name="gold coin" countmax="100" chance="30000" />
-		<item name="gold coin" countmax="21" chance="30000" />
-		<item name="black pearl" chance="10000" />
-		<item name="assassin star" countmax="3" chance="9700" />
-		<item name="great health potion" chance="9500" />
-		<item name="knight axe" chance="6000" />
-		<item name="stone skin amulet" chance="5000" />
-		<item name="mini mummy" chance="140" />
-		<item name="ravager's axe" chance="150" />
-		<item name="steel boots" chance="150" />
-		<item id="2136" chance="140" /><!-- demonbone amulet -->
+		<item name="Sword Hilt" chance="100000" />
+		<item name="Gold Coin" countmax="100" chance="91630" />
+		<item name="Gold Coin" countmax="100" chance="91630" />
+		<item name="Gold Coin" countmax="21" chance="91630" />
+		<item name="Black Pearl" chance="10890" />
+		<item name="Assassin Star" countmax="3" chance="9830" />
+		<item name="Great Health Potion" chance="9560" />
+		<item name="Knight Axe" chance="5710" />
+		<item name="Stone Skin Amulet" chance="4910" />
+		<item name="Demonbone Amulet" chance="130" />
+		<item name="Mini Mummy" chance="130" />
+		<item name="Steel Boots" chance="130" />
 	</loot>
 </monster>

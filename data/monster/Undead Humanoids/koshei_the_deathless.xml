@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Koshei The Deathless" nameDescription="Koshei the Deathless" race="undead" experience="0" speed="390">
+<monster name="Koshei the Deathless" nameDescription="Koshei the Deathless" race="undead" experience="0" speed="390">
 	<health now="3000" max="3000" />
 	<look type="99" head="95" body="116" legs="119" feet="115" corpse="6028" />
 	<targetchange interval="5000" chance="8" />
@@ -19,15 +19,12 @@
 		<flag isboss="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-170" poison="300" />
-		<attack name="lifedrain" interval="3000" chance="9" range="1" min="-60" max="-250">
+		<attack name="melee" interval="2000" min="0" max="-100" poison="400" />
+		<attack name="lifedrain" interval="3000" chance="9" lenght="8" spread="0" min="-50" max="-140">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</attack>
-		<attack name="lifedrain" interval="1000" chance="11" radius="3" target="0" min="-70" max="-135">
+		<attack name="lifedrain" interval="1000" chance="11" radius="3" target="0" min="-70" max="-240">
 			<attribute key="areaEffect" value="redshimmer" />
-		</attack>
-		<attack name="death" interval="2000" chance="9" length="8" spread="0" min="-50" max="-140">
-			<attribute key="areaEffect" value="mortarea" />
 		</attack>
 		<attack name="cursecondition" interval="3000" chance="15" range="1" min="-54" max="-54" />
 		<attack name="speed" interval="2000" chance="15" range="7" speedchange="-900" duration="30000">
@@ -35,7 +32,7 @@
 		</attack>
 	</attacks>
 	<defenses armor="20" defense="20">
-		<defense name="healing" interval="1000" chance="30" min="150" max="300">
+		<defense name="healing" interval="1000" chance="30" min="250" max="345">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
 	</defenses>
@@ -53,7 +50,7 @@
 		<immunity paralyze="1" />
 	</immunities>
 	<summons maxSummons="1">
-		<summon name="bonebeast" interval="1000" chance="16" />
+		<summon name="Bonebeast" interval="1000" chance="16" />
 	</summons>
 	<voices interval="5000" chance="10">
 		<voice sentence="What a disgusting smell of life!" yell="0" />
@@ -66,17 +63,5 @@
 		<voice sentence="Ahhh, your life energy tastes so delicious!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="100" chance="100000" />
-		<item name="gold coin" countmax="12" chance="80000" />
-		<item name="stealth ring" chance="888" />
-		<item name="platinum amulet" chance="1666" />
-		<item id="2175" chance="10000" /><!-- spellbook -->
-		<item name="gold ring" chance="900" />
-		<item id="2237" chance="10000" /><!-- dirty cape -->
-		<item id="2401" chance="10000" /><!-- staff -->
-		<item name="castle shield" chance="588" />
-		<item name="blue robe" chance="709" />
-		<item name="lich staff" chance="1000" />
-		<item name="lightning boots" chance="688" />
 	</loot>
 </monster>

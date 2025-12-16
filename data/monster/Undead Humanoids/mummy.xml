@@ -20,8 +20,8 @@
 		<flag canwalkonpoison="1" />
 	</flags>
 	<attacks>
-		<attack name="melee" interval="2000" min="0" max="-85" poison="4" />
-		<attack name="death" interval="2000" chance="20" range="1" target="1" min="-30" max="-40">
+		<attack name="melee" interval="2000" min="0" max="-85" poison="80" />
+		<attack name="death" interval="2000" chance="20" range="1" target="1" min="-38" max="-85">
 			<attribute key="areaEffect" value="smallclouds" />
 		</attack>
 		<attack name="speed" interval="2000" chance="15" range="7" target="1" speedchange="-226" duration="10000">
@@ -50,19 +50,19 @@
 		<voice sentence="Flesssh to dussst!" yell="0" />
 	</voices>
 	<loot>
-		<item id="2124" chance="1500" /><!-- crystal ring -->
-		<item name="silver brooch" chance="4000" />
-		<item name="black pearl" chance="1000" />
-		<item name="gold coin" countmax="80" chance="38000" />
-		<item name="strange talisman" chance="5000" />
-		<item id="2162" chance="5800" /><!-- magic lightwand -->
-		<item name="silver amulet" chance="100" />
-		<item name="poison dagger" chance="450" />
-		<item name="black shield" chance="170" />
-		<item name="worm" countmax="3" chance="19000" />
-		<item name="yellow piece of cloth" chance="900" />
-		<item name="gauze bandage" chance="10000" />
-		<item name="mini mummy" chance="10" />
-		<item name="flask of embalming fluid" chance="11690" />
+		<item name="Gold Coin" countmax="80" chance="39550" />
+		<item name="Worm" countmax="3" chance="19860" />
+		<item name="Flask of Embalming Fluid" chance="12100" />
+		<item name="Gauze Bandage" chance="10030" />
+		<item name="Magic Light Wand" chance="6060" />
+		<item name="Strange Talisman" chance="4980" />
+		<item name="Silver Brooch" chance="3930" />
+		<item name="Crystal Ring" chance="1510" />
+		<item name="Black Pearl" chance="990" />
+		<item name="Yellow Piece of Cloth" chance="950" />
+		<item name="Poison Dagger" chance="510" />
+		<item name="Black Shield" chance="190" />
+		<item name="Silver Amulet" chance="90" />
+		<item name="Mini Mummy" chance="" />
 	</loot>
 </monster>

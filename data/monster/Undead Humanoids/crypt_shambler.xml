@@ -40,16 +40,16 @@
 		<voice sentence="Hoooohhh!" yell="0" />
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="55" chance="58000" />
-		<item name="worm" countmax="10" chance="9000" />
-		<item name="half-digested piece of meat" chance="5000" />
-		<item id="2230" chance="5000" /><!-- bone -->
-		<item name="iron helmet" chance="2000" />
-		<item name="rotten meat" chance="1950" />
-		<item name="two handed sword" chance="1950" />
-		<item name="bone shield" chance="1000" />
-		<item name="throwing star" countmax="3" chance="1000" />
-		<item name="bone sword" chance="1000" />
-		<item name="small diamond" chance="500" />
+		<item name="Gold Coin" countmax="55" chance="58080" />
+		<item name="Worm" countmax="10" chance="9000" />
+		<item name="Half-Digested Piece of Meat" chance="4940" />
+		<item name="Bone" chance="4930" />
+		<item name="Iron Helmet" chance="2040" />
+		<item name="Two Handed Sword" chance="1970" />
+		<item name="Rotten Meat" chance="1970" />
+		<item name="Bone Shield" chance="1040" />
+		<item name="Throwing Star" countmax="3" chance="1000" />
+		<item name="Bone Sword" chance="1000" />
+		<item name="Small Diamond" chance="500" />
 	</loot>
 </monster>

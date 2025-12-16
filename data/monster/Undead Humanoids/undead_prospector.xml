@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="Undead Prospector" nameDescription="an undead prospector" race="blood" experience="85" speed="170" manacost="440">
+<monster name="Undead Prospector" nameDescription="an undead prospector" race="blood" experience="85" speed="170" manacost="450">
 	<health now="100" max="100" />
 	<look type="18" corpse="5976" />
 	<targetchange interval="4000" chance="0" />
@@ -44,15 +44,15 @@
 		<voice sentence="These mine is ours... you shall not pass." yell="0" />
 	</voices>
 	<loot>
-		<item id="3976" name="worm" chance="80636" countmax="6" />
-		<item id="2148" name="gold coin" chance="71225" countmax="30" />
-		<item id="2050" name="torch" chance="61070" />
-		<item id="2460" name="brass helmet" chance="18551" />
-		<item id="2403" name="knife" chance="14760" />
-		<item id="2473" name="viking helmet" chance="5349" />
-		<item id="2483" name="scale armor" chance="3588" />
-		<item id="2229" name="skull (item)" chance="2708" />
-		<item id="5913" name="brown piece of cloth" chance="948" />
-		<item id="2168" name="life ring" chance="135" />
+		<item name="Worm" countmax="6" chance="80400" />
+		<item name="Gold Coin" countmax="30" chance="70850" />
+		<item name="Torch" chance="61420" />
+		<item name="Brass Helmet" chance="18430" />
+		<item name="Knife" chance="14330" />
+		<item name="Viking Helmet" chance="5330" />
+		<item name="Scale Armor" chance="3670" />
+		<item name="Skull" chance="2880" />
+		<item name="Brown Piece of Cloth" chance="920" />
+		<item name="Life Ring" chance="120" />
 	</loot>
 </monster>
