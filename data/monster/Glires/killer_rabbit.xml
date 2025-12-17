@@ -22,6 +22,7 @@
 	<attacks>
 		<attack name="melee" interval="1200" min="0" max="-100" />
 		<attack name="physical" interval="2000" chance="30" range="1" min="0" max="-50" />
+		<attack name="berserker chicken blood rage" interval="2000" chance="15" />
 	</attacks>
 	<defenses armor="30" defense="35">
 		<defense name="speed" interval="1000" chance="40" speedchange="380" duration="8000">

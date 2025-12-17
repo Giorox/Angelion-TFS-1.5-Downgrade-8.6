@@ -50,6 +50,7 @@
 		<attack name="speed" interval="1000" chance="12" radius="6" target="0" speedchange="-850" duration="60000">
 			<attribute key="areaEffect" value="poison" />
 		</attack>
+		<attack name="apocalypse skill reducer" target="0" interval="2000" chance="15" />
 	</attacks>
 	<defenses armor="188" defense="145">
 		<defense name="healing" interval="2000" chance="15" min="2000" max="3000">

@@ -44,6 +44,7 @@
 		<attack name="physical" interval="1000" chance="10" length="8" spread="0" min="-250" max="-550">
 			<attribute key="areaEffect" value="poff" />
 		</attack>
+		<attack name="latrivan skill reducer" target="0" interval="2000" chance="15" />
 	</attacks>
 	<defenses armor="35" defense="45" >
 		<defense name="healing" interval="2000" chance="32" min="350" max="520">

@@ -37,6 +37,7 @@
 		<attack name="physical" interval="2000" chance="30" radius="5" target="0" min="0" max="-250">
 			<attribute key="areaEffect" value="groundshaker" />
 		</attack>
+		<attack name="zulazza skill reducer" interval="2000" chance="15" />
 	</attacks>
 	<defenses armor="96" defense="119">
 		<defense name="healing" interval="2000" chance="20" min="225" max="270">

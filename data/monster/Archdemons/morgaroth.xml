@@ -42,6 +42,8 @@
 			<attribute key="areaEffect" value="energy" />
 			<attribute key="shootEffect" value="energy" />
 		</attack>
+		<attack name="morgaroth distance reducer" target="0" interval="2000" chance="15" />
+		<attack name="morgaroth melee reducer" target="0" interval="2000" chance="15" />
 	</attacks>
 	<defenses armor="130" defense="130">
 		<defense name="healing" interval="3000" chance="35" min="800" max="1200">

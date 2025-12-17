@@ -25,15 +25,42 @@
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-300" />
 		<attack name="manadrain" interval="2000" chance="10" length="5" spread="2" min="0" max="-12">
-			<attribute key="areaEffect" value="greenspark" />
+			<attribute key="areaEffect" value="bluefirework" />
 		</attack>
-		<attack name="drunk" interval="2000" chance="10" target="1" radius="4" duration="5000">
+		<attack name="drunk" interval="2000" chance="10" target="0" radius="7" duration="5000">
 			<attribute key="areaEffect" value="stun" />
+		</attack>
+		<attack name="outfit" interval="4000" chance="10" target="1" range="7" monster="The Mutated Pumpkin" duration="5000">
+			<attribute key="areaEffect" value="groundshaker" />
+		</attack>
+		<attack name="outfit" interval="4000" chance="10" length="5" spread="2" item="2683" duration="5000">
+			<attribute key="areaEffect" value="smallplants" />
+		</attack>
+		<attack name="effect" interval="4000" chance="10" target="0" range="1">
+			<attribute key="areaEffect" value="sleep" />
+		</attack>
+		<attack name="manadrain" interval="2000" chance="10" length="5" spread="2" min="0" max="-125">
+			<attribute key="areaEffect" value="bluefirework" />
+		</attack>
+		<attack name="poison" interval="2000" chance="10" length="5" spread="2" min="-13" max="-15">
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+		<attack name="effect" interval="4000" chance="10" length="5" spread="2">
+			<attribute key="areaEffect" value="rednote" />
+		</attack>
+		<attack name="speed" interval="4000" chance="10" length="5" spread="2" speedchange="400" duration="3000">
+			<attribute key="areaEffect" value="giftwraps" />
 		</attack>
 	</attacks>
 	<defenses armor="30" defense="30">
 		<defense name="healing" interval="2000" chance="15" min="2000" max="2900">
 			<attribute key="areaEffect" value="greenspark" />
+		</defense>
+		<defense name="invisible" interval="2000" chance="20" duration="20000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="outfit" interval="4000" chance="10" monster="Warlock" duration="5000">
+			<attribute key="areaEffect" value="groundshaker" />
 		</defense>
 	</defenses>
 	<immunities>

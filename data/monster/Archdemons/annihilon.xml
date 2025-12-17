@@ -50,6 +50,7 @@
 		<attack name="speed" interval="4000" chance="15" radius="3" duration="10000" speedchange="-700">
 			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
+		<attack name="annihilon skill reducer" range="5" target="1" interval="2000" chance="15" />
 	</attacks>
 	<defenses armor="60" defense="55">
 		<defense name="healing" interval="1000" chance="14" min="230" max="370">

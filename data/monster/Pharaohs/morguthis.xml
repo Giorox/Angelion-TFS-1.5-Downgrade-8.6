@@ -44,6 +44,7 @@
 		<defense name="invisible" interval="2000" chance="10" duration="1000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
+		<defense name="morguthis blood rage" interval="2000" chance="15" />
 	</defenses>
 	<elements>
 		<element physicalPercent="20" />

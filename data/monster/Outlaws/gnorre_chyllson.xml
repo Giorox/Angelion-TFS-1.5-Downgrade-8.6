@@ -42,6 +42,7 @@
 			<attribute key="shootEffect" value="snowball" />
 			<attribute key="areaEffect" value="mortarea" />
 		</attack>
+		<attack name="gnorre chyllson skill reducer" interval="2000" target="0" chance="5" />
 	</attacks>
 	<defenses armor="51" defense="52" />
 	<elements>

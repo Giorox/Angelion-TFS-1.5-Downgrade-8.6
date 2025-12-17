@@ -44,6 +44,7 @@
 		<attack name="lifedrain" interval="2000" chance="21" radius="6" target="0" min="-200" max="-400">
 			<attribute key="areaEffect" value="poff" />
 		</attack>
+		<attack name="ferumbras skill reducer" interval="2000" target="0" chance="5" />
 	</attacks>
 	<defenses armor="100" defense="120">
 		<defense name="healing" interval="2000" chance="10" min="600" max="1000">

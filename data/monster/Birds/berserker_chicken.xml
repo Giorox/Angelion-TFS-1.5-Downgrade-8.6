@@ -20,8 +20,9 @@
 		<flag canwalkonpoison="0" />
 	</flags>
 	<attacks>
+		<!--<attack name="Blood Rage (increases own melee by 40%?)" />-->
 		<attack name="melee" interval="1200" min="0" max="-200" />
-		<attack name="drown" interval="2000" chance="15" target="0" min="-41" max="-70">
+		<attack name="drown" interval="2000" chance="15" radius="2" target="0" min="-41" max="-70">
 			<attribute key="areaEffect" value="explosionarea" />
 		</attack>
 	</attacks>
@@ -29,6 +30,7 @@
 		<defense name="speed" interval="1000" chance="40" speedchange="400" duration="8000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
+		<defense name="berserker chicken blood rage" interval="2000" chance="15" />
 	</defenses>
 	<elements>
 		<element physicalPercent="-10" />

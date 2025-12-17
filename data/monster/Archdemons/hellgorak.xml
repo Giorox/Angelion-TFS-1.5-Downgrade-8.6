@@ -39,6 +39,7 @@
 			<attribute key="areaEffect" value="teleport" />
 			<attribute key="shootEffect" value="energy" />
 		</attack>
+		<attack name="hellgorak skill reducer" target="0" interval="2000" chance="15" />
 	</attacks>
 	<defenses armor="70" defense="65">
 		<defense name="healing" interval="2000" chance="22" min="400" max="400">

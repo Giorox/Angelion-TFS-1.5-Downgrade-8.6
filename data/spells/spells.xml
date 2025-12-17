@@ -564,7 +564,7 @@
 	<!-- Monster Spells -->
     <instant name="barbarian brutetamer skill reducer" words="###1" aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="monster/barbarian_brutetamer_skill_reducer.lua" />
 	<instant name="betrayed wraith skill reducer" words="###2" direction="1" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/betrayed_wraith_skill_reducer.lua" />
-	<instant name="blightwalker curse" words="###3" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/blightwalker_curse.lua" />
+    <instant name="blightwalker curse" words="###3" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/blightwalker_curse.lua" />
 	<instant name="bonebeast paralyze" words="###4" aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="monster/bonebeast_paralyze.lua" />
 	<instant name="brimstone bug paralyze" words="###5" aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="monster/brimstone_bug_paralyze.lua" />
 	<instant name="brimstone bug wave" words="###6" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/brimstone_bug_wave.lua" />
@@ -610,4 +610,26 @@
     <instant name="werewolf skill reducer" words="###46" aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="monster/werewolf_skill_reducer.lua" />
     <instant name="wyrm wave" words="###47" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/wyrm_wave.lua" />
     <instant name="young sea serpent drown" words="###48" aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="monster/young_sea_serpent_drown.lua" />
+    <instant name="annihilon skill reducer" words="###49" aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="monster/annihilon_skill_reducer.lua" />
+    <instant name="apocalypse skill reducer" words="###50" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/apocalypse_skill_reducer.lua" />
+    <instant name="berserker chicken blood rage" words="###51" aggressive="0" blockwalls="1" needtarget="0" needlearn="1" script="monster/berserker_chicken_blood_rage.lua" />
+    <instant name="dharalion skill reducer" words="###52" aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="monster/dharalion_skill_reducer.lua" />
+    <instant name="dirtbeard skill reducer" words="###53" aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="monster/dirtbeard_skill_reducer.lua" />
+    <instant name="dreadbeast skill reducer" words="###54" aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="monster/dreadbeast_skill_reducer.lua" />
+    <instant name="ferumbras skill reducer" words="###55" aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="monster/ferumbras_skill_reducer.lua" />
+    <instant name="gnorre chyllson skill reducer" words="###56" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/gnorre_chyllson_skill_reducer.lua" />
+    <instant name="golgordan skill reducer" words="###57" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/golgordan_skill_reducer.lua" />
+    <instant name="grim reaper blood rage" words="###58" aggressive="0" blockwalls="1" needtarget="0" needlearn="1" script="monster/grim_reaper_blood_rage.lua" />
+    <instant name="hellgorak skill reducer" words="###59" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/hellgorak_skill_reducer.lua" />
+    <instant name="infernalist skill reducer" words="###60" aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="monster/infernalist_skill_reducer.lua" />
+    <instant name="lancer beetle skill reducer" words="###61" aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="monster/lancer_beetle_skill_reducer.lua" />
+    <instant name="latrivan skill reducer" words="###62" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/latrivan_skill_reducer.lua" />
+    <instant name="madareth skill reducer" words="###63" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/madareth_skill_reducer.lua" />
+    <instant name="morgaroth distance reducer" words="###64" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/morgaroth_distance_reducer.lua" />
+    <instant name="morgaroth melee reducer" words="###65" aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="monster/morgaroth_melee_reducer.lua" />
+    <instant name="morguthis blood rage" words="###66" aggressive="0" blockwalls="1" needtarget="0" needlearn="1" script="monster/morguthis_blood_rage.lua" />
+    <instant name="morik party buff" words="###67" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/morik_party_buff.lua" />
+    <instant name="orshabaal skill reducer" words="###68" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/orshabaal_skill_reducer.lua" />
+    <instant name="pythius curse" words="###69" aggressive="1" blockwalls="1" needtarget="1" needlearn="1" script="monster/pythius_curse.lua" />
+    <instant name="zulazza skill reducer" words="###70" aggressive="1" blockwalls="1" needtarget="0" needlearn="1" script="monster/zulazza_skill_reducer.lua" />
 </spells>

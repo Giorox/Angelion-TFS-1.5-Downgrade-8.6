@@ -28,6 +28,7 @@
 		<attack name="poisoncondition" interval="2000" chance="20" radius="3" target="0" min="-40" max="-120">
 			<attribute key="areaEffect" value="poison" />
 		</attack>
+		<attack name="dreadbeast skill reducer" interval="2000" target="1" range="1" chance="5" />
 	</attacks>
 	<defenses armor="40" defense="40">
 		<defense name="healing" interval="2000" chance="15" min="35" max="65">
