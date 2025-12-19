@@ -68,7 +68,7 @@
 		<item name="Hailstorm Rod" chance="9730" />
 		<item name="Assassin Star" countmax="10" chance="7160" />
 		<item name="Gold Ingot" chance="5290" />
-		<item name="Giant Shimmering Pearl (Green)" chance="4600" />
+		<item id="7632" chance="4600" />
 		<item name="Seeds" chance="3780" />
 		<item name="Scythe" chance="3030" />
 		<item name="Terra Legs" chance="2670" />

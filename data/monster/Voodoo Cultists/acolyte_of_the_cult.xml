@@ -62,10 +62,10 @@
 		<item name="Morning Star" chance="4950" />
 		<item name="Dragon Necklace" chance="1090" />
 		<item name="Pirate Voodoo Doll" chance="1060" />
-		<item name="Book (Orange)" chance="780" />
+		<item id="1977" chance="780" />
 		<item name="Life Ring" chance="520" />
 		<item name="Small Emerald" chance="520" />
-		<item name="Music Sheet (Second Verse)" chance="430" />
+		<item id="6088" chance="430" />
 		<item name="Terra Rod" chance="200" />
 		<item name="Cultish Symbol" chance="70" />
 		<item name="Broken Key Ring" chance="60" />

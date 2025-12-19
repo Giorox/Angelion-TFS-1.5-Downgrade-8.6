@@ -56,7 +56,7 @@
 		<item name="Fur Bag" chance="7870" />
 		<item name="Staff" chance="6610" />
 		<item name="Hunting Spear" chance="5250" />
-		<item id="1958" name="Book (Grey)" chance="4660" />
+		<item id="1958" id="1972" chance="4660" />
 		<item name="Mana Potion" chance="620" />
 		<item name="Brutetamer's Staff" chance="310" />
 		<item name="Fur Boots" chance="140" />

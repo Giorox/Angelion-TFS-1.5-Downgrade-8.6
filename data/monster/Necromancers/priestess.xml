@@ -68,7 +68,7 @@
 		<item name="Crystal Ball" chance="1130" />
 		<item name="Hailstorm Rod" chance="1100" />
 		<item name="Mana Potion" chance="940" />
-		<item name="Book (Orange)" chance="920" />
+		<item id="1977" chance="920" />
 		<item name="Talon" chance="730" />
 		<item name="Crystal Necklace" chance="610" />
 		<item name="Black Shield" chance="220" />

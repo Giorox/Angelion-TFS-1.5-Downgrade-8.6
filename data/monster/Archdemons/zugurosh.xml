@@ -37,7 +37,7 @@
 		<attack name="manadrain" interval="1000" chance="13" radius="5" target="0" min="-60" max="-230">
 			<attribute key="areaEffect" value="watersplash" />
 		</attack>
-		<attack name="speed" interval="1000" chance="10" radius="9" target="0" speedchange="-1800" duration="30000">
+		<attack name="speed" interval="1000" chance="10" radius="9" target="0" speedchange="-800" duration="30000">
 			<attribute key="areaEffect" value="greenshimmer" />
 		</attack>
 	</attacks>

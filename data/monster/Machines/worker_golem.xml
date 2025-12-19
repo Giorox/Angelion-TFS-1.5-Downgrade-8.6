@@ -69,7 +69,7 @@
 		<item name="Great Spirit Potion" chance="830" />
 		<item name="Berserk Potion" chance="770" />
 		<item name="Might Ring" chance="500" />
-		<item name="Crystal Pedestal (Cyan)" chance="160" />
+		<item id="9978" chance="160" />
 		<item name="Bonebreaker" chance="110" />
 	</loot>
 </monster>

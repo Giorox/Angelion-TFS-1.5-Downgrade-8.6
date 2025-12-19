@@ -44,7 +44,7 @@
 		<item name="Small Emerald" countmax="5" chance="9960" />
 		<item name="Obsidian Lance" chance="4980" />
 		<item name="Bunch of Ripe Rice" countmax="2" chance="4910" />
-		<item name="Giant Shimmering Pearl (Green)" chance="990" />
+		<item id="7632" chance="990" />
 		<item name="Crocodile Boots" chance="500" />
 	</loot>
 </monster>

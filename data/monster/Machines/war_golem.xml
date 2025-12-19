@@ -79,7 +79,7 @@
 		<item name="Rusted Armor" chance="3520" />
 		<item name="Iron Ore" chance="1800" />
 		<item name="Dwarven Ring" chance="1120" />
-		<item name="Crystal Pedestal (Red)" chance="990" />
+		<item id="9976" chance="990" />
 		<item name="Life Crystal" chance="860" />
 		<item name="Berserk Potion" chance="820" />
 		<item name="Club Ring" chance="690" />

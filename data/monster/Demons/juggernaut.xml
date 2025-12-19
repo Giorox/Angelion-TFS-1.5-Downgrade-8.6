@@ -68,7 +68,7 @@
 		<item name="Small Amethyst" countmax="5" chance="12460" />
 		<item name="Onyx Arrow" countmax="15" chance="10070" />
 		<item name="Red Gem" chance="9690" />
-		<item name="Giant Shimmering Pearl (Green)" chance="6690" />
+		<item id="7632" chance="6690" />
 		<item name="Gold Ingot" countmax="2" chance="5120" />
 		<item name="Titan Axe" chance="4760" />
 		<item name="Knight Armor" chance="4270" />

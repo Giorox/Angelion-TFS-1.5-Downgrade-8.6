@@ -46,7 +46,7 @@
 		<item name="Combat Knife" chance="7030" />
 		<item name="White Piece of Cloth" chance="1930" />
 		<item name="Ghostly Tissue" chance="1870" />
-		<item name="Book (Orange)" chance="1440" />
+		<item id="1977" chance="1440" />
 		<item name="Ancient Shield" chance="820" />
 		<item name="Stealth Ring" chance="180" />
 	</loot>

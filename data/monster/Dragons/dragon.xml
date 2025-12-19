@@ -70,7 +70,6 @@
 		<item name="Serpent Sword" chance="460" />
 		<item name="Small Diamond" chance="380" />
 		<item name="Dragon Shield" chance="360" />
-		<item name="Dragon Trophy" chance="100" />
 		<item name="Dragonbone Staff" chance="50" />
 		<item name="Life Crystal" chance="20" />
 	</loot>

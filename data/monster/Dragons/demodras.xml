@@ -58,7 +58,7 @@
 		<item name="Power Bolt" countmax="10" chance="19660" />
 		<item name="Red Dragon Leather" chance="13680" />
 		<item name="Small Sapphire" chance="11970" />
-		<item name="Book (Gemmed)" chance="10260" />
+		<item id="1976" chance="10260" />
 		<item name="Energy Ring" chance="10260" />
 		<item name="Great Health Potion" chance="9400" />
 		<item name="Great Mana Potion" chance="9400" />

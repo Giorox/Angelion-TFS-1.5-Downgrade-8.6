@@ -77,7 +77,7 @@
 		<item name="Platinum Amulet" chance="1030" />
 		<item name="Skull Staff" chance="1000" />
 		<item name="Violet Gem" chance="1000" />
-		<item name="Book (Orange)" chance="900" />
+		<item id="1977" chance="900" />
 		<item name="Crown Armor" chance="870" />
 		<item name="Gold Ingot" chance="600" />
 		<item name="Boots of Haste" chance="160" />

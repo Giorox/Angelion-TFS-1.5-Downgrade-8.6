@@ -60,6 +60,6 @@
 		<item name="Orc Leather" chance="3750" />
 		<item name="Orc Tooth" chance="2240" />
 		<item name="Wand of Decay" chance="960" />
-		<item name="Book (Grey)" chance="460" />
+		<item id="1972" chance="460" />
 	</loot>
 </monster>

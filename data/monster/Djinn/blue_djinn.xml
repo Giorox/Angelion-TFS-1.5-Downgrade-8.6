@@ -62,7 +62,7 @@
 		<item name="Carrot" chance="24320" />
 		<item name="Royal Spear" countmax="2" chance="4740" />
 		<item name="Small Sapphire" countmax="4" chance="2600" />
-		<item name="Book (Blue)" chance="2430" />
+		<item id="1978" chance="2430" />
 		<item name="Blue Piece of Cloth" chance="1940" />
 		<item name="Dirty Turban" chance="1860" />
 		<item name="Mana Potion" chance="830" />

@@ -39,8 +39,8 @@
 		<immunity paralyze="1" />
 	</immunities>
 	<loot>
-		<item name="Gold Coin" countmax="100" chance="353830" />
-		<item name="Gold Coin" countmax="68" chance="353830" />
+		<item name="Gold Coin" countmax="100" chance="35383" />
+		<item name="Gold Coin" countmax="68" chance="35383" />
 		<item name="Mother Soil" chance="100000" />
 		<item name="Lump of Earth" chance="47740" />
 		<item name="Platinum Coin" countmax="3" chance="40860" />

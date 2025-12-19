@@ -1,11 +1,17 @@
 local config = {
-	[9808] = { -- Rusty Armor (Common)
+	[9805] = { -- Heavily Rusted Weapon
+    },
+    [9806] = { -- Rusted Weapon
+    },
+    [9807] = { -- Slightly Rusted Weapon  
+    },
+    [9808] = { -- Heavily Rusted Armor
 		[1] = {id = 2464, chance = 6994}, -- Chain Armor
 		[2] = {id = 2483, chance = 3952}, -- Scale Armor
 		[3] = {id = 2465, chance = 1502}, -- Brass Armor
 		[4] = {id = 2463, chance = 197} -- Plate Armor
 	},
-	[9809] = { -- Rusty Armor (Semi-rare)
+	[9809] = { -- Rusted Armor
 		[1] = {id = 2483, chance = 6437}, -- Scale Armor
 		[2] = {id = 2464, chance = 4606}, -- Chain Armor
 		[3] = {id = 2465, chance = 3029}, -- Brass Armor
@@ -14,7 +20,7 @@ local config = {
 		[6] = {id = 8891, chance = 283}, -- Paladin Armor
 		[7] = {id = 2487, chance = 49} -- Crown Armor
 	},
-	[9810] = { -- Rusty Armor (Rare)
+	[9810] = { -- Slightly Rusted Armor
 		[1] = {id = 2465, chance = 6681}, -- Brass Armor
 		[2] = {id = 2463, chance = 3767}, -- Plate Armor
 		[3] = {id = 2476, chance = 1832}, -- Knight Armor
@@ -22,20 +28,20 @@ local config = {
 		[5] = {id = 8891, chance = 31}, -- Paladin Armor
 		[6] = {id = 2466, chance = 10} -- Golden Armor
 	},
-	[9811] = { -- Rusty Legs (Common)
+	[9811] = { -- Heavily Rusted Legs
 		[1] = {id = 2648, chance = 6949}, -- Chain Legs
 		[2] = {id = 2468, chance = 3692}, -- Studded Legs
 		[3] = {id = 2478, chance = 1307}, -- Brass Legs
 		[4] = {id = 2647, chance = 133} -- Plate Legs
 	},
-	[9812] = { -- Rusty Legs (Semi-Rare)
+	[9812] = { -- Rusted Legs
 		[1] = {id = 2468, chance = 5962}, -- Studded Legs
 		[2] = {id = 2648, chance = 4037}, -- Chain Legs
 		[3] = {id = 2478, chance = 2174}, -- Brass Legs
 		[4] = {id = 2647, chance = 1242}, -- Plate Legs
 		[5] = {id = 2477, chance = 186}, -- Knight Legs
 	},
-	[9813] = { -- Rusty Legs (Rare)
+	[9813] = { -- Slightly Rusted Legs
 		[1] = {id = 2478, chance = 6500}, -- Brass Legs
 		[2] = {id = 2647, chance = 3800}, -- Plate Legs
 		[3] = {id = 2477, chance = 200}, -- Knight Legs

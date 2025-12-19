@@ -68,8 +68,8 @@
 		<item name="Cultish Symbol" chance="1010" />
 		<item name="Strong Mana Potion" chance="880" />
 		<item name="Protection Amulet" chance="850" />
-		<item name="Book (Orange)" chance="770" />
-		<item name="Music Sheet (Fourth Verse)" chance="550" />
+		<item id="1977" chance="770" />
+		<item id="6090" chance="550" />
 		<item name="Small Sapphire" chance="530" />
 		<item name="Pirate Voodoo Doll" chance="440" />
 		<item name="Energy Ring" chance="430" />

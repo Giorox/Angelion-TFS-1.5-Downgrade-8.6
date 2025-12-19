@@ -64,8 +64,8 @@
 		<item name="Pirate Voodoo Doll" chance="1470" />
 		<item name="Silver Amulet" chance="990" />
 		<item name="Clerical Mace" chance="990" />
-		<item name="Book (Orange)" chance="880" />
-		<item name="Music Sheet (Third Verse)" chance="610" />
+		<item id="1977" chance="880" />
+		<item id="6089" chance="610" />
 		<item name="Amber Staff" chance="550" />
 		<item name="Time Ring" chance="450" />
 		<item name="Small Ruby" chance="280" />

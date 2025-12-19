@@ -34,7 +34,7 @@
 		<immunity invisible="0" />
 		<immunity paralyze="1" />
 	</immunities>
-	<voices>
+	<voices interval="5000" chance="10">
 		<voice sentence="Grrr..." yell="0" />
 		<voice sentence="Ahrrr... uhmmm... hmm..." yell="0" />
 		<voice sentence="Urrrgh... gnarrr..." yell="0" />

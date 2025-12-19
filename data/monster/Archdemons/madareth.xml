@@ -34,7 +34,7 @@
 		<attack name="manadrain" interval="2000" chance="5" radius="7" target="0" min="0" max="-250">
 			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
-		<attack name="speed" interval="1000" chance="10" range="7" speedchange="-1800" duration="4000">
+		<attack name="speed" interval="1000" chance="10" range="7" speedchange="-800" duration="4000">
 			<attribute key="areaEffect" value="greenshimmer" />
 		</attack>
 		<attack name="madareth skill reducer" target="0" interval="2000" chance="15" />

@@ -30,7 +30,6 @@
 	</attacks>
 	<defenses armor="30" defense="30" />
 	<elements>
-		<element physicalPercent="1" />
 		<element deathPercent="20" />
 		<element holyPercent="40" />
 		<element firePercent="30" />

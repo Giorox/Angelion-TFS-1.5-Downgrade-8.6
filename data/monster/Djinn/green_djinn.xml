@@ -64,7 +64,7 @@
 		<item name="Cheese" chance="24340" />
 		<item name="Royal Spear" countmax="2" chance="5100" />
 		<item name="Small Emerald" countmax="4" chance="2900" />
-		<item name="Book (Green)" chance="2350" />
+		<item id="1980" chance="2350" />
 		<item name="Dirty Turban" chance="2130" />
 		<item name="Green Piece of Cloth" chance="2040" />
 		<item name="Grave Flower" chance="960" />

@@ -2,7 +2,6 @@ local combat = Combat()
 combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_DEATHDAMAGE)
 combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_SUDDENDEATH)
 combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_SMALLCLOUDS)
-combat:setArea(createCombatArea(AREA_CIRCLE1X1))
 
 function onCastSpell(creature, variant)
 	local damage = math.random(52, 154)

@@ -53,7 +53,7 @@
 		<item name="Throwing Knife" countmax="5" chance="8980" />
 		<item name="Battle Shield" chance="4050" />
 		<item name="Pirate Shirt" chance="1120" />
-		<item name="Treasure Map (Pirate)" chance="1020" />
+		<item id="5091" chance="1020" />
 		<item name="Plate Armor" chance="1020" />
 		<item name="Strong Health Potion" chance="710" />
 		<item name="Peg Leg" chance="490" />

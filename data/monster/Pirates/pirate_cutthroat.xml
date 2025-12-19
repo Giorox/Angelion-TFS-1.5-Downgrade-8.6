@@ -52,7 +52,7 @@
 		<item name="Scale Armor" chance="3050" />
 		<item name="Steel Shield" chance="2890" />
 		<item name="Light Shovel" chance="1950" />
-		<item name="Treasure Map (Pirate)" chance="1080" />
+		<item id="5091" chance="1080" />
 		<item name="Pirate Knee Breeches" chance="1030" />
 		<item name="Pirate Bag" chance="990" />
 		<item name="Hook" chance="530" />

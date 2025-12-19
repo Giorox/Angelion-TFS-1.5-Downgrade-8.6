@@ -58,7 +58,7 @@
 		<item name="Dragon Ham" countmax="5" chance="79780" />
 		<item name="Green Mushroom" chance="12130" />
 		<item name="Royal Spear" countmax="3" chance="9120" />
-		<item name="Book (Gemmed)" chance="9100" />
+		<item id="1976" chance="9100" />
 		<item name="Power Bolt" countmax="7" chance="6540" />
 		<item name="Energy Ring" chance="5050" />
 		<item name="Small Sapphire" chance="4940" />

@@ -49,7 +49,7 @@
 		<item name="Spear" countmax="2" chance="5070" />
 		<item name="Plate Shield" chance="5010" />
 		<item name="Chain Armor" chance="3050" />
-		<item name="Treasure Map (Pirate)" chance="950" />
+		<item id="5091" chance="950" />
 		<item name="Bandana" chance="930" />
 		<item name="Eye Patch" chance="530" />
 		<item name="Hook" chance="520" />
