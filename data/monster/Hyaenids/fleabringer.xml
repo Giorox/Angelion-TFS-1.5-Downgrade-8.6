@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<monster name="Fleabringer" nameDescription="Fleabringer" race="blood" experience="100" speed="280">
+    <health now="265" max="265" />
+    <look type="341" corpse="11250" />
+	<targetchange interval="4000" chance="10" />
+    <flags>
+        <flag targetdistance="1" />
+        <flag staticattack="80" />
+        <flag attackable="1" />
+        <flag hostile="1" />
+        <flag illusionable="0" />
+        <flag pushable="0" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag runonhealth="0" />
+        <flag convinceable="0" />
+        <flag summonable="0" />
+        <flag canwalkonenergy="0" />
+        <flag canwalkonfire="0" />
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" min="0" max="-70" />
+    </attacks>
+    <defenses armor="10" defense="10" />
+    <immunities>
+        <immunity invisible="1" />
+        <immunity paralyze="0" />
+    </immunities>
+    <voices interval="5000" chance="10" />
+    <loot>
+        <item name="Shaggy Tail" chance="100000" />
+        <item name="Meat" countmax="3" chance="46670" />
+        <item name="Worm" countmax="3" chance="40000" />
+    </loot>
+</monster>

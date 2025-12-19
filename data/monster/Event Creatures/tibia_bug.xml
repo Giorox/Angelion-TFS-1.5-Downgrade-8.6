@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<monster name="Tibia Bug" nameDescription="a Tibia bug" race="venom" experience="50" speed="160">
+    <health now="270" max="270" />
+    <look type="45" corpse="5990" />
+	<targetchange interval="4000" chance="0" />
+    <flags>
+        <flag targetdistance="1" />
+        <flag staticattack="90" />
+        <flag attackable="1" />
+        <flag hostile="1" />
+        <flag illusionable="0" />
+        <flag pushable="0" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag runonhealth="0" />
+        <flag convinceable="0" />
+        <flag summonable="0" />
+        <flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" min="0" max="-35" />
+        <attack name="energy" interval="2000" chance="10" length="2" spread="0" min="0" max="-35">
+			<attribute key="areaEffect" value="energy" />
+		</attack>
+    </attacks>
+    <defenses armor="2" defense="2" >
+        <defense name="invisible" interval="2000" chance="20" duration="4000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+    </defenses>
+    <immunities>
+        <immunity fire="1" />
+        <immunity energy="1" />
+        <immunity invisible="0" />
+        <immunity paralyze="0" />
+    </immunities>
+    <summons maxSummons="1">
+        <summon name="Tibia Bug" interval="2000" chance="10" max="1" />
+    </summons>
+    <voices interval="5000" chance="10">
+        <voice sentence="We'll be back!" yell="0" />
+        <voice sentence="Muahahaha!" yell="0" />
+        <voice sentence="You are bugged ... by me!" yell="0" />
+        <voice sentence="My, I am bad." yell="0" />
+        <voice sentence="We are everywhere!" yell="0" />
+        <voice sentence="Psst, I'll make you rich." yell="0" />
+        <voice sentence="They thought they'd beaten us!" yell="0" />
+        <voice sentence="Don't you feel a bit ... buggy?!" yell="0" />
+        <voice sentence="My father was a year 2k bug." yell="0" />
+    </voices>
+    <loot />
+</monster>

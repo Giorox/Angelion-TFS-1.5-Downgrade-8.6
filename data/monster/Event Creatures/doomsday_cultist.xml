@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<monster name="Doomsday Cultist" nameDescription="a doomsday cultist" race="undead" experience="100" speed="150">
+    <health now="125" max="125" />
+    <look type="194" head="114" body="114" legs="76" feet="114" corpse="20319" />
+    <targetchange interval="4000" chance="10" />
+    <flags>
+        <flag targetdistance="1" />
+        <flag staticattack="90" />
+        <flag attackable="1" />
+        <flag hostile="1" />
+        <flag illusionable="0" />
+        <flag pushable="0" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag runonhealth="0" />
+        <flag convinceable="0" />
+        <flag summonable="0" />
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" min="0" max="-50" />
+        <attack name="lifedrain" interval="2000" chance="20" range="7" radius="1" target="1" min="-10" max="-30">
+			<attribute key="shootEffect" value="death" />
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+    </attacks>
+    <defenses armor="9" defense="9" >
+		<defense name="healing" interval="2000" chance="15" min="10" max="20">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+    <elements>
+        <element holyPercent="-25" />
+        <element icePercent="10" />
+        <element energyPercent="30" />
+        <element earthPercent="20" />
+    </elements>
+    <immunities>
+        <immunity death="1" />
+        <immunity invisible="0" />
+        <immunity paralyze="1" />
+    </immunities>
+    <voices interval="5000" chance="10" />
+    <loot>
+        <item name="Midnight Shard" chance="1610" />
+    </loot>
+</monster>

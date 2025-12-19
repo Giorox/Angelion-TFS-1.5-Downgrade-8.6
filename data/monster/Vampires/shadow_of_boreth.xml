@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<monster name="Shadow of Boreth" nameDescription="Shadow of Boreth" race="undead" experience="0" speed="270">
+    <health now="600" max="600" />
+    <look type="287" corpse="8937" />
+	<targetchange interval="5000" chance="10" />
+    <flags>
+        <flag targetdistance="1" />
+        <flag staticattack="60" />
+        <flag attackable="1" />
+        <flag hostile="1" />
+        <flag illusionable="0" />
+        <flag pushable="0" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag runonhealth="0" />
+        <flag convinceable="0" />
+        <flag summonable="0" />
+        <flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" min="0" max="-100" />
+    </attacks>
+    <defenses armor="15" defense="15" />
+    <immunities>
+        <immunity invisible="1" />
+        <immunity paralyze="1" />
+    </immunities>
+    <voices interval="5000" chance="10" />
+</monster>

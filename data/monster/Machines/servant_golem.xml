@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<monster name="Servant Golem" nameDescription="a servant golem" race="energy" experience="5" speed="160">
+    <health now="1400" max="1400" />
+    <look type="304" corpse="9801" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="0" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="70" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+    <attacks>
+        <attack name="speed" interval="2000" chance="8" length="4" spread="0" speedchange="350" duration="1000">
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+    </attacks>
+    <defenses armor="35" defense="35">
+        <defense name="speed" interval="2000" chance="8" speedchange="350" duration="9000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+        <defense name="healing" interval="2000" chance="10" min="5" max="5">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+    </defenses>
+    <immunities>
+        <immunity physical="1" />
+        <immunity death="1" />
+        <immunity holy="1" />
+        <immunity ice="1" />
+        <immunity fire="1" />
+        <immunity energy="1" />
+        <immunity earth="1" />
+        <immunity invisible="1" />
+        <immunity paralyze="1" />
+    </immunities>
+    <voices interval="5000" chance="10">
+        <voice sentence="Mommy?" yell="0" />
+        <voice sentence="How are you, Sir or Ma'am?" yell="0" />
+        <voice sentence="Do you think I might become a real boy one day?" yell="0" />
+        <voice sentence="How may I serve you, Sir or Ma'am?" yell="0" />
+        <voice sentence="Praise the Yalahari!" yell="0" />
+        <voice sentence="Everything is working as intended!" yell="0" />
+        <voice sentence="I hope I am not annoying, Sir or Ma'am?" yell="0" />
+        <voice sentence="Washing procedure initiated!" yell="0" />
+        <voice sentence="Do you want to taste a sample of the newest dish?" yell="0" />
+        <voice sentence="Is that love or do you have a magnet in your pocket?" yell="0" />
+        <voice sentence="Can I help you?" yell="0" />
+        <voice sentence="Where are we going, Sir or Ma'am?" yell="0" />
+        <voice sentence="Rrrtttarrrttarrrtta" yell="0" />
+        <voice sentence="I am listening!" yell="0" />
+        <voice sentence="Move on! There's nothing to see!" yell="0" />
+        <voice sentence="Warning: This human is extremely handsome!" yell="0" />
+        <voice sentence="Scan result: dusty human! Cleansing initiated!" yell="0" />
+        <voice sentence="WARNING: BAD HAIRCUT DETECTED! Initializing haircut procedure!" yell="0" />
+        <voice sentence="Awaiting orders!" yell="0" />
+    </voices>
+</monster>

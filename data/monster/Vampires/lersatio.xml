@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<monster name="Lersatio" nameDescription="Lersatio" race="undead" experience="2500" speed="270">
+    <health now="1645" max="1645" />
+    <look type="287" corpse="8937" />
+	<targetchange interval="5000" chance="10" />
+    <flags>
+        <flag targetdistance="1" />
+        <flag staticattack="60" />
+        <flag attackable="1" />
+        <flag hostile="1" />
+        <flag illusionable="0" />
+        <flag pushable="0" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag runonhealth="0" />
+        <flag convinceable="0" />
+        <flag summonable="0" />
+        <flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" min="0" max="-400" />
+        <attack name="lifedrain" interval="1000" chance="12" range="7" target="1" min="-80" max="-120">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+        <attack name="physical" interval="1000" chance="12" range="7" target="1" min="0" max="-260">
+			<attribute key="shootEffect" value="sniperarrow" />
+		</attack>
+    </attacks>
+    <defenses armor="30" defense="30">
+        <defense name="invisible" interval="3000" chance="25" duration="6000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+        <defense name="outfit" interval="4000" chance="10" monster="Bat" duration="5000">
+			<attribute key="areaEffect" value="poff" />
+		</defense>
+    </defenses>
+    <elements>
+        <element holyPercent="-1" />
+        <element firePercent="-1" />
+        <element energyPercent="40" />
+    </elements>
+    <immunities>
+        <immunity death="1" />
+        <immunity invisible="1" />
+        <immunity paralyze="1" />
+    </immunities>
+    <summons maxSummons="3">
+        <summon name="Vampire" interval="2000" chance="10" max="3" />
+    </summons>
+    <voices interval="5000" chance="10">
+        <voice sentence="The monsters in the mirrors will come eat your dreams." yell="0" />
+        <voice sentence="Your pitiful life has come to an end." yell="0" />
+        <voice sentence="One day I will see my pretty face in a mirror again." yell="0" />
+    </voices>
+    <loot>
+        <item name="Gold Coin" countmax="100" chance="100000" />
+        <item name="Blood Preservation" chance="89850" />
+        <item name="Strong Health Potion" chance="22750" />
+        <item name="Ring of Healing" chance="11950" />
+        <item name="Platinum Coin" countmax="5" chance="9640" />
+        <item name="Black Pearl" chance="1800" />
+        <item name="Vampire Shield" chance="510" />
+        <item name="Dreaded Cleaver" chance="260" />
+    </loot>
+</monster>

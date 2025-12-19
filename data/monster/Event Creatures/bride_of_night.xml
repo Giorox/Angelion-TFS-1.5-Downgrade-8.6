@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<monster name="Bride of Night" nameDescription="a bride of night" race="undead" experience="450" speed="250">
+    <health now="275" max="275" />
+    <look type="58" corpse="20491" />
+    <targetchange interval="4000" chance="10" />
+    <flags>
+        <flag targetdistance="1" />
+        <flag staticattack="90" />
+        <flag attackable="1" />
+        <flag hostile="1" />
+        <flag illusionable="0" />
+        <flag pushable="0" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag runonhealth="0" />
+        <flag convinceable="0" />
+        <flag summonable="0" />
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" min="0" max="-43" poison="100" />
+        <attack name="lifedrain" interval="2000" chance="20" range="7" target="1" min="-40" max="-60">
+			<attribute key="shootEffect" value="suddendeath" />
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+        <attack name="lifedrain" interval="2000" chance="20" radius="3" range="3" target="1" min="-20" max="-50">
+			<attribute key="shootEffect" value="suddendeath" />
+			<attribute key="areaEffect" value="smallclouds" />
+		</attack>
+    </attacks>
+    <defenses armor="15" defense="15">
+        <defense name="healing" interval="2000" chance="15" min="15" max="25">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+    </defenses>
+    <elements>
+        <element deathPercent="-10" />
+        <element holyPercent="10" />
+        <element energyPercent="15" />
+        <element earthPercent="-10" />
+    </elements>
+    <immunities>
+        <immunity invisible="0" />
+        <immunity paralyze="1" />
+    </immunities>
+    <voices interval="5000" chance="10">
+        <voice sentence="The darkness is coming!" yell="0" />
+        <voice sentence="The light will be extinguished!" yell="0" />
+        <voice sentence="Embrace the night!" yell="0" />
+    </voices>
+    <loot>
+        <item name="Midnight Shard" chance="3950" />
+    </loot>
+</monster>

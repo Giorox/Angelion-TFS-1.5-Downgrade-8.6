@@ -112,6 +112,7 @@
 	<!-- Canines -->
 	<monster name="Dog" file="Canines/dog.xml" />
 	<monster name="Hellhound" file="Canines/hellhound.xml" />
+    <monster name="Hot Dog" file="Canines/hot_dog.xml" />
 	<monster name="Husky" file="Canines/husky.xml" />
 	<monster name="War Wolf" file="Canines/war_wolf.xml" />
 	<monster name="Winter Wolf" file="Canines/winter_wolf.xml" />
@@ -197,6 +198,7 @@
 	<monster name="Fury Of The Emperor" file="Dragons/fury_of_the_emperor.xml" />
 	<monster name="Glitterscale" file="Dragons/glitterscale.xml" />
 	<monster name="Grand Mother Foulscale" file="Dragons/grand_mother_foulscale.xml" />
+    <monster name="Hatebreeder" file="Dragons/hatebreeder.xml" />
 	<monster name="Pythius The Rotten" file="Dragons/pythius_the_rotten.xml" />
 	<monster name="Scorn Of The Emperor" file="Dragons/scorn_of_the_emperor.xml" />
 	<monster name="Spite Of The Emperor" file="Dragons/spite_of_the_emperor.xml" />
@@ -260,15 +262,32 @@
 	<monster name="Dharalion" file="Elves/dharalion.xml" />
 
 	<!-- Event Creatures -->
+    <monster name="Acolyte of Darkness" file="Event Creatures/acolyte_of_darkness.xml" />
+    <monster name="Bane of Light" file="Event Creatures/bane_of_light.xml" />
+    <monster name="Bride of Night" file="Event Creatures/bride_of_night.xml" />
+    <monster name="Doomsday Cultist" file="Event Creatures/doomsday_cultist.xml" />
+    <monster name="Dryad" file="Event Creatures/dryad.xml" />
+    <monster name="Duskbringer" file="Event Creatures/duskbringer.xml" />
+    <monster name="Eclipse Knight" file="Event Creatures/eclipse_knight.xml" />
 	<monster name="Essence Of Darkness" file="Event Creatures/essence_of_darkness.xml" />
-	<monster name="Herald Of Gloom" file="Event Creatures/herald_of_gloom.xml" />
-	<monster name="Midnight Spawn" file="Event Creatures/midnight_spawn.xml" />	
+    <monster name="Gloombringer" file="Event Creatures/gloombringer.xml" />
+    <monster name="Grynch Clan Goblin" file="Event Creatures/grynch_clan_goblin.xml" />
+    <monster name="Harbinger of Darkness" file="Event Creatures/harbinger_of_darkness.xml" />
+	<monster name="Herald of Gloom" file="Event Creatures/herald_of_gloom.xml" />
+	<monster name="Midnight Spawn" file="Event Creatures/midnight_spawn.xml" />
+    <monster name="Midnight Warrior" file="Event Creatures/midnight_warrior.xml" />	
+    <monster name="Nightslayer" file="Event Creatures/nightslayer.xml" />	
 	<monster name="Shadow Hound" file="Event Creatures/shadow_hound.xml" />	
-	<monster name="Dryad" file="Event Creatures/dryad.xml" />
-	<monster name="Grynch Clan Goblin" file="Event Creatures/grynch_clan_goblin.xml" />
+	<monster name="Spawn of Despair" file="Event Creatures/spawn_of_despair.xml" />
+	<monster name="Spirit of Light" file="Event Creatures/spirit_of_light.xml" />	
 	<monster name="The Halloween Hare" file="Event Creatures/the_halloween_hare.xml" />
     <monster name="The Mutated Pumpkin" file="Event Creatures/the_mutated_pumpkin.xml" />
+    <monster name="Tibia Bug" file="Event Creatures/tibia_bug.xml" />
 	<monster name="Undead Jester" file="Event Creatures/undead_jester.xml" />
+    <monster name="Weak Eclipse Knight" file="Event Creatures/weak_eclipse_knight.xml" />
+    <monster name="Weak Gloombringer" file="Event Creatures/weak_gloombringer.xml" />
+    <monster name="Weak Harbinger of Darkness" file="Event Creatures/weak_harbinger_of_darkness.xml" />
+    <monster name="Weak Spawn of Despair" file="Event Creatures/weak_spawn_of_despair.xml" />
 
 	<!-- Felines -->
 	<monster name="Cat" file="Felines/cat.xml" />
@@ -305,6 +324,7 @@
 
 	<!-- Ghosts -->
 	<monster name="Ghost" file="Ghosts/ghost.xml" />
+    <monster name="Ghostly Apparition" file="Ghosts/ghostly_apparition.xml" />
 	<monster name="Souleater" file="Ghosts/souleater.xml" />
 	<monster name="Spectre" file="Ghosts/spectre.xml" />
 	<monster name="Tormented Ghost" file="Ghosts/tormented_ghost.xml" />
@@ -331,6 +351,7 @@
 	<monster name="Silver Rabbit" file="Glires/silver_rabbit.xml" />
 	<monster name="Squirrel" file="Glires/squirrel.xml" />
 	<monster name="Munster" file="Glires/munster.xml" />
+    <monster name="Thieving Squirrel" file="Glires/thieving_squirrel.xml" />
 
 	<!-- Goblins -->
 	<monster name="Goblin Assassin" file="Goblins/goblin_assassin.xml" />
@@ -343,6 +364,7 @@
 	<monster name="The Handmaiden" file="Hands/the_handmaiden.xml" />
 
 	<!-- Hyaenids -->
+    <monster name="Fleabringer" file="Hyaenids/fleabringer.xml" />
 	<monster name="Gnarlhound" file="Hyaenids/gnarlhound.xml" />
 	<monster name="Hyaena" file="Hyaenids/hyaena.xml" />
 
@@ -400,6 +422,8 @@
 	<monster name="The Voice Of Ruin" file="Lizards/the_voice_of_ruin.xml" />
 	<monster name="Fatality" file="Lizards/fatality.xml" />
 	<monster name="Menace" file="Lizards/menace.xml" />
+    <monster name="Flamecaller Zazrak" file="Lizards/flamecaller_zazrak.xml" />
+    <monster name="Mutated Zalamon" file="Lizards/mutated_zalamon.xml" />
 
 	<!-- Lycanthropes -->
 	<monster name="Werewolf" file="Lycanthropes/werewolf.xml" />
@@ -408,6 +432,7 @@
 	<!-- Machines -->
 	<monster name="Damaged Worker Golem" file="Machines/damaged_worker_golem.xml" />
 	<monster name="Mechanical Fighter" file="Machines/mechanical_fighter.xml" />
+    <monster name="Servant Golem" file="Machines/servant_golem.xml" />
 	<monster name="War Golem" file="Machines/war_golem.xml" />
 	<monster name="Worker Golem" file="Machines/worker_golem.xml" />
 
@@ -465,6 +490,7 @@
 	<monster name="Grimgor Guteater" file="Orcs/grimgor_guteater.xml" />
 	<monster name="Orcus The Cruel" file="Orcs/orcus_the_cruel.xml" />
 	<monster name="The Axeorcist" file="Orcs/the_axeorcist.xml" />
+	<monster name="Cublarc the Plunderer" file="Orcs/cublarc_the_plunderer.xml" />
 
 	<!-- Outlaws -->
 	<monster name="Assassin" file="Outlaws/assassin.xml" />
@@ -538,10 +564,10 @@
 	<monster name="Thul" file="Quara/thul.xml" />
 
     <!-- Raid Monsters -->
-    <monster name="The Mutated Pumpkin" file="Raid Monsters/the_mutated_pumpkin.xml" />
     <monster name="OrcWarlordShield" file="Raid Monsters/orc_warlord_shield.xml" />
     <monster name="OrcWarlordArmor" file="Raid Monsters/orc_warlord_armor.xml" />
     <monster name="OrcWarlordHelmet" file="Raid Monsters/orc_warlord_helmet.xml" />
+    <monster name="OrcSamsBackpack" file="Raid Monsters/orc_sams_backpack.xml.xml" />
 
 	<!-- Serpents -->
 	<monster name="Cobra" file="Serpents/cobra.xml" />
@@ -554,6 +580,7 @@
 	<monster name="Snake God Essence" file="Serpents/snake_god_essence.xml" />
 	<monster name="Snake Thing" file="Serpents/snake_thing.xml" />
 	<monster name="The Noxious Spawn" file="Serpents/the_noxious_spawn.xml" />
+	<monster name="The Keeper" file="Serpents/the_keeper.xml" />
 
 	<!-- Shapeshifters -->
 	<monster name="Demon (Goblin)" file="Shapeshifters/demon_goblin.xml" />
@@ -588,14 +615,12 @@
 	<monster name="Zarabustor" file="Sorcerers/zarabustor.xml" />
 	<monster name="Yakchal" file="Sorcerers/yakchal.xml" />
 
-	<!-- The Ruthless Seven -->
-	<!-- The Ruthless Seven Minions -->
 	<!-- Tortoises -->
 	<monster name="Thornback Tortoise" file="Tortoises/thornback_tortoise.xml" />
 	<monster name="Tortoise" file="Tortoises/tortoise.xml" />
 
 	<!-- Traps -->
-	<monster name="a carved stone tile" file="Traps/a_carved_stone_tile.xml" />
+	<monster name="A carved stone tile" file="Traps/a_carved_stone_tile.xml" />
 	<monster name="Deathslicer" file="Traps/deathslicer.xml" />
 	<monster name="Dwarf Dispenser" file="Traps/dwarf_dispenser.xml" />
 	<monster name="Eye Of The Seven" file="Traps/eye_of_the_seven.xml" />
@@ -608,7 +633,6 @@
 	<monster name="Plaguethrower" file="Traps/plaguethrower.xml" />
 	<monster name="Shredderthrower" file="Traps/shredderthrower.xml" />
 
-	<!-- Triangle of Terror -->
 	<!-- Trolls -->
 	<monster name="Frost Troll" file="Trolls/frost_troll.xml" />
 	<monster name="Furious Troll" file="Trolls/furious_troll.xml" />
@@ -658,6 +682,13 @@
 	<monster name="The Weakened Count" file="Vampires/the_weakened_count.xml" />
 	<monster name="Zevelon Duskbringer" file="Vampires/zevelon_duskbringer.xml" />
 	<monster name="The Count" file="Vampires/the_count.xml" />
+	<monster name="Arthei" file="Vampires/arthei.xml" />
+	<monster name="Boreth" file="Vampires/boreth.xml" />
+	<monster name="Lersatio" file="Vampires/lersatio.xml" />
+	<monster name="Marziel" file="Vampires/marziel.xml" />
+    <monster name="Shadow of Boreth" file="Vampires/shadow_of_boreth.xml" />
+	<monster name="Shadow of Lersatio" file="Vampires/shadow_of_lersatio.xml" />
+	<monster name="Shadow of Marziel" file="Vampires/shadow_of_marziel.xml" />
 
 	<!-- Voodoo Cultists -->
 	<monster name="Acolyte Of The Cult" file="Voodoo Cultists/acolyte_of_the_cult.xml" />

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<monster name="Boreth" nameDescription="Boreth" race="undead" experience="1800" speed="270">
+    <health now="1400" max="1400" />
+    <look type="287" corpse="8937" />
+	<targetchange interval="5000" chance="10" />
+    <flags>
+        <flag targetdistance="1" />
+        <flag staticattack="60" />
+        <flag attackable="1" />
+        <flag hostile="1" />
+        <flag illusionable="0" />
+        <flag pushable="0" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag runonhealth="0" />
+        <flag convinceable="0" />
+        <flag summonable="0" />
+        <flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" min="0" max="-200" />
+        <attack name="lifedrain" interval="1000" chance="12" range="7" target="1" min="-100" max="-200">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+    </attacks>
+    <defenses armor="30" defense="30">
+        <defense name="healing" interval="2000" chance="15" min="100" max="200">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+        <defense name="invisible" interval="3000" chance="35" duration="6000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+    </defenses>
+    <elements>
+        <element firePercent="-10" />
+    </elements>
+    <immunities>
+        <immunity death="1" />
+        <immunity earth="1" />
+        <immunity invisible="0" />
+        <immunity paralyze="1" />
+    </immunities>
+    <summons maxSummons="4">
+        <summon name="Vampire" interval="2000" chance="10" max="4" />
+    </summons>
+    <voices interval="5000" chance="10">
+        <voice sentence="I'll water my plants with your blood!" yell="0" />
+    </voices>
+    <loot>
+        <item name="Gold Coin" countmax="100" chance="100000" />
+        <item name="Blood Preservation" chance="86770" />
+        <item name="Strong Health Potion" chance="19580" />
+        <item name="Ring of Healing" chance="11110" />
+        <item name="Platinum Coin" countmax="5" chance="9790" />
+        <item name="Black Pearl" chance="2120" />
+        <item name="Vampire Shield" chance="1060" />
+        <item name="Dreaded Cleaver" chance="530" />
+        <item name="Hibiscus Dress" chance="260" />
+    </loot>
+</monster>

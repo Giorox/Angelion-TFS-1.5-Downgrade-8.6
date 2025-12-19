@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<monster name="Bane of Light" nameDescription="a bane of light" race="undead" experience="750" speed="230">
+    <health now="1100" max="1100" />
+    <look type="68" corpse="6006" />
+    <targetchange interval="4000" chance="10" />
+    <flags>
+        <flag targetdistance="1" />
+        <flag staticattack="90" />
+        <flag attackable="1" />
+        <flag hostile="1" />
+        <flag illusionable="0" />
+        <flag pushable="0" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag runonhealth="20" />
+        <flag convinceable="0" />
+        <flag summonable="0" />
+        <flag canwalkonenergy="0" />
+        <flag canwalkonpoison="0" />
+        <flag canwalkonfire="1" />
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" min="0" max="-375" poison="120" />
+        <attack name="death" interval="2000" chance="20" range="5" target="1" min="-50" max="-250">
+			<attribute key="shootEffect" value="death" />
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+        <attack name="speed" interval="2000" chance="15" radius="5" range="1" target="0" speedchange="-400" duration="10000">
+			<attribute key="areaEffect" value="smallclouds" />
+		</attack>
+    </attacks>
+    <defenses armor="38" defense="38" />
+    <elements>
+        <element physicalPercent="0" />
+        <element deathPercent="0" />
+        <element holyPercent="0" />
+        <element energyPercent="-20" />
+        <element earthPercent="20" />
+    </elements>
+    <immunities>
+        <immunity ice="1" />
+        <immunity fire="1" />
+        <immunity invisible="0" />
+        <immunity paralyze="1" />
+    </immunities>
+    <voices interval="5000" chance="10" />
+    <loot>
+        <item name="Midnight Shard" chance="6740" />
+    </loot>
+</monster>

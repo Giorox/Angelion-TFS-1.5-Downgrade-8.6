@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<monster name="Cublarc the Plunderer" nameDescription="Cublarc the Plunderer" race="blood" experience="400" speed="490">
+    <health now="400" max="400" />
+    <look type="342" corpse="11251" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="1" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="4" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+    <attacks>
+        <attack name="melee" interval="2000" min="0" max="-200" poison="140" />
+		<attack name="physical" interval="2000" chance="50" range="7" min="0" max="-160">
+			<attribute key="shootEffect" value="onyxarrow" />
+		</attack>
+    </attacks>
+    <defenses armor="25" defense="25" />
+    <elements>
+        <element earthPercent="-20" />
+    </elements>
+    <immunities>
+        <immunity invisible="0" />
+        <immunity paralyze="1" />
+    </immunities>
+    <voices interval="5000" chance="10">
+        <voice sentence="Orc arga Huummmak!" yell="0" />
+    </voices>
+    <loot>
+        <item name="Gold Coin" countmax="85" chance="53460" />
+        <item name="Meat" chance="25160" />
+        <item name="Shaggy Tail" chance="13210" />
+        <item name="Disgusting Trophy" chance="5660" />
+        <item name="Bow" chance="4400" />
+        <item name="Orc Tooth" chance="2520" />
+        <item name="Orcish Axe" chance="2520" />
+        <item name="Silkweaver Bow" chance="1890" />
+        <item name="Crossbow" chance="1260" />
+    </loot>
+</monster>

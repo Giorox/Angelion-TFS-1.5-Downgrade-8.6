@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<monster name="Flamecaller Zazrak" nameDescription="Flamecaller Zazrak" race="blood" experience="3031" speed="220">
+    <health now="2690" max="2690" />
+    <look type="339" corpse="11280" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="4" />
+		<flag staticattack="90" />
+		<flag runonhealth="50" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+    <attacks>
+        <attack name="melee" interval="2000" min="0" max="-100" />
+		<attack name="fire" interval="2000" chance="20" target="1" range="7" min="-125" max="-500">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="fireattack" />
+		</attack>
+		<attack name="poisoncondition" interval="2000" chance="15" target="1" range="7" radius="1" min="-320" max="-400">
+			<attribute key="shootEffect" value="poison" />
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+    </attacks>
+    <defenses armor="15" defense="15">
+        <defense name="healing" interval="2000" chance="30" min="200" max="330">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="invisible" interval="2000" chance="15" duration="4000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+    </defenses>
+    <elements>
+        <element firePercent="55" />
+    </elements>
+    <immunities>
+        <immunity earth="1" />
+        <immunity invisible="1" />
+        <immunity paralyze="0" />
+    </immunities>
+    <summons maxSummons="5">
+        <summon name="Dragon Hatchling" interval="2000" chance="10" max="2" />
+        <summon name="Fire Elementals" interval="2000" chance="10" max="3" />
+    </summons>
+    <voices interval="5000" chance="10">
+        <voice sentence="I ssssmell warm blood!" yell="0" />
+        <voice sentence="Shhhhhhhh." yell="0" />
+    </voices>
+    <loot>
+        <item name="Dragon Priest's Wandtip" chance="100000" />
+        <item name="Gold Coin" countmax="51" chance="80000" />
+        <item name="Great Mana Potion" chance="20000" />
+        <item name="Bunch of Ripe Rice" chance="13330" />
+        <item name="Life Ring" chance="6670" />
+        <item name="Lizard Scale" chance="6670" />
+        <item name="Zaoan Robe" chance="6670" />
+    </loot>
+</monster>

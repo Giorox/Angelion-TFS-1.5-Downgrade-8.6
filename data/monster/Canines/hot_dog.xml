@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<monster name="Hot Dog" nameDescription="a hot dog" race="blood" experience="190" speed="150">
+    <health now="505" max="505" />
+    <look type="20" corpse="20" />
+    <targetchange interval="4000" chance="0" />
+    <flags>
+        <flag targetdistance="1" />
+        <flag staticattack="90" />
+        <flag attackable="1" />
+        <flag hostile="1" />
+        <flag illusionable="0" />
+        <flag pushable="1" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag runonhealth="0" />
+        <flag convinceable="0" />
+        <flag summonable="0" />
+        <flag canwalkonenergy="0" />
+        <flag canwalkonpoison="0" />
+        <flag canwalkonfire="1" />
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" min="0" max="-55" />
+        <attack name="fire" interval="3000" chance="8" length="5" spread="3" min="-30" max="-60">
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+        <attack name="firecondition" interval="2000" chance="15" range="7" radius="2" target="1" min="-30" max="-70">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+    </attacks>
+    <defenses armor="24" defense="24" />
+    <immunities>
+        <immunity fire="1" />
+        <immunity invisible="1" />
+        <immunity paralyze="1" />
+    </immunities>
+    <voices interval="5000" chance="10">
+        <voice sentence="Show me how good you are without some rolled newspaper!" yell="0" />
+        <voice sentence="Wuff Wuff" yell="0" />
+        <voice sentence="Grrr Wuff" yell="0" />
+    </voices>
+    <loot>
+        <item name="Gold Coin" countmax="75" chance="73540" />
+    </loot>
+</monster>

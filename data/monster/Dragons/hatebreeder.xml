@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<monster name="Hatebreeder" nameDescription="Hatebreeder" race="undead" experience="10000" speed="00" manacost="0">
+    <health now="18000" max="18000" />
+    <look type="351" corpse="11362" />
+    <targetchange interval="4000" chance="5" />
+    <flags>
+        <flag targetdistance="1" />
+        <flag staticattack="70" />
+        <flag attackable="1" />
+        <flag hostile="1" />
+        <flag illusionable="0" />
+        <flag pushable="0" />
+        <flag canpushitems="1" />
+        <flag canpushcreatures="1" />
+        <flag runonhealth="5399" />
+        <flag convinceable="0" />
+        <flag summonable="0" />
+        <flag canwalkonenergy="0" />
+        <flag canwalkonfire="1" />
+        <flag canwalkonpoison="1" />
+        <flag lightlevel="4" />
+		<flag lightcolor="109" />
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" min="0" max="-850" />
+        <attack name="poisoncondition" interval="2000" chance="10" target="1" range="5" min="-1100" max="-2200">
+			<attribute key="areaEffect" value="bats" />
+			<attribute key="areaEffect" value="smallclouds" />
+		</attack>
+        <attack name="lifedrain" interval="2000" chance="15" range="7" target="1" min="-200" max="-315">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="death" interval="2000" chance="10" length="8" spread="3" min="-220" max="-450">
+			<attribute key="areaEffect" value="bluebubble" />
+		</attack>
+        <attack name="ghastly dragon curse" interval="2000" chance="5" range="5" />
+        <attack name="death" interval="2000" chance="15" radius="4" target="0" min="-350" max="-505">
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+        <attack name="speed" interval="2000" chance="20" range="7" target="1" speedchange="-800" duration="30000">
+			<attribute key="areaEffect" value="smallclouds" />
+		</attack>
+    </attacks>
+    <defenses armor="35" defense="35">
+        <defense name="healing" interval="1000" chance="33" min="2450" max="2535">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+    </defenses>
+    <elements>
+        <element physicalPercent="10" />
+        <element firePercent="30" />
+        <element energyPercent="10" />
+    </elements>
+    <immunities>
+        <immunity death="1" />
+        <immunity ice="1" />
+        <immunity earth="1" />
+        <immunity invisible="1" />
+        <immunity paralyze="1" />
+    </immunities>
+    <voices interval="5000" chance="10">
+        <voice sentence="YOU'RE DESECRATING OUR PALACE!" yell="1" />
+        <voice sentence="YOU ARE NOT WELCOME HERE!" yell="1" />
+        <voice sentence="SCRAM, YOU FOOLS!" yell="1" />
+    </voices>
+    <loot>
+        <item name="Gold Coin" countmax="100" chance="100000" />
+        <item name="Gold Coin" countmax="100" chance="100000" />
+        <item name="Gold Coin" countmax="62" chance="100000" />
+        <item name="Undead Heart" chance="100000" />
+        <item name="Jade Hat" chance="95830" />
+        <item name="Demonic Essence" chance="87500" />
+        <item name="Spellweaver's Robe" chance="75000" />
+        <item name="Zaoan Shoes" chance="70830" />
+        <item name="Ghastly Dragon Head" chance="62500" />
+        <item name="Ultimate Health Potion" countmax="5" chance="62500" />
+        <item name="Zaoan Legs" chance="58330" />
+        <item name="Zaoan Sword" chance="37500" />
+        <item name="Drakinata" chance="33330" />
+        <item name="Great Spirit Potion" countmax="5" chance="33330" />
+        <item name="Twin Hooks" chance="29170" />
+        <item name="Platinum Coin" countmax="2" chance="25000" />
+        <item name="Guardian Boots" chance="20830" />
+        <item name="Zaoan Halberd" chance="20830" />
+        <item name="Zaoan Armor" chance="16670" />
+        <item name="Cobra Crown" chance="8330" />
+        <item name="Great Health Potion" countmax="5" chance="4170" />
+        <item name="Snake God's Sceptre" chance="4170" />
+        <item name="Zaoan Helmet" chance="4170" />
+    </loot>
+</monster>

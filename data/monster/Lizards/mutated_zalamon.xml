@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<monster name="Mutated Zalamon" nameDescription="mutated Zalamon" race="blood" experience="10980" speed="300">
+    <health now="155000" max="155000" />
+    <look type="356" corpse="12385" />
+    <targetchange interval="4000" chance="10" />
+    <flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="4" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+    <attacks>
+        <attack name="melee" interval="2000" min="0" max="-400" />
+        <attack name="earth" interval="2000" chance="50" range="5" radius="1" target="1" min="-150" max="-800">
+			<attribute key="areaEffect" value="poison" />
+            <attribute key="shootEffect" value="poison" />
+		</attack>
+        <attack name="earth" interval="2000" chance="50" range="5" radius="6" target="1" min="-150" max="-300">
+			<attribute key="areaEffect" value="poison" />
+            <attribute key="shootEffect" value="poison" />
+		</attack>
+    </attacks>
+    <defenses armor="70" defense="65">
+        <defense name="healing" interval="2000" chance="15" min="800" max="1200">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+        <defense name="outfit" interval="4000" chance="10" monster="Serpent Spawn" duration="5000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+        <defense name="outfit" interval="4000" chance="10" monster="Lizard Snakecharmer" duration="5000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+        <defense name="outfit" interval="4000" chance="10" monster="Draken Abomination" duration="5000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+        <defense name="outfit" interval="4000" chance="10" monster="Lizard Abomination" duration="5000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+        <defense name="outfit" interval="4000" chance="10" monster="Snake God Essence" duration="5000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+    </defenses>
+    <elements>
+        <element physicalPercent="5" />
+        <element icePercent="10" />
+        <element firePercent="-10" />
+        <element energyPercent="-10" />
+    </elements>
+    <immunities>
+        <immunity invisible="1" />
+        <immunity paralyze="1" />
+        <immunity earth="1" />
+    </immunities>
+    <voices interval="5000" chance="10" />
+</monster>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<monster name="Thieving Squirrel" nameDescription="a thieving squirrel" race="blood" experience="15" speed="480">
+    <health now="55" max="55" />
+    <look type="274" corpse="7628" />
+	<targetchange interval="4000" chance="0" />
+    <flags>
+        <flag targetdistance="5" />
+        <flag staticattack="10" />
+        <flag attackable="1" />
+        <flag hostile="1" />
+        <flag illusionable="1" />
+        <flag pushable="0" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag runonhealth="0" />
+        <flag convinceable="1" />
+        <flag summonable="1" />
+        <flag canwalkonenergy="0" />
+        <flag canwalkonfire="0" />
+        <flag canwalkonpoison="0" />
+    </flags>
+    <defenses armor="1" defense="1">
+        <defense name="invisible" interval="2000" chance="15" duration="1000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+    </defenses>
+    <immunities>
+        <immunity invisible="0" />
+        <immunity paralyze="1" />
+    </immunities>
+    <voices interval="5000" chance="10">
+        <voice sentence="Chchch" yell="0" />
+    </voices>
+    <loot>
+        <item name="Flask with Beaver Bait" chance="100000" />
+        <item name="Peanut" chance="4170" />
+    </loot>
+</monster>

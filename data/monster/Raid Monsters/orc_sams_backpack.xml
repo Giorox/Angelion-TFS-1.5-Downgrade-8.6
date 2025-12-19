@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Orc" nameDescription="an orc" race="blood" experience="25" speed="150" manacost="300">
+	<health now="70" max="70"/>
+	<look type="5" corpse="5966"/>
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="15"/>
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-35"/>
+	</attacks>
+	<defenses armor="4" defense="8"/>
+	<elements>
+		<element deathPercent="-10" />
+		<element holyPercent="10" />
+		<element energyPercent="20" />
+		<element earthPercent="-10" />
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Grak brrretz!" yell="0" />
+		<voice sentence="Grow truk grrrrr." yell="0" />
+		<voice sentence="Prek tars, dekklep zurk." yell="0" />
+	</voices>
+	<loot>
+		<item name="Gold Coin" countmax="14" chance="84680" />
+		<item name="Meat" chance="9550" />
+		<item name="Studded Armor" chance="8320" />
+		<item name="Studded Shield" chance="6630" />
+		<item name="Sabre" chance="5490" />
+		<item name="Axe" chance="5160" />
+		<item name="Studded Helmet" chance="2900" />
+		<item name="Orc Leather" chance="370" />
+		<item name="Orc Tooth" chance="40" />
+		<item name="Old and Used Backpack" chance="10" />
+	</loot>
+</monster>

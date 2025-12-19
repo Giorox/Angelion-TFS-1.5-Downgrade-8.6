@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<monster name="Midnight Warrior" nameDescription="a midnight warrior" race="undead" experience="750" speed="240">
+    <health now="1000" max="1000" />
+    <look type="269" head="0" body="95" legs="95" feet="95" addons="1" corpse="20331" />
+    <targetchange interval="4000" chance="10" />
+    <flags>
+        <flag targetdistance="1" />
+        <flag staticattack="90" />
+        <flag attackable="1" />
+        <flag hostile="1" />
+        <flag illusionable="0" />
+        <flag pushable="0" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag runonhealth="0" />
+        <flag convinceable="0" />
+        <flag summonable="0" />
+        <flag canwalkonenergy="1" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="1" />
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" min="0" max="-180" poison="140" />
+        <attack name="lifedrain" interval="2000" chance="15" target="0" radius="3" min="-90" max="-110">
+			<attribute key="areaEffect" value="blackspark" />
+		</attack>
+        <attack name="physical" interval="2000" chance="15" range="7" min="0" max="-50">
+			<attribute key="shootEffect" value="whirlwindaxe" />
+		</attack>
+    </attacks>
+    <defenses armor="30" defense="30">
+        <defense name="speed" interval="2000" chance="15" speedchange="520" duration="5000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+    </defenses>
+    <elements>
+        <element icePercent="20" />
+        <element firePercent="-10" />
+        <element energyPercent="20" />
+    </elements>
+    <immunities>
+        <immunity earth="1" />
+        <immunity invisible="1" />
+        <immunity paralyze="1" />
+    </immunities>
+    <voices interval="5000" chance="10">
+        <voice sentence="I am champion of darkness and you are nothing." yell="0" />
+    </voices>
+    <loot>
+        <item name="Midnight Shard" chance="6530" />
+    </loot>
+</monster>

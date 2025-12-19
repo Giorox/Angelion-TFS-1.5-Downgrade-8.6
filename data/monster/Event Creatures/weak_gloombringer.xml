@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<monster name="Weak Gloombringer" nameDescription="a weak gloombringer" race="undead" experience="6000" speed="185">
+    <health now="6000" max="6000" />
+    <look type="12" head="114" body="114" legs="76" feet="114" corpse="6068" />
+    <targetchange interval="4000" chance="20" />
+    <flags>
+        <flag targetdistance="1" />
+        <flag staticattack="90" />
+        <flag attackable="1" />
+        <flag hostile="1" />
+        <flag illusionable="0" />
+        <flag pushable="0" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="0" />
+        <flag runonhealth="0" />
+        <flag convinceable="0" />
+        <flag summonable="0" />
+        <flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" min="0" max="-350" />
+    </attacks>
+    <defenses armor="5" defense="5" />
+    <immunities>
+        <immunity invisible="0" />
+        <immunity paralyze="1" />
+    </immunities>
+    <voices interval="5000" chance="10" />
+    <loot>
+        <item name="Gold Coin" countmax="100" chance="85000" />
+        <item name="Gold Coin" countmax="51" chance="85000" />
+        <item name="Midnight Shard" chance="10230" />
+        <item name="Small Diamond" countmax="2" chance="62450" />
+        <item name="Small Ruby" countmax="4" chance="62450" />
+        <item name="Small Emerald" countmax="2" chance="62450" />
+        <item name="Platinum Coin" countmax="38" chance="44000" />
+        <item name="Gold Ingot" chance="11000" />
+    </loot>
+</monster>
