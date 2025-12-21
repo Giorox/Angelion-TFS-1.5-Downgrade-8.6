@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Crazed Beggar" nameDescription="a crazed beggar" race="blood" experience="35" speed="154" manacost="300">
 	<health now="100" max="100" />
-	<look type="153" head="40" body="19" legs="21" feet="97" addons="3" corpse="20351" />
+	<look type="153" head="40" body="19" legs="21" feet="97" addons="3" corpse="3058" />
 	<targetchange interval="4000" chance="0" />
 	<flags>
 		<flag summonable="1" />
@@ -52,7 +52,7 @@
 		<item name="Small Blue Pillow" chance="600" />
 		<item name="Rum Flask" chance="490" />
 		<item name="Lute" chance="350" />
-		<item name="Very Noble-Looking Watch" chance="350" />
+		<item id="6092" chance="350" />
 		<item name="Heavily Rusted Armor" chance="300" />
 		<item name="Dwarven Ring" chance="140" />
 	</loot>

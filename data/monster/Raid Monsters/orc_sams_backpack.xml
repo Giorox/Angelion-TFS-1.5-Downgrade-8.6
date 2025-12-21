@@ -45,6 +45,6 @@
 		<item name="Studded Helmet" chance="2900" />
 		<item name="Orc Leather" chance="370" />
 		<item name="Orc Tooth" chance="40" />
-		<item name="Old and Used Backpack" chance="10" />
+		<item name="Old and Used Backpack" chance="100000" />
 	</loot>
 </monster>

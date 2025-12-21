@@ -27,7 +27,7 @@
 		<attack name="death" interval="1000" chance="10" range="7" min="-80" max="-151">
 			<attribute key="shootEffect" value="suddendeath" />
 		</attack>
-		<attack name="dharalion skill reduce" interval="2000" chance="15" range="5"/>
+		<attack name="dharalion skill reducer" interval="2000" chance="15" range="5"/>
 	</attacks>
 	<defenses armor="15" defense="25">
 		<defense name="healing" interval="1000" chance="20" min="90" max="120">

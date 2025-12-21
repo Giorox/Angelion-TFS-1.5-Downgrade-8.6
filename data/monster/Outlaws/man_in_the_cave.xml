@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Man in the Cave" nameDescription="man in the cave" race="blood" experience="777" speed="210">
 	<health now="485" max="485" />
-	<look type="128" head="95" body="116" legs="95" feet="114" addons="2" corpse="20446" />
+	<look type="128" head="95" body="116" legs="95" feet="114" addons="1" corpse="3058" />
 	<targetchange interval="5000" chance="8" />
 	<flags>
 		<flag summonable="0" />

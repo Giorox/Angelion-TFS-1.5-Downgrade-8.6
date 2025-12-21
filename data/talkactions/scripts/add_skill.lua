@@ -13,7 +13,7 @@ local function getSkillId(skillName)
 		return SKILL_FISHING
 	elseif skillName:sub(1, 4) == "fist" then
 		return SKILL_FIST
-	elseif skillName:sub(1, 1) == "m" then
+	elseif skillName:sub(1, 5) == "magic" then
 		return SKILL_MAGLEVEL
 	elseif skillName == "level" or skillName:sub(1, 1) == "l" or skillName:sub(1, 1) == "e" then
 		return SKILL_LEVEL

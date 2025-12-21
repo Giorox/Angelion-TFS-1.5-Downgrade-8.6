@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <monster name="Acolyte of Darkness" nameDescription="an acolyte of darkness" race="undead" experience="200" speed="180">
     <health now="325" max="325" />
-    <look type="9" corpse="20455" />
+    <look type="9" corpse="3058" />
     <targetchange interval="4000" chance="10" />
     <flags>
         <flag targetdistance="1" />

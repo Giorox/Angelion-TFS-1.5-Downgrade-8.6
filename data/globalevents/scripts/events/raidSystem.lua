@@ -66,6 +66,7 @@ raidTable = {
 	{boss = "Grandfather Tridian", pos = {x=32400,y=32791,z=10}},
 	{boss = "Thul", pos = {x=32020,y=32743,z=12}},
 	{boss = "Stonecracker", pos = {x=33293,y=31704,z=11}},
+    {boss = "OrcSamsBackpack", pos = {x=32980,y=31739,z=7}}
 }
 
 local function checkArea(pos, monster)
@@ -92,7 +93,7 @@ function onThink(interval)
     	doSummonCreature(raidTable[choosen].boss, raidTable[choosen].pos)
         print("[raidSystem] Spawned Boss - " .. raidTable[choosen].boss)
     else
-        print("[raidSystem] Boss" .. raidTable[choosen].boss .. " is still alive")
+        print("[raidSystem] Boss " .. raidTable[choosen].boss .. " is still alive")
     end
 
     return true

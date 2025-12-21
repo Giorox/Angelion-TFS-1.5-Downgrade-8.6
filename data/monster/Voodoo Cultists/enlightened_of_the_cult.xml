@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Enlightened of the Cult" nameDescription="an enlightened of the cult" race="blood" experience="500" speed="210">
 	<health now="700" max="700" />
-	<look type="193" corpse="20391" />
+	<look type="193" corpse="3058" />
 	<targetchange interval="4000" chance="10" />
 	<flags>
 		<flag summonable="0" />

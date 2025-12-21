@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <monster name="Midnight Warrior" nameDescription="a midnight warrior" race="undead" experience="750" speed="240">
     <health now="1000" max="1000" />
-    <look type="269" head="0" body="95" legs="95" feet="95" addons="1" corpse="20331" />
+    <look type="269" head="0" body="95" legs="95" feet="95" addons="1" corpse="3058" />
     <targetchange interval="4000" chance="10" />
     <flags>
         <flag targetdistance="1" />

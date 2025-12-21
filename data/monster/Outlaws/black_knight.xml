@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Black Knight" nameDescription="a Black Knight" race="blood" experience="1600" speed="250">
 	<health now="1800" max="1800" />
-	<look type="131" head="95" body="95" legs="95" feet="95" addons="3" corpse="20355" />
+	<look type="131" head="95" body="95" legs="95" feet="95" addons="3" corpse="3058" />
 	<targetchange interval="4000" chance="10" />
 	<flags>
 		<flag summonable="0" />

@@ -1,8 +1,5 @@
 local waterIds = {493, 4608, 4609, 4610, 4611, 4612, 4613, 4614, 4615, 4616, 4617, 4618, 4619, 4620, 4621, 4622, 4623, 4624, 4625, 7236, 10499}
-local lootTrash = {2234, 2238, 2376, 2509, 2667}
-local lootCommon = {2152, 2167, 2168, 2669, 7588, 7589}
-local lootRare = {2143, 2146, 2149, 7158, 7159}
-local lootVeryRare = {7632, 7633, 10220}
+local giantShimmeringPearls = {7632, 7633}
 local useWorms = true
 
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)
@@ -22,15 +19,18 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		target:transform(targetId + 1)
 		target:decay()
 
-		local rareChance = math.random(1, 100)
-		if rareChance == 1 then
-			player:addItem(lootVeryRare[math.random(#lootVeryRare)], 1)
-		elseif rareChance <= 3 then
-			player:addItem(lootRare[math.random(#lootRare)], 1)
-		elseif rareChance <= 10 then
-			player:addItem(lootCommon[math.random(#lootCommon)], 1)
-		else
-			player:addItem(lootTrash[math.random(#lootTrash)], 1)
+		local rareChance = math.random(1, 10000)
+		if 9109 <= rareChance and rareChance < 9625 then  -- 5.16% chance - White Pearl
+			player:addItem(2143, 1)
+		elseif 9625 <= rareChance and rareChance < 9800 then -- 1.75% chance - Small Sapphire
+			player:addItem(2146, 1)
+		elseif 9800 <= rareChance and rareChance < 9975 then -- 1.75% chance - Small Emerald
+			player:addItem(2149, 1)
+		elseif 9975 <= rareChance and rareChance < 10000 then -- 0.25% chance - Giant Shimmering Pearl
+			player:addItem(giantShimmeringPearls[math.random(#giantShimmeringPearls)], 1)
+        elseif rareChance == 10000 then -- 1/10000 chance - Leviathan's Amulet
+            player:addItem(10220, 1)
+            player:addAchievementProgress("Lucky Devil", 2)
 		end
 		return true
 	end

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <monster name="Nightslayer" nameDescription="a nightslayer" race="undead" experience="250" speed="180">
     <health now="400" max="400" />
-    <look type="152" head="95" body="95" legs="95" feet="95" addons="3" corpse="20327" />
+    <look type="152" head="95" body="95" legs="95" feet="95" addons="3" corpse="3058" />
     <targetchange interval="3000" chance="15" />
     <flags>
         <flag targetdistance="1" />

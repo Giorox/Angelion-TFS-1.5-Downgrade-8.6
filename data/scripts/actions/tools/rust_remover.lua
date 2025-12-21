@@ -127,6 +127,10 @@ function rustRemover.onUse(player, item, fromPosition, target, toPosition, isHot
 		target:transform(targetItem[index].id)
 		target:getPosition():sendMagicEffect(CONST_ME_MAGIC_GREEN)
 		player:addAchievementProgress("Polisher", 1000)
+
+        if targetItem[index].id == 2466 then  -- If a Golden Armor is unrusted, add progress to achievement
+            player:addAchievementProgress("Lucky Devil", 2)
+        end
 	end
 	return item:remove(1)
 end

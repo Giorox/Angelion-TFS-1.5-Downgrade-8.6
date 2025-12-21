@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <monster name="Bride of Night" nameDescription="a bride of night" race="undead" experience="450" speed="250">
     <health now="275" max="275" />
-    <look type="58" corpse="20491" />
+    <look type="58" corpse="3058" />
     <targetchange interval="4000" chance="10" />
     <flags>
         <flag targetdistance="1" />

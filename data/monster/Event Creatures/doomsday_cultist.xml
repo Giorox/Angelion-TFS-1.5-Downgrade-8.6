@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <monster name="Doomsday Cultist" nameDescription="a doomsday cultist" race="undead" experience="100" speed="150">
     <health now="125" max="125" />
-    <look type="194" head="114" body="114" legs="76" feet="114" corpse="20319" />
+    <look type="194" head="114" body="114" legs="76" feet="114" corpse="3058" />
     <targetchange interval="4000" chance="10" />
     <flags>
         <flag targetdistance="1" />

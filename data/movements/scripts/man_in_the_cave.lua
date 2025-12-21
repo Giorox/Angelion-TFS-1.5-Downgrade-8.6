@@ -18,6 +18,7 @@ function onStepIn(creature, item, position, fromPosition)
     -- If player steps in the floor set with the unique id, and the boss is spawned, he gets "ROPED" up
     if item.uid == 6708 and checkArea(bossPos, boss) == TRUE then
 	    creature:teleportTo(newpos, FALSE)
+        creature:say("You have been roped up!", TALKTYPE_ORANGE_1)
     end
 
     return true
