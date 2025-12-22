@@ -16,6 +16,7 @@ local instruments = {
 	[2084] = {effect = CONST_ME_SOUND_GREEN}, -- harp
 	[2085] = {effect = CONST_ME_SOUND_GREEN}, -- harp
 	[2332] = {effect = CONST_ME_SOUND_GREEN}, -- Waldo's post horn
+    [2364] = {effect = CONST_ME_SOUND_GREEN}, -- Post horn - awarded to player upon completion of quest
 	[2367] = {effect = CONST_ME_SOUND_GREEN}, -- drum (immovable)
 	[2368] = {effect = CONST_ME_SOUND_GREEN}, -- simple fanfare (immovable)
 	[2369] = {effect = CONST_ME_SOUND_GREEN}, -- cornucopia (immovable)

@@ -76,6 +76,7 @@ local foods = {
 	[8847] = {11, "Yum."}, -- chocolate cake
 	[9005] = {7, "Slurp."}, -- yummy gummy worm
 	[9114] = {5, "Crunch."}, -- bulb of garlic
+	[9116] = {0, "After taking a small bite you decide that you don't want to eat that."}, -- garlic cookie
 	[9996] = {0, "Slurp."}, -- banana chocolate shake
 	[10454] = {0, "Your head begins to feel better."}, -- headache pill
 	[11246] = {15, "Yum."}, -- rice ball

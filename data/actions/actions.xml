@@ -61,6 +61,7 @@
 	<action itemid="8847" script="other/food.lua" />
 	<action itemid="9005" script="other/food.lua" />
 	<action itemid="9114" script="other/food.lua" />
+	<action itemid="9116" script="other/food.lua" />
 	<action itemid="9996" script="other/food.lua" />
 	<action itemid="10454" script="other/food.lua" />
 	<action itemid="11246" script="other/food.lua" />
@@ -125,8 +126,10 @@
 	<action itemid="2036" script="other/watch.lua" />
 	<action itemid="2093" script="other/water_pipe.lua" />
 	<action itemid="2095" script="other/bird_cage.lua" />
+	<action itemid="2096" script="other/candlestick.lua" />
 	<action itemid="2099" script="other/water_pipe.lua" />
 	<action itemid="2114" script="other/piggy_bank.lua" />
+    <action itemid="2229" script="other/candlestick.lua" />
 	<action fromid="2376" toid="2404" script="other/destroy.lua" />
 	<action fromid="2406" toid="2415" script="other/destroy.lua" />
 	<action fromid="2417" toid="2419" script="other/destroy.lua" />
@@ -135,6 +138,10 @@
 	<action itemid="2579" script="other/trap.lua" />
 	<action itemid="2692" script="other/create_bread.lua" />
 	<action itemid="2694" script="other/create_bread.lua" />
+    <action itemid="6277" script="other/create_bread.lua" />
+    <action itemid="6280" script="other/create_bread.lua" />
+    <action itemid="9112" script="other/create_bread.lua" />
+    <action itemid="9113" script="other/create_bread.lua" />
 	<action itemid="2785" script="other/blueberry_bush.lua" />
 	<action itemid="3678" script="other/teleport.lua" />
 	<action itemid="3900" script="other/watch.lua" />
@@ -143,6 +150,7 @@
 	<action itemid="6092" script="other/watch.lua" />
 	<action itemid="6576" script="other/fireworks_rocket.lua" />
 	<action itemid="6578" script="other/party_hat.lua" />
+    <action itemid="7498" script="other/potionpack.lua" />
 	<action itemid="7552" script="other/large_seashell.lua" />
 	<action itemid="7828" script="other/watch.lua" />
 	<action fromid="7904" toid="7907" script="other/bed_modification_kits.lua" />

@@ -7,6 +7,7 @@
 	<!-- Decaying tiles -->
 	<movevent event="StepIn" itemid="293" script="decay.lua" />
 	<movevent event="StepIn" itemid="461" script="decay.lua" />
+	<movevent event="StepIn" itemid="3310" script="decay.lua" />
 
 	<!-- (Depot & Level) tiles -->
 	<movevent event="StepIn" itemid="416" script="tiles.lua" />
@@ -198,11 +199,12 @@
 	<movevent event="StepOut" itemid="670" script="snow.lua" />
 	<movevent event="StepOut" fromid="6580" toid="6593" script="snow.lua" />
 
-	<!-- Create bread movements -->
+	<!-- Create bread/cake movements -->
 	<movevent event="AddItem" tileitem="1" itemid="1786" script="dough.lua" />
 	<movevent event="AddItem" tileitem="1" itemid="1788" script="dough.lua" />
 	<movevent event="AddItem" tileitem="1" itemid="1790" script="dough.lua" />
 	<movevent event="AddItem" tileitem="1" itemid="1792" script="dough.lua" />
+	<movevent event="AddItem" tileitem="1" itemid="6279" script="party_cake.lua" />
 
 	<!-- Campfires -->
 	<movevent event="StepIn" itemid="1423" function="onStepInField" />

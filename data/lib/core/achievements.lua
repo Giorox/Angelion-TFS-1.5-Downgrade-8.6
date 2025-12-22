@@ -16,6 +16,7 @@ Functions:
 	isAchievementSecret(achievement_id/name)
 	Player:getAchievementPoints()
 	Player:addAchievementProgress()
+    Player:getAchievementProgress()
 Storages:
 	PlayerStorageKeys.achievementsBase -- base storage
 	PlayerStorageKeys.achievementsCounter -- this storage will be used to save the process to obtain the certain achievement
@@ -663,4 +664,17 @@ function Player.addAchievementProgress(self, ach, value)
 		self:addAchievement(achievement.id)
 	end
 	return true
+end
+
+function Player.getAchievementProgress(self, ach)
+    local achievement = tonumber(ach) and getAchievementInfoById(ach) or getAchievementInfoByName(ach)
+	if not achievement then
+		print('[!] -> Invalid achievement "' .. ach .. '".')
+		return true
+	end
+
+    local storage = PlayerStorageKeys.achievementsCounter + achievement.id
+	local progress = self:getStorageValue(storage)
+
+    return progress
 end

@@ -16,7 +16,7 @@ local transformItems = {
 	[2064] = 2065, [2065] = 2064, -- table lamp
 	[2066] = 2067, [2067] = 2066, -- wall lamp
 	[2068] = 2069, [2069] = 2068, -- wall lamp
-	[2096] = 2097, [2097] = 2096, -- pumpkinhead
+	[2097] = 2096, -- pumpkinhead
 	[2578] = 2579, -- trap
 	[3697] = 3698, [3698] = 3697, -- sacred statue
 	[3699] = 3700, [3700] = 3699, -- sacred statue

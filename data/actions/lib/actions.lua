@@ -256,9 +256,18 @@ function onUseKitchenKnife(player, item, fromPosition, target, toPosition, isHot
 		return false
 	end
 
-	if table.contains(fruits, target.itemid) and player:removeItem(6278, 1) then
+	if table.contains(fruits, target.itemid) and player:removeItem(6278, 1) then  -- Decorated Cake
 		target:remove(1)
 		player:addItem(6279, 1)
+		player:getPosition():sendMagicEffect(CONST_ME_MAGIC_GREEN)
+        player:addAchievementProgress("With a Cherry on Top", 20)
+        if player:getAchievementProgress("Sweet Tooth") >= 1 and not player:hasAchievement("Piece of Cake") then
+            player:addAchievement("Piece of Cake")
+        end
+		return true
+    elseif target.itemid == 2683 then  -- Special case to carve pumpkin into a pumpkinhead
+        target:remove(1)
+		player:addItem(2096, 1)
 		player:getPosition():sendMagicEffect(CONST_ME_MAGIC_GREEN)
 		return true
 	end

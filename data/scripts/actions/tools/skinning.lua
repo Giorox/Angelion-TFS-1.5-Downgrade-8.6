@@ -44,6 +44,40 @@ local config = {
 		[3031] = {chance = 6000, newItem = 5925, after = 3032},
 		[6030] = {chance = 6000, newItem = 5925, after = 3032}, -- after being killed
 
+        -- Lord of the Elements
+        [9010] = {chance = 100000, newItem = 8310, after = 9010},
+        [9009] = {chance = 100000, newItem = 8310, after = 9009}, -- after being killed
+
+        -- The Mutated Pumpkin
+        [8960] = {chance = 100000, newItem = {
+            {id = 8860, count = 1}, -- Spiderweb
+            {id = 6492, count = 1}, -- Bat Decoration
+            {id = 6526, count = 1}, -- Skeleton Decoration
+            {id = 9006, count = 1}, -- Toy Spider
+            {id = 2096, count = 1}, -- Pumpkinhead
+            {id = 6571, count = 1}, -- Surprise Bag (Red)
+            {id = 6570, count = 1}, -- Surprise Bag (Blue)
+            {id = 2683, count = 1}, -- Pumpkin
+            {id = 6574, count = -1}, -- Bar of Chocolate (1 to 5)
+            {id = 9005, count = 20}, -- Yummy Gummy Worms
+            {id = 2688, count = 50}, -- Candy Canes
+            {id = 6569, count = 50}, -- Candies
+        }, after = 8960},
+        [8961] = {chance = 100000, newItem = {
+            {id = 8860, count = 1}, -- Spiderweb
+            {id = 6492, count = 1}, -- Bat Decoration
+            {id = 6526, count = 1}, -- Skeleton Decoration
+            {id = 9006, count = 1}, -- Toy Spider
+            {id = 2096, count = 1}, -- Pumpkinhead
+            {id = 6571, count = 1}, -- Surprise Bag (Red)
+            {id = 6570, count = 1}, -- Surprise Bag (Blue)
+            {id = 2683, count = 1}, -- Pumpkin
+            {id = 6574, count = -1}, -- Bar of Chocolate (1 to 5)
+            {id = 9005, count = 20}, -- Yummy Gummy Worms
+            {id = 2688, count = 50}, -- Candy Canes
+            {id = 6569, count = 50}, -- Candies
+        }, after = 8961}, -- after being killed
+    
 		-- Piece of Marble Rock
 		[11343] = {
 			{chance = 530, newItem = 11346, desc = "This little figurine of a goddess was masterfully sculpted by |PLAYERNAME|."},
@@ -67,6 +101,10 @@ local config = {
 		[6006] = {chance = 6000, newItem = 5905, after = 2957}, -- vampire, after being killed
 		[9654] = {chance = 6000, newItem = 5905, after = 9658}, -- vampire bride
 		[9660] = {chance = 6000, newItem = 5905, after = 9658}, -- vampire bride, after being killed
+
+        -- Vampire Lords - Except Blood Brothers (Arthei, Boreth, Lersatio and Marziel)
+        [8937] = {chance = 30000, newItem = 5905, after = 8939}, -- Vampire Lord
+        [8938] = {chance = 30000, newItem = 5905, after = 8939}, -- Vampire Lord, after being killed
 	}
 }
 
@@ -126,7 +164,22 @@ function skinning.onUse(player, item, fromPosition, target, toPosition, isHotkey
 			else
 				player:addAchievementProgress("Skin-Deep", 500)
 			end
-			player:addItem(skin.newItem, skin.amount or 1)
+
+            if table.contains({8960, 8961}, target.itemid) then -- Special case for Mutated Pumpkin
+                local newItemID = math.random(#skin.newItem)
+                local newItemCount = 0
+                if skin.newItem[newItemID].count == -1 then
+                    newItemCount = math.random(1, 5)
+                else
+                    newItemCount = skin.newItem[newItemID].count
+                end
+
+                player:addItem(skin.newItem[newItemID].id, newItemCount)
+                player:teleportTo(Position(33214, 32460, 8)) -- Teleport player to Darashia Depot
+			    player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
+            else
+			    player:addItem(skin.newItem, skin.amount or 1)
+            end
 		end
 	else
 		if table.contains({7441, 7442, 7444, 7445}, target.itemid) then
