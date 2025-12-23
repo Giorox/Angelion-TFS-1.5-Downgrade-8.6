@@ -155,4 +155,6 @@
 	<action itemid="7828" script="other/watch.lua" />
 	<action fromid="7904" toid="7907" script="other/bed_modification_kits.lua" />
 	<action fromid="9443" toid="9444" script="other/watch.lua" />
+
+    <action fromaid="50030" toaid="50056" script="other/thaisExhibition.lua" />
 </actions>

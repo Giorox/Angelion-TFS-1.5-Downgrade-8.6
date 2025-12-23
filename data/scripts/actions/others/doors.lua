@@ -123,7 +123,11 @@ function door.onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		item:transform(itemId - 1)
 		return true	
 	elseif table.contains(closedDoors, itemId) or table.contains(closedExtraDoors, itemId) or table.contains(closedHouseDoors, itemId) then
-		item:transform(itemId + 1)
+		if item.actionid ~= 0 then
+            player:sendTextMessage(MESSAGE_INFO_DESCR, "It is locked.")
+            return true
+        end
+        item:transform(itemId + 1)
 		return true
 	end
 	return false

@@ -567,7 +567,7 @@
     <monster name="OrcWarlordShield" file="Raid Monsters/orc_warlord_shield.xml" />
     <monster name="OrcWarlordArmor" file="Raid Monsters/orc_warlord_armor.xml" />
     <monster name="OrcWarlordHelmet" file="Raid Monsters/orc_warlord_helmet.xml" />
-    <monster name="OrcSamsBackpack" file="Raid Monsters/orc_sams_backpack.xml.xml" />
+    <monster name="OrcSamsBackpack" file="Raid Monsters/orc_sams_backpack.xml" />
 
 	<!-- Serpents -->
 	<monster name="Cobra" file="Serpents/cobra.xml" />
