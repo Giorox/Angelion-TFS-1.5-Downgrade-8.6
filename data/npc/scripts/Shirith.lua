@@ -23,7 +23,7 @@ local function creatureSayCallback(cid, type, msg)
 				if key then
 					key:setActionId(3033)
 				end
-				player:removeMoneyNpc(50)
+				player:removeTotalMoney(50)
 			else
 				npcHandler:say("You don't have enough money.", cid)
 			end

@@ -37,7 +37,7 @@
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
-	<voices>
+	<voices interval="2000" chance="9">
 		<voice sentence="No one will steal our ore!" yell="0" />
 		<voice sentence="Hail Durin!" yell="0" />
 		<voice sentence="Ashes and rust! I'll get you!" yell="0" />

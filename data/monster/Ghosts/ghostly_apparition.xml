@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <monster name="Ghostly Apparition" nameDescription="a ghostly apparition" race="undead" experience="120" speed="100">
     <health now="150" max="150" />
-    <look typeEx="66" corpse="0" />
+    <look type="319" corpse="0" />
     <targetchange interval="4000" chance="10" />
     <flags>
         <flag targetdistance="3" />

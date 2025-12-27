@@ -27,8 +27,8 @@ local function addTravelKeyword(keyword, text, cost, destination)
 
 end
 
-addTravelKeyword('calassa', 'Should I bring you to Calassa for 200 gold?', 200, Position(31911, 32710, 6))
-addTravelKeyword('yalahar', 'That is quite a long unprofitable travel. I\'ll bring you to Yalahar for 400 gold though. Is that ok with you?', 400, Position(32816, 31272, 6))
+addTravelKeyword('calassa', 'Should I bring you to Calassa for |TRAVELCOST| gold?', 200, Position(31911, 32710, 6))
+addTravelKeyword('yalahar', 'That is quite a long unprofitable travel. I\'ll bring you to Yalahar for |TRAVELCOST| gold though. Is that ok with you?', 400, Position(32816, 31272, 6))
 
 keywordHandler:addKeyword({'sail'}, StdModule.say, {npcHandler = npcHandler, text = 'Welcome on board, noble |PLAYERNAME|. I can bring you to {Calassa} or {Yalahar}, but only if you have the according mission from {Berenice} or {Wyrdin}.'})
 keywordHandler:addKeyword({'passage'}, StdModule.say, {npcHandler = npcHandler, text = 'Welcome on board, noble |PLAYERNAME|. I can bring you to {Calassa} or {Yalahar}, but only if you have the according mission from {Berenice} or {Wyrdin}.'})

@@ -40,7 +40,7 @@
 	<summons maxSummons="2">
 		<summon name="Orc Berserker" interval="2000" chance="30" />
 	</summons>
-	<voices>
+	<voices interval="2000" chance="9">
 		<voice sentence="Gadarat Ulderek!" yell="0" />
 		<voice sentence="Ikem rambo zambo!" yell="0" />
 		<voice sentence="Ruzad buta bana!" yell="0" />

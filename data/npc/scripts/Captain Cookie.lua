@@ -8,7 +8,7 @@ function onCreatureSay(cid, type, msg)		npcHandler:onCreatureSay(cid, type, msg)
 function onThink()				npcHandler:onThink()					end
 
 -- Travel
-local travelKeyword = keywordHandler:addKeyword({'liberty bay'}, StdModule.say, {npcHandler = npcHandler, text = 'I can bring you to our base in Liberty Bay for |TRAVELCOST|. Is that what you want?', cost = 400, discount = 'postman'})
+local travelKeyword = keywordHandler:addKeyword({'liberty bay'}, StdModule.say, {npcHandler = npcHandler, text = 'I can bring you to our base in Liberty Bay for |TRAVELCOST| gold. Is that what you want?', cost = 400, discount = 'postman'})
 	travelKeyword:addChildKeyword({'yes'}, StdModule.travel, {npcHandler = npcHandler, premium = false, cost = 400, discount = 'postman', destination = Position(32285, 32892, 6)})
 	travelKeyword:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, text = 'We would like to serve you some time.', reset = true})
 keywordHandler:addAliasKeyword({'passage'})

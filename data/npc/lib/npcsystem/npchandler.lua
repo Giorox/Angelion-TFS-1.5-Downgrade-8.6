@@ -59,6 +59,10 @@ if not NpcHandler then
 	TAG_ITEMCOUNT = "|ITEMCOUNT|"
 	TAG_TOTALCOST = "|TOTALCOST|"
 	TAG_ITEMNAME = "|ITEMNAME|"
+	TAG_TIME = "|TIME|"
+	TAG_BLESSCOST = "|BLESSCOST|"
+	TAG_PVPBLESSCOST = "|PVPBLESSCOST|"
+	TAG_TRAVELCOST = "|TRAVELCOST|"
 
 	NpcHandler = {
 		keywordHandler = nil,
@@ -201,6 +205,7 @@ if not NpcHandler then
 				pos = k
 			end
 		end
+
 		self.focuses[pos] = nil
 
 		self.eventSay[focus] = nil

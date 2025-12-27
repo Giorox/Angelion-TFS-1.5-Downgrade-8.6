@@ -48,7 +48,22 @@ if not Modules then
 			return false
 		end
 
-		local parseInfo = {[TAG_PLAYERNAME] = Player(cid):getName()}
+		local parseInfo = {
+            [TAG_PLAYERNAME] = Player(cid):getName()
+        }
+
+        local player = Player(cid)
+
+        -- For travel keywords
+        local cost = parameters.cost
+        local discount = parameters.discount
+        if cost then
+            if discount == "postman" and player:getStorageValue(Storage.postman.Rank) == 5 then  -- Master Postman discount reduces travel cost by 10gps
+                cost = cost - 10
+            end
+
+            parseInfo[TAG_TRAVELCOST] = cost
+        end
 		npcHandler:say(npcHandler:parseMessage(parameters.text or parameters.message, parseInfo), cid, parameters.publicize and true)
 		if parameters.reset then
 			npcHandler:resetNpc(cid)
@@ -119,6 +134,7 @@ if not Modules then
 		else
 			npcHandler:say("You need a premium account in order to buy " .. parameters.spellName .. ".", cid)
 		end
+
 		npcHandler:resetNpc(cid)
 		return true
 	end
@@ -146,6 +162,7 @@ if not Modules then
 		else
 			npcHandler:say("You need a premium account in order to be blessed.", cid)
 		end
+
 		npcHandler:resetNpc(cid)
 		return true
 	end
@@ -160,13 +177,23 @@ if not Modules then
 			return false
 		end
 
-		local player = Player(cid)
+        local player = Player(cid)
+
+         -- For travel keywords
+        local cost = parameters.cost
+        local discount = parameters.discount
+        if cost then
+            if discount == "postman" and player:getStorageValue(Storage.postman.Rank) == 5 then  -- Master Postman discount reduces travel cost by 10gps
+                cost = cost - 10
+            end
+        end
+
 		if player:isPremium() or not parameters.premium then
 			if player:isPzLocked() then
 				npcHandler:say("First get rid of those blood stains! You are not going to ruin my vehicle!", cid)
 			elseif parameters.level and player:getLevel() < parameters.level then
 				npcHandler:say("You must reach level " .. parameters.level .. " before I can let you go there.", cid)
-			elseif not player:removeTotalMoney(parameters.cost) then
+			elseif not player:removeTotalMoney(cost) then
 				npcHandler:say("You don't have enough money.", cid)
 			else
 				npcHandler:say(parameters.msg or "Set the sails!", cid)
@@ -178,10 +205,17 @@ if not Modules then
 
 				position:sendMagicEffect(CONST_ME_TELEPORT)
 				destination:sendMagicEffect(CONST_ME_TELEPORT)
+				-- What a foolish Quest - Mission 3
+				if player:getStorageValue(Storage.WhatAFoolishQuest.PieBoxTimer) > os.time() then
+					if destination ~= Position(32660, 31957, 15) then -- kazordoon steamboat
+						player:setStorageValue(Storage.WhatAFoolishQuest.PieBoxTimer, 1)
+					end
+				end
 			end
 		else
 			npcHandler:say("I'm sorry, but you need a premium account in order to travel onboard our ships.", cid)
 		end
+
 		npcHandler:resetNpc(cid)
 		return true
 	end
@@ -420,7 +454,9 @@ if not Modules then
 		local destination = parameters.destination
 		local premium = parameters.premium
 
-		module.npcHandler:say("Do you want to travel to " .. keywords[1] .. " for " .. cost .. " gold coins?", cid)
+        local parseInfo = {[TAG_TRAVELCOST] = cost}
+        local msg = module.npcHandler:parseMessage("Do you want to travel to " .. keywords[1] .. " for " .. cost .. " gold coins?", parseInfo)
+		module.npcHandler:say(msg, cid)
 		return true
 	end
 

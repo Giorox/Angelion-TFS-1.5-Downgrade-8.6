@@ -28,7 +28,7 @@
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
-	<voices>
+	<voices interval="2000" chance="9">
 		<voice sentence="Waaahh!" yell="0" />
 		<voice sentence="Me big nauti! Hehehe!" yell="0" />
 		<voice sentence="Kill'em boys!" yell="0" />

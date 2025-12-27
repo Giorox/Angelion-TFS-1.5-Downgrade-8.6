@@ -50,7 +50,7 @@
 		<immunity invisible="1" />
 		<immunity paralyze="0" />
 	</immunities>
-	<voices>
+	<voices interval="2000" chance="9">
 		<voice sentence="Softzzkinzz from zze zzouzz!" yell="0" />
 		<voice sentence="Zztand and fight!" yell="0" />
 		<voice sentence="Cowardzz!" yell="0" />

@@ -19,7 +19,7 @@ local function creatureSayCallback(cid, type, msg)
 			if player:getMoney() + player:getBankBalance() >= 123 then
 				npcHandler:say("Here it is.", cid)
 				player:addItem(11257, 1)
-				player:removeMoneyNpc(123)
+				player:removeTotalMoney(123)
 			else
 				npcHandler:say("You don't have enough money.", cid)
 			end
@@ -37,8 +37,8 @@ local function addTravelKeyword(keyword, text, cost, destination)
 end
 
 addTravelKeyword('tibia', 'back to Tibia?', 0, Position(32235, 31674, 7))
-addTravelKeyword('senja', 'Senja for |TRAVELCOST|?', 10, Position(32128, 31664, 7))
-addTravelKeyword('vega', 'Vega for |TRAVELCOST|?', 10, Position(32020, 31692, 7))
+addTravelKeyword('senja', 'Senja for |TRAVELCOST| gold?', 10, Position(32128, 31664, 7))
+addTravelKeyword('vega', 'Vega for |TRAVELCOST| gold?', 10, Position(32020, 31692, 7))
 
 -- Basic
 keywordHandler:addKeyword({'passage'}, StdModule.say, {npcHandler = npcHandler, text = 'Where do you want to go? To {Tibia}, {Senja} or {Vega}?'})

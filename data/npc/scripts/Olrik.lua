@@ -22,7 +22,7 @@ local function creatureSayCallback(cid, type, msg)
 		end
 	elseif msgcontains(msg, "yes") then
 		if player:getMoney() + player:getBankBalance() >= 5 then
-			player:removeMoneyNpc(5)
+			player:removeTotalMoney(5)
 			local number = math.random(6)
 			if number ~= 6 then
 				npcHandler:say("Ok, here we go ... " .. number .. "! You lose! Try again.", cid)

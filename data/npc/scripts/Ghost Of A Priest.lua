@@ -45,7 +45,7 @@ local function creatureSayCallback(cid, type, msg)
 		if npcHandler.topic[cid] == 2 then
 			if player:getMoney() + player:getBankBalance() >= 5000 then
 				player:setStorageValue(Storage.WrathoftheEmperor.GhostOfAPriest01, 1)
-				player:removeMoneyNpc(5000)
+				player:removeTotalMoney(5000)
 				player:addItem(12324, 1)
 				npcHandler:say("So be it! Here is my part of the sceptre. Combine it with the other parts on the altar of the Great Snake in the depths of this temple.", cid)
 				npcHandler.topic[cid] = 0
@@ -53,7 +53,7 @@ local function creatureSayCallback(cid, type, msg)
 		elseif npcHandler.topic[cid] == 3 then
 			if player:getMoney() + player:getBankBalance() >= 5000 then
 				player:setStorageValue(Storage.WrathoftheEmperor.GhostOfAPriest02, 1)
-				player:removeMoneyNpc(5000)
+				player:removeTotalMoney(5000)
 				player:addItem(12325, 1)
 				npcHandler:say("So be it! Here is my part of the sceptre. Combine it with the other parts on the altar of the Great Snake in the depths of this temple.", cid)
 				npcHandler.topic[cid] = 0
@@ -61,7 +61,7 @@ local function creatureSayCallback(cid, type, msg)
 		elseif npcHandler.topic[cid] == 4 then
 			if player:getMoney() + player:getBankBalance() >= 5000 then
 				player:setStorageValue(Storage.WrathoftheEmperor.GhostOfAPriest03, 1)
-				player:removeMoneyNpc(5000)
+				player:removeTotalMoney(5000)
 				player:addItem(12326, 1)
 				npcHandler:say("So be it! Here is my part of the sceptre. Combine it with the other parts on the altar of the Great Snake in the depths of this temple.", cid)
 				npcHandler.topic[cid] = 0

@@ -55,7 +55,7 @@ function creatureSayCallback(cid, type, msg)
         if PremiumSpells and (spells[item].premium == 1) and not player:isPremium() then
             return false
         end   
-        if player:removeMoneyNpc(spells[item].buy) == false then
+        if player:removeTotalMoney(spells[item].buy) == false then
             return false
         end
 		

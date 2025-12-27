@@ -397,7 +397,7 @@
 	<house name="Glacier Side 4" houseid="770" entryx="32204" entryy="31147" entryz="6" rent="2050" townid="12" size="38" />
 	<house name="Shelf Site" houseid="771" entryx="32197" entryy="31150" entryz="6" rent="4800" townid="12" size="83" />
 	<house name="Raven Corner 1" houseid="772" entryx="32234" entryy="31154" entryz="7" rent="855" townid="12" size="15" />
-	<house name="Raven Corner 2" houseid="773" entryx="32233" entryy="31156" entryz="7" rent="1685" townid="12" size="25" />
+	<house name="Raven Corner 2" houseid="773" entryx="32233" entryy="31156" entryz="7" rent="1685" townid="12" size="24" />
 	<house name="Raven Corner 3" houseid="774" entryx="32234" entryy="31157" entryz="7" rent="855" townid="12" size="15" />
 	<house name="Bears Paw 3" houseid="775" entryx="32248" entryy="31157" entryz="7" rent="2090" townid="12" size="35" />
 	<house name="Bears Paw 4" houseid="776" entryx="32256" entryy="31158" entryz="7" rent="5205" townid="12" size="99" />

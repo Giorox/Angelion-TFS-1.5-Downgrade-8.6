@@ -41,7 +41,7 @@ local function creatureSayCallback(cid, type, msg)
 				}, cid)	
 		end
 	elseif (msgcontains(msg, "torch") and player:getStorageValue(45252) == -1) then
-		if player:removeMoneyNpc(5000) then
+		if player:removeTotalMoney(5000) then
 			player:setStorageValue(45251, 0)
 			doPlayerAddItem(player,9956,1)
 			npcHandler:say({
@@ -57,7 +57,7 @@ local function creatureSayCallback(cid, type, msg)
 		end
 		
 	else
-		if player:removeMoneyNpc(5000) then
+		if player:removeTotalMoney(5000) then
 			doPlayerAddItem(player,9956,1)
 			npcHandler:say({
 					'You compleat the mission.. but if you need more take it...'

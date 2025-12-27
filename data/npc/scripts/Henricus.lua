@@ -194,7 +194,7 @@ local function creatureSayCallback(cid, type, msg)
 			end
 			npcHandler.topic[cid] = 0
         elseif npcHandler.topic[cid] == 8 then
-            if player:removeMoneyNpc(flaskCost) then
+            if player:removeTotalMoney(flaskCost) then
             npcHandler:say("Here is your new flask!, |PLAYERNAME|.", cid)
             player:addItem(7494, 1)     
             else
@@ -204,7 +204,7 @@ local function creatureSayCallback(cid, type, msg)
 		elseif npcHandler.topic[cid] == 7 then
 			if player:getBlessings() == 5 then
 				npcHandler:say("You already have been blessed!", cid)
-			elseif player:removeMoneyNpc(totalBlessPrice) then
+			elseif player:removeTotalMoney(totalBlessPrice) then
 				npcHandler:say("You have been blessed by all of five gods!, |PLAYERNAME|.", cid)
 				for b = 1, 5 do
 					player:addBlessing(b)

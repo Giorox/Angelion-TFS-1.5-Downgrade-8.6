@@ -51,7 +51,7 @@
 	<summons maxSummons="2">
 		<summon name="Draken Warmaster" interval="2000" chance="10" max="2" />
 	</summons>
-	<voices>
+	<voices interval="2000" chance="9">
 		<voice sentence="YOU DON'T EVEN UNDERSTAND WHOM YOU ARE SERVING!" yell="1" />
 		<voice sentence="FLEE AND NEVER RETURN!" yell="1" />
 		<voice sentence="I WILL STOP YOU ONCE AND FOR ALL!" yell="1" />

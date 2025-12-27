@@ -27,7 +27,7 @@ local function creatureSayCallback(cid, type, msg)
 	elseif msgcontains(msg, 'yes') and npcHandler.topic[cid] > 0 then
 		local player = Player(cid)
 		if npcHandler.topic[cid] == 1 then
-			if not player:removeMoneyNpc(250) then
+			if not player:removeTotalMoney(250) then
 				npcHandler:say('You don\'t have enough money.', cid)
 				npcHandler.topic[cid] = 0
 				return true
@@ -45,7 +45,7 @@ local function creatureSayCallback(cid, type, msg)
 end
 
 local function addTravelKeyword(keyword, cost, discount, destination, action)
-	local travelKeyword = keywordHandler:addKeyword({keyword}, StdModule.say, {npcHandler = npcHandler, text = 'Do you seek a ride to ' .. titleCase(keyword) .. ' for |TRAVELCOST|?', cost = cost, discount = discount})
+	local travelKeyword = keywordHandler:addKeyword({keyword}, StdModule.say, {npcHandler = npcHandler, text = 'Do you seek a ride to ' .. titleCase(keyword) .. ' for |TRAVELCOST| gold?', cost = cost, discount = discount})
 		travelKeyword:addChildKeyword({'yes'}, StdModule.travel, {npcHandler = npcHandler, premium = false, text = 'Full steam ahead!', cost = cost, discount = discount, destination = destination}, nil, action)
 		travelKeyword:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, text = 'We would like to serve you some time.', reset = true})
 end

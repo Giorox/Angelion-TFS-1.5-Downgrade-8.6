@@ -34,7 +34,7 @@ local function creatureSayCallback(cid, type, msg)
 		npcHandler:say("I would never have guessed that.", cid)
 		npcHandler.topic[cid] = nil
 	elseif npcHandler.topic[cid] == 2 then
-		if player:removeMoneyNpc(Price[cid]) then
+		if player:removeTotalMoney(Price[cid]) then
 			npcHandler:say("Oh, sorry, I was distracted, what did you say?", cid)
 		else
 			npcHandler:say("Oh, I just remember I have some work to do, sorry. Bye!", cid)

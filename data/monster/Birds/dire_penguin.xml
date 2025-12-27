@@ -37,7 +37,7 @@
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
-	<voices>
+	<voices interval="2000" chance="9">
 		<voice sentence="Grrrrrr" yell="0" />
 	</voices>
 	<loot>

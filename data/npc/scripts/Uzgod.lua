@@ -73,7 +73,7 @@ local function creatureSayCallback(cid, type, msg)
 			npcHandler.topic[cid] = 0
 		elseif(npcHandler.topic[cid] == 9) then
 			if player:getMoney() + player:getBankBalance() >= 250 and player:getItemCount(5880) >= 3 then
-				if player:removeMoneyNpc(250) and player:removeItem(5880, 3) then
+				if player:removeTotalMoney(250) and player:removeItem(5880, 3) then
 					npcHandler:say("Ah, that's how me like me customers. Ok, me do this... <pling pling> ... another fine swing of the hammer here and there... <ploing>... here you have it!", cid)
 					player:addItem(7385, 1)
 					player:setStorageValue(Storage.TravellingTrader.Mission05, 2)

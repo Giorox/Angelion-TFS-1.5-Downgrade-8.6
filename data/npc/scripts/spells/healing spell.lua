@@ -54,7 +54,7 @@ function creatureSayCallback(cid, type, msg)
             return false
         end  
 		
-        if player:removeMoneyNpc(spells[item].buy) == false then
+        if player:removeTotalMoney(spells[item].buy) == false then
             return false
         end
 		

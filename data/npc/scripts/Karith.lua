@@ -186,7 +186,7 @@ local player = Player(cid)
 			player:setStorageValue(Storage.SearoutesAroundYalahar.TownsCounter, player:getStorageValue(Storage.SearoutesAroundYalahar.TownsCounter) + 1)
 			npcHandler.topic[cid] = 0
 		elseif npcHandler.topic[cid] == 11 then
-			if player:removeMoneyNpc(160) then
+			if player:removeTotalMoney(160) then
 				npcHandler:say("Set the sails!", cid)
 				doTeleportThing(cid, Position(32734, 31668, 6))
 				player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
@@ -196,7 +196,7 @@ local player = Player(cid)
 				npcHandler.topic[cid] = 0
 			end
 		elseif npcHandler.topic[cid] == 12 then
-			if player:removeMoneyNpc(210) then
+			if player:removeTotalMoney(210) then
 				npcHandler:say("Set the sails!", cid)
 				doTeleportThing(cid, Position(33289, 32480, 6))
 				player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
@@ -206,7 +206,7 @@ local player = Player(cid)
 				npcHandler.topic[cid] = 0
 			end
 		elseif npcHandler.topic[cid] == 13 then
-			if player:removeMoneyNpc(185) then
+			if player:removeTotalMoney(185) then
 				npcHandler:say("Set the sails!", cid)
 				doTeleportThing(cid, Position(32954, 32022, 6))
 				player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
@@ -216,7 +216,7 @@ local player = Player(cid)
 				npcHandler.topic[cid] = 0
 			end
 		elseif npcHandler.topic[cid] == 14 then
-			if player:removeMoneyNpc(230) then
+			if player:removeTotalMoney(230) then
 				npcHandler:say("Set the sails!", cid)
 				doTeleportThing(cid, Position(33092, 32883, 6))
 				player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
@@ -226,7 +226,7 @@ local player = Player(cid)
 				npcHandler.topic[cid] = 0
 			end
 		elseif npcHandler.topic[cid] == 15 then
-			if player:removeMoneyNpc(260) then
+			if player:removeTotalMoney(260) then
 				npcHandler:say("Set the sails!", cid)
 				doTeleportThing(cid, Position(32527, 32784, 6))
 				player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
@@ -236,7 +236,7 @@ local player = Player(cid)
 				npcHandler.topic[cid] = 0
 			end
 		elseif npcHandler.topic[cid] == 16 then
-			if player:removeMoneyNpc(200) then
+			if player:removeTotalMoney(200) then
 				npcHandler:say("Set the sails!", cid)
 				doTeleportThing(cid, Position(32310, 32210, 6))
 				player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
@@ -246,7 +246,7 @@ local player = Player(cid)
 				npcHandler.topic[cid] = 0
 			end
 		elseif npcHandler.topic[cid] == 17 then
-			if player:removeMoneyNpc(275) then
+			if player:removeTotalMoney(275) then
 				npcHandler:say("Set the sails!", cid)
 				doTeleportThing(cid, Position(32285, 32892, 6))
 				player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
@@ -256,7 +256,7 @@ local player = Player(cid)
 				npcHandler.topic[cid] = 0
 			end
 		elseif npcHandler.topic[cid] == 18 then
-			if player:removeMoneyNpc(185) then
+			if player:removeTotalMoney(185) then
 				npcHandler:say("Set the sails!", cid)
 				doTeleportThing(cid, Position(32387, 31820, 6))
 				player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)

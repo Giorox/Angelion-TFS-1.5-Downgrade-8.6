@@ -1935,7 +1935,7 @@
 		<attribute key="rotateTo" value="2084" />
 		<attribute key="destroyTo" value="2254" />
 	</item>
-	<item id="2086" article="a" name="magical key">
+	<item id="2086" article="a" name="magical cage key">
 		<attribute key="type" value="key" />
 		<attribute key="weight" value="100" />
 	</item>

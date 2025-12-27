@@ -6,7 +6,24 @@ ropeSpots = {
 }
 
 keys = {
-	2086, 2087, 2088, 2089, 2090, 2091, 2092, 3142, 10032
+    3001, 3002, 3003, 3004, 3005, 3006, 3007, 3008, -- Draconia Black Pyramid keys
+    3012, 3015, 3033, -- Ab'dendriel Shadow Caves and Hellgate keys
+    3142, -- Skjaar key for Noble Armor Quest
+    3301, 3302, 3303, 3304, -- Bright Sword Quest keys
+    3350, -- Isle of the Kings key
+    3520, -- Carlin Graveyard, Fanfare Quest key
+    3600, 3610, 3620, 3650, 3666, 3667, -- Mintwallin and Thais Ancient Temple keys
+    3700, 3701, 3702, -- PoH and PoI keys
+    3800, 3801, 3802, 3803, -- Kazordoon keys
+    3899, -- Paradox Tower Quest key
+    3940, 3980, -- Fibula Dungeon and Deeper Fibula Quest keys
+    4001, 4009, 4022, 4023, 4033, 4037, 4055, -- Jakundarf Desert and Desert Dungeon keys
+    4501, 4502, 4503, -- Ice Islands keys
+    4600, 4601, 4602, 4603, -- Rookgaard keys
+    5000, 5010, -- Wyda's House Key and Black Knight's Villa key (Green Claw Swamp)
+    5050, -- Angelina's Cell key in Dark Cathedral
+    5100, -- PoI Maze key
+    6010 -- Demon Hell key
 }
 
 openDoors = {

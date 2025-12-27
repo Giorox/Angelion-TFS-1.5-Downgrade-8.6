@@ -42,7 +42,7 @@
 	<summons maxSummons="3">
 		<summon name="Larva" interval="1000" chance="15" max="3" />
 	</summons>
-	<voices>
+	<voices interval="2000" chance="9">
 		<voice sentence="BLOOD!" yell="1" />
 		<voice sentence="You little fool will see what you get for messing with us." yell="0" />
 		<voice sentence="Not even Julius will be able to stop us!" yell="0" />

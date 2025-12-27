@@ -27,7 +27,7 @@
 	<immunities>
 		<immunity invisible="1" />
 	</immunities>
-	<voices>
+	<voices interval="2000" chance="9">
 		<voice sentence="Grrr" yell="0" />
 	</voices>
 </monster>

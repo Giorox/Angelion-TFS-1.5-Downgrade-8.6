@@ -38,7 +38,7 @@
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
-	<voices>
+	<voices interval="2000" chance="9">
 		<voice sentence="Time for a little torturing practice!" yell="0" />
 		<voice sentence="I kept my axe sharp, especially for you!" yell="0" />
 		<voice sentence="Scream for me!" yell="0" />

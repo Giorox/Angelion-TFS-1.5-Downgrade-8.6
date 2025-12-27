@@ -58,7 +58,7 @@ local function creatureSayCallback(cid, type, msg)
 		if player:getStorageValue(Storage.OutfitQuest.GoldenBaseOutfit) < 1 and npcHandler.topic[cid] == 5 and (msgcontains(msg, "yes")) then
 			if player:getMoney() + player:getBankBalance() >= 500000 then
 				npcHandler:say("Take this armor as a token of great gratitude. Let us forever remember this day, my friend!", cid)
-				player:removeMoneyNpc(500000)
+				player:removeTotalMoney(500000)
 				player:addOutfit(1211)
 				player:addOutfit(1210)
 				player:setStorageValue(Storage.OutfitQuest.GoldenBaseOutfit, 1)
@@ -73,7 +73,7 @@ local function creatureSayCallback(cid, type, msg)
 				npcHandler.topic[cid] = 0
 				player:addOutfitAddon(1210, 2)
 				player:addOutfitAddon(1211, 2)
-				player:removeMoneyNpc(250000)
+				player:removeTotalMoney(250000)
 				player:setStorageValue(Storage.OutfitQuest.GoldenFirstAddon, 1)
 				else
 				npcHandler:say("You do not have enough money to donate that amount.", cid)
@@ -83,7 +83,7 @@ local function creatureSayCallback(cid, type, msg)
 			if player:getMoney() + player:getBankBalance() >= 250000 and player:getStorageValue(Storage.OutfitQuest.GoldenBaseOutfit) == 1  and player:getStorageValue(Storage.OutfitQuest.GoldenSecondAddon) < 1 then
 				npcHandler:say("Take this helmet as a token of great gratitude. Let us forever remember this day, my friend. ", cid)
 				npcHandler.topic[cid] = 0
-				player:removeMoneyNpc(250000)
+				player:removeTotalMoney(250000)
 				player:addOutfitAddon(1210, 1)
 				player:addOutfitAddon(1211, 1)
 				player:setStorageValue(Storage.OutfitQuest.GoldenSecondAddon, 1)

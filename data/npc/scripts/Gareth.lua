@@ -48,7 +48,7 @@ if player:getStorageValue(Storage.CultsOfTibia.MotA.Mission) < 2 then
 							"A very varuable artefact has been stolen. I open the door for you. You can find the room on the same floor as we are right now."}, cid)
 			npcHandler.topic[cid] = 3
 			playerTopic[cid] = 3
-			player:removeMoneyNpc(valor)
+			player:removeTotalMoney(valor)
 			player:addItem(28995, 1)
 			player:setStorageValue(Storage.CultsOfTibia.MotA.Mission, 2)
 		if player:getStorageValue(Storage.CultsOfTibia.Questline) < 1 then

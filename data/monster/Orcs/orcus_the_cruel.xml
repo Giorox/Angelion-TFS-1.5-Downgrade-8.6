@@ -32,7 +32,7 @@
 		<immunity invisible="1" />
 		<immunity paralyze="1" />
 	</immunities>
-	<voices>
+	<voices interval="2000" chance="9">
 		<voice sentence="Ocrus will rule!" yell="0" />
 		<voice sentence="I'll kill you slow and painful." yell="0" />
 	</voices>

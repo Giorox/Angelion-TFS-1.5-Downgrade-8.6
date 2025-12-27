@@ -18,8 +18,8 @@ local function addTravelKeyword(keyword, text, cost, destination)
 end
 
 addTravelKeyword('tibia', 'back to Tibia?', 0, Position(32235, 31674, 7))
-addTravelKeyword('vega', 'to Vega for |TRAVELCOST|?', 10, Position(32020, 31692, 7))
-addTravelKeyword('folda', 'to Folda for |TRAVELCOST|?', 10, Position(32046, 31578, 7))
+addTravelKeyword('vega', 'to Vega for |TRAVELCOST| gold?', 10, Position(32020, 31692, 7))
+addTravelKeyword('folda', 'to Folda for |TRAVELCOST| gold?', 10, Position(32046, 31578, 7))
 
 -- Basic
 keywordHandler:addKeyword({'passage'}, StdModule.say, {npcHandler = npcHandler, text = 'Where do you want to go? To {Tibia}, {Folda} or {Vega}?'})
