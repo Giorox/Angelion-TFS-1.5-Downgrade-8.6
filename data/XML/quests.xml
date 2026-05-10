@@ -133,6 +133,7 @@
          <missionstate id="2" description="You handed the looted scale to Tereban."/>
      </mission>
 </quest>
+
 <quest name="Barbarian Test Quest" startstorageid="12190" startstoragevalue="1">
      <mission name="Barbarian Test 1: Barbarian Booze" storageid="12191" startvalue="1" endvalue="3">
          <missionstate id="1" description="Talk to Sven about mead and give him a honeycomb. For each honeycomb you will be allowed 20 sips."/>
@@ -150,6 +151,7 @@
          <missionstate id="3" description="You have completed this Test! You can now be a citizen of Svargrond!"/>
      </mission>
 </quest>
+
 <quest name="Children of the Revolution" startstorageid="12300" startstoragevalue="1">
      <mission name="Prove Your Worzz!" storageid="12301" startvalue="1" endvalue="2">
          <missionstate id="1" description="Your Mission is to go to a little camp of lizards at north-east of the Dragonblaze Peaks. You have to find and deliver the Tactical map complete the mission."/>
@@ -186,6 +188,7 @@
          <missionstate id="3" description="You Survived the Waves and reported Zalamon about your success! You got a Serpent Crest as reward!"/>
      </mission>
 </quest>
+
 <quest name="Factions" startstorageid="50723" startstoragevalue="1">
      <mission name="The Marid and the Efreet - Djinn Greeting" storageid="50717" startvalue="1" endvalue="2">
          <missionstate id="1" description="Melchior told you the word &quot;Djanni'hah&quot; which can be used to talk to Djinns. Be aware that once you become an ally of one Djinn race, you cannot switch sides anymore."/>
@@ -200,6 +203,7 @@
          <missionstate id="2" description=""/>
      </mission>
 </quest>
+
 <quest name="Friends and Traders" startstorageid="12400" startstoragevalue="1">
      <mission name="The Sweaty Cyclops" storageid="12401" startvalue="1" endvalue="2">
          <missionstate id="1" description="Big Ben, the cyclops in Ab'Dendriel sends you to bring him 3 bast skirts for his woman. After this he will help you to forge different steel."/>
@@ -224,6 +228,7 @@
          <missionstate id="12" description="Chondur was surprised to hear that you had to travel through all of Tibia to have your wooden stake blessed. He offered you help with the blessing if you should need one again in the future."/>
      </mission>
 </quest>
+
 <quest name="Hot Cuisine" startstorageid="50022" startstoragevalue="1">
      <mission name="Hot Cuisine" storageid="50024" startvalue="1" endvalue="16">
          <missionstate id="1" description="You've become the apprentice of Maltre Jean Pierre. The first dish he will teach you to prepare is Rotworm Stew. Bring him the ingredients he told you."/>
@@ -244,6 +249,7 @@
          <missionstate id="16" description="You have completed all the dishes. You are now able to make all the dishes in any order you want."/>
      </mission>
 </quest>
+
 <quest name="In Service of Yalahar" startstorageid="12240" startstoragevalue="5">
      <mission name="Mission 01: Something Rotten" storageid="12241" startvalue="1" endvalue="6">
          <missionstate id="1" description="Palimuth asked you to help with some sewer malfunctions. You will need a Crowbar, there are 4 places where you need to go marked with an X on your map."/>
@@ -321,6 +327,7 @@
          <missionstate id="5" description="You have completed the Quest!"/>
      </mission>
 </quest>
+
 <quest name="Outfit and Addon Quests" startstorageid="12010" startstoragevalue="1">
 	 <mission name="Assassin Outfit" storageid="50080" startvalue="1" endvalue="9">
          <missionstate id="1" description="Get 30 beholder eyes."/>
@@ -489,6 +496,7 @@
 		 <missionstate id="4" description="You got the staff and mask addon!"/>
      </mission>
 </quest>
+
 <quest name="Sam's Old Backpack" startstorageid="330" startstoragevalue="1">
      <mission name="Dwarven Armor Quest" storageid="330" startvalue="1" endvalue="3">
          <missionstate id="1" description="Sam sends you to see Kroox in Kazordoon to get a special dwarven armor. Just tell him, his old buddy Sam is sending you."/>
@@ -496,6 +504,7 @@
          <missionstate id="3" description="You have completed Dwarven Armor Quest!"/>
      </mission>
 </quest>
+
 <quest name="Sea of Light" startstorageid="50250" startstoragevalue="1">
      <mission name="Mission 1: The Plans" storageid="50251" startvalue="1" endvalue="4">
          <missionstate id="1" description="Spectulus in Edron has sent you on a mission to find out the whereabouts of a certain inventor. A beggar in Edron seems to know more about this topic than he wants to tell."/>
@@ -515,6 +524,7 @@
          <missionstate id="4" description="It may have been the excitement or simple nervousness but as soon as Spectulus removed the crystal, it somehow slipped. Unfinishable for all eternity, the device left yet another scholar in despair."/>
      </mission>
 </quest>
+
 <quest name="Secret Service" startstorageid="12550" startstoragevalue="1">
      <mission name="Mission 1: From Thais with Love" storageid="12551" startvalue="1" endvalue="3">
          <missionstate id="1" description="Your first mission is to deliver a warning to the Venoreans. Get a fire bug from Liberty Bay and set their shipyard on fire."/>
@@ -604,6 +614,7 @@
          <missionstate id="2" description="You have reported back that you have completed your mission, you are now a Special Agent!"/>
      </mission>
 </quest>
+
 <quest name="The Ancient Tombs" startstorageid="12100" startstoragevalue="1">
      <mission name="Omruc's Treasure" storageid="12101" startvalue="1" endvalue="1">
          <missionstate id="1" description="You defeated Omruc and received a helmet adornment."/>
@@ -627,6 +638,7 @@
          <missionstate id="1" description="You defeated Rahemos and received a Helmet Piece."/>
      </mission>
 </quest>
+
 <quest name="The Ape City" startstorageid="12120" startstoragevalue="1">
      <mission name="Hairycles' Missions" storageid="12121" startvalue="1" endvalue="18">
          <missionstate id="1" description="Find whisper moss in the dworc settlement south of Port Hope and bring it back to Hairycles."/>
@@ -649,6 +661,7 @@
          <missionstate id="18" description="You successfully destroyed the monument of the snake god. As reward, you can buy sacred statues from Hairycles. If you haven't done so yet, you should also ask him for a shaman outfit."/>
      </mission>
 </quest>
+
 <quest name="The Beginning" startstorageid="50087" startstoragevalue="1">
      <mission name="The Cockroach Plague" storageid="50087" startvalue="1" endvalue="11">
          <missionstate id="1" description="You have found a fisherman called Santiago, who has a little problem. Maybe you should talk to him again to find out more."/>
@@ -684,6 +697,7 @@
          <missionstate id="8" description="You have passed the bridge to Rookgaard and have sucessfully completed the Tutorial. If you want to skip the tutorial in the future with a new character, simply say 'skip tutorial' to Santiago."/>
      </mission>
 </quest>
+
 <quest name="The Djinn War - Efreet Faction" startstorageid="51120" startstoragevalue="1">
      <mission name="Efreet Mission 1: The Supply Thief" storageid="51121" startvalue="1" endvalue="3">
          <missionstate id="1" description="Travel to Thais and keep your eyes open for something that might give you a clue on the supply thief."/>
@@ -701,6 +715,7 @@
          <missionstate id="3" description="The Efreet are very satisfied with your help. King Malor allowed you to trade with Yaman and Alesar."/>
      </mission>
 </quest>
+
 <quest name="The Djinn War - Marid Faction" startstorageid="51110" startstoragevalue="1">
      <mission name="Marid Mission 1: The Dwarven Kitchen" storageid="51111" startvalue="1" endvalue="2">
          <missionstate id="1" description="Bring a cookbook of the dwarven kitchen to Bo'ques."/>
@@ -720,6 +735,7 @@
          <missionstate id="3" description="The Marid deeply appreciate your help. King Gabel allowed you to trade with Haroun and Nah'bob."/>
      </mission>
 </quest>
+
 <quest name="The Hidden City of Beregar" startstorageid="12600" startstoragevalue="1">
      <mission name="Going Down" storageid="12603" startvalue="1" endvalue="2">
          <missionstate id="1" description="Deliver 3 Gear Wheels to Xorlosh."/>
@@ -746,6 +762,7 @@
          <missionstate id="2" description="Grombur liked the ale and you are now allowed to enter his part of the mine."/>
      </mission>
 </quest>
+
 <quest name="The Ice Islands Quest" startstorageid="12200" startstoragevalue="1">
      <mission name="Befriending the Musher" storageid="12201" startvalue="1" endvalue="3">
          <missionstate id="1" description="Find Sniffler the husky of Iskan. He should be somewhere north west of the town. He is probably marking his territory so you should be able to find his trace. Call him sniffler and feed him with meat."/>
@@ -818,6 +835,7 @@
          <missionstate id="6" description="You got the Norseman outfit and you have access to the Yakchal room deep in the Formorgar Mines."/>
      </mission>
 </quest>
+
 <quest name="The Inquisition" startstorageid="12160" startstoragevalue="2">
      <mission name="Mission 1: Interrogation" storageid="12161" startvalue="1" endvalue="7">
          <missionstate id="1" description="Your mission is to investigate the 5 guards in Thais regarding the Heretic behavior. Tim, Kulag, Grof, Miles and Walter are their names. If you do well you see a holy sprite on you."/>
@@ -864,6 +882,7 @@
          <missionstate id="5" description="You have completed The Inquisition Quest! You can now buy the Blessing of the Inquisition!"/>
      </mission>
 </quest>
+
 <quest name="The New Frontier" startstorageid="12130" startstoragevalue="1">
      <mission name="Mission 01: New Land" storageid="12131" startvalue="1" endvalue="3">
          <missionstate id="1" description="Ongulf sends you to explore the passage to the east of farmine."/>
@@ -933,6 +952,7 @@
          <missionstate id="12" description="You brought the twelfth Tome of Knowledge to Cael. He learnt something about reveals some of the power structures in Zao. Cael will now make a Dragon Throne for you after you bring him a Red Piece of Cloth. He will reward you with 5000 exper"/>
      </mission>
 </quest>
+
 <quest name="The Postman Missions" startstorageid="12450" startstoragevalue="1">
      <mission name="Mission 01 - Check Postal Routes" storageid="12450" startvalue="1" endvalue="6">
          <missionstate id="1" description="Kevin wants you to travel with Captain Bluebear to Carlin."/>
@@ -1011,6 +1031,7 @@
          <missionstate id="5" description="Arch Postman"/>
      </mission>
 </quest>
+
 <quest name="The Shattered Isles" startstorageid="12700" startstoragevalue="1">
      <mission name="A Djinn in Love" storageid="12705" startvalue="1" endvalue="5">
          <missionstate id="1" description="You need to return to Marina and ask her for a date with Ocelus."/>
@@ -1051,6 +1072,7 @@
          <missionstate id="3" description="You returned the ring to Eleonore."/>
      </mission>
 </quest>
+
 <quest name="The Thieves Guild" startstorageid="12501" startstoragevalue="1">
      <mission name="Mission 1: Ivory Poaching" storageid="12502" startvalue="1" endvalue="2">
          <missionstate id="1" description="Dorian wants you to collect 10 elephant tusks and deliver them to him."/>
@@ -1096,6 +1118,7 @@
          <missionstate id="3" description="You have reported back that you have completed the mission, Dorian now allows you to trade with Black Bert."/>
      </mission>
 </quest>
+
 <quest name="The Travelling Trader Quest" startstorageid="51201" startstoragevalue="1">
      <mission name="Mission 1: Trophy" storageid="51201" startvalue="1" endvalue="2">
          <missionstate id="1" description="Your first mission for becoming a recognized trader is to bring the traveling salesman Rashid a Deer Trophy."/>
@@ -1131,6 +1154,7 @@
          <missionstate id="1" description="Rashid has declare you as one of his recognized traders, and now you are able to trade with him anytime.."/>
      </mission>
 </quest>
+
 <quest name="The Queen of the Banshees" startstorageid="50013" startstoragevalue="1">
      <mission name="The Hidden Seal" storageid="50013" startvalue="1" endvalue="1">
          <missionstate id="1" description="You broke the first seal."/>
@@ -1154,6 +1178,7 @@
          <missionstate id="1" description="You broke all the seals."/>
      </mission>
 </quest>
+
 <quest name="The Ultimate Challenges" startstorageid="50140" startstoragevalue="1">
      <mission name="Barbarian Arena - Greenhorn Mode" storageid="50140" startvalue="1" endvalue="2">
          <missionstate id="1" description="You have to defeat all enemies in this mode."/>
@@ -1168,6 +1193,7 @@
          <missionstate id="2" description="You have defeated all enemies in this mode."/>
      </mission>
 </quest>
+
 <quest name="The White Raven Monastery" startstorageid="50200" startstoragevalue="1">
      <mission name="Access to the Isle of Kings" storageid="50201" startvalue="1" endvalue="1">
          <missionstate id="1" description="You are a friend of Dalbrect. Since you returned his family brooch he will sail you to the Isle of Kings unless you do something stupid."/>
@@ -1177,6 +1203,7 @@
          <missionstate id="2" description="You returned Fugio's Diary. Costello was very thankful about your help and gave you a blessed ankh as reward."/>
      </mission>
 </quest>
+
 <quest name="Tibia Tales" startstorageid="12650" startstoragevalue="1">
      <mission name="To Appease the Mighty" storageid="13330" startvalue="0" endvalue="3">
          <missionstate id="1" description="Kazzan sent you to talk with Ubaid and Umar to offer an appeasement treaty to the Djinn races. Talk to Umar first."/>         
@@ -1225,6 +1252,7 @@
          <missionstate id="3" description="You have completed The Ultimate Booze Quest!"/>
      </mission>
 </quest>
+
 <quest name="Unnatural Selection" startstorageid="12330" startstoragevalue="1">
      <mission name="Mission 1: Skulled" storageid="12331" startvalue="1" endvalue="3">
          <missionstate id="1" description="Your mission is to find the Holy Skull. It is in a cave in the northern orc settlement, which is located north-west on the Zao Steppe."/>
@@ -1266,6 +1294,7 @@
          <missionstate id="3" description="You brought Lazaran the beer and got a Serpent Crest as reward!"/>
      </mission>
 </quest>
+
 <quest name="What a foolish Quest" startstorageid="3900" startstoragevalue="1">
      <mission name="What a foolish Quest - Tasks of a Fool" storageid="3901" startvalue="1" endvalue="2">
          <missionstate id="1" description="Cut a flower at the Whiteflower Temple south of Thais. Then report to Bozo about your mission."/>
@@ -1328,6 +1357,7 @@
          <missionstate id="4" description="Now that you have a basic outfit, you should talk to Bozo about your missions to gain further rewards."/>
      </mission>
 </quest>
+
 <quest name="Wrath of the Emperor" startstorageid="12350" startstoragevalue="1">
      <mission name="Mission 01: Catering the Lions Den" storageid="12351" startvalue="1" endvalue="3">
          <missionstate id="1" description="You must bring Zalamon 3 nails and a piece of wood so that he can make a Marked Crate for you."/>
@@ -1395,4 +1425,5 @@
          <missionstate id="1" description="You completed this Quest!"/>
      </mission>
 </quest>
+
 </quests>
