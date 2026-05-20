@@ -1,4 +1,4 @@
-FROM ubuntu:23.04 AS build
+FROM ubuntu:24.04 AS build
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
   apt-get --assume-yes install \
@@ -22,7 +22,7 @@ RUN mkdir build
 WORKDIR /usr/src/forgottenserver/build
 RUN cmake .. && make
 
-FROM ubuntu:23.04
+FROM ubuntu:24.04
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
   apt-get --assume-yes install \

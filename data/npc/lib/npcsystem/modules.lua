@@ -57,9 +57,16 @@ if not Modules then
         -- For travel keywords
         local cost = parameters.cost
         local discount = parameters.discount
+
+        if type(discount) ~= "table" then
+            discount = {discount}
+        end
+
         if cost then
-            if discount == "postman" and player:getStorageValue(Storage.postman.Rank) == 5 then  -- Master Postman discount reduces travel cost by 10gps
+            if table.contains(discount, "postman") and player:getStorageValue(Storage.postman.Rank) == 5 then  -- Master Postman discount reduces travel cost by 10gps
                 cost = cost - 10
+            elseif table.contains(discount, "new frontier") and player:getStorageValue(Storage.TheNewFrontier.Mission03) >= 2 then
+                cost = cost - 50
             end
 
             parseInfo[TAG_TRAVELCOST] = cost
@@ -182,9 +189,16 @@ if not Modules then
          -- For travel keywords
         local cost = parameters.cost
         local discount = parameters.discount
+
+        if type(discount) ~= "table" then
+            discount = {discount}
+        end
+
         if cost then
-            if discount == "postman" and player:getStorageValue(Storage.postman.Rank) == 5 then  -- Master Postman discount reduces travel cost by 10gps
+            if table.contains(discount, "postman") and player:getStorageValue(Storage.postman.Rank) == 5 then  -- Master Postman discount reduces travel cost by 10gps
                 cost = cost - 10
+            elseif table.contains(discount, "new frontier") and player:getStorageValue(Storage.TheNewFrontier.Mission03) >= 2 then
+                cost = cost - 50
             end
         end
 
@@ -1107,8 +1121,21 @@ if not Modules then
 			return false
 		end
 
+        local playerPostmanRank = Player(cid):getStorageValue(Storage.postman.Rank)
+
 		local itemWindow = {}
 		for i = 1, #module.npcHandler.shopItems do
+            local item = module.npcHandler.shopItems[i]
+
+            -- Apply Postman discount, if necessary, to parcels and letters when BUYABLE
+            if item.buy ~= -1 and playerPostmanRank == 5 then
+                if item.id == ITEM_PARCEL then
+                    item.buy = 10
+                elseif item.id == ITEM_LETTER then
+                    item.buy = 5
+                end
+            end
+    
 			itemWindow[#itemWindow + 1] = module.npcHandler.shopItems[i]
 		end
 

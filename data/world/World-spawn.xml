@@ -75,9 +75,6 @@
 	<spawn centerx="32659" centery="31913" centerz="0" radius="2">
 		<npc name="UzonE" x="0" y="0" z="0" spawntime="90" />
 	</spawn>
-	<spawn centerx="32588" centery="31942" centerz="0" radius="2">
-		<npc name="Gewen" x="0" y="0" z="0" spawntime="90" />
-	</spawn>
 	<spawn centerx="32404" centery="32747" centerz="0" radius="4">
 		<monster name="Behemoth" x="-1" y="-3" z="0" spawntime="240" />
 		<monster name="Behemoth" x="1" y="2" z="0" spawntime="240" />

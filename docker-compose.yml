@@ -25,7 +25,7 @@ services:
       start_period: 10s
   
   tfs:
-    image: giorox/tfs-ubuntu:1.0.0
+    image: giorox/tfs-ubuntu:1.1.0
     container_name: "server_tfs"
     restart: on-failure
     tty: true
