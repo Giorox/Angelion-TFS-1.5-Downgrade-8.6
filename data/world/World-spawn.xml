@@ -1414,6 +1414,12 @@
 	<spawn centerx="32589" centery="31924" centerz="2" radius="1">
 		<monster name="Dwarf Guard" x="0" y="1" z="2" spawntime="240" />
 	</spawn>
+	<spawn centerx="32168" centery="31926" centerz="2" radius="1">
+		<monster name="Monk" x="0" y="0" z="2" spawntime="60" />
+	</spawn>
+	<spawn centerx="32179" centery="31926" centerz="2" radius="1">
+		<monster name="Monk" x="0" y="0" z="2" spawntime="60" />
+	</spawn>
 	<spawn centerx="32587" centery="31927" centerz="2" radius="1">
 		<monster name="Dwarf Soldier" x="-1" y="0" z="2" spawntime="240" />
 	</spawn>
@@ -2473,6 +2479,12 @@
 		<npc name="Humnog, The Guard" x="2" y="-2" z="3" spawntime="240" direction="2" />
 		<npc name="Emperor Kruzak" x="-1" y="0" z="3" spawntime="240" direction="2" />
 		<npc name="Hemor, The Guard" x="2" y="2" z="3" spawntime="240" direction="2" />
+	</spawn>
+	<spawn centerx="32168" centery="31926" centerz="3" radius="1">
+		<monster name="Monk" x="0" y="0" z="3" spawntime="60" />
+	</spawn>
+	<spawn centerx="32179" centery="31926" centerz="3" radius="1">
+		<monster name="Monk" x="0" y="0" z="3" spawntime="60" />
 	</spawn>
 	<spawn centerx="32587" centery="31928" centerz="3" radius="2">
 		<npc name="Tulf" x="-1" y="1" z="3" spawntime="240" direction="2" />
@@ -4275,6 +4287,12 @@
 	</spawn>
 	<spawn centerx="32569" centery="31905" centerz="4" radius="1">
 		<monster name="Dwarf" x="0" y="1" z="4" spawntime="240" />
+	</spawn>
+	<spawn centerx="32169" centery="31926" centerz="4" radius="1">
+		<monster name="Monk" x="-1" y="-1" z="4" spawntime="60" />
+	</spawn>
+	<spawn centerx="32176" centery="31926" centerz="4" radius="1">
+		<monster name="Monk" x="1" y="-1" z="4" spawntime="60" />
 	</spawn>
 	<spawn centerx="32463" centery="31948" centerz="4" radius="1">
 		<monster name="Minotaur archer" x="-1" y="1" z="4" spawntime="240" />
@@ -7514,6 +7532,21 @@
 	</spawn>
 	<spawn centerx="32631" centery="31917" centerz="5" radius="2">
 		<npc name="Sigurd" x="-1" y="2" z="5" spawntime="240" direction="2" />
+	</spawn>
+	<spawn centerx="32168" centery="31926" centerz="5" radius="1">
+		<monster name="Monk" x="0" y="1" z="5" spawntime="60" />
+	</spawn>
+	<spawn centerx="32174" centery="31926" centerz="5" radius="1">
+		<monster name="Monk" x="0" y="1" z="5" spawntime="60" />
+	</spawn>
+	<spawn centerx="32178" centery="31932" centerz="5" radius="1">
+		<monster name="Monk" x="0" y="1" z="5" spawntime="60" />
+	</spawn>
+	<spawn centerx="32168" centery="31933" centerz="5" radius="1">
+		<monster name="Monk" x="1" y="1" z="5" spawntime="60" />
+	</spawn>
+	<spawn centerx="32175" centery="31935" centerz="5" radius="1">
+		<monster name="Monk" x="1" y="1" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="32866" centery="31937" centerz="5" radius="2">
 		<monster name="Valkyrie" x="1" y="1" z="5" spawntime="240" />
