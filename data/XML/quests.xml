@@ -1,99 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quests>
-	<quest name="The Explorer Society" startstorageid="90" startstoragevalue="1">
-     <mission name="Joining the Explorers" storageid="90" startvalue="1" endvalue="4">
-         <missionstate id="1" description="The mission should be simple to fulfil. You have to seek out Uzgod in Kazordoon and get the pickaxe for us. Or just find dwarven pickaxe on your own..."/>
-         <missionstate id="2" description="Get into Dwacatra and bring family brooch back to Uzgod."/>
-         <missionstate id="3" description="Bring the pickaxe back to the Explorer Society representative."/>
-     </mission>
-     <mission name="The Ice Delivery" storageid="90" startvalue="5" endvalue="7">
-         <missionstate id="5" description="Take this ice pick and use it on a block of ice in the caves beneath Folda. Get some ice and bring it here as fast as you can. If the ice melt away, report on your ice delivery mission anyway."/>
-         <missionstate id="6" description="You have 10 minutes before the icicle defrosts. Run back to the Explorer Society representative!"/>
-     </mission>	 	 
-     <mission name="The Butterfly Hunt" storageid="90" startvalue="8" endvalue="16">
-         <missionstate id="8" description="This preparation kit will allow you to collect a PURPLE butterfly you have killed. Just use it on the fresh corpse of a PURPLE butterfly."/>
-         <missionstate id="9" description="Return the prepared butterfly to Explorer Society representative."/>
-         <missionstate id="10" description="Ask for another butterfly hunt."/>
-         <missionstate id="11" description="This preparation kit will allow you to collect a BLUE butterfly you have killed. Just use it on the fresh corpse of a BLUE butterfly."/>
-         <missionstate id="12" description="Return the prepared butterfly to Explorer Society representative."/>
-         <missionstate id="13" description="Ask for another butterfly hunt."/>
-         <missionstate id="14" description="This preparation kit will allow you to collect a RED butterfly you have killed. Just use it on the fresh corpse of a RED butterfly."/>
-         <missionstate id="15" description="Return the prepared butterfly to Explorer Society representative."/>
-     </mission>
-     <mission name="The Plant Collection" storageid="90" startvalue="17" endvalue="26">
-         <missionstate id="17" description="Take botanist's container. Use it on a jungle bells plant to collect a sample."/>
-         <missionstate id="18" description="Report about your plant collection to Explorer Society representative."/>
-         <missionstate id="19" description="Ask for plant collection when you are ready to continue."/>
-         <missionstate id="20" description="Use botanist's container on a witches cauldron to collect a sample."/>
-         <missionstate id="21" description="Report about your plant collection to Explorer Society representative."/>
-         <missionstate id="22" description="Ask for plant collection when you are ready to continue."/>
-         <missionstate id="23" description="Use this botanist's container on a giant jungle rose to obtain a sample."/>
-         <missionstate id="24" description="Report about your plant collection to Explorer Society representative."/>
-     </mission>
-     <mission name="The Lizard Urn" storageid="90" startvalue="27" endvalue="29">
-         <missionstate id="27" description="In the south-east of Tiquanda is a small settlement of the lizard people. Beneath the newly constructed temple there, the lizards hide the urn. Acquire an ancient urn which is some sort of relic to the lizard people of Tiquanda."/>
-         <missionstate id="28" description="Bring the Funeral Urn back to the Explorer Society."/>
-     </mission>
-     <mission name="The beholder Secret" storageid="90" startvalue="30" endvalue="32">
-         <missionstate id="30" description="Travel to the city of Darashia and then head north-east for the pyramid. If any documents are left, you probably find them in the catacombs beneath."/>
-         <missionstate id="31" description="Bring the Wrinkled Parchment back to the Explorer Society representative."/>
-     </mission>
-     <mission name="The Orc Powder" storageid="90" startvalue="33" endvalue="35">
-         <missionstate id="33" description="As far as we can tell, the orcs maintain some sort of training facility in some hill in the north-east of their city. There you should find lots of their war wolves and hopefully also some of the orcish powder."/>
-         <missionstate id="34" description="Bring the Strange Powder to the Explorer Society representative to complete your mission."/>
-     </mission>
-     <mission name="The Elven Poetry" storageid="90" startvalue="36" endvalue="38">
-         <missionstate id="36" description="This mission is easy but nonetheless vital. Travel Hellgate beneath Ab'Dendriel and get the book."/>
-         <missionstate id="37" description="Bring back an elven poetry book to the Explorer Society representative."/>
-     </mission>
-     <mission name="The Memory Stone" storageid="90" startvalue="39" endvalue="41">
-         <missionstate id="39" description="In the ruins of north-western Edron you should be able to find a memory stone."/>
-         <missionstate id="40" description="Bring back a memory stone to the Explorer Society representative."/>
-     </mission>
-     <mission name="The Rune Writings" storageid="90" startvalue="42" endvalue="47">
-         <missionstate id="42" description="Somewhere under the ape infested city of Banuta, one can find dungeons that were once inhabited by lizards. Look there for an atypical structure that would rather fit to Ankrahmun and its Ankrahmun Tombs. Copy the runes you will find on this"/>
-         <missionstate id="43" description="Report back to the Explorer Society representative."/>
-     </mission>
-     <mission name="The Ectoplasm" storageid="90" startvalue="45" endvalue="47">
-         <missionstate id="45" description="Take ectoplasm container and use it on a ghost that was recently slain."/>
-         <missionstate id="46" description="Return back to the Explorer Society representative with the collected ectoplasm."/>
-     </mission>
-     <mission name="The Spectral Dress" storageid="90" startvalue="48" endvalue="50">
-         <missionstate id="48" description="The queen of the banshees lives in the so called Ghostlands, south west of Carlin. Try to get a spectral dress from her."/>
-         <missionstate id="49" description="Report to the Explorer Society with the spectral dress."/>
-     </mission>
-     <mission name="The Spectral Stone" storageid="90" startvalue="51" endvalue="55">
-         <missionstate id="51" description="Please travel to our second base and ask them to mail us their latest research reports. Then return here and ask about new missions."/>
-         <missionstate id="52" description="Tell our fellow explorer that the papers are in the mail already."/>
-         <missionstate id="53" description="Take the spectral essence and use it on the strange carving in this building as well as on the corresponding tile in our second base."/>
-         <missionstate id="54" description="Good! Now use the spectral essence on the strange carving in our second base."/>
-     </mission>
-     <mission name="The Astral Portals" storageid="90" startvalue="56" endvalue="56">
-         <missionstate id="56" description="Both carvings are now charged and harmonised. You are able to travel in zero time from one base to the other, but you need to have an orichalcum pearl in your possession to use it as power source."/>
-     </mission>
-     <mission name="The Island of Dragons" storageid="90" startvalue="57" endvalue="58">
-         <missionstate id="57" description="Travel to Okolnir and try to find a proof for the existence of dragon lords there in the old times. I think old Buddel might be able to bring you there."/>
-         <missionstate id="58" description="Report back to Lurik with the dragon scale."/>
-     </mission>
-     <mission name="The Ice Music" storageid="90" startvalue="60" endvalue="62">
-         <missionstate id="60" description="There is a cave on Hrodmir, north of the southernmost barbarian camp Krimhorn. In this cave, there are a waterfall and a lot of stalagmites. Take the resonance crystal and use it on the stalagmites in the cave to record the sound of the wind"/>
-         <missionstate id="61" description="Report back to Lurik."/>
-         <missionstate id="62" description="Now you may use the Astral Bridge from Liberty Bay to Svargrond."/>
-     </mission>
-     <mission name="The Undersea Kingdom" storageid="93" startvalue="1" endvalue="3">
-         <missionstate id="1" description="Captain Max will bring you to Calassa whenever you are ready. Please try to retrieve the missing logbook which must be in one of the sunken shipwrecks."/>
-         <missionstate id="2" description="Report about your Calassa mission to Berenice in Liberty Bay."/>
-		 <missionstate id="3" description="You complete the task."/>
-     </mission>
-</quest>
-
-<quest name="An Uneasy Alliance Quest" startstorageid="45220" startstoragevalue="1">
-	<mission name="The Wrath of the Kahn" storageid="45220" startvalue="1" endvalue="3">
-         <missionstate id="1" description="Mission: kill Renegade Orc!"/>
-		 <missionstate id="2" description="Return to Curos and report your missión"/>
-		 <missionstate id="3" description="You have completed this mission!"/>
-     </mission>	 
-</quest>
 
 <quest name="A Father's Burden" startstorageid="50203" startstoragevalue="1">
      <mission name="The Birthday Presents" storageid="50205" startvalue="1" endvalue="2">
@@ -134,6 +40,17 @@
      </mission>
 </quest>
 
+<quest name="An Uneasy Alliance Quest" startstorageid="45220" startstoragevalue="1">
+	<mission name="The Wrath of the Kahn" storageid="45220" startvalue="1" endvalue="3">
+         <missionstate id="1" description="Mission: kill Renegade Orc!"/>
+		 <missionstate id="2" description="Return to Curos and report your mission"/>
+		 <missionstate id="3" description="You have completed this mission!"/>
+     </mission>
+     <mission name="The Maw of the Dragon" storageid="45221" startvalue="1" endvalue="1">
+         <missionstate id="1" description="Infiltrate the tower and destroy their scrying device. Once you have blinded our enemy, we might respect you somewhat more."/>
+     </mission>	 
+</quest>
+
 <quest name="Barbarian Test Quest" startstorageid="12190" startstoragevalue="1">
      <mission name="Barbarian Test 1: Barbarian Booze" storageid="12191" startvalue="1" endvalue="3">
          <missionstate id="1" description="Talk to Sven about mead and give him a honeycomb. For each honeycomb you will be allowed 20 sips."/>
@@ -149,6 +66,57 @@
          <missionstate id="1" description="Go to the north-west of Svargrond and find the Mammoth. Drink your three mugs of mead, stand in front of the Mammoth and push it. Just use it..."/>
          <missionstate id="2" description="You pushed the Mammoth! Go tell Sven that you pushed the Mammoth!"/>
          <missionstate id="3" description="You have completed this Test! You can now be a citizen of Svargrond!"/>
+     </mission>
+</quest>
+
+<quest name="Blood Brothers Quest" startstorageid="33500" startstoragevalue="1">
+     <mission name="Mission 1: Gaining Trust" storageid="33501" startvalue="1" endvalue="2">
+         <missionstate id="1" description="Julius told you that a Garlic Necklace wasn't enough proof that you are against vampires."/>
+         <missionstate id="2" description="You have proven you are against vampires by eating a loaf of Garlic Bread."/>
+     </mission>
+     <mission name="Mission 2: Bad Eggs" storageid="33502" startvalue="1" endvalue="6">
+         <missionstate id="1" description="Julius wants you to find possible vampire suspects by tricking the citizens of Yalahar into easting Garlic Cookies."/>
+         <missionstate id="2" description="You have tested Serafin"/>
+         <missionstate id="3" description="You have tested Lisander"/>
+         <missionstate id="4" description="You have tested Ortheus"/>
+         <missionstate id="5" description="You have tested Maris"/>
+         <missionstate id="6" description="You have tested Armenius"/>
+     </mission>
+     <mission name="Mission 3: His True Face" storageid="33503" startvalue="1" endvalue="2">
+         <missionstate id="1" description="Julius wants you to cast the spell &quot;alori mort&quot; on the suspected vampire NPCs."/>
+         <missionstate id="2" description="You have cast the spell on all possible suspects"/>
+     </mission>
+     <mission name="Mission 4: The Dark Lands" storageid="33504" startvalue="1" endvalue="2">
+         <missionstate id="1" description="Julius wants you to go to to Vengoth to map out strange spots"/>
+         <missionstate id="2" description="You have mapped out all spots, go to Julius and ask for another missions"/>
+     </mission>
+     <mission name="Mission 5: Into the Castle" storageid="33505" startvalue="1" endvalue="4">
+         <missionstate id="1" description="Julius needs you to find an ancient relic called the &quot;blood crystal&quot;. Ask the citizens of Yalahar about it"/>
+         <missionstate id="2" description="You have found the &quot;blood crystal&quot; for Julius"/>
+         <missionstate id="3" description="Julius said that you have to charge the &quot;blood crystal&quot; with energy from someone who has lost everything."/>
+         <missionstate id="4" description="You've entered Vengoth castle by using the strange markings and the crystal. Go back to Julius."/>
+     </mission>
+     <mission name="Mission 6: A Black History" storageid="33506" startvalue="1" endvalue="4">
+         <missionstate id="1" description="Julius wants you to investigate the inside of Vengoth castle and bring back a book about Arthei, the vampire lord."/>
+         <missionstate id="2" description="You have found the book about Arthei, go back to Julius."/>
+         <missionstate id="3" description="Julius wants you to find and bring back any other missing diary pages you might find."/>
+         <missionstate id="4" description="You've given Julius all necessary pages so that he can piece the story together."/>
+     </mission>
+     <mission name="Mission 7: Boreth" storageid="33507" startvalue="1" endvalue="2">
+         <missionstate id="1" description="Julius wants you to kill the first of the vampire lord brothers, Boreth."/>
+         <missionstate id="2" description="You have killed Boreth, take his dust back to Julius."/>
+     </mission>
+    <mission name="Mission 8: Lersatio" storageid="33508" startvalue="1" endvalue="2">
+         <missionstate id="1" description="Julius wants you to kill the second of the vampire lord brothers, Lersatio."/>
+         <missionstate id="2" description="You have killed Lersatio, take his dust back to Julius."/>
+     </mission>
+     <mission name="Mission 9: Marziel" storageid="33509" startvalue="1" endvalue="2">
+         <missionstate id="1" description="Julius wants you to kill the third of the vampire lord brothers, Marziel."/>
+         <missionstate id="2" description="You have killed Marziel, take his dust back to Julius."/>
+     </mission>
+     <mission name="Mission 10: Arthei" storageid="33510" startvalue="1" endvalue="2">
+         <missionstate id="1" description="Julius wants you to kill the fourth and last of the vampire lord brothers, Arthei."/>
+         <missionstate id="2" description="You have killed Arthei, take his dust back to Julius."/>
      </mission>
 </quest>
 
@@ -189,43 +157,15 @@
      </mission>
 </quest>
 
-<quest name="Factions" startstorageid="50723" startstoragevalue="1">
-     <mission name="The Marid and the Efreet - Djinn Greeting" storageid="50717" startvalue="1" endvalue="2">
-         <missionstate id="1" description="Melchior told you the word &quot;Djanni'hah&quot; which can be used to talk to Djinns. Be aware that once you become an ally of one Djinn race, you cannot switch sides anymore."/>
-         <missionstate id="2" description=""/>
+<quest name="Elemental Spheres Quest" startstorageid="33600" startstoragevalue="1">
+     <mission name="Elemental Spheres" storageid="33601" startvalue="1" endvalue="2">
+         <missionstate id="1" description="Arkulius explained how you'll have to go into the elemental spheres and destroy the monsters there"/>
+         <missionstate id="2" description="You have defeated your assigned Elemental Overlord"/>
      </mission>
-     <mission name="The Marid and the Efreet - Marid Faction" storageid="50718" startvalue="1" endvalue="2">
-         <missionstate id="1" description="You have joined the Marid. These friendly, blue Djinns are honest and fair allies. You have pledged eternal loyalty to King Gabel and may enter Asha'daramai freely. Djanni'hah!"/>
-         <missionstate id="2" description=""/>
-     </mission>
-     <mission name="The Efreet and the Efreet - Efreet Faction" storageid="50719" startvalue="1" endvalue="2">
-         <missionstate id="1" description="You have joined the Efreet. These evil, green Djinns are always up to mischievous pranks. You have pledged eternal loyalty to King Malor and may enter Mal'ouquah freely. Djanni'hah!"/>
-         <missionstate id="2" description=""/>
-     </mission>
-</quest>
-
-<quest name="Friends and Traders" startstorageid="12400" startstoragevalue="1">
-     <mission name="The Sweaty Cyclops" storageid="12401" startvalue="1" endvalue="2">
-         <missionstate id="1" description="Big Ben, the cyclops in Ab'Dendriel sends you to bring him 3 bast skirts for his woman. After this he will help you to forge different steel."/>
-         <missionstate id="2" description="Big Ben, the cyclops in Ab'Dendriel will help you to forge different steel now. Just ask him if you need something."/>
-     </mission>
-     <mission name="The Mermaid Marina" storageid="12402" startvalue="1" endvalue="2">
-         <missionstate id="1" description="Marina, the mermaid north of Sabrehaven sends you to bring her 50 honeycombs. After this she will help you create spool of yarn."/>
-         <missionstate id="2" description="Marina, the mermaid north of Sabrehaven will help you to create a spool of yarn from 10 pieces of spider silk. Just ask her if you need something."/>
-     </mission>
-     <mission name="The Blessed Stake" storageid="12403" startvalue="1" endvalue="12">
-         <missionstate id="1" description="Quentin told you about an old prayer which can bind holy energy to an object. Each of its ten lines has to be recited by a different priest though. Bring Quentin a wooden stake from Gamon to start."/>
-         <missionstate id="2" description="You received Quentin's prayer: &quot;Light shall be near - and darkness afar&quot;. Now, bring your stake to Tibra in the Carlin church for the next line of the prayer."/>
-         <missionstate id="3" description="You received Tibra's prayer: &quot;Hope may fill your heart - doubt shall be banned&quot;. Now, bring your stake to Maealil in the Elven settlement for the next line of the prayer."/>
-         <missionstate id="4" description="You received Maealil's prayer: &quot;Peace may fill your soul - evil shall be cleansed&quot;. Now, bring your stake to Yberius in the Venore temple for the next line of the prayer."/>
-         <missionstate id="5" description="You received Yberius' prayer: &quot;Protection will be granted - from dangers at hand&quot;. Now, bring your stake to Isimov in the dwarven settlement for the next line of the prayer."/>
-         <missionstate id="6" description="You received Isimov's prayer: &quot;Unclean spirits shall be repelled&quot;. Now, bring your stake to Amanda in Edron for the next line of the prayer."/>
-         <missionstate id="7" description="You received Amanda's prayer: &quot;Wicked curses shall be broken&quot;. Now, bring your stake to Kasmir in Darashia for the next line of the prayer."/>
-         <missionstate id="8" description="You received Kasmir's prayer: &quot;Let there be honour and humility&quot;. Now, bring your stake to Rahkem in Ankrahmun for the next line of the prayer."/>
-         <missionstate id="9" description="You received Rahkem's prayer: &quot;Let there be power and compassion&quot;. Now, bring your stake to Brewster in Port Hope for the next line of the prayer."/>
-         <missionstate id="10" description="You received Brewster's prayer: &quot;Your hand shall be guided - your feet shall walk in harmony&quot;. Now, bring your stake to Tyrias in Liberty Bay for the next line of the prayer."/>
-         <missionstate id="11" description="You received Tyrias' prayer: &quot;Your mind shall be a vessel for joy, light and wisdom&quot;. He wasn't exactly happy though and said that if you need some mumbo jumbo again, you should rather go to Chondur."/>
-         <missionstate id="12" description="Chondur was surprised to hear that you had to travel through all of Tibia to have your wooden stake blessed. He offered you help with the blessing if you should need one again in the future."/>
+     <mission name="Lord of the Elements" storageid="33602" startvalue="1" endvalue="3">
+         <missionstate id="1" description="Arkulius has adjusted the machine to bring you to where the Lord of the Elements can be summoned, kill him and bring back a piece of neutral matter."/>
+         <missionstate id="2" description="You have slain the Lord of the Elements and gotten a piece of neutral matter from it's corpse, bring it back to Arkulius"/>
+         <missionstate id="3" description="Arkulius has thanked you for your help and will now reward you handsomely for each piece of neutral matter you bring him!"/>
      </mission>
 </quest>
 
@@ -325,6 +265,46 @@
          <missionstate id="3" description="Report back to whichever principal you have chosen to help and you will receive Yalaharian Outfits."/>
          <missionstate id="4" description="You got the access to the reward room. Choose carefully which reward you pick as you can only take one item."/>
          <missionstate id="5" description="You have completed the Quest!"/>
+     </mission>
+</quest>
+
+<quest name="Factions" startstorageid="50723" startstoragevalue="1">
+     <mission name="The Marid and the Efreet - Djinn Greeting" storageid="50717" startvalue="1" endvalue="2">
+         <missionstate id="1" description="Melchior told you the word &quot;Djanni'hah&quot; which can be used to talk to Djinns. Be aware that once you become an ally of one Djinn race, you cannot switch sides anymore."/>
+         <missionstate id="2" description=""/>
+     </mission>
+     <mission name="The Marid and the Efreet - Marid Faction" storageid="50718" startvalue="1" endvalue="2">
+         <missionstate id="1" description="You have joined the Marid. These friendly, blue Djinns are honest and fair allies. You have pledged eternal loyalty to King Gabel and may enter Asha'daramai freely. Djanni'hah!"/>
+         <missionstate id="2" description=""/>
+     </mission>
+     <mission name="The Efreet and the Efreet - Efreet Faction" storageid="50719" startvalue="1" endvalue="2">
+         <missionstate id="1" description="You have joined the Efreet. These evil, green Djinns are always up to mischievous pranks. You have pledged eternal loyalty to King Malor and may enter Mal'ouquah freely. Djanni'hah!"/>
+         <missionstate id="2" description=""/>
+     </mission>
+</quest>
+
+<quest name="Friends and Traders" startstorageid="12400" startstoragevalue="1">
+     <mission name="The Sweaty Cyclops" storageid="12401" startvalue="1" endvalue="2">
+         <missionstate id="1" description="Big Ben, the cyclops in Ab'Dendriel sends you to bring him 3 bast skirts for his woman. After this he will help you to forge different steel."/>
+         <missionstate id="2" description="Big Ben, the cyclops in Ab'Dendriel will help you to forge different steel now. Just ask him if you need something."/>
+     </mission>
+     <mission name="The Mermaid Marina" storageid="12402" startvalue="1" endvalue="2">
+         <missionstate id="1" description="Marina, the mermaid north of Sabrehaven sends you to bring her 50 honeycombs. After this she will help you create spool of yarn."/>
+         <missionstate id="2" description="Marina, the mermaid north of Sabrehaven will help you to create a spool of yarn from 10 pieces of spider silk. Just ask her if you need something."/>
+     </mission>
+     <mission name="The Blessed Stake" storageid="12403" startvalue="1" endvalue="12">
+         <missionstate id="1" description="Quentin told you about an old prayer which can bind holy energy to an object. Each of its ten lines has to be recited by a different priest though. Bring Quentin a wooden stake from Gamon to start."/>
+         <missionstate id="2" description="You received Quentin's prayer: &quot;Light shall be near - and darkness afar&quot;. Now, bring your stake to Tibra in the Carlin church for the next line of the prayer."/>
+         <missionstate id="3" description="You received Tibra's prayer: &quot;Hope may fill your heart - doubt shall be banned&quot;. Now, bring your stake to Maealil in the Elven settlement for the next line of the prayer."/>
+         <missionstate id="4" description="You received Maealil's prayer: &quot;Peace may fill your soul - evil shall be cleansed&quot;. Now, bring your stake to Yberius in the Venore temple for the next line of the prayer."/>
+         <missionstate id="5" description="You received Yberius' prayer: &quot;Protection will be granted - from dangers at hand&quot;. Now, bring your stake to Isimov in the dwarven settlement for the next line of the prayer."/>
+         <missionstate id="6" description="You received Isimov's prayer: &quot;Unclean spirits shall be repelled&quot;. Now, bring your stake to Amanda in Edron for the next line of the prayer."/>
+         <missionstate id="7" description="You received Amanda's prayer: &quot;Wicked curses shall be broken&quot;. Now, bring your stake to Kasmir in Darashia for the next line of the prayer."/>
+         <missionstate id="8" description="You received Kasmir's prayer: &quot;Let there be honour and humility&quot;. Now, bring your stake to Rahkem in Ankrahmun for the next line of the prayer."/>
+         <missionstate id="9" description="You received Rahkem's prayer: &quot;Let there be power and compassion&quot;. Now, bring your stake to Brewster in Port Hope for the next line of the prayer."/>
+         <missionstate id="10" description="You received Brewster's prayer: &quot;Your hand shall be guided - your feet shall walk in harmony&quot;. Now, bring your stake to Tyrias in Liberty Bay for the next line of the prayer."/>
+         <missionstate id="11" description="You received Tyrias' prayer: &quot;Your mind shall be a vessel for joy, light and wisdom&quot;. He wasn't exactly happy though and said that if you need some mumbo jumbo again, you should rather go to Chondur."/>
+         <missionstate id="12" description="Chondur was surprised to hear that you had to travel through all of Tibia to have your wooden stake blessed. He offered you help with the blessing if you should need one again in the future."/>
      </mission>
 </quest>
 
@@ -1250,6 +1230,93 @@
          <missionstate id="1" description="Boozer in Vernore asked you to bring him some special dwarven brown ale. You may find some in the brewery in Kazordoon."/>
          <missionstate id="2" description="You found the special dwarven brown ale. Bring it to Boozer in Vernore."/>
          <missionstate id="3" description="You have completed The Ultimate Booze Quest!"/>
+     </mission>
+</quest>
+
+	<quest name="The Explorer Society" startstorageid="90" startstoragevalue="1">
+     <mission name="Joining the Explorers" storageid="90" startvalue="1" endvalue="4">
+         <missionstate id="1" description="The mission should be simple to fulfil. You have to seek out Uzgod in Kazordoon and get the pickaxe for us. Or just find dwarven pickaxe on your own..."/>
+         <missionstate id="2" description="Get into Dwacatra and bring family brooch back to Uzgod."/>
+         <missionstate id="3" description="Bring the pickaxe back to the Explorer Society representative."/>
+     </mission>
+     <mission name="The Ice Delivery" storageid="90" startvalue="5" endvalue="7">
+         <missionstate id="5" description="Take this ice pick and use it on a block of ice in the caves beneath Folda. Get some ice and bring it here as fast as you can. If the ice melt away, report on your ice delivery mission anyway."/>
+         <missionstate id="6" description="You have 10 minutes before the icicle defrosts. Run back to the Explorer Society representative!"/>
+     </mission>	 	 
+     <mission name="The Butterfly Hunt" storageid="90" startvalue="8" endvalue="16">
+         <missionstate id="8" description="This preparation kit will allow you to collect a PURPLE butterfly you have killed. Just use it on the fresh corpse of a PURPLE butterfly."/>
+         <missionstate id="9" description="Return the prepared butterfly to Explorer Society representative."/>
+         <missionstate id="10" description="Ask for another butterfly hunt."/>
+         <missionstate id="11" description="This preparation kit will allow you to collect a BLUE butterfly you have killed. Just use it on the fresh corpse of a BLUE butterfly."/>
+         <missionstate id="12" description="Return the prepared butterfly to Explorer Society representative."/>
+         <missionstate id="13" description="Ask for another butterfly hunt."/>
+         <missionstate id="14" description="This preparation kit will allow you to collect a RED butterfly you have killed. Just use it on the fresh corpse of a RED butterfly."/>
+         <missionstate id="15" description="Return the prepared butterfly to Explorer Society representative."/>
+     </mission>
+     <mission name="The Plant Collection" storageid="90" startvalue="17" endvalue="26">
+         <missionstate id="17" description="Take botanist's container. Use it on a jungle bells plant to collect a sample."/>
+         <missionstate id="18" description="Report about your plant collection to Explorer Society representative."/>
+         <missionstate id="19" description="Ask for plant collection when you are ready to continue."/>
+         <missionstate id="20" description="Use botanist's container on a witches cauldron to collect a sample."/>
+         <missionstate id="21" description="Report about your plant collection to Explorer Society representative."/>
+         <missionstate id="22" description="Ask for plant collection when you are ready to continue."/>
+         <missionstate id="23" description="Use this botanist's container on a giant jungle rose to obtain a sample."/>
+         <missionstate id="24" description="Report about your plant collection to Explorer Society representative."/>
+     </mission>
+     <mission name="The Lizard Urn" storageid="90" startvalue="27" endvalue="29">
+         <missionstate id="27" description="In the south-east of Tiquanda is a small settlement of the lizard people. Beneath the newly constructed temple there, the lizards hide the urn. Acquire an ancient urn which is some sort of relic to the lizard people of Tiquanda."/>
+         <missionstate id="28" description="Bring the Funeral Urn back to the Explorer Society."/>
+     </mission>
+     <mission name="The beholder Secret" storageid="90" startvalue="30" endvalue="32">
+         <missionstate id="30" description="Travel to the city of Darashia and then head north-east for the pyramid. If any documents are left, you probably find them in the catacombs beneath."/>
+         <missionstate id="31" description="Bring the Wrinkled Parchment back to the Explorer Society representative."/>
+     </mission>
+     <mission name="The Orc Powder" storageid="90" startvalue="33" endvalue="35">
+         <missionstate id="33" description="As far as we can tell, the orcs maintain some sort of training facility in some hill in the north-east of their city. There you should find lots of their war wolves and hopefully also some of the orcish powder."/>
+         <missionstate id="34" description="Bring the Strange Powder to the Explorer Society representative to complete your mission."/>
+     </mission>
+     <mission name="The Elven Poetry" storageid="90" startvalue="36" endvalue="38">
+         <missionstate id="36" description="This mission is easy but nonetheless vital. Travel Hellgate beneath Ab'Dendriel and get the book."/>
+         <missionstate id="37" description="Bring back an elven poetry book to the Explorer Society representative."/>
+     </mission>
+     <mission name="The Memory Stone" storageid="90" startvalue="39" endvalue="41">
+         <missionstate id="39" description="In the ruins of north-western Edron you should be able to find a memory stone."/>
+         <missionstate id="40" description="Bring back a memory stone to the Explorer Society representative."/>
+     </mission>
+     <mission name="The Rune Writings" storageid="90" startvalue="42" endvalue="47">
+         <missionstate id="42" description="Somewhere under the ape infested city of Banuta, one can find dungeons that were once inhabited by lizards. Look there for an atypical structure that would rather fit to Ankrahmun and its Ankrahmun Tombs. Copy the runes you will find on this"/>
+         <missionstate id="43" description="Report back to the Explorer Society representative."/>
+     </mission>
+     <mission name="The Ectoplasm" storageid="90" startvalue="45" endvalue="47">
+         <missionstate id="45" description="Take ectoplasm container and use it on a ghost that was recently slain."/>
+         <missionstate id="46" description="Return back to the Explorer Society representative with the collected ectoplasm."/>
+     </mission>
+     <mission name="The Spectral Dress" storageid="90" startvalue="48" endvalue="50">
+         <missionstate id="48" description="The queen of the banshees lives in the so called Ghostlands, south west of Carlin. Try to get a spectral dress from her."/>
+         <missionstate id="49" description="Report to the Explorer Society with the spectral dress."/>
+     </mission>
+     <mission name="The Spectral Stone" storageid="90" startvalue="51" endvalue="55">
+         <missionstate id="51" description="Please travel to our second base and ask them to mail us their latest research reports. Then return here and ask about new missions."/>
+         <missionstate id="52" description="Tell our fellow explorer that the papers are in the mail already."/>
+         <missionstate id="53" description="Take the spectral essence and use it on the strange carving in this building as well as on the corresponding tile in our second base."/>
+         <missionstate id="54" description="Good! Now use the spectral essence on the strange carving in our second base."/>
+     </mission>
+     <mission name="The Astral Portals" storageid="90" startvalue="56" endvalue="56">
+         <missionstate id="56" description="Both carvings are now charged and harmonised. You are able to travel in zero time from one base to the other, but you need to have an orichalcum pearl in your possession to use it as power source."/>
+     </mission>
+     <mission name="The Island of Dragons" storageid="90" startvalue="57" endvalue="58">
+         <missionstate id="57" description="Travel to Okolnir and try to find a proof for the existence of dragon lords there in the old times. I think old Buddel might be able to bring you there."/>
+         <missionstate id="58" description="Report back to Lurik with the dragon scale."/>
+     </mission>
+     <mission name="The Ice Music" storageid="90" startvalue="60" endvalue="62">
+         <missionstate id="60" description="There is a cave on Hrodmir, north of the southernmost barbarian camp Krimhorn. In this cave, there are a waterfall and a lot of stalagmites. Take the resonance crystal and use it on the stalagmites in the cave to record the sound of the wind"/>
+         <missionstate id="61" description="Report back to Lurik."/>
+         <missionstate id="62" description="Now you may use the Astral Bridge from Liberty Bay to Svargrond."/>
+     </mission>
+     <mission name="The Undersea Kingdom" storageid="93" startvalue="1" endvalue="3">
+         <missionstate id="1" description="Captain Max will bring you to Calassa whenever you are ready. Please try to retrieve the missing logbook which must be in one of the sunken shipwrecks."/>
+         <missionstate id="2" description="Report about your Calassa mission to Berenice in Liberty Bay."/>
+		 <missionstate id="3" description="You complete the task."/>
      </mission>
 </quest>
 

@@ -26,7 +26,7 @@
 			<attribute key="areaEffect" value="poison" />
 		</attack>
 		<attack name="lifedrain" interval="1000" chance="17" range="7" target="1" min="-423" max="-980">
-			<attribute key="shootEffect" value="redshimmer" />
+			<attribute key="areaEffect" value="redshimmer" />
 		</attack>
 		<attack name="manadrain" interval="1000" chance="25" target="0" radius="3" min="-45" max="-90">
 			<attribute key="areaEffect" value="redshimmer" />
