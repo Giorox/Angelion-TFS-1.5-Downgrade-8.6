@@ -78,6 +78,10 @@ if not Modules then
 			npcHandler.keywordHandler:moveUp(cid, parameters.moveup)
 		end
 
+        if parameters.ungreet then
+            npcHandler:releaseFocus(cid)
+        end
+
 		return true
 	end
 

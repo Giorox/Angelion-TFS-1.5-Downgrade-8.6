@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Hoaxette" script="Hoaxette.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="270" head="78" body="80" legs="32" feet="98" addons="1" />
+    <parameters>
+        <parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			Present (Explosive), 9074, 199;
+			Spellwand, 7735, 299;
+			Yellow Pillow (Supersoft), 8072, 299;" />
+        </parameters>
+</npc>

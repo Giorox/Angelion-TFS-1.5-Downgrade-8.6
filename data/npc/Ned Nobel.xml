@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Ned Nobel" script="Ned Nobel.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="132" head="82" body="66" legs="96" feet="98" addons="3" />
+	<parameters>
+		<parameter key="message_greet" value="Hi fellow, do you need rockits for the upcoming turn of the year? Just let me know if you want to {trade}." />
+		<parameter key="message_farewell" value="I wish you a prosperous new year |PLAYERNAME|!" />
+		<parameter key="message_walkaway" value="Bye, bye." />
+		<parameter key="message_onsendtrade" value="Here, take a look. But don't light them here in my pocket! I wish you a Happy New Year!" />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="Fireworks Rocket,6576,50" />
+	</parameters>
+</npc>

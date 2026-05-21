@@ -36,7 +36,7 @@
 		<defense name="healing" interval="1000" chance="50" min="416" max="625">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>
-		defense name="invisible" interval="2000" chance="10" duration="5000">
+		<defense name="invisible" interval="2000" chance="10" duration="5000">
 			<attribute key="areaEffect" value="redshimmer" />
 		</defense>
 		<defense name="speed" interval="2000" chance="15" speedchange="290" duration="5000">
