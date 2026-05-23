@@ -75,7 +75,7 @@
 		<item name="Studded Helmet" chance="9500" />
 		<item name="Studded Armor" chance="7000" />
 		<item name="Studded Shield" chance="1200" />
-		<item name="Surprise Bag (Blue)" chance="500" />
-		<item name="Surprise Bag (Red)" chance="500" />
+		<item name="Surprise Bag" id="6570" chance="500" />
+		<item name="Surprise Bag" id="6571" chance="500" />
 	</loot>
 </monster>

@@ -11,7 +11,7 @@ services:
       - MYSQL_DATABASE=tfs
       - MYSQL_USER=tfs
       - MYSQL_PASSWORD=tfs
-      - MYSQL_ALLOW_EMPTY_PASSWORD=true 
+      - MYSQL_ALLOW_EMPTY_PASSWORD=true
     volumes:
       - ./db-volume:/var/lib/mysql  # Where data is store in MySQL
       - ./schema:/docker-entrypoint-initdb.d  # Where SQL files shoulds be stored to import a schema
@@ -29,6 +29,8 @@ services:
     container_name: "server_tfs"
     restart: on-failure
     tty: true
+    environment:
+      TZ: "America/Sao_Paulo"
     ports:
       - "7171:7171"
       - "7172:7172"

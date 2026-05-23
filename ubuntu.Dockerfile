@@ -26,6 +26,7 @@ FROM ubuntu:24.04
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
   apt-get --assume-yes install \
+  tzdata \
   libluajit-5.1-dev \
   libmysqlclient-dev \
   libboost-system-dev \

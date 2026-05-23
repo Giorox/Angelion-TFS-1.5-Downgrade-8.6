@@ -45,13 +45,13 @@
 	</voices>
 	<loot>
 		<item name="Lamp" id="2044" chance="6666" />
-		<item name="Cold Coin" countmax="12" chance="100000" />
+		<item name="Gold Coin" countmax="12" chance="100000" />
 		<item name="Battle Axe" chance="5000" />
 		<item name="Halberd" chance="10000" />
 		<item name="Axe" chance="10000" />
 		<item name="War Hammer" chance="5000" />
 		<item name="Ham" chance="50000" />
-		<item name="Surprise Bag (Blue)" id="6570" chance="5538" />
-		<item name="Surprise Bag (Red)" id="6571" chance="1538" />
+		<item name="Surprise Bag" id="6570" chance="5538" />
+		<item name="Surprise Bag" id="6571" chance="1538" />
 	</loot>
 </monster>

@@ -42,7 +42,6 @@
 	<raid name="Priestess Darashia" file="darashia/priestesses.xml" interval2="500" margin="70" />
 	<raid name="NecroLich DeeperCatacombs" file="darashia/NecroLichDeeperCatacombs.xml" interval2="500" margin="70"/>
 	<raid name="Zombies Darashia" file="darashia/zombies.xml" interval2="500" margin="70" />
-	<raid name="MutatedPumpkin" file="darashia/MutatedPumpkin.xml" interval2="500" margin="70"/>
 
 	<!-- Edron -->
 	<raid name="Badger Edron" file="edron/BadgerEdron.xml" interval2="500" margin="90"/>
