@@ -12727,12 +12727,6 @@
 		<monster name="Sibang" x="4" y="1" z="6" spawntime="240" />
 		<monster name="Merlkin" x="-3" y="3" z="6" spawntime="240" />
 	</spawn>
-	<spawn centerx="33073" centery="32527" centerz="6" radius="1">
-		<npc name="Jean Pierre" x="-1" y="0" z="6" spawntime="240" direction="2" />
-	</spawn>
-	<spawn centerx="33084" centery="32528" centerz="6" radius="1">
-		<npc name="Walmart" x="0" y="0" z="6" spawntime="60" />
-	</spawn>
 	<spawn centerx="33092" centery="32529" centerz="6" radius="4">
 		<monster name="Lion" x="4" y="-2" z="6" spawntime="240" />
 		<monster name="Blue Djinn" x="4" y="2" z="6" spawntime="240" />
@@ -25416,9 +25410,6 @@
 		<monster name="Elf" x="-2" y="1" z="7" spawntime="240" />
 		<monster name="Elf Scout" x="2" y="1" z="7" spawntime="240" />
 	</spawn>
-	<spawn centerx="32271" centery="32052" centerz="7" radius="2">
-		<npc name="Valentina" x="0" y="0" z="7" spawntime="90" />
-	</spawn>
 	<spawn centerx="33335" centery="32052" centerz="7" radius="2">
 		<monster name="Squirrel" x="-1" y="0" z="7" spawntime="240" />
 	</spawn>
@@ -32937,9 +32928,6 @@
 	</spawn>
 	<spawn centerx="33261" centery="32825" centerz="7" radius="4">
 		<monster name="Nomad" x="-3" y="-1" z="7" spawntime="240" />
-	</spawn>
-	<spawn centerx="32534" centery="32827" centerz="7" radius="1">
-		<npc name="Rosemarie" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="32984" centery="32827" centerz="7" radius="2">
 		<monster name="Spit Nettle" x="1" y="0" z="7" spawntime="240" />

@@ -26,7 +26,7 @@
 		</attack>
 		<attack name="fire" interval="1000" chance="34" range="7" radius="3" target="1" min="-20" max="-20">
 			<attribute key="shootEffect" value="fire" />
-			<attribute key="areaEffect" value="redfireworks" />
+			<attribute key="areaEffect" value="redfirework" />
 		</attack>
 		<attack name="outfit" interval="1000" chance="2" radius="4" target="0" monster="primitive" duration="10000">
 			<attribute key="areaEffect" value="giftwraps" />

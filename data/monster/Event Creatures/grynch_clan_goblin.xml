@@ -77,7 +77,7 @@
 		<item name="Die" chance="130" />
 		<item name="Watch" chance="130" />
 		<item name="Magic Light Wand" chance="120" />
-		<item name="Picture (Landscape)" chance="110" />
+		<item name="Picture" id="1852" chance="110" />
 		<item name="Cream Cake" chance="110" />
 		<item name="Blank Rune" chance="110" />
 		<item name="Flower Bowl" chance="100" />
