@@ -70,7 +70,6 @@ DryadRaidConfig = {
 SeasonalEvents = {
     -- Thais Primitive Raid during Tibia's Anniversary month
     ThaisPrimitiveRaid = {
-        schedule = "Random",
         period = {
             startMonth = 1,  -- January
             startDay = 15,
@@ -118,7 +117,6 @@ SeasonalEvents = {
     },
     -- Spawn Stan, NPC who sells costume bags, in Venore
     MasqueradeDay = {
-        schedule = "Always",
         period = {
             startMonth = 2,  -- February
             startDay = 1,
@@ -135,7 +133,6 @@ SeasonalEvents = {
     },
     -- Spawn Valentina, NPC who sells Valentine's Day items, in Greenshore
     ValentinesDay = {
-        schedule = "Always",
         period = {
             startMonth = 2,  -- February
             startDay = 14,
@@ -152,7 +149,6 @@ SeasonalEvents = {
     },
     -- The Ruthless Herald raid during April Fools in PoH
     PoHAprilFoolsRaid = {
-        schedule = "Random",
         period = {
             startMonth = 4,  -- April
             startDay = 1,
@@ -187,7 +183,6 @@ SeasonalEvents = {
     },
     -- Spawn Hoaxette, NPC who trades pieces of Jester Dolls, in Thais
     AprilFoolsDay = {
-        schedule = "Always",
         period = {
             startMonth = 4,  -- April
             startDay = 1,
@@ -203,7 +198,6 @@ SeasonalEvents = {
         }
     },
     UndeadJesterRaid = {
-        schedule = "Random",
         period = {
             startMonth = 4,  -- April
             startDay = 1,
@@ -224,7 +218,6 @@ SeasonalEvents = {
         }
     },
     HalloweenHareRaid = {
-        schedule = "Random",
         period = {
             startMonth = 10,  -- October
             startDay = 31,
@@ -254,7 +247,6 @@ SeasonalEvents = {
         }
     },
     MutatedPumpkinRaid = {
-        schedule = "Random",
         period = {
             startMonth = 10,  -- October
             startDay = 31,
@@ -274,7 +266,6 @@ SeasonalEvents = {
         }
     },
     Christmas = {
-        schedule = "Always",
         period = {
             startMonth = 12,  -- December
             startDay = 12,
@@ -302,7 +293,6 @@ SeasonalEvents = {
         }
     },
     GrynchClanGoblinRaid = {
-        schedule = "Random",
         period = {
             startMonth = 12,  -- December
             startDay = 20,
@@ -337,7 +327,6 @@ SeasonalEvents = {
         }
     },
     FlowerMonth = {
-        schedule = "Always",
         period = {
             startMonth = 6,  -- June
             startDay = 1,
@@ -353,7 +342,6 @@ SeasonalEvents = {
         }
     },
     DryadRaid = {
-        schedule = "Random",
         period = {
             startMonth = 6,  -- June
             startDay = 1,
@@ -362,6 +350,7 @@ SeasonalEvents = {
         },
         type = "globalraid",  -- Global Raids are raids that can happen in different cities, at random
         content = {
+            positionRef = DryadRaidConfig,
             areaSpawns = {  -- Where the area spawns will happen and when and what message will be sent
                 {
                     monsters = {
@@ -397,7 +386,6 @@ SeasonalEvents = {
         }
     },
     HotCuisineQuest = {
-        schedule = "Always",
         period = {
             startMonth = 8,  -- August
             startDay = 1,
@@ -413,7 +401,6 @@ SeasonalEvents = {
         }
     },
     NewYearsEve = {
-        schedule = "Always",
         period = {
             startMonth = 12,  -- December
             startDay = 27,
@@ -501,6 +488,56 @@ local function executeRaid(raidContent)
     end
 end
 
+local function spawnNPC(raidContent)
+    for _, position in pairs(raidContent.pos) do
+        local npc = Game.createNpc(raidContent.npc, position)
+	    if npc then
+	    	npc:setMasterPos(position)
+	    end
+    end
+end
+
+local function configGlobalRaid(raidContent)
+    -- Configure positional reference for randomized raid
+    local positionRef = CityRaidAreas
+    if raidContent.positionRef ~= nil then
+        positionRef = raidContent.positionRef
+    end
+
+    -- Build list of valid keys from positional reference config
+    local keys = {}
+    for k, _ in pairs(positionRef) do
+        table.insert(keys, k)
+    end
+
+    -- Choose an entry from the positional reference table
+    idx = keys[math.random(#keys)]
+    targetArea = positionRef[idx]
+
+    -- Some modification to town text
+    if idx == "AbDendriel" then
+        idx = "Ab'Dendriel"
+    elseif idx == "PortHope" then
+        idx = "Port Hope"
+    elseif idx == "LibertyBay" then
+        idx = "Liberty Bay"
+    end
+
+    -- Schedule area spawns
+    for _, area in pairs(raidContent.areaSpawns) do
+        area.topLeftPos = targetArea.topLeftPos
+        area.bottomRightPos = targetArea.bottomRightPos
+
+        if area.message == nil then
+            area.message = targetArea.message
+        end
+    
+        area.message = string.gsub(area.message, "|CITY_NAME|", idx)
+
+        addEvent(executeAreaSpawn, area.delay, area)
+    end
+end
+
 function onStartup()
     -- Get current day of the week and day/month of the year in epoch seconds
     weekDay = os.date("%A")
@@ -522,7 +559,9 @@ function onStartup()
             if param.type == "raid" then
                 addEvent(executeRaid, 60 * 1000, param.content)
             elif param.type == "npc" then
-            elif param.type == "worldquest" then
+                spawnNPC(param.content)
+            elif param.type == "globalraid" then
+                addEvent(configGlobalRaid, 60 * 1000, param.content)
             end
         end
     end
