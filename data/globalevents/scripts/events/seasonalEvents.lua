@@ -1,51 +1,51 @@
 CityRaidAreas = {  -- Define standard areas for raids in cities
     Svargrond = {
-        topLeftPos = {x="32325", y="32184", z="7"},
-        bottomRightPos = {x="32432", y="32270", z="7"}
+        topLeftPos = {x="32197", y="31119", z="7"},
+        bottomRightPos = {x="32278", y="31176", z="7"}
     },
     Yalahar = {
-        topLeftPos = {x="32325", y="32184", z="7"},
-        bottomRightPos = {x="32432", y="32270", z="7"}
+        topLeftPos = {x="32757", y="31164", z="7"},
+        bottomRightPos = {x="32846", y="31246", z="7"}
     },
     Carlin = {
-        topLeftPos = {x="32325", y="32184", z="7"},
-        bottomRightPos = {x="32432", y="32270", z="7"}
+        topLeftPos = {x="32307", y="31764", z="7"},
+        bottomRightPos = {x="32377", y="31818", z="7"}
     },
     AbDendriel = {
-        topLeftPos = {x="32325", y="32184", z="7"},
-        bottomRightPos = {x="32432", y="32270", z="7"}
+        topLeftPos = {x="32640", y="31648", z="7"},
+        bottomRightPos = {x="32701", y="31701", z="7"}
     },
     Kazordoon = {
-        topLeftPos = {x="32325", y="32184", z="7"},
-        bottomRightPos = {x="32432", y="32270", z="7"}
+        topLeftPos = {x="32599", y="31875", z="9"},
+        bottomRightPos = {x="32649", y="31939", z="9"}
     },
     Edron = {
-        topLeftPos = {x="32325", y="32184", z="7"},
-        bottomRightPos = {x="32432", y="32270", z="7"}
+        topLeftPos = {x="33173", y="31786", z="7"},
+        bottomRightPos = {x="33234", y="31871", z="7"}
     },
     Thais = {
         topLeftPos = {x="32325", y="32184", z="7"},
         bottomRightPos = {x="32432", y="32270", z="7"}
     },
     Venore = {
-        topLeftPos = {x="32325", y="32184", z="7"},
-        bottomRightPos = {x="32432", y="32270", z="7"}
+        topLeftPos = {x="32889", y="32031", z="6"},
+        bottomRightPos = {x="32997", y="32109", z="6"}
     },
     Darashia = {
-        topLeftPos = {x="32325", y="32184", z="7"},
-        bottomRightPos = {x="32432", y="32270", z="7"}
+        topLeftPos = {x="33197", y="32401", z="7"},
+        bottomRightPos = {x="33268", y="32476", z="7"}
     },
     LibertyBay = {
-        topLeftPos = {x="32325", y="32184", z="7"},
-        bottomRightPos = {x="32432", y="32270", z="7"}
+        topLeftPos = {x="32262", y="32774", z="7"},
+        bottomRightPos = {x="32346", y="32855", z="7"}
     },
     PortHope = {
-        topLeftPos = {x="32325", y="32184", z="7"},
-        bottomRightPos = {x="32432", y="32270", z="7"}
+        topLeftPos = {x="32570", y="32740", z="7"},
+        bottomRightPos = {x="32685", y="32799", z="7"}
     },
     Ankrahmun = {
-        topLeftPos = {x="32325", y="32184", z="7"},
-        bottomRightPos = {x="32432", y="32270", z="7"}
+        topLeftPos = {x="33098", y="32785", z="7"},
+        bottomRightPos = {x="33214", y="32865", z="7"}
     },
 }
 
@@ -123,9 +123,9 @@ SeasonalEvents = {
             endMonth = 2,  -- February
             endDay = 28
         },
-        type = "npc"
+        type = "npc",
         content = {
-            npc = "Stan"
+            npc = "Stan",
             pos = {
                 {x="32950", y="32106", z="6"} -- Venore (+1)
             }
@@ -139,9 +139,9 @@ SeasonalEvents = {
             endMonth = 2,  -- February
             endDay = 14
         },
-        type = "npc"
+        type = "npc",
         content = {
-            npc = "Valentina"
+            npc = "Valentina",
             pos = {
                 {x="32271", y="32052", z="7"} -- Greenshore (0)
             }
@@ -189,9 +189,9 @@ SeasonalEvents = {
             endMonth = 4,  -- April
             endDay = 30
         },
-        type = "npc"
+        type = "npc",
         content = {
-            npc = "Hoaxette"
+            npc = "Hoaxette",
             pos = {
                 {x="32369", y="32214", z="7"} -- Thais (0)
             }
@@ -258,7 +258,7 @@ SeasonalEvents = {
             singleSpawns = {  -- Where the singles spawns will happen and when and what message will be sent (message is optional)
                 {    
                     monster = "The Mutated Pumpkin",
-                    pos = {x="33170" y="32433" z="7"},
+                    pos = {x="33170", y="32433", z="7"},
                     delay = 1000,
                     message = "Oh noes! It's a mutated pumpkin!"
                 }
@@ -272,9 +272,9 @@ SeasonalEvents = {
             endMonth = 12,  -- December
             endDay = 31
         },
-        type = "npc"
+        type = "npc",
         content = {
-            npc = "Santa Claus"
+            npc = "Santa Claus",
             pos = {
                 {x="32655", y="31664", z="8"},  -- Ab'Dendriel (-1)
                 {x="33067", y="32880", z="6"},  -- Ankrahmun (+1)
@@ -333,9 +333,9 @@ SeasonalEvents = {
             endMonth = 6,  -- June
             endDay = 30
         },
-        type = "npc"
+        type = "npc",
         content = {
-            npc = "Rosemarie"
+            npc = "Rosemarie",
             pos = {
                 {x="32534", y="32827", z="7"}  -- Port Hope (0)
             }
@@ -392,9 +392,9 @@ SeasonalEvents = {
             endMonth = 8,  -- August
             endDay = 31
         },
-        type = "npc"
+        type = "npc",
         content = {
-            npc = "Jean Pierre"
+            npc = "Jean Pierre",
             pos = {
                 {x="33072", y="32528", z="6"}  -- Jean Pierre's House in Ashta'Daramai (+1)
             }
@@ -407,9 +407,9 @@ SeasonalEvents = {
             endMonth = 1,  -- January
             endDay = 3
         },
-        type = "npc"
+        type = "npc",
         content = {
-            npc = "Ned Nobel"
+            npc = "Ned Nobel",
             pos = {
                 {x="32651", y="31700", z="7"},  -- Ab'Dendriel (0)
                 {x="32342", y="31795", z="7"},  -- Carlin (0)
@@ -444,7 +444,7 @@ local function executeSingleSpawn(eventInfo)
     end
 
     if eventInfo.message ~= nil then
-        Game.broadcastMessage(eventInfo.message, MESSAGE_EVENT_ADVANCE)
+        broadcastMessage(eventInfo.message, MESSAGE_EVENT_ADVANCE)
     end
 
     return true
@@ -456,11 +456,13 @@ local function executeAreaSpawn(eventInfo)
             node = {
                 monster = eventInfo.monsters[i].name,
                 pos = {x=math.random(eventInfo.topLeftPos.x, eventInfo.bottomRightPos.x), y=math.random(eventInfo.topLeftPos.y, eventInfo.bottomRightPos.y), z=math.random(eventInfo.topLeftPos.z, eventInfo.bottomRightPos.z)},
-                message = eventInfo.message
+                message = nil
             }
             executeSingleSpawn(node)
         end
     end
+
+    broadcastMessage(eventInfo.message, MESSAGE_EVENT_ADVANCE)
 
     return true
 end
@@ -469,7 +471,7 @@ local function executeRaid(raidContent)
     -- Schedule all announcements
     if raidContent.announcements ~= nil then
         for _, announcement in pairs(raidContent.announcements) do
-            addEvent(Game.broadcastMessage, announcement.delay, announcement.message, MESSAGE_EVENT_ADVANCE)
+            addEvent(broadcastMessage, announcement.delay, announcement.message, MESSAGE_EVENT_ADVANCE)
         end
     end
 
@@ -558,9 +560,9 @@ function onStartup()
             print("Seasonal Event: " .. name .. " in effect!")
             if param.type == "raid" then
                 addEvent(executeRaid, 60 * 1000, param.content)
-            elif param.type == "npc" then
+            elseif param.type == "npc" then
                 spawnNPC(param.content)
-            elif param.type == "globalraid" then
+            elseif param.type == "globalraid" then
                 addEvent(configGlobalRaid, 60 * 1000, param.content)
             end
         end

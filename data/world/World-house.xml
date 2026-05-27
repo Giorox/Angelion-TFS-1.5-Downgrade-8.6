@@ -1012,4 +1012,5 @@
 	<house name="Theater Avenue 5b" houseid="2389" entryx="32359" entryy="31782" entryz="6" rent="450" townid="4" size="7" />
 	<house name="Theater Avenue 5c" houseid="2390" entryx="32359" entryy="31782" entryz="6" rent="450" townid="4" size="7" />
 	<house name="Theater Avenue 5d" houseid="2391" entryx="32361" entryy="31782" entryz="6" rent="450" townid="4" size="7" />
+	<house name="Warrior's Guildhall" houseid="2392" entryx="32352" entryy="32205" entryz="7" rent="0" guildhall="true" townid="2" size="255" />
 </houses>
