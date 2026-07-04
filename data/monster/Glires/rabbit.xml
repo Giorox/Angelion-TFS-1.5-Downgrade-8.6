@@ -19,6 +19,9 @@
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="0" />
 	</flags>
+    <script>
+		<event name="EasterLoot" />
+	</script>
 	<defenses armor="1" defense="1" />
 	<loot>
 		<item name="Meat" chance="77200" />

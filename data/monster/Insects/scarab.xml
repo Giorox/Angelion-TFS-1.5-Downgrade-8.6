@@ -42,9 +42,6 @@
 		<immunity invisible="0" />
 		<immunity paralyze="1" />
 	</immunities>
-	<script>
-		<event name="ScarabDeath" />
-	</script>
 	<loot>
 		<item name="Gold Coin" countmax="52" chance="87300" />
 		<item name="Meat" countmax="2" chance="39930" />

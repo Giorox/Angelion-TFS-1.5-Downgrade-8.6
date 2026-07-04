@@ -19,6 +19,9 @@
 		<flag canwalkonfire="0" />
 		<flag canwalkonpoison="0" />
 	</flags>
+    <script>
+		<event name="EasterLoot" />
+	</script>
 	<defenses armor="1" defense="1" />
 	<voices interval="5000" chance="10">
 		<voice sentence="Cluck Cluck" yell="0" />

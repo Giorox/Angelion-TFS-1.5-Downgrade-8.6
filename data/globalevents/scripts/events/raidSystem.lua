@@ -91,9 +91,9 @@ function onThink(interval)
     -- Check if the spawn area of the boss already has a boss, this prevents duplicates
     if (checkArea(raidTable[choosen].pos, raidTable[choosen].boss) == false) then
     	doSummonCreature(raidTable[choosen].boss, raidTable[choosen].pos)
-        print(os.date("[%H:%M:%S]") .. " - [raidSystem] Spawned Boss - " .. raidTable[choosen].boss)
+        print(os.date("[%c]") .. " - [raidSystem] Spawned Boss - " .. raidTable[choosen].boss)
     else
-        print(os.date("[%H:%M:%S]") .. " - [raidSystem] Boss " .. raidTable[choosen].boss .. " is still alive.")
+        print(os.date("[%c]") .. " - [raidSystem] Boss " .. raidTable[choosen].boss .. " is still alive.")
     end
 
     return true
