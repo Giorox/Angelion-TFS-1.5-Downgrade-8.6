@@ -1302,12 +1302,6 @@
 	<spawn centerx="32748" centery="31458" centerz="2" radius="2">
 		<monster name="Gargoyle" x="1" y="-1" z="2" spawntime="290" />
 	</spawn>
-	<spawn centerx="32939" centery="31458" centerz="2" radius="1">
-		<monster name="Diblis the Fair" x="1" y="0" z="2" spawntime="3600" />
-	</spawn>
-	<spawn centerx="32968" centery="31458" centerz="2" radius="1">
-		<monster name="Sir Valorcrest" x="-1" y="0" z="2" spawntime="3600" />
-	</spawn>
 	<spawn centerx="32996" centery="31460" centerz="2" radius="3">
 		<npc name="Kito" x="0" y="0" z="2" spawntime="240" direction="2" />
 	</spawn>
@@ -1324,9 +1318,6 @@
 	</spawn>
 	<spawn centerx="32935" centery="31476" centerz="2" radius="2">
 		<monster name="Haunted Treeling" x="0" y="-1" z="2" spawntime="180" />
-	</spawn>
-	<spawn centerx="32941" centery="31477" centerz="2" radius="1">
-		<monster name="Arachir the Ancient One" x="-1" y="0" z="2" spawntime="3600" />
 	</spawn>
 	<spawn centerx="32947" centery="31478" centerz="2" radius="2">
 		<monster name="Haunted Treeling" x="-1" y="-1" z="2" spawntime="180" />
@@ -33169,9 +33160,6 @@
 		<monster name="Lizard Templar" x="-1" y="0" z="7" spawntime="240" />
 		<monster name="Lizard Templar" x="1" y="2" z="7" spawntime="240" />
 	</spawn>
-	<spawn centerx="32007" centery="32868" centerz="7" radius="3">
-		<monster name="Pirate Marauder" x="3" y="-3" z="7" spawntime="90" />
-	</spawn>
 	<spawn centerx="32303" centery="32868" centerz="7" radius="3">
 		<monster name="Rat" x="-1" y="-2" z="7" spawntime="240" />
 		<monster name="Rat" x="-1" y="1" z="7" spawntime="240" />
@@ -33207,10 +33195,6 @@
 	<spawn centerx="32930" centery="32874" centerz="7" radius="3">
 		<monster name="Lizard Templar" x="0" y="-1" z="7" spawntime="240" />
 		<monster name="Lizard Templar" x="-1" y="1" z="7" spawntime="240" />
-	</spawn>
-	<spawn centerx="32007" centery="32875" centerz="7" radius="3">
-		<monster name="Pirate Marauder" x="-2" y="-2" z="7" spawntime="90" />
-		<monster name="Pirate Cutthroat" x="-2" y="2" z="7" spawntime="90" />
 	</spawn>
 	<spawn centerx="32472" centery="32875" centerz="7" radius="5">
 		<monster name="Tortoise" x="2" y="-4" z="7" spawntime="240" />
@@ -33308,10 +33292,6 @@
 		<monster name="Lizard Snakecharmer" x="0" y="-1" z="7" spawntime="240" />
 		<monster name="Crocodile" x="0" y="3" z="7" spawntime="240" />
 	</spawn>
-	<spawn centerx="32021" centery="32889" centerz="7" radius="3">
-		<monster name="Pirate Marauder" x="-3" y="-2" z="7" spawntime="90" />
-		<monster name="Pirate Buccaneer" x="-1" y="-1" z="7" spawntime="90" />
-	</spawn>
 	<spawn centerx="32913" centery="32893" centerz="7" radius="3">
 		<monster name="Lizard Templar" x="0" y="-2" z="7" spawntime="240" />
 		<monster name="Lizard Templar" x="-2" y="0" z="7" spawntime="240" />
@@ -33397,10 +33377,6 @@
 		<monster name="Coral Frog" x="0" y="-1" z="7" spawntime="240" />
 		<monster name="Toad" x="-4" y="0" z="7" spawntime="240" />
 		<monster name="Crocodile" x="2" y="4" z="7" spawntime="240" />
-	</spawn>
-	<spawn centerx="32012" centery="32910" centerz="7" radius="3">
-		<monster name="Pirate Cutthroat" x="2" y="0" z="7" spawntime="90" />
-		<monster name="Pirate Cutthroat" x="-1" y="1" z="7" spawntime="90" />
 	</spawn>
 	<spawn centerx="32720" centery="32911" centerz="7" radius="30">
 		<monster name="Tarantula" x="-14" y="-25" z="7" spawntime="240" />
@@ -44490,12 +44466,6 @@
 		<monster name="Dworc Venomsniper" x="4" y="-2" z="8" spawntime="240" />
 		<monster name="Dworc Venomsniper" x="-2" y="1" z="8" spawntime="240" />
 	</spawn>
-	<spawn centerx="31972" centery="32868" centerz="8" radius="3">
-		<monster name="Pirate Skeleton" x="2" y="2" z="8" spawntime="90" />
-	</spawn>
-	<spawn centerx="31979" centery="32868" centerz="8" radius="3">
-		<monster name="Pirate Skeleton" x="-3" y="1" z="8" spawntime="90" />
-	</spawn>
 	<spawn centerx="32931" centery="32868" centerz="8" radius="1">
 		<monster name="Hydra" x="1" y="0" z="8" spawntime="240" />
 	</spawn>
@@ -44551,18 +44521,6 @@
 	<spawn centerx="32909" centery="32874" centerz="8" radius="1">
 		<monster name="Hydra" x="0" y="1" z="8" spawntime="240" />
 	</spawn>
-	<spawn centerx="31972" centery="32875" centerz="8" radius="3">
-		<monster name="Pirate Skeleton" x="1" y="1" z="8" spawntime="90" />
-	</spawn>
-	<spawn centerx="31979" centery="32875" centerz="8" radius="3">
-		<monster name="Pirate Ghost" x="1" y="-1" z="8" spawntime="90" />
-	</spawn>
-	<spawn centerx="32000" centery="32875" centerz="8" radius="3">
-		<monster name="Pirate Cutthroat" x="1" y="-2" z="8" spawntime="90" />
-	</spawn>
-	<spawn centerx="32021" centery="32875" centerz="8" radius="3">
-		<monster name="Pirate Marauder" x="3" y="-2" z="8" spawntime="90" />
-	</spawn>
 	<spawn centerx="32931" centery="32875" centerz="8" radius="1">
 		<monster name="Hydra" x="1" y="0" z="8" spawntime="240" />
 	</spawn>
@@ -44607,12 +44565,6 @@
 	<spawn centerx="33070" centery="32881" centerz="8" radius="2">
 		<monster name="Cave Rat" x="1" y="-2" z="8" spawntime="240" />
 		<monster name="Cave Rat" x="-1" y="-1" z="8" spawntime="240" />
-	</spawn>
-	<spawn centerx="31979" centery="32882" centerz="8" radius="3">
-		<monster name="Pirate Skeleton" x="2" y="-3" z="8" spawntime="90" />
-	</spawn>
-	<spawn centerx="32021" centery="32882" centerz="8" radius="3">
-		<monster name="Pirate Cutthroat" x="1" y="3" z="8" spawntime="90" />
 	</spawn>
 	<spawn centerx="32500" centery="32882" centerz="8" radius="2">
 		<monster name="Toad" x="1" y="0" z="8" spawntime="240" />
@@ -44662,19 +44614,6 @@
 		<monster name="Dworc Venomsniper" x="-4" y="1" z="8" spawntime="240" />
 		<monster name="Dworc Voodoomaster" x="-2" y="3" z="8" spawntime="240" />
 	</spawn>
-	<spawn centerx="32000" centery="32889" centerz="8" radius="3">
-		<monster name="Pirate Marauder" x="-2" y="-1" z="8" spawntime="90" />
-	</spawn>
-	<spawn centerx="32021" centery="32889" centerz="8" radius="3">
-		<monster name="Pirate Cutthroat" x="1" y="-2" z="8" spawntime="90" />
-		<monster name="Pirate Cutthroat" x="0" y="-1" z="8" spawntime="90" />
-	</spawn>
-	<spawn centerx="32028" centery="32889" centerz="8" radius="3">
-		<monster name="Pirate Skeleton" x="3" y="1" z="8" spawntime="90" />
-	</spawn>
-	<spawn centerx="32035" centery="32889" centerz="8" radius="3">
-		<monster name="Pirate Skeleton" x="-2" y="2" z="8" spawntime="90" />
-	</spawn>
 	<spawn centerx="32470" centery="32891" centerz="8" radius="6">
 		<monster name="Toad" x="-2" y="-5" z="8" spawntime="240" />
 		<monster name="Tortoise" x="2" y="-5" z="8" spawntime="240" />
@@ -44708,9 +44647,6 @@
 		<monster name="Centipede" x="-3" y="0" z="8" spawntime="240" />
 		<monster name="Dworc Venomsniper" x="-4" y="4" z="8" spawntime="240" />
 		<monster name="Dworc Venomsniper" x="-5" y="6" z="8" spawntime="240" />
-	</spawn>
-	<spawn centerx="31972" centery="32896" centerz="8" radius="3">
-		<monster name="Pirate Skeleton" x="-2" y="0" z="8" spawntime="90" />
 	</spawn>
 	<spawn centerx="32489" centery="32897" centerz="8" radius="2">
 		<monster name="Toad" x="1" y="-2" z="8" spawntime="240" />
@@ -44777,21 +44713,6 @@
 		<monster name="Toad" x="0" y="-2" z="8" spawntime="240" />
 		<monster name="Tortoise" x="0" y="2" z="8" spawntime="240" />
 	</spawn>
-	<spawn centerx="31979" centery="32903" centerz="8" radius="3">
-		<monster name="Pirate Skeleton" x="-3" y="0" z="8" spawntime="90" />
-	</spawn>
-	<spawn centerx="31993" centery="32903" centerz="8" radius="3">
-		<monster name="Pirate Skeleton" x="0" y="1" z="8" spawntime="90" />
-	</spawn>
-	<spawn centerx="32007" centery="32903" centerz="8" radius="3">
-		<monster name="Pirate Ghost" x="-1" y="-1" z="8" spawntime="90" />
-	</spawn>
-	<spawn centerx="32014" centery="32903" centerz="8" radius="3">
-		<monster name="Pirate Ghost" x="-2" y="2" z="8" spawntime="90" />
-	</spawn>
-	<spawn centerx="32021" centery="32903" centerz="8" radius="3">
-		<monster name="Pirate Skeleton" x="1" y="1" z="8" spawntime="90" />
-	</spawn>
 	<spawn centerx="32401" centery="32904" centerz="8" radius="3">
 		<monster name="Tortoise" x="2" y="-1" z="8" spawntime="240" />
 		<monster name="Toad" x="-1" y="3" z="8" spawntime="240" />
@@ -44809,16 +44730,6 @@
 		<monster name="Thornback Tortoise" x="-1" y="0" z="8" spawntime="240" />
 		<monster name="Tortoise" x="-3" y="1" z="8" spawntime="240" />
 		<monster name="Tortoise" x="2" y="3" z="8" spawntime="240" />
-	</spawn>
-	<spawn centerx="32007" centery="32910" centerz="8" radius="3">
-		<monster name="Pirate Skeleton" x="3" y="-1" z="8" spawntime="90" />
-	</spawn>
-	<spawn centerx="32035" centery="32910" centerz="8" radius="3">
-		<monster name="Pirate Skeleton" x="-3" y="0" z="8" spawntime="90" />
-	</spawn>
-	<spawn centerx="32044" centery="32910" centerz="8" radius="3">
-		<monster name="Pirate Skeleton" x="-1" y="-1" z="8" spawntime="90" />
-		<monster name="Pirate Skeleton" x="-1" y="3" z="8" spawntime="90" />
 	</spawn>
 	<spawn centerx="32105" centery="32910" centerz="8" radius="3">
 		<monster name="Ghoul" x="3" y="0" z="8" spawntime="90" />
@@ -44933,15 +44844,6 @@
 		<monster name="Centipede" x="3" y="-1" z="8" spawntime="240" />
 		<monster name="Centipede" x="1" y="2" z="8" spawntime="240" />
 		<monster name="Centipede" x="-4" y="3" z="8" spawntime="240" />
-	</spawn>
-	<spawn centerx="31993" centery="32917" centerz="8" radius="3">
-		<monster name="Pirate Ghost" x="1" y="2" z="8" spawntime="90" />
-	</spawn>
-	<spawn centerx="32007" centery="32917" centerz="8" radius="3">
-		<monster name="Pirate Ghost" x="2" y="0" z="8" spawntime="90" />
-	</spawn>
-	<spawn centerx="32035" centery="32917" centerz="8" radius="3">
-		<monster name="Pirate Ghost" x="1" y="-2" z="8" spawntime="90" />
 	</spawn>
 	<spawn centerx="32668" centery="32917" centerz="8" radius="6">
 		<monster name="Dworc Voodoomaster" x="-3" y="-4" z="8" spawntime="240" />

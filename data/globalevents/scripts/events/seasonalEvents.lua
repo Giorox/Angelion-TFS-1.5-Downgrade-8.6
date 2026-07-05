@@ -453,7 +453,7 @@ end
 local function executeAreaSpawn(eventInfo)
     for i = 1, #eventInfo.monsters do
         for n = 1, eventInfo.monsters[i].amount do
-            node = {
+            local node = {
                 monster = eventInfo.monsters[i].name,
                 pos = {x=math.random(eventInfo.topLeftPos.x, eventInfo.bottomRightPos.x), y=math.random(eventInfo.topLeftPos.y, eventInfo.bottomRightPos.y), z=math.random(eventInfo.topLeftPos.z, eventInfo.bottomRightPos.z)},
                 message = nil
@@ -513,8 +513,8 @@ local function configGlobalRaid(raidContent)
     end
 
     -- Choose an entry from the positional reference table
-    idx = keys[math.random(#keys)]
-    targetArea = positionRef[idx]
+    local idx = keys[math.random(#keys)]
+    local targetArea = positionRef[idx]
 
     -- Some modification to town text
     if idx == "AbDendriel" then
@@ -542,8 +542,8 @@ end
 
 function onStartup()
     -- Get current day of the week and day/month of the year in epoch seconds
-    weekDay = os.date("%A")
-    currDate = os.time()
+    local weekDay = os.date("%A")
+    local currDate = os.time()
 
     -- Check day of the week and spawn Rashid
     local rashidPos = RashidConfig[weekDay]
@@ -553,17 +553,26 @@ function onStartup()
 		rashid:setMasterPos(rashidPos)
 	end
 
+    -- For events that occur simultaneously, we want to stagger them along noon (12PM) everyday they happen
+    local simulEventCount = 0
+    local secsToNoon = (os.time{year=os.date("%Y"), month=os.date("%m"), day=os.date("%d"), hour=12} - currDate)
+
     -- Check seasonal events
     for name, param in pairs(SeasonalEvents) do
         -- Check that today's date falls within the range of this event
         if (os.time{year=os.date("%Y"), month=param.period.startMonth, day=param.period.startDay} <= currDate) and (currDate <= os.time{year=os.date("%Y"), month=param.period.endMonth, day=param.period.endDay}) then
+            -- Calculate how large (in +/- 1 hour increments) the interval around noon the event should be scheduled to hgappen
+            simulEventCount = simulEventCount + 1
+            local deltaSecs = simulEventCount * 60 * 60
+
+            -- Schedule event -- All events are scheduled for the noon (12PM) +/- N hours interval (where N is the amount of simultaneous events)
             print("Seasonal Event: " .. name .. " in effect!")
             if param.type == "raid" then
-                addEvent(executeRaid, 60 * 1000, param.content)
+                addEvent(executeRaid, math.random(secsToNoon - deltaSecs, secsToNoon + deltaSecs) * 1000, param.content)
             elseif param.type == "npc" then
                 spawnNPC(param.content)
             elseif param.type == "globalraid" then
-                addEvent(configGlobalRaid, 60 * 1000, param.content)
+                addEvent(configGlobalRaid, math.random(secsToNoon - deltaSecs, secsToNoon + deltaSecs) * 1000, param.content)
             end
         end
     end
