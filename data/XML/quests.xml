@@ -72,7 +72,7 @@
 <quest name="Blood Brothers Quest" startstorageid="33500" startstoragevalue="1">
      <mission name="Mission 1: Gaining Trust" storageid="33501" startvalue="1" endvalue="2">
          <missionstate id="1" description="Julius told you that a Garlic Necklace wasn't enough proof that you are against vampires."/>
-         <missionstate id="2" description="You have proven you are against vampires by eating a loaf of Garlic Bread."/>
+         <missionstate id="2" description="You have Julius' trust."/>
      </mission>
      <mission name="Mission 2: Bad Eggs" storageid="33502" startvalue="1" endvalue="6">
          <missionstate id="1" description="Julius wants you to find possible vampire suspects by tricking the citizens of Yalahar into easting Garlic Cookies."/>
@@ -1288,7 +1288,7 @@
          <missionstate id="43" description="Report back to the Explorer Society representative."/>
      </mission>
      <mission name="The Ectoplasm" storageid="90" startvalue="45" endvalue="47">
-         <missionstate id="45" description="Take ectoplasm container and use it on a ghost that was recently slain."/>
+         <missionstate id="45" description="Use the ectoplasm container you received on a freshly slain ghost and return the collected ectoplasm to the Explorer Society."/>
          <missionstate id="46" description="Return back to the Explorer Society representative with the collected ectoplasm."/>
      </mission>
      <mission name="The Spectral Dress" storageid="90" startvalue="48" endvalue="50">
