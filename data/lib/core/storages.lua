@@ -835,6 +835,7 @@ Storage = {
     -- Promotion Storage cannot be changed, it is set in source code
     Promotion = 30018,
 
+    GingerbreadRecipe = 15800,
     SwampDiggingTimeout = 50143,
     HydraEggQuest = 320,
     Dragonfetish = 504,

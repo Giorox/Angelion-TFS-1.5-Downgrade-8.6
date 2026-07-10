@@ -1,5 +1,6 @@
 local liquidContainers = {1775, 2005, 2006, 2007, 2008, 2009, 2011, 2012, 2013, 2014, 2015, 2023, 2031, 2032, 2033}
 local millstones = {1381, 1382, 1383, 1384}
+local ovens = {1786, 1788, 1790, 1792}
 
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	local itemId = item:getId()
@@ -36,6 +37,14 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 			target:transform(8848)
             player:addAchievementProgress("Cookie Monster", 20)
 			return true
+        elseif table.contains(ovens, target.itemid) then  -- COOKING CAKE DOUGH HAS TO BE HERE, else it breaks
+            item:remove(1)
+            toPosition:sendMagicEffect(CONST_ME_HITBYFIRE)
+            if target:getActionId() == 15800 and player:getStorageValue(Storage.GingerbreadRecipe) == 1 then -- Convert cake dough
+                Game.createItem(6501, 1, toPosition)  -- to gingerbread cookie
+	    	else
+                Game.createItem(6278, 1, toPosition)  -- or to cake
+            end
         end
     elseif itemId == 9112 then -- Convert holy water dough into garlic dough
         if target.itemid == 9114 then -- Garlic
@@ -49,6 +58,10 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
             item:remove(1)
 			target:transform(9115)
 			return true
+        elseif table.contains(ovens, target.itemid) then  -- COOKING GARLIC DOUGH HAS TO BE HERE, else it breaks
+            item:remove(1)
+            toPosition:sendMagicEffect(CONST_ME_HITBYFIRE)
+            Game.createItem(9111, 1, toPosition)
         end
     elseif itemId == 6280 then -- Blow out candles on Party Cake
         item:transform(6279)
@@ -60,6 +73,22 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		item:remove(1)
 		player:addItem(2692, 1)
 		return true
+    elseif table.contains(ovens, target.itemid) then -- Cooking the multiple doughs
+        print("Tried cooking something")
+        if itemId == 2693 then -- Bread dough
+	    	Game.createItem(2689, 1, toPosition)
+        elseif itemId == 8846 then -- Chocolate Cake dough
+	    	Game.createItem(8847, 1, toPosition)
+        elseif itemId == 8848 then  -- Baking Tray with cookies dough
+	    	Game.createItem(2561, 1, toPosition)
+            Game.createItem(2687, 12, toPosition)
+        elseif itemId == 9115 then  -- Baking Tray with GARLIC cookies dough
+	    	Game.createItem(2561, 1, toPosition)
+            Game.createItem(9116, 12, toPosition)
+	    end
+        item:remove(1)
+        toPosition:sendMagicEffect(CONST_ME_HITBYFIRE)
+        return true
 	end
 	return false
 end
