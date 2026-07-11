@@ -75,6 +75,7 @@ local foods = {
 	[8845] = {5, "Munch."}, -- beetroot
 	[8847] = {11, "Yum."}, -- chocolate cake
 	[9005] = {7, "Slurp."}, -- yummy gummy worm
+	[9111] = {0, "After taking a small bite you decide that you don't want to eat that."}, -- garlic bread
 	[9114] = {5, "Crunch."}, -- bulb of garlic
 	[9116] = {0, "After taking a small bite you decide that you don't want to eat that."}, -- garlic cookie
 	[9996] = {0, "Slurp."}, -- banana chocolate shake
@@ -96,6 +97,11 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 	if not food then
 		return false
 	end
+
+    if item.itemid == 9111 or item.itemid == 9116 then  -- We don't want to eat garlic bread or garlic cookies
+        player:say(food[2], TALKTYPE_MONSTER_SAY)
+        return true
+    end
 
 	local condition = player:getCondition(CONDITION_REGENERATION, CONDITIONID_DEFAULT)
 	if condition and math.floor(condition:getTicks() / 1000 + (food[1] * 12)) >= 1200 then

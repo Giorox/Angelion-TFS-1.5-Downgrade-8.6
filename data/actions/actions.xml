@@ -7,8 +7,8 @@
 	<action fromid="7759" toid="7762" script="other/enchanting.lua" />
 
 	<!-- Quests -->
-	<action itemid="1740" script="quests/quests.lua" />
-	<action fromid="1747" toid="1749" script="quests/quests.lua" />
+	<action actionid="2000" script="quests/quests.lua" />
+	<action actionid="2001" script="quests/non_container_quests.lua" />
 	<action uniqueid="30015" script="quests/annihilator.lua" />
 
 	<!-- Tools -->
@@ -60,6 +60,7 @@
 	<action fromid="8838" toid="8845" script="other/food.lua" />
 	<action itemid="8847" script="other/food.lua" />
 	<action itemid="9005" script="other/food.lua" />
+	<action itemid="9111" script="other/food.lua" />
 	<action itemid="9114" script="other/food.lua" />
 	<action itemid="9116" script="other/food.lua" />
 	<action itemid="9996" script="other/food.lua" />

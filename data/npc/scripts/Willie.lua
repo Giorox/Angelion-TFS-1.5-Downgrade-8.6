@@ -8,7 +8,7 @@ function onCreatureSay(cid, type, msg)		npcHandler:onCreatureSay(cid, type, msg)
 function onThink()				npcHandler:onThink()					end
 
 local voices = {
-	{ text = 'Ah, what the heck.Make sure you know what you want before you bug me.' },
+	{ text = 'Ah, what the heck. Make sure you know what you want before you bug me.' },
 	{ text = 'Buying and selling food!' },
 	{ text = 'Make sure you know what you want before you bug me.' },
 	{ text = 'You, over there! Stop sniffing around my farm! Either trade with me or leave!' }

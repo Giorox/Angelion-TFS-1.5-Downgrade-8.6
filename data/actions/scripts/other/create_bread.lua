@@ -74,7 +74,6 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
 		player:addItem(2692, 1)
 		return true
     elseif table.contains(ovens, target.itemid) then -- Cooking the multiple doughs
-        print("Tried cooking something")
         if itemId == 2693 then -- Bread dough
 	    	Game.createItem(2689, 1, toPosition)
         elseif itemId == 8846 then -- Chocolate Cake dough
