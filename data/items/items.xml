@@ -6677,44 +6677,30 @@
 	<item fromid="3122" toid="3127" article="a" name="pile of bones" />
 	<item id="3128" article="a" name="dead human">
 		<attribute key="containerSize" value="10" />
-		<attribute key="decayTo" value="3129" />
-		<attribute key="duration" value="300" />
 		<attribute key="corpseType" value="blood" />
 	</item>
 	<item id="3129" article="a" name="dead human">
 		<attribute key="containerSize" value="8" />
-		<attribute key="decayTo" value="3130" />
-		<attribute key="duration" value="900" />
 		<attribute key="corpseType" value="blood" />
 	</item>
 	<item id="3130" article="a" name="corpse">
 		<attribute key="weight" value="120000" />
-		<attribute key="decayTo" value="3131" />
-		<attribute key="duration" value="30" />
 		<attribute key="corpseType" value="blood" />
 	</item>
 	<item id="3131" article="a" name="corpse">
 		<attribute key="weight" value="120000" />
-		<attribute key="decayTo" value="3132" />
-		<attribute key="duration" value="30" />
 		<attribute key="corpseType" value="blood" />
 	</item>
 	<item id="3132" article="a" name="skeleton">
 		<attribute key="weight" value="120000" />
-		<attribute key="decayTo" value="3133" />
-		<attribute key="duration" value="30" />
 		<attribute key="corpseType" value="blood" />
 	</item>
 	<item id="3133" article="a" name="skeleton">
 		<attribute key="weight" value="60000" />
-		<attribute key="decayTo" value="3134" />
-		<attribute key="duration" value="30" />
 		<attribute key="corpseType" value="blood" />
 	</item>
 	<item id="3134" name="some bones">
 		<attribute key="weight" value="60000" />
-		<attribute key="decayTo" value="0" />
-		<attribute key="duration" value="600" />
 		<attribute key="corpseType" value="blood" />
 	</item>
 	<item fromid="3135" toid="3136" article="a" name="trapdoor">

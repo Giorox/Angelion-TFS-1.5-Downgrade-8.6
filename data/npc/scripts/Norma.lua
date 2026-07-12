@@ -61,7 +61,7 @@ local function creatureSayCallback(cid, type, msg)
 			if player:getItemCount(2480) < 1 then
 				npcHandler:say('Sorry, but I can\'t see a legion helmet.', cid)
 			elseif player:getItemCount(5890) < 100 then
-				npcHandler:say('Sorry, but you don\'t enough chicken feathers.', cid)
+				npcHandler:say('Sorry, but you don\'t have enough chicken feathers.', cid)
 			elseif player:getItemCount(5902) < 50 then
 				npcHandler:say('Sorry, but you don\'t have enough honeycombs.', cid)
 			else
