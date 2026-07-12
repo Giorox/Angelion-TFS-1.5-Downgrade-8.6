@@ -1,6 +1,7 @@
 local quests = {
 	[56000] = { {count = 1, id = 2676} }, -- Rookgaard Premium Side Palm Tree -- Reward: Banana
 	[56001] = { {count = 1, id = 2676} }, -- Rookgaard Free Side Palm Tree -- Reward: Banana
+	[56002] = { {count = 1, id = 2485} }, -- Rookgaard Doublet Quest -- Reward: Doublet
 	[64131] = { {count = 1, id = 2103} }, -- Rookgaard Wasp Tower -- Reward: Honeyflower
 }
 
@@ -16,7 +17,7 @@ function onUse(player, nonContainer, fromPosition, target, toPosition, isHotkey)
 	end
 
     if player:getStorageValue(questId) ~= -1 then
-        player:sendTextMessage(MESSAGE_INFO_DESCR, "It is empty.")
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty.")
         return true
     end
 
@@ -45,7 +46,7 @@ function onUse(player, nonContainer, fromPosition, target, toPosition, isHotkey)
     end
 
     player:setStorageValue(questId, 1)
-    player:sendTextMessage(MESSAGE_INFO_DESCR, string.format("You have found %s.", contentDescription))
+    player:sendTextMessage(MESSAGE_EVENT_ADVANCE, string.format("You have found a %s.", contentDescription))
 
     return true
 end

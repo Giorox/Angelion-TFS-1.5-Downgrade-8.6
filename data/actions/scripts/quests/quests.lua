@@ -9,7 +9,7 @@ function onUse(player, chest, fromPosition, target, toPosition, isHotkey)
     end
 
     if player:getStorageValue(questId) ~= -1 then
-        player:sendTextMessage(MESSAGE_INFO_DESCR, "It is empty.")
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "It is empty.")
         return true
     end
 
@@ -29,7 +29,7 @@ function onUse(player, chest, fromPosition, target, toPosition, isHotkey)
     end
 
     player:setStorageValue(questId, 1)
-    player:sendTextMessage(MESSAGE_INFO_DESCR, string.format("You have found %s.", chest:getContentDescription()))
+    player:sendTextMessage(MESSAGE_EVENT_ADVANCE, string.format("You have found %s.", chest:getContentDescription()))
     for _, item in pairs(items) do
         player:addItemEx(item:clone(), true)
     end
