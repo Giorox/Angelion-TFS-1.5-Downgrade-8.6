@@ -87020,9 +87020,6 @@
 		<monster name="Lich" x="-4" y="6" z="15" spawntime="240" />
 		<monster name="Lich" x="1" y="9" z="15" spawntime="240" />
 	</spawn>
-	<spawn centerx="33140" centery="31780" centerz="15" radius="3">
-		<npc name="Xodet" x="-1" y="2" z="15" spawntime="240" direction="2" />
-	</spawn>
 	<spawn centerx="33036" centery="31781" centerz="15" radius="10">
 		<monster name="Diabolic Imp" x="2" y="-7" z="15" spawntime="240" />
 		<monster name="Defiler" x="4" y="-7" z="15" spawntime="240" />
