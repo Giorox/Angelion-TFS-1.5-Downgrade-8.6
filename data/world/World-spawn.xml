@@ -981,7 +981,7 @@
 		<monster name="Draken Spellweaver" x="0" y="0" z="2" spawntime="180" />
 	</spawn>
 	<spawn centerx="32148" centery="31172" centerz="2" radius="3">
-		<monster name="Mammoth" x="2" y="0" z="2" spawntime="240" />
+		<monster name="Mammoth" x="2" y="0" z="2" spawntime="240" direction="1" />
 	</spawn>
 	<spawn centerx="33119" centery="31172" centerz="2" radius="1">
 		<monster name="Draken Warmaster" x="0" y="0" z="2" spawntime="180" />

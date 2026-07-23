@@ -1465,12 +1465,14 @@
 		<attribute key="weight" value="200" />
 	</item>
 	<item id="1954" article="a" name="sheet of paper">
+        <attribute key="maxTextLen" value="1023" />
 		<attribute key="weight" value="50" />
 	</item>
 	<item id="1955" article="a" name="book">
 		<attribute key="weight" value="1300" />
 	</item>
 	<item id="1956" article="a" name="map">
+        <attribute key="maxTextLen" value="1023" />
 		<attribute key="weight" value="830" />
 	</item>
 	<item id="1957" article="a" name="map">
