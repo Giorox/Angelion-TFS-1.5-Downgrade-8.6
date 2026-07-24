@@ -9,4 +9,7 @@
     <globalevent name="raidSystem" interval="1800000" script="events/raidSystem.lua" />  <!-- Every 30 minutes -->
     <globalevent name="ZzaionRaid" interval="14400000" script="events/ZzaionRaid.lua" /> <!-- Every 4 hours -->
     <globalevent type="startup" name="SeasonalEventsSetup" script="events/seasonalEvents.lua" /> <!-- On startup -->
+
+    <!-- Additional setups -->
+    <globalevent type="startup" name="QuestSetup" script="questSetup.lua" /> <!-- On startup -->
 </globalevents>
