@@ -83553,7 +83553,6 @@
 		<monster name="Stalker" x="2" y="0" z="14" spawntime="240" />
 	</spawn>
 	<spawn centerx="32453" centery="31931" centerz="14" radius="4">
-		<monster name="Giant Spider" x="4" y="-2" z="14" spawntime="240" />
 		<monster name="Giant Spider" x="-2" y="0" z="14" spawntime="240" />
 	</spawn>
 	<spawn centerx="32168" centery="31932" centerz="14" radius="2">
