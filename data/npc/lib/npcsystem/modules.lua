@@ -43,8 +43,11 @@ if not Modules then
 		if not npcHandler then
 			error("StdModule.say called without any npcHandler instance.")
 		end
-		local onlyFocus = not parameters.onlyFocus or parameters.onlyFocus
-		if not npcHandler:isFocused(cid) and onlyFocus then
+		local focused = npcHandler:isFocused(cid)
+		if parameters.onlyUnfocus and focused then
+			return false
+		end
+		if not parameters.onlyUnfocus and parameters.onlyFocus ~= false and not focused then
 			return false
 		end
 
