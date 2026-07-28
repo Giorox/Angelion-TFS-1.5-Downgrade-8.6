@@ -16,7 +16,7 @@ function onUse(player, nonContainer, fromPosition, target, toPosition, isHotkey)
     end
 
     local reward = quests[questId]
-	if not quests then
+	if not reward then
 		return false
 	end
 
@@ -41,7 +41,7 @@ function onUse(player, nonContainer, fromPosition, target, toPosition, isHotkey)
 
     local contentDescription = ""
     for _, item in pairs(reward) do
-        local reward = player:addItem(item.id, item.count)
+		local key = player:addItem(item.id, item.count)
 		if table.contains(keys, item.id) then
 			key:setActionId(item.aid)
 		end
