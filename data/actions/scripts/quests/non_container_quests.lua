@@ -3,6 +3,10 @@ local quests = {
 	[56001] = { {count = 1, id = 2676} }, -- Rookgaard Free Side Palm Tree -- Reward: Banana
 	[56002] = { {count = 1, id = 2485} }, -- Rookgaard Doublet Quest -- Reward: Doublet
 	[64131] = { {count = 1, id = 2103} }, -- Rookgaard Wasp Tower -- Reward: Honeyflower
+	[55000] = { {count = 1, id = 2088, aid = 5010} }, -- Black Knight Dead Tree 1 -- Reward: Black Knight Villa Key (Silver Key 5010)
+	[55001] = { {count = 1, id = 2088, aid = 5010} }, -- Black Knight Dead Tree 2 -- Reward: Black Knight Villa Key (Silver Key 5010)
+	[55002] = { {count = 1, id = 2487} }, -- Black Knight Quest -- Reward: Crown Armor
+	[55003] = { {count = 1, id = 2519} }, -- Black Knight Quest -- Reward: Crown Shield
 }
 
 function onUse(player, nonContainer, fromPosition, target, toPosition, isHotkey)
@@ -37,7 +41,11 @@ function onUse(player, nonContainer, fromPosition, target, toPosition, isHotkey)
 
     local contentDescription = ""
     for _, item in pairs(reward) do
-        player:addItem(item.id, item.count)
+        local reward = player:addItem(item.id, item.count)
+		if table.contains(keys, item.id) then
+			key:setActionId(item.aid)
+		end
+
         if contentDescription == "" then
             contentDescription = ItemType(item.id):getName()
         else
