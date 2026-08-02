@@ -78216,8 +78216,6 @@
 		<monster name="Behemoth" x="3" y="-1" z="13" spawntime="240" />
 		<monster name="Behemoth" x="-3" y="0" z="13" spawntime="240" />
 		<monster name="Behemoth" x="2" y="2" z="13" spawntime="240" />
-		<monster name="Cyclops Smith" x="-2" y="3" z="13" spawntime="240" />
-		<monster name="Cyclops Smith" x="3" y="3" z="13" spawntime="240" />
 	</spawn>
 	<spawn centerx="32702" centery="31665" centerz="13" radius="2">
 		<monster name="Poison spider" x="2" y="-2" z="13" spawntime="240" />
