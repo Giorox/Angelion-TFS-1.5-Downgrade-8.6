@@ -24832,6 +24832,9 @@
 	<spawn centerx="32705" centery="31982" centerz="7" radius="1">
 		<monster name="Poison spider" x="1" y="-1" z="7" spawntime="240" />
 	</spawn>
+	<spawn centerx="32730" centery="31982" centerz="7" radius="2">
+		<monster name="Wasp" x="-1" y="0" z="7" spawntime="240" />
+	</spawn>
 	<spawn centerx="33355" centery="31983" centerz="7" radius="1">
 		<monster name="Wasp" x="1" y="1" z="7" spawntime="240" />
 	</spawn>
