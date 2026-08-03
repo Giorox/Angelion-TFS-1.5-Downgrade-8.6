@@ -2,13 +2,10 @@
 name: New Feature/Task
 about: Request/List a new Feature or Task
 title: ''
-labels: 'enhancement'
-assignees: ''
+labels: enhancement
+assignees: Giorox
 
 ---
-
-**Protocol version**
-8.60
 
 **Describe the feature/task**
 A clear and concise description of what the new feature is.
@@ -19,9 +16,6 @@ Steps to consider the task as done/implemented:
 - [] Change this...
 - [] Remove this...
 - [] Test with...
-
-**Expected behavior**
-A clear and concise description of what you expect to happen.
 
 **Screenshots**
 If applicable, add screenshots to help explain your task/feature
