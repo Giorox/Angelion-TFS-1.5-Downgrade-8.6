@@ -11,7 +11,6 @@
 	<action actionid="2001" script="quests/non_container_quests.lua" />
     <action actionid="2002" script="quests/simple_levers.lua" />
 	<action actionid="4210" script="quests/Carlin/alawars_vault_lever.lua" />
-	<action actionid="5637" script="quests/Rookgaard/katana_quest_lever.lua" />
 	<action uniqueid="30015" script="quests/annihilator.lua" />
 
 	<!-- Tools -->

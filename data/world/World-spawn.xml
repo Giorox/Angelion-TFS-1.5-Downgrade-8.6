@@ -82825,7 +82825,7 @@
 		<monster name="Monk" x="1" y="-1" z="14" spawntime="240" />
 	</spawn>
 	<spawn centerx="32423" centery="31602" centerz="14" radius="3">
-		<monster name="Warlock" x="-1" y="-3" z="14" spawntime="240" />
+		<monster name="Infernalist" x="-1" y="-3" z="14" spawntime="60" />
 		<monster name="Elf Arcanist" x="1" y="1" z="14" spawntime="240" />
 	</spawn>
 	<spawn centerx="32433" centery="31602" centerz="14" radius="3">
@@ -86571,7 +86571,7 @@
 		<monster name="Elf Arcanist" x="-1" y="0" z="15" spawntime="240" />
 	</spawn>
 	<spawn centerx="32424" centery="31594" centerz="15" radius="3">
-		<monster name="Warlock" x="-2" y="0" z="15" spawntime="90" />
+		<monster name="Infernalist" x="-2" y="1" z="15" spawntime="60" />
 	</spawn>
 	<spawn centerx="32433" centery="31594" centerz="15" radius="3">
 		<monster name="Warlock" x="0" y="1" z="15" spawntime="240" />

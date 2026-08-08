@@ -1463,6 +1463,7 @@
 	</item>
 	<item id="1953" article="a" name="parchment">
 		<attribute key="weight" value="200" />
+        <attribute key="maxTextLen" value="1023" />
 	</item>
 	<item id="1954" article="a" name="sheet of paper">
         <attribute key="maxTextLen" value="1023" />
