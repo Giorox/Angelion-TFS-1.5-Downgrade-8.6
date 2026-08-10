@@ -1432,6 +1432,7 @@
 	<spawn centerx="33075" centery="32173" centerz="2" radius="2">
 		<monster name="Elf Scout" x="2" y="-1" z="2" spawntime="240" />
 		<monster name="Elf Arcanist" x="-1" y="0" z="2" spawntime="240" />
+		<monster name="Elf Scout" x="0" y="2" z="2" spawntime="240" />
 	</spawn>
 	<spawn centerx="32971" centery="32408" centerz="2" radius="3">
 		<monster name="Ghost" x="-1" y="-1" z="2" spawntime="240" />
@@ -2537,15 +2538,21 @@
 		<monster name="Wasp" x="0" y="0" z="3" spawntime="240" />
 	</spawn>
 	<spawn centerx="33070" centery="32170" centerz="3" radius="2">
-		<monster name="Elf Arcanist" x="-1" y="0" z="3" spawntime="240" />
+		<monster name="Elf Scout" x="-2" y="0" z="3" spawntime="240" />
+		<monster name="Elf Scout" x="0" y="1" z="3" spawntime="240" />
 	</spawn>
 	<spawn centerx="33076" centery="32170" centerz="3" radius="2">
 		<monster name="Elf Scout" x="-1" y="-2" z="3" spawntime="240" />
-		<monster name="Elf Scout" x="2" y="0" z="3" spawntime="240" />
-		<monster name="Elf Scout" x="-2" y="1" z="3" spawntime="240" />
+		<monster name="Elf Arcanist" x="-2" y="1" z="3" spawntime="240" />
+		<monster name="Elf Scout" x="1" y="1" z="3" spawntime="240" />
+	</spawn>
+	<spawn centerx="33083" centery="32170" centerz="3" radius="2">
+		<monster name="Elf Scout" x="-1" y="0" z="3" spawntime="240" />
+		<monster name="Elf Arcanist" x="0" y="1" z="3" spawntime="240" />
 	</spawn>
 	<spawn centerx="33075" centery="32177" centerz="3" radius="2">
 		<monster name="Elf Arcanist" x="0" y="-1" z="3" spawntime="240" />
+		<monster name="Elf Scout" x="1" y="0" z="3" spawntime="240" />
 	</spawn>
 	<spawn centerx="33086" centery="32190" centerz="3" radius="2">
 		<monster name="Elf Scout" x="0" y="-1" z="3" spawntime="240" />
@@ -7698,15 +7705,18 @@
 	</spawn>
 	<spawn centerx="33072" centery="32170" centerz="5" radius="1">
 		<monster name="Elf Scout" x="0" y="-1" z="5" spawntime="240" />
+		<monster name="Elf Scout" x="1" y="1" z="5" spawntime="240" />
 	</spawn>
 	<spawn centerx="33079" centery="32170" centerz="5" radius="1">
 		<monster name="Elf Scout" x="0" y="-1" z="5" spawntime="240" />
+		<monster name="Elf Arcanist" x="-1" y="0" z="5" spawntime="240" />
 	</spawn>
 	<spawn centerx="32430" centery="32172" centerz="5" radius="3">
 		<npc name="Miles, The Guard" x="-1" y="1" z="5" spawntime="240" direction="2" />
 	</spawn>
 	<spawn centerx="33075" centery="32174" centerz="5" radius="1">
 		<monster name="Elf Arcanist" x="0" y="-1" z="5" spawntime="240" />
+		<monster name="Elf Scout" x="1" y="0" z="5" spawntime="240" />
 	</spawn>
 	<spawn centerx="32045" centery="32178" centerz="5" radius="1">
 		<monster name="Troll" x="0" y="0" z="5" spawntime="240" />
@@ -12281,6 +12291,7 @@
 		<monster name="Elf" x="0" y="-3" z="6" spawntime="240" />
 		<monster name="Elf Scout" x="2" y="-2" z="6" spawntime="240" />
 		<monster name="Elf Scout" x="-1" y="0" z="6" spawntime="240" />
+		<monster name="Elf Scout" x="1" y="1" z="6" spawntime="240" />
 	</spawn>
 	<spawn centerx="32311" centery="32172" centerz="6" radius="2">
 		<npc name="Stutch" x="-1" y="-2" z="6" spawntime="240" direction="2" />
@@ -26374,7 +26385,6 @@
 		<monster name="Snake" x="0" y="1" z="7" spawntime="240" />
 	</spawn>
 	<spawn centerx="33076" centery="32170" centerz="7" radius="2">
-		<monster name="Elf Scout" x="0" y="-1" z="7" spawntime="240" />
 		<monster name="Elf" x="1" y="1" z="7" spawntime="240" />
 		<monster name="Elf" x="-1" y="2" z="7" spawntime="240" />
 	</spawn>
