@@ -8,6 +8,7 @@ local quests = {
 	[56001] = { {count = 1, id = 2676} }, -- Rookgaard Free Side Palm Tree -- Reward: Banana
 	[56002] = { {count = 1, id = 2485} }, -- Rookgaard Doublet Quest -- Reward: Doublet
     [64131] = { {count = 1, id = 2103} }, -- Rookgaard Wasp Tower -- Reward: Honeyflower
+    [65201] = { {count = 1, id = 2091, aid = 3980} }, -- Deeper Fibula Small Hole -- Reward: Deeper Fibula Key (Golden Key 3980)
 }
 
 function onUse(player, nonContainer, fromPosition, target, toPosition, isHotkey)

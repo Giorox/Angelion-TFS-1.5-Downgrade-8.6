@@ -28971,14 +28971,14 @@
 	<spawn centerx="33295" centery="32436" centerz="7" radius="2">
 		<monster name="Sandcrawler" x="0" y="2" z="7" spawntime="240" />
 	</spawn>
-	<spawn centerx="32165" centery="32437" centerz="7" radius="2">
-		<npc name="Dermot" x="0" y="0" z="7" spawntime="240" direction="2" />
-	</spawn>
 	<spawn centerx="33032" centery="32437" centerz="7" radius="1">
 		<monster name="Stalker" x="1" y="-1" z="7" spawntime="240" />
 	</spawn>
 	<spawn centerx="32082" centery="32438" centerz="7" radius="2">
 		<npc name="Tanaro" x="0" y="0" z="7" spawntime="90" />
+	</spawn>
+	<spawn centerx="32165" centery="32438" centerz="7" radius="2">
+		<npc name="Dermot" x="0" y="-1" z="7" spawntime="240" direction="2" />
 	</spawn>
 	<spawn centerx="32150" centery="32439" centerz="7" radius="2">
 		<monster name="Wolf" x="-1" y="1" z="7" spawntime="240" />
@@ -63218,8 +63218,8 @@
 		<monster name="Minotaur archer" x="2" y="2" z="10" spawntime="240" />
 	</spawn>
 	<spawn centerx="32281" centery="32388" centerz="10" radius="2">
-		<monster name="Minotaur guard" x="2" y="-1" z="10" spawntime="240" />
-		<monster name="Minotaur guard" x="-1" y="2" z="10" spawntime="240" />
+		<monster name="Minotaur" x="2" y="-1" z="10" spawntime="60" />
+		<monster name="Minotaur" x="-1" y="2" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="32630" centery="32388" centerz="10" radius="5">
 		<monster name="Ghost" x="5" y="-3" z="10" spawntime="240" />
@@ -70105,8 +70105,8 @@
 		<monster name="Ghoul" x="1" y="0" z="11" spawntime="240" />
 	</spawn>
 	<spawn centerx="32173" centery="32148" centerz="11" radius="1">
-		<monster name="Skeleton" x="-1" y="-1" z="11" spawntime="240" />
 		<monster name="Skeleton" x="-1" y="0" z="11" spawntime="240" />
+		<monster name="Skeleton" x="1" y="0" z="11" spawntime="240" />
 	</spawn>
 	<spawn centerx="32047" centery="32149" centerz="11" radius="1">
 		<monster name="Rat" x="0" y="0" z="11" spawntime="240" />

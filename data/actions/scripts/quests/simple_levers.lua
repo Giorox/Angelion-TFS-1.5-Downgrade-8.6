@@ -33,12 +33,53 @@ local levers = {
         },
         effect = CONST_ME_POFF
     },
+    [45501] = { -- Thais Lighthouse Lever - Thais
+        id = 369,
+        pos =  {
+            {x=32225, y=32276, z=8, stackpos=1}
+        },
+        action = "transform"
+    },
+    [45503] = { -- Thais Lighthouse Teleport Lever - Thais
+        id = 1387,
+        pos =  {
+            {x=32233, y=32276, z=9, stackpos=1}
+        },
+        destination = {x=32225, y=32275, z=10, stackpos=1},
+        effect = CONST_ME_MAGIC_BLUE
+    },
+    [50200] = { -- Ancient Temple Drawbridge Lever (South) - Thais Ancient Temple
+        id = 5770,
+        pos =  {
+            {x=32410, y=32231, z=10, stackpos=2},
+            {x=32411, y=32231, z=10, stackpos=1},
+            {x=32412, y=32231, z=10, stackpos=1},
+            {x=32410, y=32232, z=10, stackpos=2},
+            {x=32411, y=32232, z=10, stackpos=1},
+            {x=32412, y=32232, z=10, stackpos=1}
+        },
+        action = "transform"
+    },
+    [50201] = { -- Ancient Temple Drawbridge Lever (North) - Thais Ancient Temple
+        id = 5770,
+        pos =  {
+            {x=32410, y=32231, z=10, stackpos=2},
+            {x=32411, y=32231, z=10, stackpos=1},
+            {x=32412, y=32231, z=10, stackpos=1},
+            {x=32410, y=32232, z=10, stackpos=2},
+            {x=32411, y=32232, z=10, stackpos=1},
+            {x=32412, y=32232, z=10, stackpos=1}
+        },
+        action = "transform"
+    },
 }
 
 local transformId = {
     [1945] = 1946, [1946] = 1945, -- lever
     [383] = 9024, [9024] = 383, -- open shovel hole becomes cave floor
     [5108] = 5109, [5109] = 5108, -- open door becomes closed door
+    [5770] = 4615, [4615] = 5770, -- shallow water becomes drawbridge
+    [369] = 9021, [9021] = 369, -- dirt floor becomes trapdoor
 }
 
 function onUse(player, item, fromPosition, target, toPosition, isHotkey)
@@ -80,7 +121,10 @@ function onUse(player, item, fromPosition, target, toPosition, isHotkey)
                 local targetItem = Tile(coord):getItemById(transformId[target.id])
                 targetItem:transform(target.id)
             else
-                Game.createItem(target.id, 1, coord)
+                local newItem = Game.createItem(target.id, 1, coord)
+                if target.destination ~= nil then
+                    newItem:setDestination(target.destination)
+                end
             end
         end
     end
