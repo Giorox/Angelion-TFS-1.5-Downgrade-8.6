@@ -36,6 +36,14 @@ local function creatureSayCallback(cid, type, msg)
                 player:setStorageValue(Storage.TheNewFrontier.Mission05, player:getStorageValue(Storage.TheNewFrontier.Mission05) + 1)
             end
         end
+    -- Explorer Brooch Reward
+    elseif msgcontains(msg, "brooch") then
+        npcHandler:say({
+            "Our members travel to far away places and cross dangerous areas, many fall prey to enemies or the land ...",
+            "Sometimes the personal explorer brooches can be recovered. That way we learn about the fate of our members ...",
+            "We offer a reward for each brooch returned to us. Have you found an explorer brooch?"
+        }, cid)
+        npcHandler.topic[cid] = 35
 
         -- MISSION CHECK
     elseif msgcontains(msg, "mission") then
@@ -561,6 +569,16 @@ local function creatureSayCallback(cid, type, msg)
                 npcHandler.topic[cid] = 0
             end
             -- SKULL OF RATHA / GIANT SMITHHAMMER
+        -- Explorer Brooch
+        elseif npcHandler.topic[cid] == 35 then
+            if player:removeItem(4873, 1) then
+                npcHandler:say("It\'s always a sad day when we learn about the death of a member. But at least we learnt about his fate. Thank you, here is your reward.", cid)
+                player:addItem(2148, 50)
+                npcHandler.topic[cid] = 0
+            else
+                npcHandler:say("No you don\'t.", cid)
+                npcHandler.topic[cid] = 0
+            end
         end
         -- ANSWER YES
 
@@ -574,6 +592,9 @@ local function creatureSayCallback(cid, type, msg)
             npcHandler.topic[cid] = 0
         elseif npcHandler.topic[cid] == 34 then
             npcHandler:say("Come back when you find one.", cid)
+            npcHandler.topic[cid] = 0
+        elseif npcHandler.topic[cid] == 35 then
+            npcHandler:say("That\'s a relief.", cid)
             npcHandler.topic[cid] = 0
         end
         -- ANSWER NO
