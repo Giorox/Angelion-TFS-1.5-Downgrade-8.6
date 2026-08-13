@@ -36486,11 +36486,17 @@
 	<spawn centerx="32430" centery="31578" centerz="8" radius="3">
 		<monster name="Amazon" x="-1" y="1" z="8" spawntime="240" />
 	</spawn>
-	<spawn centerx="32810" centery="31578" centerz="8" radius="3">
-		<monster name="Scorpion" x="0" y="-3" z="8" spawntime="240" />
-		<monster name="Scorpion" x="1" y="-1" z="8" spawntime="240" />
-		<monster name="Scorpion" x="-2" y="2" z="8" spawntime="240" />
+	<spawn centerx="32811" centery="31578" centerz="8" radius="3">
+		<monster name="Scorpion" x="-3" y="-3" z="8" spawntime="240" />
+		<monster name="Scorpion" x="-1" y="-3" z="8" spawntime="240" />
+		<monster name="Scorpion" x="1" y="-2" z="8" spawntime="240" />
+		<monster name="Scorpion" x="0" y="-1" z="8" spawntime="240" />
+		<monster name="Scorpion" x="-3" y="0" z="8" spawntime="240" />
+		<monster name="Scorpion" x="2" y="0" z="8" spawntime="240" />
+		<monster name="Scorpion" x="-3" y="2" z="8" spawntime="240" />
+		<monster name="Scorpion" x="0" y="2" z="8" spawntime="240" />
 		<monster name="Scorpion" x="1" y="2" z="8" spawntime="240" />
+		<monster name="Scorpion" x="-1" y="3" z="8" spawntime="240" />
 	</spawn>
 	<spawn centerx="32422" centery="31579" centerz="8" radius="2">
 		<monster name="Amazon" x="0" y="-1" z="8" spawntime="240" />
@@ -48370,6 +48376,9 @@
 	</spawn>
 	<spawn centerx="32424" centery="31598" centerz="9" radius="3">
 		<monster name="Wolf" x="1" y="2" z="9" spawntime="240" />
+	</spawn>
+	<spawn centerx="32820" centery="31599" centerz="9" radius="1">
+		<monster name="Dragon" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="33138" centery="31599" centerz="9" radius="1">
 		<monster name="Beholder" x="0" y="-1" z="9" spawntime="240" />
@@ -78307,8 +78316,8 @@
 	<spawn centerx="33305" centery="31706" centerz="13" radius="3">
 		<monster name="Fire Elemental" x="1" y="0" z="13" spawntime="240" />
 	</spawn>
-	<spawn centerx="32802" centery="31707" centerz="13" radius="2">
-		<monster name="Carrion Worm" x="0" y="-1" z="13" spawntime="240" />
+	<spawn centerx="32801" centery="31707" centerz="13" radius="2">
+		<monster name="Carrion Worm" x="1" y="-1" z="13" spawntime="240" />
 	</spawn>
 	<spawn centerx="33229" centery="31708" centerz="13" radius="3">
 		<monster name="Hellfire Fighter" x="-2" y="-2" z="13" spawntime="240" />
@@ -83245,9 +83254,6 @@
 		<monster name="Cyclops Drone" x="-3" y="-1" z="14" spawntime="240" />
 		<monster name="Cyclops Drone" x="3" y="-1" z="14" spawntime="240" />
 		<monster name="Cyclops Drone" x="0" y="2" z="14" spawntime="240" />
-	</spawn>
-	<spawn centerx="33164" centery="31709" centerz="14" radius="2">
-		<npc name="Xodet" x="1" y="-1" z="14" spawntime="240" direction="2" />
 	</spawn>
 	<spawn centerx="33345" centery="31710" centerz="14" radius="1">
 		<monster name="Behemoth" x="1" y="0" z="14" spawntime="240" />

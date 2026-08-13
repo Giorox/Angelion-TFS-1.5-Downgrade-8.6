@@ -19,6 +19,20 @@ local levers = {
         effect = CONST_ME_HITAREA,
         action = "transform"
     },
+    [4249] = { -- First Floor, Lever A - Draconia
+        id = 1037,  -- Framework wall
+        pos =  {
+            {x=32792, y=31581, z=7, stackpos=1}
+        },
+        effect = CONST_ME_POFF
+    },
+    [4250] = { -- First Floor, Lever B - Draconia
+        id = 1285,  -- Stone
+        pos =  {
+            {x=32790, y=31594, z=7, stackpos=1}
+        },
+        effect = CONST_ME_POFF
+    },
     [5637] = { -- Katana Quest Lever - Rookgaard
         id = 5109,  -- Open Door
         pos = {
